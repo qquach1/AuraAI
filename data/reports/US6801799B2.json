@@ -1,0 +1,808 @@
+{
+ "pub": "US6801799B2",
+ "title": "Pulse oximeter and method of operation",
+ "generated_at": "2026-10-25T16:29:24+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future: this expired reflectance pulse oximeter method scores 89/100 with high confidence, but the field it opened appears crowded and regulated.",
+  "what_it_is": "A way to measure blood oxygen through the skin by shining one red and at least two infrared lights at a spot and reading the reflected light at several detectors arranged in a ring around that spot. Because it reads reflected light rather than light passing through a finger, it can work on the forehead, wrist or chest, where wearables sit.",
+  "why_it_died": {
+   "text": "It did not die early. It ran to the end of its full term on 2021-08-24. The owner paid every maintenance fee and claimed large-entity status, which suggests it was valued until the end. That is why the 'died for money, not merit' signal scores only 7.5 of 15: it expired on schedule, not because it was abandoned.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4",
+    "E3"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "The field appears very much alive. Reflectance sensors are tracked as their own segment in a pulse oximeter market projected to grow from about $4.05B to $6.49B by 2032. Wearable oximeters are projected to grow faster, at about 10.4% a year.",
+    "evidence": [
+     "E18",
+     "E19",
+     "E16"
+    ]
+   },
+   {
+    "point": "People are still building on this idea. 13 citing filings have priority dates from 2019 on, and 6 filings by unrelated owners came after it expired. Recent filers include Masimo, CSEM and Honor's parent group.",
+    "evidence": [
+     "E9",
+     "E10",
+     "E11",
+     "E12"
+    ]
+   },
+   {
+    "point": "The patent was broad and influential. Examiners cited it against 96 later applications, it has 302 citations in total, and the family was filed in 7 jurisdictions.",
+    "evidence": [
+     "E13",
+     "E8",
+     "E15",
+     "E14"
+    ]
+   },
+   {
+    "point": "Real products already use reflectance sensing, which suggests buyers exist. Nonin sells a forehead reflectance sensor for stress testing and continuous monitoring.",
+    "evidence": [
+     "E17"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Recent activity is steady but small. The live citations show a live field, not proof of an open gap a startup can own.",
+    "evidence": [
+     "E9",
+     "E11"
+    ]
+   },
+   {
+    "point": "Big, well-funded players are active right here. Masimo alone filed 3 citing patents since 2019, which suggests competition and possibly newer patents around this space.",
+    "evidence": [
+     "E12",
+     "E5"
+    ]
+   },
+   {
+    "point": "Reflectance oximeters already exist commercially, so a founder would need a clear edge beyond the expired method itself.",
+    "evidence": [
+     "E17",
+     "E18"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "68 later patents by other owners were cited against this one and may still be in force. Newer patents on improvements may cover what a modern product needs. Worth checking with an attorney before building.",
+    "severity": "high",
+    "evidence": [
+     "E5",
+     "E12"
+    ]
+   },
+   {
+    "point": "Selling a pulse oximeter as a medical device in the US usually needs FDA clearance, such as a 510(k), which takes time, testing and money.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "The patent describes the idea, not how to build an accurate sensor. Calibration, detector layout and signal processing will likely need to be rebuilt from scratch.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "Strong incumbents are filing in this space, which may raise both patent and go-to-market risk.",
+    "severity": "medium",
+    "evidence": [
+     "E12",
+     "E17"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "There is a specific buyer group, such as a clinic type, sports team or wearable maker, that is unhappy with current reflectance oximeters and would switch to or pay for a new one.",
+   "why_riskiest": "The market is large and growing, but incumbents like Nonin and Masimo already serve it. Without a clear unmet need, the expired method alone gives no edge. FDA cost and patent checks only make sense once real demand is shown.",
+   "how_to_test": "Over two weeks, interview 10-15 target users, such as respiratory therapists, sleep clinic staff or wearable product managers. Ask what they use today, where it fails (accuracy on darker skin, motion, placement) and what they would pay. Then run a $200-300 landing page with targeted ads for one specific use case and count signups. Also buy one existing reflectance sensor for a teardown to see what you would need to beat.",
+   "evidence": [
+    "E17",
+    "E18",
+    "E19",
+    "E12"
+   ]
+  },
+  "attorney_questions": [
+   "Which of the 68 later patents cited against this one, especially recent Masimo filings, appear to still be in force and could cover a modern multi-detector reflectance oximeter?",
+   "Does the 7-jurisdiction family include any related patents or continuations that may still be active in the US or abroad?",
+   "For the use case we pick, which FDA pathway is most likely, and could a predicate device such as an existing reflectance sensor support a 510(k)?"
+  ],
+  "score": 89,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2004-10-05",
+   "priority_date": "2000-10-05",
+   "filing_date": "2003-02-06",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": "large",
+   "term_end": "2021-08-24",
+   "term_end_estimated": false,
+   "end_date": "2021-08-24",
+   "end_year": 2021,
+   "months_since_end": 62.0,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2025-11-18"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Expired at full term 2021-08-24"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "EP4169441A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2021-10-22",
+      "publication_date": "2023-04-26",
+      "assignee": "Polar Electro Oy",
+      "title": "Photoplethysmogram sensor arrangement",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "A PPG sensor arrangement (emitter/detector layout) directly concerns the sensor geometry central to the original claim."
+     },
+     {
+      "pub": "WO2022220784A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2021-04-11",
+      "publication_date": "2022-10-20",
+      "assignee": "Alio, Inc.",
+      "title": "Systems and methods for measuring biological metrics and blood vessel geometry using a multiple optical path photoplethysmography device",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Title describes multiple-optical-path PPG for biological metrics, closely matching the original's multiple detection locations around a measurement site; it is likely to cover improvements relevant to a multi-detector reflectance oximeter."
+     },
+     {
+      "pub": "CN115251857A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2021-04-30",
+      "publication_date": "2022-11-01",
+      "assignee": "\u5317\u4eac\u8363\u8000\u7ec8\u7aef\u6709\u9650\u516c\u53f8",
+      "title": "A wearable device based on photoplethysmography PPG and its control method",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "A PPG-based wearable and its control method may cover operating improvements to an optical sensor; relevance to the detector layout is uncertain."
+     },
+     {
+      "pub": "WO2022013592A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-07-13",
+      "publication_date": "2022-01-20",
+      "assignee": "CSEM Centre Suisse d'Electronique et de Microtechnique SA - Recherche et D\u00e9veloppement",
+      "title": "Optical measurement system for monitoring physiological parameters of a user",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "An optical measurement system for physiological parameters overlaps generally with reflectance oximetry; the title does not indicate the specific multi-detector arrangement."
+     },
+     {
+      "pub": "US11690520B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2018-06-20",
+      "publication_date": "2023-07-04",
+      "assignee": "Samsung Electronics Co., Ltd.",
+      "title": "Apparatus and method for measuring bio-information",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "A generic bio-information measuring apparatus, likely optical; the overlap is plausible but not specific from the title."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "FDA medical device clearance",
+    "detail": "Most devices need 510(k) clearance, De Novo classification or PMA approval before sale. Class III devices need clinical data.",
+    "where": "FDA 510(k), De Novo and PMA databases; product classification database",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E7"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "3 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 89,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.96,
+     "points": 28.9
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 1.0,
+     "points": 20.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.95,
+     "points": 14.3
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 302,
+   "fwd_after_end": 6,
+   "fwd_after_end_unrelated": 6,
+   "fwd_alive_unrelated": 22,
+   "fwd_recent": 13,
+   "fwd_examiner": 96,
+   "fwd_by_year": {
+    "1996": 1,
+    "1997": 3,
+    "1999": 1,
+    "2001": 8,
+    "2002": 9,
+    "2003": 8,
+    "2004": 15,
+    "2005": 30,
+    "2006": 41,
+    "2007": 30,
+    "2008": 32,
+    "2009": 48,
+    "2010": 9,
+    "2011": 6,
+    "2012": 12,
+    "2013": 6,
+    "2014": 13,
+    "2015": 7,
+    "2016": 1,
+    "2017": 5,
+    "2018": 4,
+    "2019": 1,
+    "2020": 3,
+    "2021": 6,
+    "2022": 1,
+    "2023": 1,
+    "2024": 1
+   },
+   "recent_companies": [
+    [
+     "Masimo Corporation",
+     3
+    ],
+    [
+     "Chamartin Laboratories Llc",
+     1
+    ],
+    [
+     "CSEM Centre Suisse d'Electronique et de Microtechnique SA - Recherche et D\u00e9veloppement",
+     1
+    ],
+    [
+     "\u65e5\u672c\u5149\u96fb\u5de5\u696d\u682a\u5f0f\u4f1a\u793e",
+     1
+    ],
+    [
+     "Alio, Inc.",
+     1
+    ],
+    [
+     "\u5317\u4eac\u8363\u8000\u7ec8\u7aef\u6709\u9650\u516c\u53f8",
+     1
+    ],
+    [
+     "Polar Electro Oy",
+     1
+    ],
+    [
+     "Samsung Electronics Co., Ltd.",
+     1
+    ]
+   ],
+   "same_owner_followons": 0,
+   "bwd_total": 49,
+   "bwd_examiner": 1,
+   "family_countries": 7,
+   "live_family": 0,
+   "claims_count": 5,
+   "shortest_claim_words": 113
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "The reflectance pulse oximetry field this patent sits in is still drawing new technical work after the patent's term ended, though the volume is modest.",
+     "evidence": [
+      "E9",
+      "E10",
+      "E11",
+      "E16"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The patent was foundational in its niche. It has heavy forward citation, frequent examiner citation, and was filed in several jurisdictions, and the owner kept it in force to full term.",
+     "evidence": [
+      "E8",
+      "E13",
+      "E15",
+      "E2",
+      "E4"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Recent citing filers span medical-device incumbents, a research institute and a consumer-electronics player. That suggests reflectance sensing is moving toward wearables as well as clinical devices.",
+     "evidence": [
+      "E12",
+      "E19"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "There is a real commercial market for reflectance sensors: a shipping forehead reflectance product exists, and analysts break reflectance out as its own segment. Citation activity alone does not show demand specifically tied to this patent's approach.",
+     "evidence": [
+      "E17",
+      "E18",
+      "E19"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Masimo Corporation leads recent citing filings, joined by Chamartin Laboratories, CSEM, Nihon Kohden (\u65e5\u672c\u5149\u96fb\u5de5\u696d), Alio, Inc. and Beijing Honor Device (\u5317\u4eac\u8363\u8000\u7ec8\u7aef); Nonin sells a reflectance forehead sensor.",
+   "market_read": "Reflectance pulse oximetry is an active, growing segment within a multi-billion-dollar pulse oximeter market, with wearables growing faster than the market overall. New citing activity on this patent is steady but small, so a founder should treat it as evidence of a live field, not proof of an open commercial gap."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "Nonin sells the 8000R, a reusable reflectance pulse oximetry sensor for the forehead, used for stress testing and continuous monitoring when fingers are not the preferred site.",
+    "url": "https://www.nonin.com/products/8000r/",
+    "confidence": "medium",
+    "evidence": "E17"
+   },
+   {
+    "kind": "market",
+    "finding": "Research and Markets values the global pulse oximeter market at USD 4.05B in 2026, projected to reach USD 6.49B by 2032 (8.1% CAGR), with reflectance sensors broken out as their own segment.",
+    "url": "https://www.researchandmarkets.com/report/pulse-oximeter",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "market",
+    "finding": "Research and Markets projects the wearable pulse oximeter market will grow from USD 510.25M in 2026 to USD 928.29M by 2032 (10.4% CAGR), with reflectance tracked as a separate sensor technology.",
+    "url": "https://www.researchandmarkets.com/report/wearable-pulse-oximeter",
+    "confidence": "medium",
+    "evidence": "E19"
+   }
+  ],
+  "evidence": [
+   "E8",
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16"
+  ],
+  "named": {
+   "total": "E8",
+   "after": "E9",
+   "recent": "E11",
+   "companies": "E12",
+   "score": "E16"
+  },
+  "summary": "Score 89/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7499740B2",
+    "title": "Techniques for detecting heart pulses and reducing power consumption in sensors",
+    "score": 46,
+    "status": "expired_term",
+    "end_year": 2024
+   },
+   {
+    "pub": "US7024235B2",
+    "title": "Specially configured nasal pulse oximeter/photoplethysmography probes, and combined nasal probe/cannula, selectively with sampler for capnography, and covering sleeves for same",
+    "score": 80,
+    "status": "expired_term",
+    "end_year": 2022
+   },
+   {
+    "pub": "US7212847B2",
+    "title": "Delta-sigma modulator for outputting analog representation of physiological signal",
+    "score": 39,
+    "status": "expired_term",
+    "end_year": 2024
+   },
+   {
+    "pub": "US6822564B2",
+    "title": "Parallel measurement alarm processor",
+    "score": 83,
+    "status": "expired_term",
+    "end_year": 2023
+   },
+   {
+    "pub": "US6850788B2",
+    "title": "Physiological measurement communications adapter",
+    "score": 81,
+    "status": "expired_term",
+    "end_year": 2023
+   }
+  ],
+  "summary": "5 similar dead patents in Medical diagnosis and surgery"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6801799B2 reached the end of its full term on 2021-08-24.",
+   "source": "https://patents.google.com/patent/US6801799B2/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US6801799B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20251118051410.",
+   "source": "https://patents.google.com/patent/US6801799B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed large-entity status.",
+   "source": "https://patents.google.com/patent/US6801799B2/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "large"
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "68 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6801799B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "EP4169441A1",
+     "WO2022220784A1",
+     "CN115251857A",
+     "WO2022013592A1",
+     "US11690520B2"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "FDA medical device clearance: Most devices need 510(k) clearance, De Novo classification or PMA approval before sale. Class III devices need clinical data.",
+   "source": "FDA 510(k), De Novo and PMA databases; product classification database",
+   "method": "Blocker checklist rule 'fda_device' matched CPC A61B5/14552, A61B5/1455",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "market",
+   "claim": "Cited by 302 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6801799B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 302
+   }
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "6 later filings by unrelated owners cite it with priority dates after it expired (2021-08-24).",
+   "source": "https://patents.google.com/patent/US6801799B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 6
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "22 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US6801799B2/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "13 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6801799B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 13
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: Masimo Corporation (3), Chamartin Laboratories Llc (1), CSEM Centre Suisse d'Electronique et de Microtechnique SA - Recherche et D\u00e9veloppement (1), \u65e5\u672c\u5149\u96fb\u5de5\u696d\u682a\u5f0f\u4f1a\u793e (1), Alio, Inc. (1), \u5317\u4eac\u8363\u8000\u7ec8\u7aef\u6709\u9650\u516c\u53f8 (1).",
+   "source": "https://patents.google.com/patent/US6801799B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "Masimo Corporation",
+      3
+     ],
+     [
+      "Chamartin Laboratories Llc",
+      1
+     ],
+     [
+      "CSEM Centre Suisse d'Electronique et de Microtechnique SA - Recherche et D\u00e9veloppement",
+      1
+     ],
+     [
+      "\u65e5\u672c\u5149\u96fb\u5de5\u696d\u682a\u5f0f\u4f1a\u793e",
+      1
+     ],
+     [
+      "Alio, Inc.",
+      1
+     ],
+     [
+      "\u5317\u4eac\u8363\u8000\u7ec8\u7aef\u6709\u9650\u516c\u53f8",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Examiners cited it against 96 later applications.",
+   "source": "https://patents.google.com/patent/US6801799B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 113 words across 5 claims.",
+   "source": "https://patents.google.com/patent/US6801799B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "The family was filed in 7 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6801799B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Revival score 89/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Product: Nonin sells the 8000R, a reusable reflectance pulse oximetry sensor for the forehead, used for stress testing and continuous monitoring when fingers are not the preferred site.",
+   "source": "https://www.nonin.com/products/8000r/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Market: Research and Markets values the global pulse oximeter market at USD 4.05B in 2026, projected to reach USD 6.49B by 2032 (8.1% CAGR), with reflectance sensors broken out as their own segment.",
+   "source": "https://www.researchandmarkets.com/report/pulse-oximeter",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Market: Research and Markets projects the wearable pulse oximeter market will grow from USD 510.25M in 2026 to USD 928.29M by 2032 (10.4% CAGR), with reflectance tracked as a separate sensor technology.",
+   "source": "https://www.researchandmarkets.com/report/wearable-pulse-oximeter",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Medical diagnosis and surgery",
+   "seconds": 0.04
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2021-08-24",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "3 possible blockers, 0 high severity",
+   "seconds": 7.19
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 89/100, high confidence: Dead patent with a future",
+   "seconds": 28.46
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 18.08
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1331,
+    "output_tokens": 582,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01696,
+    "seconds": 7.1
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 22782,
+    "output_tokens": 1232,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.14577,
+    "seconds": 21.6
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 938,
+    "output_tokens": 588,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01551,
+    "seconds": 6.9
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1989,
+    "output_tokens": 1615,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04054,
+    "seconds": 18.1
+   }
+  ],
+  "total_cost_usd": 0.2188,
+  "seconds": 53.8
+ }
+}

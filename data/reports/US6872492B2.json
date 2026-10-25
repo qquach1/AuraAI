@@ -1,0 +1,858 @@
+{
+ "pub": "US6872492B2",
+ "title": "Sodium ion batteries",
+ "generated_at": "2026-10-25T16:30:43+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future (78/100, high confidence): a sodium-ion battery patent in a field that is still active, though crowded with later filings worth checking first.",
+  "what_it_is": "This patent describes a rechargeable battery that moves sodium ions instead of lithium ions, using a phosphate-type cathode material and a carbon anode. Sodium is cheaper and more plentiful than lithium, which is why this chemistry draws interest for large stationary storage.",
+  "why_it_died": {
+   "text": "The owner, Valence Technology, paid the first two maintenance fees but skipped the third one, due at 11.5 years. The patent lapsed on 2017-03-29, about 5 years before its full term would have ended. The record shows no reinstatement. It appears to have lapsed through non-payment, not because a court or patent office ruled against it. The record does not say why the fee went unpaid. The 'died for money, not merit' signal scored only 5.2/15, so treat the reason as unclear.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E9",
+    "E4"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "The field still looks very alive. 214 later patents and applications cite this one, and examiners cited it against 127 later applications. That is why it scored a full 30/30 on 'field still alive'.",
+    "evidence": [
+     "E11",
+     "E15",
+     "E18"
+    ]
+   },
+   {
+    "point": "Interest kept going after the lapse. 33 filings by unrelated owners cite it with priority dates after 2017, and 6 date from 2019 or later. That includes Faradion, a sodium-ion company, alongside several universities.",
+    "evidence": [
+     "E12",
+     "E13",
+     "E14"
+    ]
+   },
+   {
+    "point": "Outside signals point to commercial interest in sodium-ion for cheap large-scale storage. A national lab is licensing hard-carbon anode tech, and recent research reports higher-voltage cathodes.",
+    "evidence": [
+     "E19",
+     "E20"
+    ]
+   },
+   {
+    "point": "The patent was filed in 7 jurisdictions. That suggests the original owner saw real value in it at the time.",
+    "evidence": [
+     "E17"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Most recent filers building on it are universities and research institutes, not companies. The market may still be maturing, not buying.",
+    "evidence": [
+     "E14",
+     "E13"
+    ]
+   },
+   {
+    "point": "Citation counts measure technical interest, not sales. Heavy citation does not show that customers will pay for products based on this chemistry.",
+    "evidence": [
+     "E11",
+     "E15"
+    ]
+   },
+   {
+    "point": "The shortest main claim is 194 words long, across 49 claims. This patent may work better as background reading than as a single clear product recipe.",
+    "evidence": [
+     "E16"
+    ]
+   },
+   {
+    "point": "The patent shares the idea, not the factory know-how. Expect to rebuild materials processing and cell-making details yourself.",
+    "evidence": [
+     "E10"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Later patents by other owners may still be in force. Examiners cited 89 of them against this one, and they may cover improvements you would need. Worth checking with an attorney before building.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "The original owner filed 2 later patents citing this one that may still be in force, such as US9269955B2 on manganese phosphate electrode materials.",
+    "severity": "medium",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "Shipping and selling battery cells usually means UN 38.3 transport testing plus UL or IEC safety certification. That adds cost and time.",
+    "severity": "medium",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "point": "If your cathode material counts as a new chemical substance, US law may require an EPA premanufacture notice under TSCA before commercial manufacture.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "Manufacturing know-how is not in the patent. Process development could be slow and costly.",
+    "severity": "low",
+    "evidence": [
+     "E10"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Buyers of stationary storage, such as integrators or commercial and industrial site owners, will choose a sodium-ion phosphate-cathode product from a new startup for its lower cost and safety, despite lower energy density.",
+   "why_riskiest": "The evidence shows strong technical and academic interest. It does not show paying demand, and recent filers are mostly universities. If buyers will not switch from lithium iron phosphate, there is no business, however open the chemistry appears to be.",
+   "how_to_test": "In two weeks, interview 10-15 stationary-storage buyers or integrators about what price per kWh and what cycle life would make them trial sodium-ion. Ask what certifications they require. Also request one or two quotes from sodium-ion cell suppliers or contract manufacturers to compare costs. Budget: under $500 for outreach tools and a simple landing page.",
+   "evidence": [
+    "E14",
+    "E19",
+    "E20",
+    "E11"
+   ]
+  },
+  "attorney_questions": [
+   "Of the 89 later patents by other owners cited against US6872492B2, and the 2 later Valence patents such as US9269955B2, which may still be in force and could cover the cathode or anode materials we plan to use?",
+   "Given that US6872492B2 lapsed for non-payment in 2017 with no reinstatement on record, is there any remaining risk it could be revived? Do any foreign family members in the 7 jurisdictions remain active in our target markets?",
+   "Would our planned sodium phosphate cathode material likely need a TSCA premanufacture notice, and how should we plan for that?"
+  ],
+  "score": 78,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Fee Related",
+   "status": "lapsed_fees",
+   "grant_date": "2005-03-29",
+   "priority_date": "2001-04-06",
+   "filing_date": "2002-04-04",
+   "lapse_date": "2017-03-29",
+   "lapse_source": "legal event FP on 2017-05-16",
+   "fee_window": 12,
+   "fees_paid": [
+    4,
+    8
+   ],
+   "entity_size": null,
+   "term_end": "2022-11-15",
+   "term_end_estimated": false,
+   "end_date": "2017-03-29",
+   "end_year": 2017,
+   "months_since_end": 114.9,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2023-03-27"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Lapsed 2017-03-29 at the 11.5-year (third) fee window"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "medium",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "US9269955B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2009-09-24",
+      "publication_date": "2016-02-23",
+      "assignee": "Valence Technology Inc.",
+      "title": "Manganese phosphates and related electrode active materials",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Same original assignee family (Valence); manganese phosphate active materials are related polyanion cathodes, but the title does not indicate sodium-specific chemistry."
+     },
+     {
+      "pub": "US8324868B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-08-24",
+      "publication_date": "2012-12-04",
+      "assignee": "Valence Technology, Inc.",
+      "title": "Power source with temperature sensing",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Battery pack temperature sensing is a system-level feature, not tied to the sodium polyanion active material."
+     }
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "CN111747394A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-07-07",
+      "publication_date": "2020-10-09",
+      "assignee": "\u540c\u6d4e\u5927\u5b66",
+      "title": "NASICON type high-performance fluorophosphate and sodium ion battery",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "NASICON fluorophosphate for sodium-ion batteries matches the original's Na-metal-phosphate-halogen cathode formula."
+     },
+     {
+      "pub": "RU2747565C1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-05-21",
+      "publication_date": "2021-05-07",
+      "assignee": "\u0424\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u0443\u043a\u0438 \u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0445\u0438\u043c\u0438\u0438 \u0442\u0432\u0435\u0440\u0434\u043e\u0433\u043e \u0442\u0435\u043b\u0430 \u0438 \u043c\u0435\u0445\u0430\u043d\u043e\u0445\u0438\u043c\u0438\u0438 \u0421\u0438\u0431\u0438\u0440\u0441\u043a\u043e\u0433\u043e \u043e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0430\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a",
+      "title": "Method of obtaining composite cathode material based on na3v2 (po4)2f3 for sodium-ion batteries",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Composite Na3V2(PO4)2F3 cathode method; this compound falls directly within the original's formula class, so it is a likely manufacturing improvement."
+     },
+     {
+      "pub": "US20210242451A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-02-04",
+      "publication_date": "2021-08-05",
+      "assignee": "Korea Advanced Institute Of Science And Technology",
+      "title": "Metal-Doped Sodium Vanadium Fluorophosphate/Sodium Vanadium Phosphate (Na3V2(PO4)2F3/Na3V2(PO4)3) Composite for Sodium-Ion Storage Material",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Metal-doped Na3V2(PO4)2F3 composite is a direct improvement on the sodium vanadium fluorophosphate cathode in the original's formula family."
+     },
+     {
+      "pub": "WO2021114401A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-12-09",
+      "publication_date": "2021-06-17",
+      "assignee": "\u82cf\u5dde\u5927\u5b66",
+      "title": "Iron-based sodium ion battery positive material, manufacturing method therefor, and sodium ion full battery",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Iron-based sodium-ion cathode plus full cell may be a polyanion type, but the title does not specify phosphate or halide."
+     },
+     {
+      "pub": "CN112447947B",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-08-28",
+      "publication_date": "2022-03-25",
+      "assignee": "\u5b81\u5fb7\u65f6\u4ee3\u65b0\u80fd\u6e90\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "title": "Positive electrode material for sodium ion battery and preparation method thereof",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "CATL sodium-ion cathode material may overlap with polyanion chemistry, but the material type is unspecified."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "EPA new chemical review",
+    "detail": "A new chemical substance needs a premanufacture notice under TSCA before commercial manufacture.",
+    "where": "EPA TSCA inventory",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Battery safety and transport certification",
+    "detail": "Lithium cells need UN 38.3 testing for shipping and usually UL or IEC safety certification for sale.",
+    "where": "UL and IEC standards (UL 1642, UL 2054, IEC 62133); PHMSA rules",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "kind": "revival",
+    "severity": "low",
+    "title": "Revival risk",
+    "detail": "Lapsed 115 months ago with no reinstatement on record; revival this late requires a petition showing the delay was unintentional.",
+    "evidence": [
+     "E9"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E10"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "6 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 78,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 1.0,
+     "points": 30.0
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.76,
+     "points": 15.2
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.35,
+     "points": 5.2
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.67,
+     "points": 10.1
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 214,
+   "fwd_after_end": 33,
+   "fwd_after_end_unrelated": 33,
+   "fwd_alive_unrelated": 33,
+   "fwd_recent": 6,
+   "fwd_examiner": 127,
+   "fwd_by_year": {
+    "2000": 6,
+    "2001": 2,
+    "2002": 8,
+    "2003": 4,
+    "2004": 5,
+    "2005": 9,
+    "2006": 9,
+    "2007": 8,
+    "2008": 12,
+    "2009": 19,
+    "2010": 8,
+    "2011": 19,
+    "2012": 18,
+    "2013": 13,
+    "2014": 8,
+    "2015": 20,
+    "2016": 10,
+    "2017": 20,
+    "2018": 6,
+    "2019": 5,
+    "2020": 5
+   },
+   "recent_companies": [
+    [
+     "\u82cf\u5dde\u5927\u5b66",
+     1
+    ],
+    [
+     "Korea Advanced Institute Of Science And Technology",
+     1
+    ],
+    [
+     "\u0424\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u0443\u043a\u0438 \u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0445\u0438\u043c\u0438\u0438 \u0442\u0432\u0435\u0440\u0434\u043e\u0433\u043e \u0442\u0435\u043b\u0430 \u0438 \u043c\u0435\u0445\u0430\u043d\u043e\u0445\u0438\u043c\u0438\u0438 \u0421\u0438\u0431\u0438\u0440\u0441\u043a\u043e\u0433\u043e \u043e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0430\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a",
+     1
+    ],
+    [
+     "Faradion Ltd",
+     1
+    ],
+    [
+     "\u540c\u6d4e\u5927\u5b66",
+     1
+    ],
+    [
+     "\u4e2d\u56fd\u79d1\u5b66\u9662\u957f\u6625\u5e94\u7528\u5316\u5b66\u7814\u7a76\u6240",
+     1
+    ]
+   ],
+   "same_owner_followons": 10,
+   "bwd_total": 22,
+   "bwd_examiner": 5,
+   "family_countries": 7,
+   "live_family": 0,
+   "claims_count": 49,
+   "shortest_claim_words": 194
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Sustained, broad technical interest: the patent is heavily cited, including by examiners, suggesting it sits near the foundation of sodium-ion phosphate cathode / carbon anode work.",
+     "evidence": [
+      "E11",
+      "E15",
+      "E17"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Activity continued after the lapse, with dozens of unrelated filers building on it, though post-2019 citing activity is modest in absolute numbers.",
+     "evidence": [
+      "E12",
+      "E13",
+      "E18"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Recent citing filers are mostly academic and research institutions, with one commercial sodium-ion developer (Faradion Ltd), pointing to a field still largely in R&D and early commercialization.",
+     "evidence": [
+      "E14"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "External market commentary describes sodium-ion as edging toward commercialization and as a cost-effective option for grid storage, and a national lab is actively licensing hard-carbon anode technology. This is a sign of an active ecosystem, not proof of revenue.",
+     "evidence": [
+      "E19",
+      "E20"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Since 2019, the filers citing this patent are Faradion Ltd and research institutions in China (Soochow University, Tongji University, Changchun Institute of Applied Chemistry), Korea (KAIST) and Russia (the Siberian solid-state chemistry institute), while Lawrence Berkeley National Laboratory, Skoltech and Moscow State University appear in the market evidence.",
+   "market_read": "Sodium-ion chemistry with polyanion cathodes and carbon anodes remains a live and growing area, judging by heavy cumulative citations, ongoing post-lapse filings and commentary about stationary-storage uses. Citation counts reflect technical interest rather than sales, and the long 194-word minimum independent claim and the mostly academic recent filers suggest this patent is best treated as background reference in a still-maturing market."
+  },
+  "web": [
+   {
+    "kind": "market",
+    "finding": "Lawrence Berkeley National Laboratory is offering for licensing a technology for making high-capacity hard carbon for Na-ion batteries, published Nov 4, 2025, and describes sodium-ion batteries as a cost-effective option for large-scale storage.",
+    "url": "https://ipo.lbl.gov/2025/11/04/controlled-synthesis-of-high-capacity-hard-carbon-for-na-ion-batteries-2025-193/",
+    "confidence": "medium",
+    "evidence": "E19"
+   },
+   {
+    "kind": "market",
+    "finding": "pv magazine reported in 2022 that Skoltech and Moscow State University researchers developed high-voltage sodium-ion cathodes giving up to 15% higher energy density, and said sodium-ion batteries continue to edge toward commercialization.",
+    "url": "https://www.pv-magazine.com/2022/08/03/high-voltage-sodium-ion-batteries-with-up-to-15-higher-energy-density/",
+    "confidence": "medium",
+    "evidence": "E20"
+   }
+  ],
+  "evidence": [
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17",
+   "E18"
+  ],
+  "named": {
+   "total": "E11",
+   "after": "E12",
+   "recent": "E13",
+   "companies": "E14",
+   "score": "E18"
+  },
+  "summary": "Score 78/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US6387568B1",
+    "title": "Lithium metal fluorophosphate materials and preparation thereof",
+    "score": 41,
+    "status": "expired_term",
+    "end_year": 2020
+   },
+   {
+    "pub": "US6884544B2",
+    "title": "Lithium-based active materials and preparation thereof",
+    "score": 57,
+    "status": "expired_term",
+    "end_year": 2020
+   },
+   {
+    "pub": "US7205067B2",
+    "title": "Method and apparatus for dissipation of heat generated by a secondary electrochemical cell",
+    "score": 43,
+    "status": "lapsed_fees",
+    "end_year": 2015
+   },
+   {
+    "pub": "US7579112B2",
+    "title": "Battery structures, self-organizing structures and related methods",
+    "score": 73,
+    "status": "lapsed_fees",
+    "end_year": 2021
+   },
+   {
+    "pub": "US7122272B2",
+    "title": "Non-aqueous electrolyte secondary cell with a lithium metal phosphate cathode",
+    "score": 45,
+    "status": "lapsed_fees",
+    "end_year": 2014
+   }
+  ],
+  "summary": "5 similar dead patents in Batteries and fuel cells"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6872492B2 lapsed on 2017-03-29 because the 11.5-year (third) maintenance fee was not paid.",
+   "source": "https://patents.google.com/patent/US6872492B2/en#legalEvents",
+   "method": "Read from legal event FP on 2017-05-16",
+   "confidence": "high",
+   "data": {
+    "status": "lapsed_fees",
+    "lapse_date": "2017-03-29",
+    "window": 12
+   }
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid the 4th-year, 8th-year fee(s) before stopping.",
+   "source": "https://patents.google.com/patent/US6872492B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The owner gave up roughly 5 years of remaining term (term would have ended 2022-11-15).",
+   "source": "https://patents.google.com/patent/US6872492B2/en",
+   "method": "Term end from the expiration event, else filing date plus 20 years",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20230327090623.",
+   "source": "https://patents.google.com/patent/US6872492B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 2 later patent(s) citing this one that may still be in force, e.g. US9269955B2 (Manganese phosphates and related electrode active materials).",
+   "source": "https://patents.google.com/patent/US6872492B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US9269955B2",
+     "US8324868B2"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "89 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6872492B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "CN111747394A",
+     "RU2747565C1",
+     "US20210242451A1",
+     "WO2021114401A1",
+     "CN112447947B"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "EPA new chemical review: A new chemical substance needs a premanufacture notice under TSCA before commercial manufacture.",
+   "source": "EPA TSCA inventory",
+   "method": "Blocker checklist rule 'epa_chemical' matched CPC H01M4/40, H01M10/38, C01B25/455",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "Battery safety and transport certification: Lithium cells need UN 38.3 testing for shipping and usually UL or IEC safety certification for sale.",
+   "source": "UL and IEC standards (UL 1642, UL 2054, IEC 62133); PHMSA rules",
+   "method": "Blocker checklist rule 'battery_safety' matched CPC H01M4/40, H01M10/38, C01B25/455",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "blocker",
+   "claim": "No reinstatement event is on record since the lapse.",
+   "source": "https://patents.google.com/patent/US6872492B2/en#legalEvents",
+   "method": "Searched legal events for reinstatement codes",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E10",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "Cited by 214 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6872492B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 214
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "33 later filings by unrelated owners cite it with priority dates after it lapsed (2017-03-29).",
+   "source": "https://patents.google.com/patent/US6872492B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 33
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "6 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6872492B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 6
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: \u82cf\u5dde\u5927\u5b66 (1), Korea Advanced Institute Of Science And Technology (1), \u0424\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u0443\u043a\u0438 \u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0445\u0438\u043c\u0438\u0438 \u0442\u0432\u0435\u0440\u0434\u043e\u0433\u043e \u0442\u0435\u043b\u0430 \u0438 \u043c\u0435\u0445\u0430\u043d\u043e\u0445\u0438\u043c\u0438\u0438 \u0421\u0438\u0431\u0438\u0440\u0441\u043a\u043e\u0433\u043e \u043e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0430\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a (1), Faradion Ltd (1), \u540c\u6d4e\u5927\u5b66 (1), \u4e2d\u56fd\u79d1\u5b66\u9662\u957f\u6625\u5e94\u7528\u5316\u5b66\u7814\u7a76\u6240 (1).",
+   "source": "https://patents.google.com/patent/US6872492B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "\u82cf\u5dde\u5927\u5b66",
+      1
+     ],
+     [
+      "Korea Advanced Institute Of Science And Technology",
+      1
+     ],
+     [
+      "\u0424\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u0443\u043a\u0438 \u0418\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0445\u0438\u043c\u0438\u0438 \u0442\u0432\u0435\u0440\u0434\u043e\u0433\u043e \u0442\u0435\u043b\u0430 \u0438 \u043c\u0435\u0445\u0430\u043d\u043e\u0445\u0438\u043c\u0438\u0438 \u0421\u0438\u0431\u0438\u0440\u0441\u043a\u043e\u0433\u043e \u043e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u043e\u0439 \u0430\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a",
+      1
+     ],
+     [
+      "Faradion Ltd",
+      1
+     ],
+     [
+      "\u540c\u6d4e\u5927\u5b66",
+      1
+     ],
+     [
+      "\u4e2d\u56fd\u79d1\u5b66\u9662\u957f\u6625\u5e94\u7528\u5316\u5b66\u7814\u7a76\u6240",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Examiners cited it against 127 later applications.",
+   "source": "https://patents.google.com/patent/US6872492B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 194 words across 49 claims.",
+   "source": "https://patents.google.com/patent/US6872492B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "The family was filed in 7 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6872492B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Revival score 78/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Market: Lawrence Berkeley National Laboratory is offering for licensing a technology for making high-capacity hard carbon for Na-ion batteries, published Nov 4, 2025, and describes sodium-ion batteries as a cost-effective option for large-scale storage.",
+   "source": "https://ipo.lbl.gov/2025/11/04/controlled-synthesis-of-high-capacity-hard-carbon-for-na-ion-batteries-2025-193/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Market: pv magazine reported in 2022 that Skoltech and Moscow State University researchers developed high-voltage sodium-ion cathodes giving up to 15% higher energy density, and said sodium-ion batteries continue to edge toward commercialization.",
+   "source": "https://www.pv-magazine.com/2022/08/03/high-voltage-sodium-ion-batteries-with-up-to-15-higher-energy-density/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Batteries and fuel cells",
+   "seconds": 0.01
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Lapsed 2017-03-29 at the 11.5-year (third) fee window",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "6 possible blockers, 0 high severity",
+   "seconds": 7.54
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 78/100, high confidence: Dead patent with a future",
+   "seconds": 37.32
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 18.61
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1819,
+    "output_tokens": 697,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02122,
+    "seconds": 7.5
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 30054,
+    "output_tokens": 1724,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.1947,
+    "seconds": 29.5
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 929,
+    "output_tokens": 663,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.0171,
+    "seconds": 7.8
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2356,
+    "output_tokens": 1767,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04505,
+    "seconds": 18.6
+   }
+  ],
+  "total_cost_usd": 0.2781,
+  "seconds": 63.5
+ }
+}

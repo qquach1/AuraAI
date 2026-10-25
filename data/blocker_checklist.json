@@ -1,0 +1,125 @@
+{
+  "_about": "Cross-industry blocker checklist used by the Blocker agent. Starter version: Juan owns the final wording. Each rule matches CPC prefixes; 'all' rules apply to every patent. burden is high, medium or low and feeds the Clear path component of the revival score.",
+  "rules": [
+    {
+      "id": "follow_on",
+      "applies_to": ["all"],
+      "burden": "low",
+      "title": "Follow-on and improvement patents",
+      "check": "Later patents that cite this one, especially from the same owner, may claim the improvements a product needs. Check which are still in force before building.",
+      "where_to_look": "Forward citations on the patent record; USPTO Patent Center for each candidate's status"
+    },
+    {
+      "id": "family",
+      "applies_to": ["all"],
+      "burden": "low",
+      "title": "Live family members",
+      "check": "Continuations, divisionals and foreign counterparts can stay in force after one patent lapses. A live US continuation can block the same invention.",
+      "where_to_look": "Family and worldwide applications on the patent record"
+    },
+    {
+      "id": "revival",
+      "applies_to": ["all"],
+      "burden": "low",
+      "title": "Revival of the lapsed patent",
+      "check": "An owner can petition to accept a late maintenance fee and reinstate the patent. Risk is highest in the first 24 months after lapse.",
+      "where_to_look": "Legal events (reinstatement codes) on the patent record"
+    },
+    {
+      "id": "trade_secret",
+      "applies_to": ["all"],
+      "burden": "low",
+      "title": "Trade secrets and know-how",
+      "check": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+      "where_to_look": "Talk to the inventors or the original owner"
+    },
+    {
+      "id": "fda_drug",
+      "applies_to": ["A61K", "A61P", "C07K", "C07D", "C12N15"],
+      "burden": "high",
+      "title": "FDA drug or biologic approval and exclusivity",
+      "check": "A drug needs FDA approval (NDA or BLA) before sale. Regulatory exclusivity can block generics even after patents expire: 5 years for a new chemical entity, 3 years for new clinical studies, 7 years for orphan drugs, 12 years for biologics.",
+      "where_to_look": "FDA Orange Book (drugs) and Purple Book (biologics)"
+    },
+    {
+      "id": "fda_device",
+      "applies_to": ["A61B", "A61F", "A61M", "A61N", "A61C", "A61G", "A61H", "A61L", "G16H"],
+      "burden": "medium",
+      "title": "FDA medical device clearance",
+      "check": "Most devices need 510(k) clearance, De Novo classification or PMA approval before sale. Class III devices need clinical data.",
+      "where_to_look": "FDA 510(k), De Novo and PMA databases; product classification database"
+    },
+    {
+      "id": "epa_pesticide",
+      "applies_to": ["A01N", "A01P"],
+      "burden": "high",
+      "title": "EPA pesticide registration and data exclusivity",
+      "check": "Pesticides and biocides need EPA registration under FIFRA. The original registrant's data has 10 years of exclusive use and 15 years of compensation rights.",
+      "where_to_look": "EPA Pesticide Product and Label System (PPLS)"
+    },
+    {
+      "id": "epa_chemical",
+      "applies_to": ["C08", "C09", "C07C", "C01"],
+      "burden": "medium",
+      "title": "EPA new chemical review",
+      "check": "A new chemical substance needs a premanufacture notice under TSCA before commercial manufacture.",
+      "where_to_look": "EPA TSCA inventory"
+    },
+    {
+      "id": "water_quality",
+      "applies_to": ["C02F"],
+      "burden": "medium",
+      "title": "Drinking water and discharge standards",
+      "check": "Products in contact with drinking water usually need NSF/ANSI 61 certification; discharge systems need EPA or state permits.",
+      "where_to_look": "NSF certified product listings; EPA NPDES"
+    },
+    {
+      "id": "telecom_standards",
+      "applies_to": ["H04W", "H04L", "H04B", "H04N"],
+      "burden": "medium",
+      "title": "Industry standards and standard-essential patents",
+      "check": "Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+      "where_to_look": "ETSI IPR database; FCC equipment authorization"
+    },
+    {
+      "id": "battery_safety",
+      "applies_to": ["H01M"],
+      "burden": "medium",
+      "title": "Battery safety and transport certification",
+      "check": "Lithium cells need UN 38.3 testing for shipping and usually UL or IEC safety certification for sale.",
+      "where_to_look": "UL and IEC standards (UL 1642, UL 2054, IEC 62133); PHMSA rules"
+    },
+    {
+      "id": "energy_grid",
+      "applies_to": ["F03D", "H02J", "F24S", "H02S"],
+      "burden": "medium",
+      "title": "Grid interconnection and equipment certification",
+      "check": "Generation equipment needs IEC or UL certification and a utility interconnection agreement.",
+      "where_to_look": "IEC 61400 (wind), UL 1741 (inverters), the local utility's interconnection rules"
+    },
+    {
+      "id": "software",
+      "applies_to": ["G06F", "G06Q", "G06N"],
+      "burden": "low",
+      "title": "Dense live patents and open standards",
+      "check": "Software fields have many overlapping live patents; check recent filings by large incumbents. Data products may also face privacy rules (HIPAA, GDPR, CCPA).",
+      "where_to_look": "Recent forward citations from large assignees"
+    },
+    {
+      "id": "additive",
+      "applies_to": ["B33Y", "B29C64", "B22F10"],
+      "burden": "low",
+      "title": "Material and machine patents",
+      "check": "Printer hardware may be free while specific materials, powders or process parameters stay patented.",
+      "where_to_look": "Forward citations from materials companies"
+    },
+    {
+      "id": "optics_export",
+      "applies_to": ["G02B", "H01S", "G01J"],
+      "burden": "low",
+      "title": "Export controls and laser safety",
+      "check": "Some optics and lasers are export controlled (EAR Category 6). Laser products sold in the US must meet FDA CDRH laser performance standards.",
+      "where_to_look": "Commerce Control List; FDA 21 CFR 1040.10"
+    }
+  ]
+}

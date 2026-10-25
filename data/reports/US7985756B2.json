@@ -1,0 +1,877 @@
+{
+ "pub": "US7985756B2",
+ "title": "Modulation of neurogenesis by PDE inhibition",
+ "generated_at": "2026-10-25T16:29:39+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future (96/100, high confidence): a lapsed brain-cell-growth drug combo in a field that is still busy, but the road to market runs through the FDA and well-funded rivals.",
+  "what_it_is": "This patent covered a mix of two drugs, rolipram (a PDE4 inhibitor) and buspirone, at doses meant to work better together at growing new nerve cells. The goal was to treat brain and nerve conditions by boosting neurogenesis, the formation of new nerve cells.",
+  "why_it_died": {
+   "text": "The owner, Braincells Inc, appears never to have paid the first maintenance fee, which is due 3.5 years after grant. The patent lapsed in July 2015 and gave up about 14 years of remaining term. The owner was a small entity. The record shows that the fee went unpaid, not why. Money or a change in priorities is a plausible reason, but that is an inference. No reinstatement has been recorded since.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E5",
+    "E9"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "The field is clearly alive. Several companies and groups are running Phase 2 trials of PDE4 inhibitors for cognition, schizophrenia, Fragile X and early Alzheimer's.",
+    "evidence": [
+     "E19",
+     "E20",
+     "E21",
+     "E22"
+    ]
+   },
+   {
+    "point": "Others keep building on this idea. 26 unrelated filings citing it came after it lapsed, and 13 have priority dates from 2019 on. That drives the full marks for momentum.",
+    "evidence": [
+     "E12",
+     "E13",
+     "E11"
+    ]
+   },
+   {
+    "point": "Examiners saw it as relevant prior art. They cited it against 31 later applications, which suggests the core idea mattered to the field.",
+    "evidence": [
+     "E15",
+     "E18"
+    ]
+   },
+   {
+    "point": "The main claim is short (17 words) and the family was filed in 6 jurisdictions. That shows the owner once valued it, and it scored full marks for breadth.",
+    "evidence": [
+     "E16",
+     "E17"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Interest here is clinical, not commercial. The evidence shows trials and designations, not revenue. Large players like Shionogi are already well ahead.",
+    "evidence": [
+     "E19",
+     "E20",
+     "E21"
+    ]
+   },
+   {
+    "point": "Some of the 'momentum' may be noise. The top recent citer, Augmedics, filed 9 of the citing documents, and those may not be about drugs at all. That is worth checking before you trust the signal.",
+    "evidence": [
+     "E14"
+    ]
+   },
+   {
+    "point": "Any drug needs FDA approval before it can be sold. That means years of trials and large costs, far beyond a typical startup budget.",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "point": "The patent describes the idea, not how to make and dose it well. You would likely need to rebuild the process know-how yourself.",
+    "evidence": [
+     "E10"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "FDA approval (an NDA) is needed before sale. Regulatory exclusivity held by others can block you even where patents have expired.",
+    "severity": "high",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "point": "22 later patents by other owners were cited against this one and may still be in force. They could cover nearby compositions or uses.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "The original owner filed 2 later patents that cite this one and may still be in force, for example one on biguanides and GSK3-beta agents.",
+    "severity": "medium",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Well-funded rivals with active PDE4 programs may hold their own rights and have a big head start. This is why 'Clear path' scored only 6 of 10.",
+    "severity": "medium",
+    "evidence": [
+     "E19",
+     "E20",
+     "E7"
+    ]
+   },
+   {
+    "point": "Manufacturing and formulation know-how is not in the patent and would need to be rebuilt.",
+    "severity": "low",
+    "evidence": [
+     "E10"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "A partner, licensee or CNS-focused investor would fund trials of an older two-drug PDE4 combo, even though rivals are already in Phase 2 with newer PDE4 drugs.",
+   "why_riskiest": "A startup cannot pay for FDA trials alone. If no one with money sees an edge for this combo over the PDE4 programs already running, there is no business, however good the score.",
+   "how_to_test": "In two weeks, for close to $0: (1) Search ClinicalTrials.gov and recent literature for any PDE4 inhibitor plus buspirone combination work, and note who is doing it. (2) Send short, non-confidential one-page pitches to 15-20 business development leads at CNS pharma companies and CNS-focused VCs or patient foundations, such as Fragile X groups. Ask one question: 'Would a synergistic PDE4 plus buspirone combo for neurogenesis be worth a 30-minute call?' Aim for at least 3 serious replies before going further.",
+   "evidence": [
+    "E19",
+    "E20",
+    "E21",
+    "E22",
+    "E8"
+   ]
+  },
+  "attorney_questions": [
+   "Do any of the 22 later patents cited against this one, or the owner's 2 later citing patents, appear to cover rolipram-buspirone or similar PDE4 combination compositions or uses, and are they still in force?",
+   "Could existing or pending FDA regulatory exclusivities on PDE4 inhibitors or buspirone affect the timing of a combination product?",
+   "Given that the lapse appears final with no reinstatement on record, what would a full freedom-to-operate review in the US and the other 5 family jurisdictions cost and cover?"
+  ],
+  "score": 96,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Fee Related",
+   "status": "lapsed_fees",
+   "grant_date": "2011-07-26",
+   "priority_date": "2005-10-21",
+   "filing_date": "2006-10-20",
+   "lapse_date": "2015-07-26",
+   "lapse_source": "legal event FP on 2015-09-15",
+   "fee_window": 4,
+   "fees_paid": [],
+   "entity_size": "small",
+   "term_end": "2029-05-02",
+   "term_end_estimated": false,
+   "end_date": "2015-07-26",
+   "end_year": 2015,
+   "months_since_end": 135.0,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2026-03-14"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4",
+   "E5"
+  ],
+  "summary": "Lapsed 2015-07-26 at the 3.5-year (first) fee window"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "regulatory",
+    "severity": "high",
+    "title": "FDA drug or biologic approval and exclusivity",
+    "detail": "A drug needs FDA approval (NDA or BLA) before sale. Regulatory exclusivity can block generics even after patents expire: 5 years for a new chemical entity, 3 years for new clinical studies, 7 years for orphan drugs, 12 years for biologics.",
+    "where": "FDA Orange Book (drugs) and Purple Book (biologics)",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "kind": "follow_on",
+    "severity": "medium",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "US20080188457A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-02-02",
+      "publication_date": "2008-08-07",
+      "assignee": "Braincells, Inc.",
+      "title": "Modulation of Neurogenesis with Biguanides and GSK3-beta Agents",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Same owner (Braincells) and same neurogenesis-modulation platform; uses different agents (biguanides, GSK3-beta), so it may cover combination improvements rather than rolipram/buspirone itself."
+     },
+     {
+      "pub": "EP2125017A2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-01-11",
+      "publication_date": "2009-12-02",
+      "assignee": "Braincells, Inc.",
+      "title": "Modulation of neurogenesis with use of modafinil",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Same owner and neurogenesis framework, but focuses on modafinil, which is not a PDE/5-HT1A combination named in the original."
+     }
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E7"
+    ],
+    "items": [
+     {
+      "pub": "JP2024503727A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2021-01-20",
+      "publication_date": "2024-01-26",
+      "assignee": "\u30a2\u30eb\u30c8 \u30cb\u30e5\u30fc\u30ed\u30b5\u30a4\u30a8\u30f3\u30b9\uff0c\u30a4\u30f3\u30b3\u30fc\u30dd\u30ec\u30fc\u30c6\u30c3\u30c9",
+      "title": "Enhancement of cAMP signaling as a combination drug strategy for the treatment of depression and related conditions",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "cAMP-enhancing combination strategy for depression; mechanistically close to PDE inhibition combined with another agent, so it may touch on similar combination uses."
+     },
+     {
+      "pub": "WO2022047070A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-08-27",
+      "publication_date": "2022-03-03",
+      "assignee": "University Of Central Florida Research Foundation, Inc.",
+      "title": "Combination drug treatment to increase neurogenesis for neurological disorders",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Combination drug treatment to increase neurogenesis, the same stated goal as the original; the specific agents are unknown from the title."
+     },
+     {
+      "pub": "US20140044813A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2012-08-09",
+      "publication_date": "2014-02-13",
+      "assignee": "Kemin Industries, Inc.",
+      "title": "Plant Extracts for Improving Cognitive Health and Function",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     },
+     {
+      "pub": "EP2785183B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2011-11-14",
+      "publication_date": "2018-12-19",
+      "assignee": "Merck Sharp & Dohme Corp.",
+      "title": "Triazolopyridinone pde10 inhibitors",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     },
+     {
+      "pub": "WO2013024164A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2011-08-18",
+      "publication_date": "2013-02-21",
+      "assignee": "Shire Ag",
+      "title": "Combinations of a 5-ht4 receptor agonist and a pde4 inhibitor for use in therapy",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "revival",
+    "severity": "low",
+    "title": "Revival risk",
+    "detail": "Lapsed 135 months ago with no reinstatement on record; revival this late requires a petition showing the delay was unintentional.",
+    "evidence": [
+     "E9"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E10"
+    ]
+   }
+  ],
+  "regulatory_burden": "high",
+  "llm_rated": true,
+  "summary": "5 possible blockers, 1 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 96,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 1.0,
+     "points": 30.0
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 1.0,
+     "points": 20.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 1.0,
+     "points": 15.0
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 1.0,
+     "points": 15.0
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.6,
+     "points": 6.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 72,
+   "fwd_after_end": 26,
+   "fwd_after_end_unrelated": 26,
+   "fwd_alive_unrelated": 26,
+   "fwd_recent": 13,
+   "fwd_examiner": 31,
+   "fwd_by_year": {
+    "2005": 4,
+    "2006": 8,
+    "2007": 10,
+    "2008": 5,
+    "2010": 7,
+    "2011": 5,
+    "2012": 1,
+    "2014": 4,
+    "2015": 2,
+    "2016": 2,
+    "2017": 3,
+    "2018": 4,
+    "2019": 5,
+    "2020": 5,
+    "2021": 4,
+    "2022": 3
+   },
+   "recent_companies": [
+    [
+     "Augmedics Ltd.",
+     9
+    ],
+    [
+     "Randall Lewarchik",
+     1
+    ],
+    [
+     "University Of Central Florida Research Foundation, Inc.",
+     1
+    ],
+    [
+     "\u30a2\u30eb\u30c8 \u30cb\u30e5\u30fc\u30ed\u30b5\u30a4\u30a8\u30f3\u30b9\uff0c\u30a4\u30f3\u30b3\u30fc\u30dd\u30ec\u30fc\u30c6\u30c3\u30c9",
+     1
+    ],
+    [
+     "Healx Ltd",
+     1
+    ]
+   ],
+   "same_owner_followons": 8,
+   "bwd_total": 222,
+   "bwd_examiner": 0,
+   "family_countries": 6,
+   "live_family": 0,
+   "claims_count": 2,
+   "shortest_claim_words": 17
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "PDE inhibition for CNS indications is being actively developed in the clinic, with multiple PDE4 programs in Phase 2 for cognitive and neurodevelopmental conditions.",
+     "evidence": [
+      "E19",
+      "E20",
+      "E21",
+      "E22"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Technical interest in the patent continued well after it lapsed, with many later filings by unrelated owners and steady recent citation activity.",
+     "evidence": [
+      "E11",
+      "E12",
+      "E13",
+      "E15",
+      "E18"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Some of the recent citation volume may not reflect neurogenesis drug interest. Augmedics, a heavy recent citer, appears in the evidence only as a filer, and no evidence ties it to PDE pharmacology.",
+     "evidence": [
+      "E14"
+     ],
+     "confidence": "low"
+    },
+    {
+     "signal": "The original owner let the patent lapse early as a small entity, giving up about 14 years of term. This suggests it was not commercialized by that owner.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E3",
+      "E5"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Alto Neuroscience (ALTO-101), Shionogi (zatolmilast, following its Tetra acquisition) and Healx are active per the evidence, and academic groups such as the University of Central Florida and the ROMEMA trial investigators are also involved.",
+   "market_read": "PDE4 inhibition for cognition and neurodevelopmental disorders is a live clinical field with Phase 2 activity and regulatory designations, though the evidence shows technical and clinical interest rather than revenue. A founder entering this space would face well-resourced incumbents and should commission a professional freedom-to-operate review, since later filings and active programs may carry their own rights."
+  },
+  "web": [
+   {
+    "kind": "company",
+    "finding": "Alto Neuroscience has started a Phase 2 placebo-controlled study of ALTO-101, a transdermal PDE4 inhibitor, for cognitive impairment associated with schizophrenia.",
+    "url": "https://drug-dev.com/alto-neuroscience-initiates-phase-2-study-of-a-novel-pde4-inhibitor-in-cognitive-impairment-associated-with-schizophrenia/",
+    "confidence": "medium",
+    "evidence": "E19"
+   },
+   {
+    "kind": "company",
+    "finding": "Shionogi, which acquired Tetra in 2020, received FDA Rare Pediatric Disease designation for zatolmilast, an investigational treatment for Fragile X syndrome.",
+    "url": "https://www.shionogi.com/global/en/news/2023/9/e20230927.html",
+    "confidence": "medium",
+    "evidence": "E20"
+   },
+   {
+    "kind": "market",
+    "finding": "The FRAXA Research Foundation reported positive Phase II results for zatolmilast, a PDE4D inhibitor, in Fragile X syndrome.",
+    "url": "https://www.fraxa.org/positive-results-reported-in-phase-ii-fragile-x-clinical-trial-of-pde4d-inhibitor-from-tetra-therapeutics/",
+    "confidence": "medium",
+    "evidence": "E21"
+   },
+   {
+    "kind": "market",
+    "finding": "The ROMEMA Phase II proof-of-concept trial is testing the PDE4 inhibitor roflumilast in patients with mild cognitive impairment or mild Alzheimer's dementia.",
+    "url": "https://link.springer.com/article/10.1186/s13063-024-08001-3",
+    "confidence": "medium",
+    "evidence": "E22"
+   }
+  ],
+  "evidence": [
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17",
+   "E18"
+  ],
+  "named": {
+   "total": "E11",
+   "after": "E12",
+   "recent": "E13",
+   "companies": "E14",
+   "score": "E18"
+  },
+  "summary": "Score 96/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7678808B2",
+    "title": "5 HT receptor mediated neurogenesis",
+    "score": 64,
+    "status": "lapsed_fees",
+    "end_year": 2018
+   },
+   {
+    "pub": "US7468431B2",
+    "title": "Modulation of eIF4E-BP2 expression",
+    "score": 40,
+    "status": "lapsed_fees",
+    "end_year": 2016
+   },
+   {
+    "pub": "US7807815B2",
+    "title": "Compositions comprising immunostimulatory siRNA molecules and DLinDMA or DLenDMA",
+    "score": 35,
+    "status": "expired_term",
+    "end_year": 2026
+   },
+   {
+    "pub": "US6271228B1",
+    "title": "Blood pressure stabilization during hemodialysis",
+    "score": 46,
+    "status": "lapsed_fees",
+    "end_year": 2009
+   },
+   {
+    "pub": "US7572448B2",
+    "title": "Combined cancer treatment methods using selected antibodies to aminophospholipids",
+    "score": 35,
+    "status": "expired_term",
+    "end_year": 2025
+   }
+  ],
+  "summary": "5 similar dead patents in Drugs and therapeutic preparations"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US7985756B2 lapsed on 2015-07-26 because the 3.5-year (first) maintenance fee was not paid.",
+   "source": "https://patents.google.com/patent/US7985756B2/en#legalEvents",
+   "method": "Read from legal event FP on 2015-09-15",
+   "confidence": "high",
+   "data": {
+    "status": "lapsed_fees",
+    "lapse_date": "2015-07-26",
+    "window": 4
+   }
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "No maintenance fee was ever paid after grant.",
+   "source": "https://patents.google.com/patent/US7985756B2/en#legalEvents",
+   "method": "No payment events on record",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The owner gave up roughly 14 years of remaining term (term would have ended 2029-05-02).",
+   "source": "https://patents.google.com/patent/US7985756B2/en",
+   "method": "Term end from the expiration event, else filing date plus 20 years",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20260314170822.",
+   "source": "https://patents.google.com/patent/US7985756B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed small-entity status.",
+   "source": "https://patents.google.com/patent/US7985756B2/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "small"
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "The owner filed 2 later patent(s) citing this one that may still be in force, e.g. US20080188457A1 (Modulation of Neurogenesis with Biguanides and GSK3-beta Agents).",
+   "source": "https://patents.google.com/patent/US7985756B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US20080188457A1",
+     "EP2125017A2"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "22 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US7985756B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "JP2024503727A",
+     "WO2022047070A1",
+     "US20140044813A1",
+     "EP2785183B1",
+     "WO2013024164A1"
+    ]
+   }
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "FDA drug or biologic approval and exclusivity: A drug needs FDA approval (NDA or BLA) before sale. Regulatory exclusivity can block generics even after patents expire: 5 years for a new chemical entity, 3 years for new clinical studies, 7 years for orphan drugs, 12 years for biologics.",
+   "source": "FDA Orange Book (drugs) and Purple Book (biologics)",
+   "method": "Blocker checklist rule 'fda_drug' matched CPC A61K45/06, A61K31/40, A61K31/401",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "blocker",
+   "claim": "No reinstatement event is on record since the lapse.",
+   "source": "https://patents.google.com/patent/US7985756B2/en#legalEvents",
+   "method": "Searched legal events for reinstatement codes",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E10",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "Cited by 72 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US7985756B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 72
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "26 later filings by unrelated owners cite it with priority dates after it lapsed (2015-07-26).",
+   "source": "https://patents.google.com/patent/US7985756B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 26
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "13 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US7985756B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 13
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: Augmedics Ltd. (9), Randall Lewarchik (1), University Of Central Florida Research Foundation, Inc. (1), \u30a2\u30eb\u30c8 \u30cb\u30e5\u30fc\u30ed\u30b5\u30a4\u30a8\u30f3\u30b9\uff0c\u30a4\u30f3\u30b3\u30fc\u30dd\u30ec\u30fc\u30c6\u30c3\u30c9 (1), Healx Ltd (1).",
+   "source": "https://patents.google.com/patent/US7985756B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "Augmedics Ltd.",
+      9
+     ],
+     [
+      "Randall Lewarchik",
+      1
+     ],
+     [
+      "University Of Central Florida Research Foundation, Inc.",
+      1
+     ],
+     [
+      "\u30a2\u30eb\u30c8 \u30cb\u30e5\u30fc\u30ed\u30b5\u30a4\u30a8\u30f3\u30b9\uff0c\u30a4\u30f3\u30b3\u30fc\u30dd\u30ec\u30fc\u30c6\u30c3\u30c9",
+      1
+     ],
+     [
+      "Healx Ltd",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Examiners cited it against 31 later applications.",
+   "source": "https://patents.google.com/patent/US7985756B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 17 words across 2 claims.",
+   "source": "https://patents.google.com/patent/US7985756B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "The family was filed in 6 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US7985756B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Revival score 96/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Company: Alto Neuroscience has started a Phase 2 placebo-controlled study of ALTO-101, a transdermal PDE4 inhibitor, for cognitive impairment associated with schizophrenia.",
+   "source": "https://drug-dev.com/alto-neuroscience-initiates-phase-2-study-of-a-novel-pde4-inhibitor-in-cognitive-impairment-associated-with-schizophrenia/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Company: Shionogi, which acquired Tetra in 2020, received FDA Rare Pediatric Disease designation for zatolmilast, an investigational treatment for Fragile X syndrome.",
+   "source": "https://www.shionogi.com/global/en/news/2023/9/e20230927.html",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E21",
+   "agent": "market",
+   "claim": "Market: The FRAXA Research Foundation reported positive Phase II results for zatolmilast, a PDE4D inhibitor, in Fragile X syndrome.",
+   "source": "https://www.fraxa.org/positive-results-reported-in-phase-ii-fragile-x-clinical-trial-of-pde4d-inhibitor-from-tetra-therapeutics/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E22",
+   "agent": "market",
+   "claim": "Market: The ROMEMA Phase II proof-of-concept trial is testing the PDE4 inhibitor roflumilast in patients with mild cognitive impairment or mild Alzheimer's dementia.",
+   "source": "https://link.springer.com/article/10.1186/s13063-024-08001-3",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Drugs and therapeutic preparations",
+   "seconds": 0.04
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Lapsed 2015-07-26 at the 3.5-year (first) fee window",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "5 possible blockers, 1 high severity",
+   "seconds": 8.2
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 96/100, high confidence: Dead patent with a future",
+   "seconds": 32.83
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 28.0
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1284,
+    "output_tokens": 721,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01956,
+    "seconds": 8.1
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 22518,
+    "output_tokens": 1709,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.16425,
+    "seconds": 25.9
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 933,
+    "output_tokens": 583,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01551,
+    "seconds": 6.9
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1991,
+    "output_tokens": 2621,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.06067,
+    "seconds": 28.0
+   }
+  ],
+  "total_cost_usd": 0.26,
+  "seconds": 69.1
+ }
+}

@@ -1,0 +1,796 @@
+{
+ "pub": "US6670721B2",
+ "title": "System, method, rotating machine and computer program product for enhancing electric power produced by renewable facilities",
+ "generated_at": "2026-10-25T16:32:40+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future: ABB's idea of pairing renewables with a grid-stiffening rotating machine lapsed in 2011, and the grid-stability market it targets now appears to be maturing.",
+  "what_it_is": "A system that sits between a wind or solar plant and the grid and uses a spinning AC machine (like a synchronous condenser) plus a controller to make renewable power steadier and 'stiffer', closer to what a fossil or hydro plant delivers. The controller decides how much active and reactive power the machine supplies or absorbs so the grid sees cleaner, more dependable power.",
+  "why_it_died": {
+   "text": "ABB paid the first maintenance fee, then stopped paying at the 7.5-year mark, giving up about 10 years of remaining term. The record shows no reinstatement. That points to a business decision, perhaps cost, timing or strategy, rather than a proven technical flaw, but the record does not say why. This is why 'Died for money, not merit' scored only 7.5 of 15: the motive is unclear.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E7"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "The field appears very much alive. Germany has published rules for grid-forming units to join a new inertia market, and at least one product has been certified under them. Real buyers may be forming.",
+    "evidence": [
+     "E17",
+     "E18"
+    ]
+   },
+   {
+    "point": "Rotating machines next to renewables are an active research topic again. Recent work studies wind and solar plants sharing a site with synchronous condensers, which is close to this patent's core idea.",
+    "evidence": [
+     "E20"
+    ]
+   },
+   {
+    "point": "The patent kept drawing attention after it lapsed. 55 filings by unrelated owners cite it after 2011, and 4 citing filings date from 2019 on, including Schweitzer Engineering Laboratories and Hitachi Energy.",
+    "evidence": [
+     "E9",
+     "E10",
+     "E11",
+     "E12"
+    ]
+   },
+   {
+    "point": "Examiners cited it against 159 later applications, which suggests it describes a foundational idea in this space.",
+    "evidence": [
+     "E13",
+     "E16"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Big incumbents are already here. SMA has a certified grid-forming inverter, and Vestas reportedly offers grid-forming wind turbines. A startup would compete with them, and their approach is power electronics, not necessarily rotating machines.",
+    "evidence": [
+     "E17",
+     "E19"
+    ]
+   },
+   {
+    "point": "Recent momentum is moderate, not hot. Only 4 citing filings date from 2019 on, and some come from ABB's own successors (ABB Schweiz, Hitachi Energy), so the space may be crowded by the original owner's lineage.",
+    "evidence": [
+     "E11",
+     "E12"
+    ]
+   },
+   {
+    "point": "Citations show technical interest, not revenue. There is no evidence here that customers pay for this specific setup.",
+    "evidence": [
+     "E9",
+     "E16"
+    ]
+   },
+   {
+    "point": "The claims are long and specific (shortest independent claim is 184 words), so the patent describes one fairly narrow architecture rather than a broad concept.",
+    "evidence": [
+     "E14"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "105 later patents by other owners were cited against this one and may still be in force. Newer patents could cover the improvements you would actually need to build.",
+    "severity": "high",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "Grid equipment needs IEC or UL certification and a utility interconnection agreement. That means long timelines and real cost before your first sale.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "The patent explains the idea, not the know-how. Control tuning and machine integration will have to be rebuilt by your team.",
+    "severity": "medium",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "point": "The family was filed in 3 jurisdictions. Status outside the US is not covered here and is worth checking, especially if you target Germany's inertia market.",
+    "severity": "medium",
+    "evidence": [
+     "E15",
+     "E18"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Wind or solar plant owners (or grid operators) will pay for a rotating-machine-based stiffening package instead of simply buying a grid-forming inverter from SMA, Vestas or similar incumbents.",
+   "why_riskiest": "The market signal is real, but incumbents already sell inverter-based grid-forming products. If buyers see those as good enough, there is no room for this architecture, no matter what the patent status is.",
+   "how_to_test": "In two weeks, run 10-12 calls with renewable asset managers, interconnection engineers and grid-service developers (Germany plus one US region). Ask how they meet inertia and stiffness requirements today, what they pay, and whether synchronous condensers are on their shortlist. Separately, get one budget quote for a small synchronous condenser and compare it with published grid-forming inverter offerings. Cost: LinkedIn outreach plus small gift cards, under $500.",
+   "evidence": [
+    "E17",
+    "E18",
+    "E19",
+    "E20"
+   ]
+  },
+  "attorney_questions": [
+   "Given the lapse for non-payment and no recorded reinstatement, what should we verify before relying on this patent's expired status, and do the 3 family members in other jurisdictions matter for selling in Germany?",
+   "Which of the 105 later patents cited against this one, especially recent filings by Schweitzer Engineering Laboratories, ABB Schweiz and Hitachi Energy, are worth reviewing for a synchronous-condenser-plus-controller product?",
+   "If we build a modern version with new control software, how should we think about protecting our own improvements given how much prior art this patent creates?"
+  ],
+  "score": 78,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Fee Related",
+   "status": "lapsed_fees",
+   "grant_date": "2003-12-30",
+   "priority_date": "2001-07-10",
+   "filing_date": "2001-07-10",
+   "lapse_date": "2011-12-30",
+   "lapse_source": "legal event FP on 2012-02-21",
+   "fee_window": 8,
+   "fees_paid": [
+    4
+   ],
+   "entity_size": null,
+   "term_end": "2021-07-26",
+   "term_end_estimated": false,
+   "end_date": "2011-12-30",
+   "end_year": 2011,
+   "months_since_end": 177.8,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2025-01-24"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Lapsed 2011-12-30 at the 7.5-year (second) fee window"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "US10731628B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-05-06",
+      "publication_date": "2020-08-04",
+      "assignee": "General Electric Company",
+      "title": "System and method for coordinated control of reactive power from a generator and a reactive power compensation device in a wind turbine system",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Coordinated reactive power control between a generator and a compensation device in a wind system closely parallels the original's controller managing active/reactive power from a rotating machine to firm renewable output."
+     },
+     {
+      "pub": "US10637244B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-07-08",
+      "publication_date": "2020-04-28",
+      "assignee": "Abb Schweiz Ag",
+      "title": "Voltage control of a facts shunt compensator",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Voltage control of a FACTS shunt compensator addresses grid voltage stiffness. That is related to the original's goal, but it uses power electronics rather than a rotating machine."
+     },
+     {
+      "pub": "CN110224438B",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-07-08",
+      "publication_date": "2021-07-20",
+      "assignee": "\u91cd\u5e86\u5927\u5b66",
+      "title": "Ride-through control method for offshore wind farm flexible direct-sending system under power grid fault",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Fault ride-through control for grid-connected offshore wind relates to enhancing renewable power delivery to the grid, though via an HVDC-based approach."
+     },
+     {
+      "pub": "CN109672193B",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-03-01",
+      "publication_date": "2020-07-24",
+      "assignee": "\u91cd\u5e86\u5927\u5b66",
+      "title": "Wind power output system emergency power control method based on active energy consumption operation of fan",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Emergency power control of wind output addresses power variability and grid support for renewables, which overlaps the enhancement objective."
+     },
+     {
+      "pub": "US20200005405A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2018-07-02",
+      "publication_date": "2020-01-02",
+      "assignee": "HEPU Technology Development (Beijing) Co. LTD.",
+      "title": "Wind-solar-gas complementary and coupled power generation system and method",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Grid interconnection and equipment certification",
+    "detail": "Generation equipment needs IEC or UL certification and a utility interconnection agreement.",
+    "where": "IEC 61400 (wind), UL 1741 (inverters), the local utility's interconnection rules",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "kind": "revival",
+    "severity": "low",
+    "title": "Revival risk",
+    "detail": "Lapsed 178 months ago with no reinstatement on record; revival this late requires a petition showing the delay was unintentional.",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "4 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 78,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 1.0,
+     "points": 30.0
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.63,
+     "points": 12.5
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.63,
+     "points": 9.5
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 197,
+   "fwd_after_end": 55,
+   "fwd_after_end_unrelated": 55,
+   "fwd_alive_unrelated": 55,
+   "fwd_recent": 4,
+   "fwd_examiner": 159,
+   "fwd_by_year": {
+    "1999": 2,
+    "2000": 2,
+    "2001": 5,
+    "2002": 13,
+    "2003": 6,
+    "2004": 14,
+    "2005": 12,
+    "2006": 9,
+    "2007": 19,
+    "2008": 15,
+    "2009": 21,
+    "2010": 13,
+    "2011": 11,
+    "2012": 10,
+    "2013": 8,
+    "2014": 6,
+    "2015": 4,
+    "2016": 9,
+    "2017": 3,
+    "2018": 5,
+    "2019": 8,
+    "2020": 2
+   },
+   "recent_companies": [
+    [
+     "Schweitzer Engineering Laboratories, Inc.",
+     2
+    ],
+    [
+     "ABB Schweiz AG",
+     1
+    ],
+    [
+     "Hitachi Energy Switzerland Ag",
+     1
+    ]
+   ],
+   "same_owner_followons": 1,
+   "bwd_total": 17,
+   "bwd_examiner": 6,
+   "family_countries": 3,
+   "live_family": 0,
+   "claims_count": 56,
+   "shortest_claim_words": 184
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "The underlying problem the patent addresses, making renewable plants 'stiff' and grid-supporting, has become an active regulatory and commercial topic. Grid-forming and inertia requirements are now being formalized.",
+     "evidence": [
+      "E18",
+      "E17",
+      "E19",
+      "E20"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "The patent has been widely used as technical prior art. Many later filings cite it, including dozens from unrelated owners after it lapsed, and examiners frequently cite it against new applications.",
+     "evidence": [
+      "E9",
+      "E10",
+      "E13"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Recent citation momentum is modest but comes from established grid-equipment players. This suggests continued technical relevance rather than a surge of new filings.",
+     "evidence": [
+      "E11",
+      "E12",
+      "E16"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The original owner lapsed the patent early, giving up about 10 years of term. Its claims are long and specific, which may limit how directly they map onto current products.",
+     "evidence": [
+      "E1",
+      "E3",
+      "E14"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Schweitzer Engineering Laboratories, ABB Schweiz AG and Hitachi Energy have filed citing work since 2019. Separately, SMA (grid-forming battery inverters) and Vestas (GridStreamer grid-forming turbines) appear in market evidence on grid-forming capability.",
+   "market_read": "Grid-forming and inertia services for renewables appear to be moving from research into certified products and formal markets, at least in Germany, which points to real commercial pull in this field. The citation record shows sustained technical interest, but it does not establish revenue, so a founder should validate demand and differentiation against the incumbents named here and obtain proper legal review before relying on this patent's lapse."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "SMA's Sunny Central UP-S battery inverter platform is the first to be certified under VDE FNN guideline v2.1 to provide grid-forming inertia to the German grid.",
+    "url": "https://www.energy-storage.news/sma-battery-inverter-first-to-win-grid-forming-certification-for-german-inertia-market/",
+    "confidence": "medium",
+    "evidence": "E17"
+   },
+   {
+    "kind": "market",
+    "finding": "A VDE FNN guideline published in early 2026 sets the requirements for grid-forming units and plants to take part in Germany's new inertia market.",
+    "url": "https://www.energy-storage.news/sma-battery-inverter-first-to-win-grid-forming-certification-for-german-inertia-market/",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "company",
+    "finding": "A PatSnap report says Vestas has added grid-forming capability to its wind turbines through GridStreamer technology to improve inertial response.",
+    "url": "https://eureka.patsnap.com/report-enhancing-inertial-response-in-grid-forming-inverters",
+    "confidence": "low",
+    "evidence": "E19"
+   },
+   {
+    "kind": "market",
+    "finding": "A recent arXiv paper studies wind and solar plants that share a site with synchronous condensers, citing 2024-2025 IEEE work on using synchronous condensers to stabilise grids with high shares of inverter-based renewables.",
+    "url": "https://arxiv.org/pdf/2603.25192",
+    "confidence": "medium",
+    "evidence": "E20"
+   }
+  ],
+  "evidence": [
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16"
+  ],
+  "named": {
+   "total": "E9",
+   "after": "E10",
+   "recent": "E11",
+   "companies": "E12",
+   "score": "E16"
+  },
+  "summary": "Score 78/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7265456B2",
+    "title": "Power generation system incorporating a vanadium redox battery and a direct current wind turbine generator",
+    "score": 52,
+    "status": "expired_term",
+    "end_year": 2025
+   },
+   {
+    "pub": "US6541877B2",
+    "title": "Wind power generation system",
+    "score": 74,
+    "status": "lapsed_fees",
+    "end_year": 2011
+   },
+   {
+    "pub": "US6608397B2",
+    "title": "Wind driven electrical power generating apparatus",
+    "score": 67,
+    "status": "lapsed_fees",
+    "end_year": 2007
+   },
+   {
+    "pub": "US7322794B2",
+    "title": "Method and apparatus for condition-based monitoring of wind turbine components",
+    "score": 56,
+    "status": "expired_term",
+    "end_year": 2023
+   },
+   {
+    "pub": "US7160083B2",
+    "title": "Method and apparatus for wind turbine rotor load control",
+    "score": 68,
+    "status": "expired_term",
+    "end_year": 2023
+   }
+  ],
+  "summary": "5 similar dead patents in Wind energy"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6670721B2 lapsed on 2011-12-30 because the 7.5-year (second) maintenance fee was not paid.",
+   "source": "https://patents.google.com/patent/US6670721B2/en#legalEvents",
+   "method": "Read from legal event FP on 2012-02-21",
+   "confidence": "high",
+   "data": {
+    "status": "lapsed_fees",
+    "lapse_date": "2011-12-30",
+    "window": 8
+   }
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid the 4th-year fee(s) before stopping.",
+   "source": "https://patents.google.com/patent/US6670721B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The owner gave up roughly 10 years of remaining term (term would have ended 2021-07-26).",
+   "source": "https://patents.google.com/patent/US6670721B2/en",
+   "method": "Term end from the expiration event, else filing date plus 20 years",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20250124174217.",
+   "source": "https://patents.google.com/patent/US6670721B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "105 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6670721B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US10731628B1",
+     "US10637244B1",
+     "CN110224438B",
+     "CN109672193B",
+     "US20200005405A1"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "Grid interconnection and equipment certification: Generation equipment needs IEC or UL certification and a utility interconnection agreement.",
+   "source": "IEC 61400 (wind), UL 1741 (inverters), the local utility's interconnection rules",
+   "method": "Blocker checklist rule 'energy_grid' matched CPC H02J3/381, F03D9/255, F03D9/257",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "No reinstatement event is on record since the lapse.",
+   "source": "https://patents.google.com/patent/US6670721B2/en#legalEvents",
+   "method": "Searched legal events for reinstatement codes",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "Cited by 197 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6670721B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 197
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "55 later filings by unrelated owners cite it with priority dates after it lapsed (2011-12-30).",
+   "source": "https://patents.google.com/patent/US6670721B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 55
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "4 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6670721B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 4
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: Schweitzer Engineering Laboratories, Inc. (2), ABB Schweiz AG (1), Hitachi Energy Switzerland Ag (1).",
+   "source": "https://patents.google.com/patent/US6670721B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "Schweitzer Engineering Laboratories, Inc.",
+      2
+     ],
+     [
+      "ABB Schweiz AG",
+      1
+     ],
+     [
+      "Hitachi Energy Switzerland Ag",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Examiners cited it against 159 later applications.",
+   "source": "https://patents.google.com/patent/US6670721B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 184 words across 56 claims.",
+   "source": "https://patents.google.com/patent/US6670721B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "The family was filed in 3 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6670721B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Revival score 78/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Product: SMA's Sunny Central UP-S battery inverter platform is the first to be certified under VDE FNN guideline v2.1 to provide grid-forming inertia to the German grid.",
+   "source": "https://www.energy-storage.news/sma-battery-inverter-first-to-win-grid-forming-certification-for-german-inertia-market/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Market: A VDE FNN guideline published in early 2026 sets the requirements for grid-forming units and plants to take part in Germany's new inertia market.",
+   "source": "https://www.energy-storage.news/sma-battery-inverter-first-to-win-grid-forming-certification-for-german-inertia-market/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Company: A PatSnap report says Vestas has added grid-forming capability to its wind turbines through GridStreamer technology to improve inertial response.",
+   "source": "https://eureka.patsnap.com/report-enhancing-inertial-response-in-grid-forming-inverters",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Market: A recent arXiv paper studies wind and solar plants that share a site with synchronous condensers, citing 2024-2025 IEEE work on using synchronous condensers to stabilise grids with high shares of inverter-based renewables.",
+   "source": "https://arxiv.org/pdf/2603.25192",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Wind energy",
+   "seconds": 0.02
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Lapsed 2011-12-30 at the 7.5-year (second) fee window",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "4 possible blockers, 0 high severity",
+   "seconds": 6.3
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 78/100, high confidence: Dead patent with a future",
+   "seconds": 36.01
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 19.9
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1588,
+    "output_tokens": 555,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01745,
+    "seconds": 6.2
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 31357,
+    "output_tokens": 1746,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.20035,
+    "seconds": 28.4
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1021,
+    "output_tokens": 594,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01609,
+    "seconds": 7.6
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2193,
+    "output_tokens": 1804,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04514,
+    "seconds": 19.9
+   }
+  ],
+  "total_cost_usd": 0.279,
+  "seconds": 62.2
+ }
+}

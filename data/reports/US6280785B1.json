@@ -1,0 +1,759 @@
+{
+ "pub": "US6280785B1",
+ "title": "Rapid prototyping and fabrication method for 3-D food objects",
+ "generated_at": "2026-10-25T16:38:51+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future: a lapsed 2001 patent on 3D-printing food layer by layer, in a field that still looks active, scoring 78/100 with high confidence.",
+  "what_it_is": "This patent covers a method for printing a food object from a computer design. A nozzle squeezes out a paste, like cake batter or icing, layer by layer onto a platform, and the paste firms up fast enough to hold its shape before an optional baking step.",
+  "why_it_died": {
+   "text": "The owner paid the first two maintenance fees, then stopped paying the third one. The patent lapsed in 2013, about 7 years before it would have expired anyway. The record does not say why they stopped. Not paying a fee is usually a business decision, not proof the idea was bad. But it also does not prove the idea was good, which is why 'Died for money, not merit' scored only 5.2 out of 15. No reinstatement appears on record.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E7"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "The field appears to still be alive. Later filings kept building on this patent long after it lapsed, including some from 2019 onward. That is why 'Field still alive' scored a full 30/30 and 'Recent momentum' scored 15.2/20.",
+    "evidence": [
+     "E9",
+     "E10",
+     "E11",
+     "E16"
+    ]
+   },
+   {
+    "point": "Real food companies seem interested. Frito-Lay, Redefine Meat (alternative meat) and a German food-tech institute have filed on top of this patent since 2019.",
+    "evidence": [
+     "E12"
+    ]
+   },
+   {
+    "point": "Patent examiners treated it as important prior work. They cited it against 80 later applications, which suggests it describes a foundational technique.",
+    "evidence": [
+     "E13"
+    ]
+   },
+   {
+    "point": "Someone already sells a product in this space. Natural Machines markets the Foodini printer to restaurants, hotels, texture-modified diets for people who have trouble swallowing, and education. That may show paying customers exist in specific niches.",
+    "evidence": [
+     "E17"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "An existing product means you would likely face a competitor on day one. You would need a clear niche or a better approach than the Foodini.",
+    "evidence": [
+     "E17"
+    ]
+   },
+   {
+    "point": "Interest is not the same as a market. The evidence shows filings and one product, but nothing on market size or revenue.",
+    "evidence": [
+     "E9",
+     "E12",
+     "E17"
+    ]
+   },
+   {
+    "point": "The patent was filed in only one country, so it says little about how the idea was treated elsewhere. Its claims are also long (shortest is 172 words), so they were fairly narrow. That fits the middling 7.8/15 breadth score.",
+    "evidence": [
+     "E14",
+     "E15"
+    ]
+   },
+   {
+    "point": "Several newer, still-active-looking filings build on this idea. The valuable improvements may sit in those newer patents, not in this old one.",
+    "evidence": [
+     "E5",
+     "E10",
+     "E12"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Later patents by other owners may still be in force. Examiners cited 71 of them against this one. Any of them could cover parts of a modern food printer or process.",
+    "severity": "high",
+    "evidence": [
+     "E5",
+     "E10"
+    ]
+   },
+   {
+    "point": "Specific food pastes, ingredient recipes or process settings may be patented separately, even if the basic printing method is not. Recent filers like Frito-Lay and Redefine Meat may hold some of these.",
+    "severity": "high",
+    "evidence": [
+     "E6",
+     "E12"
+    ]
+   },
+   {
+    "point": "The patent explains the idea, not how to make it work reliably. Expect to work out paste recipes, temperatures and nozzle settings yourself.",
+    "severity": "medium",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "point": "No reinstatement is on record, which looks good. Still, the status should be confirmed against current official records. These facts come from an archived web snapshot from October 2024.",
+    "severity": "low",
+    "evidence": [
+     "E4",
+     "E7"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "A specific niche, such as care homes serving texture-modified meals or bakeries making custom cake decorations, will pay for a food-printing product or service instead of buying an existing printer like the Foodini or decorating by hand.",
+   "why_riskiest": "The technical idea appears proven and the field active. What is not shown is whether any niche will pay enough, and why they would choose you over an existing product. Without that, nothing else matters.",
+   "how_to_test": "Pick one niche. Do 15 to 20 short interviews with buyers, such as care home kitchen managers or bakery owners. Ask how they handle the task today, what it costs, and whether they looked at the Foodini and why they did or did not buy. Run a $200 landing page with a price and a 'request a pilot' button, aimed at that niche. Success means at least 3 buyers who state a concrete budget or agree to a paid pilot.",
+   "evidence": [
+    "E17",
+    "E12",
+    "E16"
+   ]
+  },
+  "attorney_questions": [
+   "Can you confirm from current official records that US6280785B1 and the related US6280784B1 lapsed and were never reinstated, and that no other family members exist?",
+   "Which of the 71 later patents cited against this one, and the recent filings by Frito-Lay, Redefine Meat and others, appear to still be in force and may be worth reviewing for our planned product, materials and process?",
+   "If we develop our own food paste recipes and process settings, what should we do to document them, and is any of it worth protecting with our own filings or as trade secrets?"
+  ],
+  "score": 78,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Fee Related",
+   "status": "lapsed_fees",
+   "grant_date": "2001-08-28",
+   "priority_date": "2000-03-28",
+   "filing_date": "2000-03-28",
+   "lapse_date": "2013-08-28",
+   "lapse_source": "legal event FP on 2013-10-15",
+   "fee_window": 12,
+   "fees_paid": [
+    4,
+    8
+   ],
+   "entity_size": null,
+   "term_end": "2020-03-28",
+   "term_end_estimated": false,
+   "end_date": "2013-08-28",
+   "end_year": 2013,
+   "months_since_end": 157.9,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2024-10-07"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Lapsed 2013-08-28 at the 11.5-year (third) fee window"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "WO2022079718A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-10-14",
+      "publication_date": "2022-04-21",
+      "assignee": "Redefine Meat Ltd.",
+      "title": "System and method for fabrication of a three-dimensional edible product",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Redefine Meat system for fabricating 3D edible products by layered dispensing; title directly matches the core computer-controlled food deposition method of the original."
+     },
+     {
+      "pub": "US20220104530A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-10-05",
+      "publication_date": "2022-04-07",
+      "assignee": "Frito-Lay North America, Inc.",
+      "title": "Commercial scale 3d food printing",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Frito-Lay commercial-scale 3D food printing; title suggests scaling improvements to layer-by-layer food dispensing that a product built on the original method could use."
+     },
+     {
+      "pub": "WO2020260053A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-06-27",
+      "publication_date": "2020-12-30",
+      "assignee": "Kraft Foods Schweiz Holding Gmbh",
+      "title": "Print head and method for 3d printing and products obtained therefrom",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Kraft print head and method for 3D printing food products; the dispensing head is a central element of the original claim."
+     },
+     {
+      "pub": "CN114081052A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2021-09-24",
+      "publication_date": "2022-02-25",
+      "assignee": "\u5218\u6587\u6d77",
+      "title": "Wriggling formula cake mounting flower mechanism",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Peristaltic cake decorating mechanism relates to dispensing icing onto cakes, an application named in the original abstract. It may not involve computer-controlled layer building."
+     },
+     {
+      "pub": "US20230080827A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2021-09-13",
+      "publication_date": "2023-03-16",
+      "assignee": "Triex, Llc",
+      "title": "Additive manufacturing system with flow control and additive injection device",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Flow control and additive injection for additive manufacturing could apply to food dispensing heads, but the title does not specify food."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "low",
+    "title": "Material and machine patents",
+    "detail": "Printer hardware may be free while specific materials, powders or process parameters stay patented.",
+    "where": "Forward citations from materials companies",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "kind": "revival",
+    "severity": "low",
+    "title": "Revival risk",
+    "detail": "Lapsed 158 months ago with no reinstatement on record; revival this late requires a petition showing the delay was unintentional.",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "regulatory_burden": "low",
+  "llm_rated": true,
+  "summary": "4 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 78,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 1.0,
+     "points": 30.0
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.76,
+     "points": 15.2
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.35,
+     "points": 5.2
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.52,
+     "points": 7.8
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 108,
+   "fwd_after_end": 65,
+   "fwd_after_end_unrelated": 65,
+   "fwd_alive_unrelated": 65,
+   "fwd_recent": 6,
+   "fwd_examiner": 80,
+   "fwd_by_year": {
+    "2001": 2,
+    "2003": 3,
+    "2004": 1,
+    "2005": 1,
+    "2006": 2,
+    "2009": 1,
+    "2010": 1,
+    "2011": 21,
+    "2012": 8,
+    "2013": 6,
+    "2014": 22,
+    "2015": 15,
+    "2016": 11,
+    "2017": 6,
+    "2019": 2,
+    "2020": 4,
+    "2021": 2
+   },
+   "recent_companies": [
+    [
+     "Frito-Lay North America, Inc.",
+     2
+    ],
+    [
+     "\u5218\u6587\u6d77",
+     1
+    ],
+    [
+     "DIL Deutsches Institut f\u00fcr Lebensmitteltechnik e.V.",
+     1
+    ],
+    [
+     "Redefine Meat Ltd.",
+     1
+    ],
+    [
+     "Triex, Llc",
+     1
+    ]
+   ],
+   "same_owner_followons": 0,
+   "bwd_total": 14,
+   "bwd_examiner": 2,
+   "family_countries": 1,
+   "live_family": 0,
+   "claims_count": 35,
+   "shortest_claim_words": 172
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Sustained technical interest after lapse: the patent remains a frequently cited foundation for food 3D printing, with most citations coming from unrelated owners after it lapsed.",
+     "evidence": [
+      "E9",
+      "E10",
+      "E13"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Recent but modest momentum: a small number of new filings since 2019 build on it, including from a large snack company and an alternative-protein firm, suggesting continued exploration in snacks and plant-based meat.",
+     "evidence": [
+      "E11",
+      "E12",
+      "E16"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "A commercial product exists in the space: Natural Machines sells the Foodini 3D food printer into hospitality, texture-modified diets, education and seafood R&D, which indicates some market activity, though not its scale.",
+     "evidence": [
+      "E17"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The original owner stopped paying maintenance fees about 7 years before the term would have ended, which may mean it saw limited commercial value at the time. The patent was also filed in only one jurisdiction.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E3",
+      "E15"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Recent filers citing this patent include Frito-Lay North America, Redefine Meat, DIL Deutsches Institut f\u00fcr Lebensmitteltechnik, Triex LLC and an individual inventor (\u5218\u6587\u6d77), and Natural Machines markets the Foodini food printer.",
+   "market_read": "Food 3D printing remains technically alive, with steady citation activity and niche commercial uses such as personalized and texture-modified food, alternative proteins and hospitality decoration. The evidence shows interest and at least one product on the market, but it does not establish market size or revenue, so a founder should validate demand in a specific niche before committing."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "Natural Machines sells the Foodini 3D food printer and markets it for restaurants, hotels and catering, dysphagia/texture-modified diets, STEM education, and a seafood R&D project (Future Fish) with Mat\u00eds.",
+    "url": "https://www.naturalmachines.com/users",
+    "confidence": "medium",
+    "evidence": "E17"
+   }
+  ],
+  "evidence": [
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16"
+  ],
+  "named": {
+   "total": "E9",
+   "after": "E10",
+   "recent": "E11",
+   "companies": "E12",
+   "score": "E16"
+  },
+  "summary": "Score 78/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US6907307B2",
+    "title": "Support volume calculation for a CAD model",
+    "score": 67,
+    "status": "expired_term",
+    "end_year": 2022
+   },
+   {
+    "pub": "US6280784B1",
+    "title": "Method for rapidly making a 3-D food object",
+    "score": 73,
+    "status": "lapsed_fees",
+    "end_year": 2013
+   },
+   {
+    "pub": "US7819662B2",
+    "title": "Multi-component dental appliances and a method for constructing the same",
+    "score": 42,
+    "status": "expired_term",
+    "end_year": 2026
+   },
+   {
+    "pub": "US6609043B1",
+    "title": "Method and system for constructing a structural foam part",
+    "score": 66,
+    "status": "expired_term",
+    "end_year": 2020
+   },
+   {
+    "pub": "US6780368B2",
+    "title": "Layer manufacturing of a multi-material or multi-color 3-D object using electrostatic imaging and lamination",
+    "score": 88,
+    "status": "lapsed_fees",
+    "end_year": 2016
+   }
+  ],
+  "summary": "5 similar dead patents in 3D printing"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6280785B1 lapsed on 2013-08-28 because the 11.5-year (third) maintenance fee was not paid.",
+   "source": "https://patents.google.com/patent/US6280785B1/en#legalEvents",
+   "method": "Read from legal event FP on 2013-10-15",
+   "confidence": "high",
+   "data": {
+    "status": "lapsed_fees",
+    "lapse_date": "2013-08-28",
+    "window": 12
+   }
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid the 4th-year, 8th-year fee(s) before stopping.",
+   "source": "https://patents.google.com/patent/US6280785B1/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The owner gave up roughly 7 years of remaining term (term would have ended 2020-03-28).",
+   "source": "https://patents.google.com/patent/US6280785B1/en",
+   "method": "Term end from the expiration event, else filing date plus 20 years",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20241007124011.",
+   "source": "https://patents.google.com/patent/US6280785B1/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "71 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6280785B1/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "WO2022079718A1",
+     "US20220104530A1",
+     "WO2020260053A1",
+     "CN114081052A",
+     "US20230080827A1"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "Material and machine patents: Printer hardware may be free while specific materials, powders or process parameters stay patented.",
+   "source": "Forward citations from materials companies",
+   "method": "Blocker checklist rule 'additive' matched CPC A21C15/002, A21C11/163, A23P20/20",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "No reinstatement event is on record since the lapse.",
+   "source": "https://patents.google.com/patent/US6280785B1/en#legalEvents",
+   "method": "Searched legal events for reinstatement codes",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "Cited by 108 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6280785B1/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 108
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "65 later filings by unrelated owners cite it with priority dates after it lapsed (2013-08-28).",
+   "source": "https://patents.google.com/patent/US6280785B1/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 65
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "6 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6280785B1/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 6
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: Frito-Lay North America, Inc. (2), \u5218\u6587\u6d77 (1), DIL Deutsches Institut f\u00fcr Lebensmitteltechnik e.V. (1), Redefine Meat Ltd. (1), Triex, Llc (1).",
+   "source": "https://patents.google.com/patent/US6280785B1/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "Frito-Lay North America, Inc.",
+      2
+     ],
+     [
+      "\u5218\u6587\u6d77",
+      1
+     ],
+     [
+      "DIL Deutsches Institut f\u00fcr Lebensmitteltechnik e.V.",
+      1
+     ],
+     [
+      "Redefine Meat Ltd.",
+      1
+     ],
+     [
+      "Triex, Llc",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Examiners cited it against 80 later applications.",
+   "source": "https://patents.google.com/patent/US6280785B1/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 172 words across 35 claims.",
+   "source": "https://patents.google.com/patent/US6280785B1/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "The family was filed in 1 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6280785B1/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Revival score 78/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Product: Natural Machines sells the Foodini 3D food printer and markets it for restaurants, hotels and catering, dysphagia/texture-modified diets, STEM education, and a seafood R&D project (Future Fish) with Mat\u00eds.",
+   "source": "https://www.naturalmachines.com/users",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in 3D printing",
+   "seconds": 0.04
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Lapsed 2013-08-28 at the 11.5-year (third) fee window",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "4 possible blockers, 0 high severity",
+   "seconds": 7.41
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 78/100, high confidence: Dead patent with a future",
+   "seconds": 31.81
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 20.07
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1567,
+    "output_tokens": 570,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01767,
+    "seconds": 7.4
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 29085,
+    "output_tokens": 1056,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.17746,
+    "seconds": 25.2
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 961,
+    "output_tokens": 594,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01585,
+    "seconds": 6.6
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2054,
+    "output_tokens": 1744,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04338,
+    "seconds": 20.1
+   }
+  ],
+  "total_cost_usd": 0.2544,
+  "seconds": 59.3
+ }
+}

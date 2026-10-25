@@ -1,0 +1,787 @@
+{
+ "pub": "US6938025B1",
+ "title": "Method and apparatus for automatically determining salient features for object classification",
+ "generated_at": "2026-10-25T16:31:38+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future (78/100, high confidence): the field is clearly alive, but the core technique appears commoditized, so any business would need to come from a specific vertical use.",
+  "what_it_is": "A method for sorting documents by comparing a group you care about with a contrasting 'anti-content' group, then ranking the words or features that show up mostly in the first group. The top-ranked features are used to tell the two groups apart and classify documents.",
+  "why_it_died": {
+   "text": "Microsoft paid the 4th- and 8th-year maintenance fees and then skipped the third fee. The patent lapsed in 2017, about 5 years early. No reinstatement appears on record. The record does not say why the fee was skipped. The modest 'died for money, not merit' score (5.2/15) means the lapse alone does not show the idea was undervalued.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E8",
+    "E4"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "The field still looks technically active. The patent has 88 citing filings, 26 from unrelated owners after it lapsed, and 9 from 2019 on. This is why it scored full marks for 'field still alive' and 18/20 for momentum.",
+    "evidence": [
+     "E10",
+     "E11",
+     "E12",
+     "E17"
+    ]
+   },
+   {
+    "point": "Examiners cited it against 13 later applications. That suggests it sits close to work people are still trying to patent today.",
+    "evidence": [
+     "E14"
+    ]
+   },
+   {
+    "point": "Specific companies, mainly the Autobrains/Cartica group, keep filing on top of it. They could be partners, customers, or a signal of where demand sits.",
+    "evidence": [
+     "E13"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Very similar statistical feature ranking (chi-square, SelectKBest) appears to be freely available in scikit-learn and widely taught. The method alone is unlikely to be a moat.",
+    "evidence": [
+     "E18",
+     "E19"
+    ]
+   },
+   {
+    "point": "The claims are long. The shortest independent claim is 224 words. Breadth at grant scored only 5.1/15, so the specific steps described may be narrow.",
+    "evidence": [
+     "E15"
+    ]
+   },
+   {
+    "point": "Citations show interest, not revenue. The market signals here measure patent activity, not paying customers.",
+    "evidence": [
+     "E10",
+     "E11"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Microsoft holds a later related patent that may still be in force: US9251473B2, 'Identifying salient items in documents.'",
+    "severity": "high",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "Five later patents by other owners were cited against this one and may still be in force.",
+    "severity": "medium",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Software classification is crowded with overlapping live patents from large incumbents. Data products may also face privacy rules such as HIPAA, GDPR and CCPA.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "The patent describes the idea, not the working know-how. Expect to rebuild the practical details yourself, though open tools may cover much of it.",
+    "severity": "low",
+    "evidence": [
+     "E9",
+     "E18"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Buyers in one specific vertical (for example legal, compliance or support-ticket triage) will pay for a product that explains which features separate their 'relevant' documents from 'irrelevant' ones, rather than using free scikit-learn tools.",
+   "why_riskiest": "The technique appears freely documented and widely taught. So all the value has to come from a vertical product people will pay for, not from the method itself.",
+   "how_to_test": "Pick one vertical. Build a quick scikit-learn chi2 demo on public sample documents. Spend about $200 on a landing page and targeted ads offering 'see what makes your documents different.' Run 10-15 interviews with people who sort documents by hand. Success looks like at least 3 people agreeing to a paid pilot or a pre-order within two weeks.",
+   "evidence": [
+    "E18",
+    "E19",
+    "E7"
+   ]
+  },
+  "attorney_questions": [
+   "Do Microsoft's US9251473B2 or the five later patents cited against this one have live claims that could cover a document classifier built on contrast-group feature ranking?",
+   "Since the third maintenance fee was not paid and no reinstatement is on record, is there any remaining risk of revival or other rights tied to US6938025B1?",
+   "Are there recent Autobrains/Cartica or other incumbent filings in our target vertical that we should review before building?"
+  ],
+  "score": 78,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Fee Related",
+   "status": "lapsed_fees",
+   "grant_date": "2005-08-30",
+   "priority_date": "2001-05-07",
+   "filing_date": "2001-09-25",
+   "lapse_date": "2017-08-30",
+   "lapse_source": "legal event FP on 2017-10-17",
+   "fee_window": 12,
+   "fees_paid": [
+    4,
+    8
+   ],
+   "entity_size": null,
+   "term_end": "2022-09-13",
+   "term_end_estimated": false,
+   "end_date": "2017-08-30",
+   "end_year": 2017,
+   "months_since_end": 109.8,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2024-12-03"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Lapsed 2017-08-30 at the 11.5-year (third) fee window"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "medium",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "US9251473B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2013-03-13",
+      "publication_date": "2016-02-02",
+      "assignee": "Microsoft Technology Licensing, Llc",
+      "title": "Identifying salient items in documents",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Title on identifying salient items in documents is close to the original's salient feature identification for document classification, though the focus may be item extraction rather than contrast-group ranking."
+     }
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "US20180300333A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2017-04-13",
+      "publication_date": "2018-10-18",
+      "assignee": "General Electric Company",
+      "title": "Feature subset selection and ranking",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Feature subset selection and ranking is conceptually close to ranking features for salience, but the title gives no indication of content/anti-content document groups."
+     },
+     {
+      "pub": "US10528907B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2012-12-19",
+      "publication_date": "2020-01-07",
+      "assignee": "Oath Inc.",
+      "title": "Automated categorization of products in a merchant catalog",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Automated categorization of catalog products is an object classification task that could build on salient feature selection, though it is domain-specific."
+     },
+     {
+      "pub": "CN115952327A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2023-03-15",
+      "publication_date": "2023-04-11",
+      "assignee": "\u6df1\u5733\u5e02\u65af\u7ef4\u5c14\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "title": "Method and device for extracting project list data, controller and storage medium",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Title concerns extracting project list data, which appears to be domain-specific data extraction rather than salient feature ranking for classification."
+     },
+     {
+      "pub": "US20150302093A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-04-17",
+      "publication_date": "2015-10-22",
+      "assignee": "OnPage.org GmbH",
+      "title": "Method and system for filtering of a website",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Website filtering may involve classification, but the title suggests an application rather than an improvement to feature-ranking methods."
+     },
+     {
+      "pub": "US20150142609A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2013-11-15",
+      "publication_date": "2015-05-21",
+      "assignee": "Wal-Mart Stores, Inc.",
+      "title": "Identifying classes of product desirability via feature correlations",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Product desirability via feature correlations applies feature analysis to a retail domain; it is only loosely related to document salient-feature extraction."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "low",
+    "title": "Dense live patents and open standards",
+    "detail": "Software fields have many overlapping live patents; check recent filings by large incumbents. Data products may also face privacy rules (HIPAA, GDPR, CCPA).",
+    "where": "Recent forward citations from large assignees",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "revival",
+    "severity": "low",
+    "title": "Revival risk",
+    "detail": "Lapsed 110 months ago with no reinstatement on record; revival this late requires a petition showing the delay was unintentional.",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E9"
+    ]
+   }
+  ],
+  "regulatory_burden": "low",
+  "llm_rated": true,
+  "summary": "5 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 78,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 1.0,
+     "points": 30.0
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.9,
+     "points": 18.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.35,
+     "points": 5.2
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.34,
+     "points": 5.1
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 88,
+   "fwd_after_end": 26,
+   "fwd_after_end_unrelated": 26,
+   "fwd_alive_unrelated": 26,
+   "fwd_recent": 9,
+   "fwd_examiner": 13,
+   "fwd_by_year": {
+    "2001": 1,
+    "2002": 1,
+    "2003": 2,
+    "2005": 46,
+    "2006": 3,
+    "2012": 1,
+    "2013": 2,
+    "2014": 2,
+    "2015": 1,
+    "2017": 3,
+    "2018": 7,
+    "2019": 12,
+    "2020": 4,
+    "2021": 1,
+    "2022": 1,
+    "2023": 1
+   },
+   "recent_companies": [
+    [
+     "Autobrains Technologies Ltd",
+     4
+    ],
+    [
+     "AutoBrains Technologies Ltd.",
+     3
+    ],
+    [
+     "Cartica Ai Ltd",
+     1
+    ],
+    [
+     "\u6df1\u5733\u5e02\u65af\u7ef4\u5c14\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+     1
+    ]
+   ],
+   "same_owner_followons": 1,
+   "bwd_total": 28,
+   "bwd_examiner": 4,
+   "family_countries": 1,
+   "live_family": 0,
+   "claims_count": 31,
+   "shortest_claim_words": 224
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Sustained technical interest after lapse: the patent continues to be cited by unrelated owners well after maintenance stopped, including a cluster of recent filings.",
+     "evidence": [
+      "E10",
+      "E11",
+      "E12",
+      "E17"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Recent citing activity is concentrated in one corporate group (Autobrains/Cartica AI), which suggests a narrow set of active builders rather than broad industry adoption.",
+     "evidence": [
+      "E13",
+      "E12"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The core idea, ranking features by statistical difference between classes, is now commodity practice in open-source tooling and teaching. Differentiation would likely need to come from application, data, or integration rather than the method itself.",
+     "evidence": [
+      "E18",
+      "E19"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "The original owner stopped paying maintenance fees with about 5 years of term left and filed in only one jurisdiction. This hints the owner saw limited commercial value in keeping it, though the reason is not stated in the record.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E3",
+      "E16"
+     ],
+     "confidence": "low"
+    }
+   ],
+   "who_is_active": "Since 2019 the most frequent citing filer is Autobrains Technologies (7 filings across two name variants), alongside the related Cartica Ai Ltd and one filing from \u6df1\u5733\u5e02\u65af\u7ef4\u5c14\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8.",
+   "market_read": "Citation activity shows the statistical salient-feature selection field is still technically alive, with recent filings led mainly by the Autobrains/Cartica group, but citations indicate interest, not revenue. Because comparable chi-square feature selection is freely documented in scikit-learn and widely taught, a founder should treat this as a crowded, commoditized technique and seek value in a specific vertical application; any freedom-to-operate question needs a patent attorney's review."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "scikit-learn's current documentation (v1.9.1) offers SelectKBest with a chi2 statistical test to keep the top-k features for classification, similar to ranking features by statistical difference between classes.",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "market",
+    "finding": "A tutorial on text-classification methods describes picking terms whose chi-square score shows they depend on the document's class, which suggests the approach is widely taught.",
+    "url": "http://ethen8181.github.io/machine-learning/text_classification/chisquare.html",
+    "confidence": "low",
+    "evidence": "E19"
+   }
+  ],
+  "evidence": [
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17"
+  ],
+  "named": {
+   "total": "E10",
+   "after": "E11",
+   "recent": "E12",
+   "companies": "E13",
+   "score": "E17"
+  },
+  "summary": "Score 78/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7769895B1",
+    "title": "System and method for ensuring that a web browser displays the highest ranked image format possible for an image",
+    "score": 37,
+    "status": "lapsed_fees",
+    "end_year": 2022
+   },
+   {
+    "pub": "US7467349B1",
+    "title": "Method and system for displaying a hyperlink at multiple levels of prominence based on user interaction",
+    "score": 65,
+    "status": "expired_term",
+    "end_year": 2026
+   },
+   {
+    "pub": "US7716198B2",
+    "title": "Ranking search results using feature extraction",
+    "score": 59,
+    "status": "lapsed_fees",
+    "end_year": 2014
+   },
+   {
+    "pub": "US7716225B1",
+    "title": "Ranking documents based on user behavior and/or feature data",
+    "score": 50,
+    "status": "expired_term",
+    "end_year": 2025
+   },
+   {
+    "pub": "US6711451B2",
+    "title": "Power management in selective deposition modeling",
+    "score": 38,
+    "status": "expired_term",
+    "end_year": 2022
+   }
+  ],
+  "summary": "5 similar dead patents in Computing and software"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6938025B1 lapsed on 2017-08-30 because the 11.5-year (third) maintenance fee was not paid.",
+   "source": "https://patents.google.com/patent/US6938025B1/en#legalEvents",
+   "method": "Read from legal event FP on 2017-10-17",
+   "confidence": "high",
+   "data": {
+    "status": "lapsed_fees",
+    "lapse_date": "2017-08-30",
+    "window": 12
+   }
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid the 4th-year, 8th-year fee(s) before stopping.",
+   "source": "https://patents.google.com/patent/US6938025B1/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The owner gave up roughly 5 years of remaining term (term would have ended 2022-09-13).",
+   "source": "https://patents.google.com/patent/US6938025B1/en",
+   "method": "Term end from the expiration event, else filing date plus 20 years",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20241203144442.",
+   "source": "https://patents.google.com/patent/US6938025B1/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 1 later patent(s) citing this one that may still be in force, e.g. US9251473B2 (Identifying salient items in documents).",
+   "source": "https://patents.google.com/patent/US6938025B1/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US9251473B2"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "5 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6938025B1/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US20180300333A1",
+     "US10528907B2",
+     "CN115952327A",
+     "US20150302093A1",
+     "US20150142609A1"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "Dense live patents and open standards: Software fields have many overlapping live patents; check recent filings by large incumbents. Data products may also face privacy rules (HIPAA, GDPR, CCPA).",
+   "source": "Recent forward citations from large assignees",
+   "method": "Blocker checklist rule 'software' matched CPC G06F16/285, Y10S707/99931",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "No reinstatement event is on record since the lapse.",
+   "source": "https://patents.google.com/patent/US6938025B1/en#legalEvents",
+   "method": "Searched legal events for reinstatement codes",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "Cited by 88 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6938025B1/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 88
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "26 later filings by unrelated owners cite it with priority dates after it lapsed (2017-08-30).",
+   "source": "https://patents.google.com/patent/US6938025B1/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 26
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "9 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6938025B1/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 9
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: Autobrains Technologies Ltd (4), AutoBrains Technologies Ltd. (3), Cartica Ai Ltd (1), \u6df1\u5733\u5e02\u65af\u7ef4\u5c14\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 (1).",
+   "source": "https://patents.google.com/patent/US6938025B1/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "Autobrains Technologies Ltd",
+      4
+     ],
+     [
+      "AutoBrains Technologies Ltd.",
+      3
+     ],
+     [
+      "Cartica Ai Ltd",
+      1
+     ],
+     [
+      "\u6df1\u5733\u5e02\u65af\u7ef4\u5c14\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Examiners cited it against 13 later applications.",
+   "source": "https://patents.google.com/patent/US6938025B1/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 224 words across 31 claims.",
+   "source": "https://patents.google.com/patent/US6938025B1/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "The family was filed in 1 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6938025B1/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Revival score 78/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Product: scikit-learn's current documentation (v1.9.1) offers SelectKBest with a chi2 statistical test to keep the top-k features for classification, similar to ranking features by statistical difference between classes.",
+   "source": "https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Market: A tutorial on text-classification methods describes picking terms whose chi-square score shows they depend on the document's class, which suggests the approach is widely taught.",
+   "source": "http://ethen8181.github.io/machine-learning/text_classification/chisquare.html",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Computing and software",
+   "seconds": 0.02
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Lapsed 2017-08-30 at the 11.5-year (third) fee window",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "5 possible blockers, 0 high severity",
+   "seconds": 4.85
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 78/100, high confidence: Dead patent with a future",
+   "seconds": 37.17
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 20.7
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1244,
+    "output_tokens": 419,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01336,
+    "seconds": 4.8
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 28487,
+    "output_tokens": 1278,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.17951,
+    "seconds": 26.3
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 798,
+    "output_tokens": 613,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01557,
+    "seconds": 10.9
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2082,
+    "output_tokens": 1432,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.03725,
+    "seconds": 20.7
+   }
+  ],
+  "total_cost_usd": 0.2457,
+  "seconds": 62.7
+ }
+}

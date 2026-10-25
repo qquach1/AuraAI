@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# Raw Google Patents pages: large and re-fetchable. The built database is committed instead.
+data/cache/
+.streamlit/secrets.toml

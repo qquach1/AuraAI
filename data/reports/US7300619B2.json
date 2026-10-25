@@ -1,0 +1,836 @@
+{
+ "pub": "US7300619B2",
+ "title": "Compositions and methods for use in three dimensional model printing",
+ "generated_at": "2026-10-25T16:33:30+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future: Stratasys's expired multi-material inkjet 3D printing method scores 91/100 because the field is busy and still citing it, but a dense thicket of newer patents means it is a starting point for research, not an open road.",
+  "what_it_is": "This patent covers printing an object with two or more different liquid materials, each sprayed from its own inkjet head, and mixing them in controlled amounts so different parts of the object end up harder, softer or chemically different. The materials are then cured, giving one printed part whose properties change from one side to the other, like a built-in composite.",
+  "why_it_died": {
+   "text": "It did not die early or for lack of interest. It ran its full term and ended on 2021-03-12. The owner, a large company, kept paying every maintenance fee until the end, which suggests they valued it. That is why the 'died for money, not merit' part of the score is only half marks: it simply aged out.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4",
+    "E3"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "The field appears very alive. The patent has been cited by 404 later filings, and 60 of those have priority dates from 2019 on. That earned full marks for 'field still alive' and 'recent momentum'.",
+    "evidence": [
+     "E9",
+     "E12",
+     "E17"
+    ]
+   },
+   {
+    "point": "Serious companies are still building on this idea, including General Electric (13 filings since 2019), Inkbit, Applied Materials and Xerox. That signals real industrial interest in multi-material inkjet parts.",
+    "evidence": [
+     "E13",
+     "E11"
+    ]
+   },
+   {
+    "point": "Others keep filing on it even after it expired. 15 unrelated filings with priority dates after 2021-03-12 cite it, so people see it as foundational prior work.",
+    "evidence": [
+     "E10"
+    ]
+   },
+   {
+    "point": "It was broad and important when granted. Examiners cited it against 111 later applications, and it was filed in 5 jurisdictions, which earned strong breadth and examiner-relevance scores.",
+    "evidence": [
+     "E14",
+     "E16",
+     "E15",
+     "E17"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Stratasys did not walk away. It filed 90 later patents citing this one that may still be in force, so the newer improvements a product would need may still be owned by the original company.",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "Heavy competition from well-funded players. GE, Applied Materials and others are active here, so a startup may face both patent and market pressure from much larger companies.",
+    "evidence": [
+     "E13"
+    ]
+   },
+   {
+    "point": "Citations show interest, not proven demand. High citation counts do not tell you who would pay for multi-material printed parts or how much.",
+    "evidence": [
+     "E9",
+     "E12"
+    ]
+   },
+   {
+    "point": "The patent shows the idea, not the recipe. Ink chemistry, curing settings and nozzle control details likely have to be rebuilt from scratch.",
+    "evidence": [
+     "E8",
+     "E7"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Possible later patents from the original owner: 90 Stratasys filings citing this one may still be in force and may cover modern versions of the method.",
+    "severity": "high",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "Possible later patents from other owners: 106 patents by others were cited against this one and may still be in force.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Materials may stay locked up even if the method is open. Specific resins, inks or process parameters may still be patented separately.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "Missing know-how. Expect real R&D time and cost to get reliable multi-material prints, since the patent does not include manufacturing details.",
+    "severity": "low",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "There is a specific customer group (for example, medical device, footwear or prototyping teams) that needs parts with properties that vary across the part, and that is willing to pay a startup rather than buy from Stratasys or similar large vendors.",
+   "why_riskiest": "The technical interest is clearly proven by citations and big-company filings, but none of the evidence shows who pays or why they would pick a newcomer over well-funded incumbents. If no buyer exists that incumbents underserve, the patent landscape question does not matter.",
+   "how_to_test": "In two weeks, run 15 short interviews with engineers in 2-3 target industries using LinkedIn outreach (cost near $0). Ask what multi-material parts they make today, what they pay, and what is broken. In parallel, put up a $100-$300 landing page offering graded-property prototype parts with a 'request a quote' form and drive targeted ads to it. Success looks like at least 5 interviewees describing a painful, paid problem and at least a few real quote requests.",
+   "evidence": [
+    "E9",
+    "E12",
+    "E13"
+   ]
+  },
+  "attorney_questions": [
+   "Which of the 90 later Stratasys filings citing US7300619B2 appear to still be in force, and do any of them appear to cover the multi-material inkjet method we plan to use?",
+   "Among the 106 patents by other owners cited against this one, and the recent filings by GE, Inkbit and Applied Materials, which are worth a closer look for our specific product and materials?",
+   "If we use commercially available resins or develop our own, what separate material or process-parameter patents should we check before choosing an ink chemistry?"
+  ],
+  "score": 91,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2007-11-27",
+   "priority_date": "2000-03-13",
+   "filing_date": "2003-12-03",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": "large",
+   "term_end": "2021-03-12",
+   "term_end_estimated": false,
+   "end_date": "2021-03-12",
+   "end_year": 2021,
+   "months_since_end": 67.4,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2025-11-13"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Expired at full term 2021-03-12"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "high",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "WO2024252390A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2023-06-07",
+      "publication_date": "2024-12-12",
+      "assignee": "Stratasys Ltd.",
+      "title": "Method and a system for generating computer object data for additive manufacturing",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Generating computer object data for AM corresponds directly to the original's step of generating CAD/controller data for combinations of compositions."
+     },
+     {
+      "pub": "WO2025141568A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2023-12-29",
+      "publication_date": "2025-07-03",
+      "assignee": "Stratasys Ltd.",
+      "title": "Method and system for additive manufacturing hangable object",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Same owner lineage (Stratasys) and inkjet multi-material additive manufacturing context; title addresses a specific object type (hangable) rather than the core multi-phase dispensing method."
+     },
+     {
+      "pub": "WO2025008825A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2023-07-05",
+      "publication_date": "2025-01-09",
+      "assignee": "Stratasys Ltd.",
+      "title": "Additive manufacturing of dental prostheses",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Stratasys dental prosthesis printing likely uses multi-material inkjet compositions with varying properties; application-specific, so it may be relevant to some products built on the original."
+     },
+     {
+      "pub": "WO2025008826A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2023-07-05",
+      "publication_date": "2025-01-09",
+      "assignee": "Stratasys Ltd.",
+      "title": "Method and system for correcting color artifacts in additive manufacturing",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Color artifact correction in multi-material inkjet printing relates to controlling combinations of dispensed compositions; a refinement that some products could need."
+     },
+     {
+      "pub": "WO2024201477A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2023-03-31",
+      "publication_date": "2024-10-03",
+      "assignee": "Stratasys Ltd.",
+      "title": "Elastomeric formulations containing polymeric silicone materials usable in additive manufacturing of 3d objects",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Elastomeric formulations for Stratasys inkjet AM could serve as one of the phases in multi-phase materials; this is a material-level improvement."
+     }
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "US11534959B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-09-24",
+      "publication_date": "2022-12-27",
+      "assignee": "Inkbit, LLC",
+      "title": "Delayed cure additive manufacturing",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Inkbit delayed-cure inkjet AM relates to the curing step of multi-material jetting."
+     },
+     {
+      "pub": "JP7500951B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-10-30",
+      "publication_date": "2024-06-18",
+      "assignee": "\u5bcc\u58eb\u30d5\u30a4\u30eb\u30e0\u30d3\u30b8\u30cd\u30b9\u30a4\u30ce\u30d9\u30fc\u30b7\u30e7\u30f3\u682a\u5f0f\u4f1a\u793e",
+      "title": "Ink for manufacturing three-dimensional objects, manufacturing method for three-dimensional objects, and three-dimensional modeling device",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Ink and method for 3D object manufacturing; may relate to inkjet compositions."
+     },
+     {
+      "pub": "US11173667B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2018-12-10",
+      "publication_date": "2021-11-16",
+      "assignee": "Inkbit Llc",
+      "title": "Precision system for additive fabrication",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     },
+     {
+      "pub": "AU2019360258A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2018-10-19",
+      "publication_date": "2021-06-10",
+      "assignee": "The Regents Of The University Of California",
+      "title": "Photocurable resin composition, photocurable resin article, and methods of fabricating the article",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     },
+     {
+      "pub": "US11554540B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2018-08-24",
+      "publication_date": "2023-01-17",
+      "assignee": "Zrapid Technologies Co., Ltd.",
+      "title": "Conformal manufacture method for 3D printing with high-viscosity material",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "low",
+    "title": "Material and machine patents",
+    "detail": "Printer hardware may be free while specific materials, powders or process parameters stay patented.",
+    "where": "Forward citations from materials companies",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "regulatory_burden": "low",
+  "llm_rated": true,
+  "summary": "4 possible blockers, 1 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 91,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 1.0,
+     "points": 30.0
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 1.0,
+     "points": 20.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.87,
+     "points": 13.1
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 404,
+   "fwd_after_end": 36,
+   "fwd_after_end_unrelated": 15,
+   "fwd_alive_unrelated": 128,
+   "fwd_recent": 60,
+   "fwd_examiner": 111,
+   "fwd_by_year": {
+    "2000": 2,
+    "2005": 1,
+    "2007": 7,
+    "2008": 10,
+    "2009": 5,
+    "2010": 16,
+    "2011": 17,
+    "2012": 17,
+    "2013": 21,
+    "2014": 39,
+    "2015": 64,
+    "2016": 42,
+    "2017": 46,
+    "2018": 39,
+    "2019": 25,
+    "2020": 15,
+    "2021": 21,
+    "2022": 11,
+    "2023": 6
+   },
+   "recent_companies": [
+    [
+     "General Electric Company",
+     13
+    ],
+    [
+     "Inkbit, LLC",
+     6
+    ],
+    [
+     "Applied Materials, Inc.",
+     3
+    ],
+    [
+     "Xerox Corporation",
+     2
+    ],
+    [
+     "Raytheon Company",
+     1
+    ],
+    [
+     "Ossur Iceland Ehf",
+     1
+    ],
+    [
+     "\u5bcc\u58eb\u30d5\u30a4\u30eb\u30e0\u30d3\u30b8\u30cd\u30b9\u30a4\u30ce\u30d9\u30fc\u30b7\u30e7\u30f3\u682a\u5f0f\u4f1a\u793e",
+     1
+    ],
+    [
+     "Voxeljet Ag",
+     1
+    ]
+   ],
+   "same_owner_followons": 91,
+   "bwd_total": 55,
+   "bwd_examiner": 8,
+   "family_countries": 5,
+   "live_family": 0,
+   "claims_count": 11,
+   "shortest_claim_words": 136
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "The underlying field, multi-material inkjet-deposited 3D printing, still draws sustained technical attention well after this patent's term ended.",
+     "evidence": [
+      "E9",
+      "E11",
+      "E12",
+      "E10"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Large industrial players are actively filing in adjacent areas. General Electric leads recent citing filings, and Inkbit is a notable specialist in multi-material inkjet.",
+     "evidence": [
+      "E13"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The original owner valued the patent through its full term and protected it internationally, which suggests it was commercially important to them. This does not prove the technology generates revenue today.",
+     "evidence": [
+      "E2",
+      "E4",
+      "E16",
+      "E1"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Examiners frequently cited it as prior art, which marks it as a foundational reference that later applicants must design around or build upon.",
+     "evidence": [
+      "E14",
+      "E15"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Recent citing filers include General Electric (13), Inkbit (6), Applied Materials (3), Xerox (2), Raytheon (1) and Ossur (1), spanning industrial, semiconductor-equipment, defense and medical-device players.",
+   "market_read": "Citation momentum since 2019 and a revival score of 91/100 indicate that multi-phase inkjet 3D printing remains an active, contested technical area with well-resourced participants. A founder should treat this as evidence of live interest and competition rather than proven market size, and should get legal review of the current patent landscape before acting."
+  },
+  "web": [],
+  "evidence": [
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17"
+  ],
+  "named": {
+   "total": "E9",
+   "after": "E10",
+   "recent": "E12",
+   "companies": "E13",
+   "score": "E17"
+  },
+  "summary": "Score 91/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7550518B2",
+    "title": "Methods and compositions for three-dimensional printing of solid objects",
+    "score": 87,
+    "status": "expired_term",
+    "end_year": 2023
+   },
+   {
+    "pub": "US6850334B1",
+    "title": "System and method for three dimensional model printing",
+    "score": 91,
+    "status": "expired_term",
+    "end_year": 2020
+   },
+   {
+    "pub": "US7569273B2",
+    "title": "Thermoplastic powder material system for appearance models from 3D printing systems",
+    "score": 87,
+    "status": "expired_term",
+    "end_year": 2024
+   },
+   {
+    "pub": "US7725209B2",
+    "title": "Three-dimensional object printing",
+    "score": 44,
+    "status": "expired_term",
+    "end_year": 2026
+   },
+   {
+    "pub": "US7819662B2",
+    "title": "Multi-component dental appliances and a method for constructing the same",
+    "score": 42,
+    "status": "expired_term",
+    "end_year": 2026
+   }
+  ],
+  "summary": "5 similar dead patents in 3D printing"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US7300619B2 reached the end of its full term on 2021-03-12.",
+   "source": "https://patents.google.com/patent/US7300619B2/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US7300619B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20251113110513.",
+   "source": "https://patents.google.com/patent/US7300619B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed large-entity status.",
+   "source": "https://patents.google.com/patent/US7300619B2/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "large"
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 90 later patent(s) citing this one that may still be in force, e.g. WO2024252390A1 (Method and a system for generating computer object data for additive manufacturi).",
+   "source": "https://patents.google.com/patent/US7300619B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "WO2024252390A1",
+     "WO2025141568A1",
+     "WO2025008825A1",
+     "WO2025008826A1",
+     "WO2024201477A1"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "106 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US7300619B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US11534959B2",
+     "JP7500951B2",
+     "US11173667B2",
+     "AU2019360258A1",
+     "US11554540B2"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "Material and machine patents: Printer hardware may be free while specific materials, powders or process parameters stay patented.",
+   "source": "Forward citations from materials companies",
+   "method": "Blocker checklist rule 'additive' matched CPC B29C41/48, B29C33/448, B29C41/52",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "Cited by 404 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US7300619B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 404
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "15 later filings by unrelated owners cite it with priority dates after it expired (2021-03-12).",
+   "source": "https://patents.google.com/patent/US7300619B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 15
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "128 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US7300619B2/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "60 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US7300619B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 60
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: General Electric Company (13), Inkbit, LLC (6), Applied Materials, Inc. (3), Xerox Corporation (2), Raytheon Company (1), Ossur Iceland Ehf (1).",
+   "source": "https://patents.google.com/patent/US7300619B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "General Electric Company",
+      13
+     ],
+     [
+      "Inkbit, LLC",
+      6
+     ],
+     [
+      "Applied Materials, Inc.",
+      3
+     ],
+     [
+      "Xerox Corporation",
+      2
+     ],
+     [
+      "Raytheon Company",
+      1
+     ],
+     [
+      "Ossur Iceland Ehf",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Examiners cited it against 111 later applications.",
+   "source": "https://patents.google.com/patent/US7300619B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 136 words across 11 claims.",
+   "source": "https://patents.google.com/patent/US7300619B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "The family was filed in 5 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US7300619B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Revival score 91/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in 3D printing",
+   "seconds": 0.03
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2021-03-12",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "4 possible blockers, 1 high severity",
+   "seconds": 10.2
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 91/100, high confidence: Dead patent with a future",
+   "seconds": 25.48
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 18.77
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1846,
+    "output_tokens": 1020,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02778,
+    "seconds": 10.0
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 20328,
+    "output_tokens": 649,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.13429,
+    "seconds": 19.2
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 703,
+    "output_tokens": 519,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01331,
+    "seconds": 6.3
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1770,
+    "output_tokens": 1708,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04152,
+    "seconds": 18.8
+   }
+  ],
+  "total_cost_usd": 0.2169,
+  "seconds": 54.5
+ }
+}

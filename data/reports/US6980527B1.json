@@ -1,0 +1,659 @@
+{
+ "pub": "US6980527B1",
+ "title": "Smart antenna CDMA wireless communication system",
+ "generated_at": "2026-10-25T16:31:28+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Worth a closer look (49/100, high confidence): a well-maintained smart-antenna patent that ran its full term, but newer filings have stopped building on it.",
+  "what_it_is": "A base station design that uses an array of antennas to work out where each phone or terminal is and then aims its signals at them, for both receiving and sending. It combines this 'beamforming' with a coded radio scheme (synchronous CDMA) and with sending and receiving at different times on the same channel (TDD), so the base station can reuse what it hears to aim what it sends.",
+  "why_it_died": {
+   "text": "It did not die early. It appears to have simply reached the end of its full 20-year term in April 2020. The owner, a large company, kept paying every fee until the end, which suggests they still valued it. That is why it only gets half credit on 'died for money, not merit': it was not abandoned, it just timed out.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "Examiners treated it as important prior art. They cited it against 25 later applications, and it was cited 36 times in total. That earns it full marks on examiner relevance and suggests the core ideas were taken seriously.",
+    "evidence": [
+     "E12",
+     "E8",
+     "E15"
+    ]
+   },
+   {
+    "point": "The owner paid every maintenance fee as a large entity. Companies rarely do that for ideas they think are worthless.",
+    "evidence": [
+     "E2",
+     "E4"
+    ]
+   },
+   {
+    "point": "It has 75 claims, so it describes many variations of the system. That may make it a rich technical reference for antenna-array signal processing.",
+    "evidence": [
+     "E13"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Interest has dried up. No citing filings have priority dates from 2019 on, and no unrelated owner has cited it since it expired. Recent momentum scores 0 out of 20.",
+    "evidence": [
+     "E9",
+     "E11",
+     "E15"
+    ]
+   },
+   {
+    "point": "Only 4 unrelated filings cited it in its last five years or after. Most of its influence appears to be historical, tied to an older synchronous-CDMA architecture.",
+    "evidence": [
+     "E10",
+     "E8"
+    ]
+   },
+   {
+    "point": "Its shortest independent claim is 147 words long. Long claims usually mean many specific elements, so the protected idea was fairly detailed rather than broad.",
+    "evidence": [
+     "E13"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Any wireless product must follow standards like 3GPP or Wi-Fi, which are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization. This can add cost and delay regardless of this patent.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Nine later patents by other owners were cited against this one and may still be in force. They could cover improvements you would want to use. Worth checking each one.",
+    "severity": "medium",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "The patent explains the idea, not the full engineering know-how. Expect to rebuild the signal-processing and radio details yourself.",
+    "severity": "low",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "The status facts come from an archived snapshot, not a live record. Confirm them against current official sources before relying on them.",
+    "severity": "low",
+    "evidence": [
+     "E3"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "There are paying customers today who need TDD beamforming built on this synchronous-CDMA style approach, rather than what modern standard radios (LTE/5G/Wi-Fi) already ship.",
+   "why_riskiest": "Citations stopped before expiry and no newer filings build on it, so demand for this specific architecture is unproven. And if customers just want standard-compliant radios, they enter a crowded space thick with other live patents.",
+   "how_to_test": "Over two weeks, run 10-15 short interviews with engineers or buyers in private wireless, industrial IoT, or rural fixed-wireless. Ask what links they use now, what fails, and whether a non-standard beamforming base station would be considered. Add a one-page landing page describing the product and a $200 LinkedIn ad test to count sign-ups. If fewer than 3 people describe a pain that standard gear does not solve, treat demand as weak.",
+   "evidence": [
+    "E9",
+    "E11",
+    "E10",
+    "E6"
+   ]
+  },
+  "attorney_questions": [
+   "Do any of the 9 later patents cited against this one, or other live patents, appear to cover the beamforming features we would actually build?",
+   "If our product must interoperate with 3GPP or Wi-Fi standards, which standard-essential patent pools or licenses would we likely need, and roughly what do they cost?",
+   "The family was filed in only one jurisdiction. Should we check for related filings, continuations, or later owner patents elsewhere before relying on this one having expired?"
+  ],
+  "score": 49,
+  "confidence": "high",
+  "verdict": "Worth a closer look",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2005-12-27",
+   "priority_date": "2000-04-25",
+   "filing_date": "2000-04-25",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": "large",
+   "term_end": "2020-04-25",
+   "term_end_estimated": false,
+   "end_date": "2020-04-25",
+   "end_year": 2020,
+   "months_since_end": 78.0,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2024-05-23"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Expired at full term 2020-04-25"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "US20090116569A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-11-05",
+      "publication_date": "2009-05-07",
+      "assignee": "Cisco Technology, Inc.",
+      "title": "Bi-Directional Beamforming Multiple-Input Multiple-Output Wireless Communication",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Bi-directional (uplink/downlink) beamforming using array measurements is close to the original's TDD reciprocity-based uplink/downlink beamforming matrices."
+     },
+     {
+      "pub": "US20090103593A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-10-17",
+      "publication_date": "2009-04-23",
+      "assignee": "Marcos Antonio Bergamo",
+      "title": "Array Antenna System and Spread Spectrum Beamformer Method",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Array antenna with spread spectrum beamforming closely matches the original's combination of antenna arrays and CDMA beamforming."
+     },
+     {
+      "pub": "US20110105172A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2009-10-29",
+      "publication_date": "2011-05-05",
+      "assignee": "Cisco Technology, Inc.",
+      "title": "Adaptive Power Balancing and Phase Adjustment for MIMO-Beamformed Communication Systems",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Power balancing and phase adjustment for beamformed MIMO could refine downlink beamforming, but it is not specific to S-CDMA."
+     },
+     {
+      "pub": "US20100135184A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-05-03",
+      "publication_date": "2010-06-03",
+      "assignee": "Research In Motion Limited",
+      "title": "Adaptive Beamforming Configuration Methods And Apparatus For Wireless Access Points Serving As Handoff Indication Mechanisms In Wireless Local Area Networks",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Uses adaptive beamforming for handoff indication, which relates to the original's use of spatial data for handoff, but it is aimed at WLAN access points."
+     },
+     {
+      "pub": "WO2008118920A2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-03-26",
+      "publication_date": "2008-10-02",
+      "assignee": "Cisco Technology Inc.",
+      "title": "Method, apparatus and logic for beamformed space time coded communication by testing spatial signature generation",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Industry standards and standard-essential patents",
+    "detail": "Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+    "where": "ETSI IPR database; FCC equipment authorization",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E7"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "3 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 49,
+   "confidence": "high",
+   "verdict": "Worth a closer look",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.49,
+     "points": 14.8
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.0,
+     "points": 0.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.61,
+     "points": 9.2
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 36,
+   "fwd_after_end": 0,
+   "fwd_after_end_unrelated": 0,
+   "fwd_alive_unrelated": 4,
+   "fwd_recent": 0,
+   "fwd_examiner": 25,
+   "fwd_by_year": {
+    "2000": 3,
+    "2001": 2,
+    "2002": 5,
+    "2003": 1,
+    "2004": 1,
+    "2005": 4,
+    "2006": 4,
+    "2007": 4,
+    "2008": 2,
+    "2009": 3,
+    "2010": 2,
+    "2012": 1,
+    "2017": 2,
+    "2018": 2
+   },
+   "recent_companies": [],
+   "same_owner_followons": 0,
+   "bwd_total": 17,
+   "bwd_examiner": 1,
+   "family_countries": 1,
+   "live_family": 0,
+   "claims_count": 75,
+   "shortest_claim_words": 147
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Strong historical technical influence: the patent drew substantial forward citations, much of it examiner-driven, indicating it sat at the center of prior art for smart-antenna/S-CDMA work.",
+     "evidence": [
+      "E8",
+      "E12"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Citation interest has faded: no citing filings with priority from 2019 on and no unrelated-owner citations after expiry, suggesting current development has moved past this specific TDD S-CDMA approach.",
+     "evidence": [
+      "E9",
+      "E11",
+      "E10"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The owner valued it through the full term, paying all maintenance fees as a large entity, which points to past strategic importance rather than proven current revenue.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E4"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The protection was narrow in geography and scope: one jurisdiction and a long shortest independent claim. The moderate revival score rests on the field still being alive rather than on fresh citation activity.",
+     "evidence": [
+      "E13",
+      "E14",
+      "E15"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "The evidence names no specific companies; only a small number of unrelated owners (4) cited the patent late in its term, and none have done so recently.",
+   "market_read": "Beamforming and spatial-diversity techniques remain a live area, but recent filings no longer cite this patent's specific TDD S-CDMA architecture, so its direct commercial pull today looks weak. A founder should treat it mainly as a technical reference for antenna-array signal processing, and should verify current activity independently rather than assume demand from historical citation counts."
+  },
+  "web": [],
+  "evidence": [
+   "E8",
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15"
+  ],
+  "named": {
+   "total": "E8",
+   "after": "E9",
+   "recent": "E11",
+   "companies": null,
+   "score": "E15"
+  },
+  "summary": "Score 49/100, high confidence: Worth a closer look"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US6823192B2",
+    "title": "Method and apparatus for quick paging in a wireless communication system",
+    "score": 38,
+    "status": "lapsed_fees",
+    "end_year": 2016
+   },
+   {
+    "pub": "US7693508B2",
+    "title": "Method and apparatus for broadcast signaling in a wireless communication system",
+    "score": 52,
+    "status": "expired_term",
+    "end_year": 2022
+   },
+   {
+    "pub": "US6788687B2",
+    "title": "Method and apparatus for scheduling packet data transmissions in a wireless communication system",
+    "score": 45,
+    "status": "lapsed_fees",
+    "end_year": 2016
+   },
+   {
+    "pub": "US7085239B2",
+    "title": "Method and apparatus for determining the forward link closed loop power control set point in a wireless packet data communication system",
+    "score": 38,
+    "status": "lapsed_fees",
+    "end_year": 2018
+   },
+   {
+    "pub": "US6707801B2",
+    "title": "Method and apparatus for data transport in a wireless communication system",
+    "score": 47,
+    "status": "expired_term",
+    "end_year": 2022
+   }
+  ],
+  "summary": "5 similar dead patents in Wireless networks"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6980527B1 reached the end of its full term on 2020-04-25.",
+   "source": "https://patents.google.com/patent/US6980527B1/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US6980527B1/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20240523161451.",
+   "source": "https://patents.google.com/patent/US6980527B1/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed large-entity status.",
+   "source": "https://patents.google.com/patent/US6980527B1/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "large"
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "9 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6980527B1/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US20090116569A1",
+     "US20090103593A1",
+     "US20110105172A1",
+     "US20100135184A1",
+     "WO2008118920A2"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "Industry standards and standard-essential patents: Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+   "source": "ETSI IPR database; FCC equipment authorization",
+   "method": "Blocker checklist rule 'telecom_standards' matched CPC H04B7/086, H04B7/0408, H04B7/0617",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "market",
+   "claim": "Cited by 36 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6980527B1/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 36
+   }
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "0 later filings by unrelated owners cite it with priority dates after it expired (2020-04-25).",
+   "source": "https://patents.google.com/patent/US6980527B1/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "4 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US6980527B1/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "0 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6980527B1/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "Examiners cited it against 25 later applications.",
+   "source": "https://patents.google.com/patent/US6980527B1/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 147 words across 75 claims.",
+   "source": "https://patents.google.com/patent/US6980527B1/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "The family was filed in 1 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6980527B1/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Revival score 49/100 (high confidence); strongest signals: Field still alive and Examiner relevance.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Wireless networks",
+   "seconds": 0.02
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2020-04-25",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "3 possible blockers, 0 high severity",
+   "seconds": 6.27
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 49/100, high confidence: Worth a closer look",
+   "seconds": 27.33
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 22.85
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1764,
+    "output_tokens": 549,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01804,
+    "seconds": 6.3
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 20769,
+    "output_tokens": 772,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.13852,
+    "seconds": 20.4
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 791,
+    "output_tokens": 539,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01407,
+    "seconds": 6.9
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2225,
+    "output_tokens": 1976,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.0487,
+    "seconds": 22.8
+   }
+  ],
+  "total_cost_usd": 0.2193,
+  "seconds": 56.5
+ }
+}

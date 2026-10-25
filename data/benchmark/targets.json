@@ -1,0 +1,2153 @@
+[
+ {
+  "pub": "US11801115B2",
+  "title": "Mirroring in image guided surgery",
+  "tech_class": "A61K",
+  "priority_date": "2019-12-22",
+  "input": "Title: Mirroring in image guided surgery\n\nAbstract: An imaging system, including a head-mounted display worn by a system operator. A marker defines a plane when attached to a human subject. Optically reflective elements are disposed on the marker and on opposing sides of the plane in a non-symmetrical arrangement with respect to the plane. A memory stores a graphical representation of a tool used in a procedure performed on the human subject, and an image of anatomy of the human subject. A camera attached to the display acquires an image of the marker and the tool. A processor analyzes the image to identify the plane and to identify a side of the plane wherein the camera is located, and to render to the display the image of the anatomy of the human subject with the graphical representation of the tool superimposed thereon from a point of view in the identified side of the plane.\n\nFirst claim: 1. A computer-implemented method, comprising: storing in a memory a graphical representation of a tool used in a procedure performed by an operator of an imaging system on a human subject, and an image of anatomy of the human subject; acquiring images of a patient marker attached to the human subject and of the tool, wherein the images are acquired by a camera attached to a head-mounted display of the imaging system configured to be worn by the operator while the operator operates on the human subject using the tool; analyzing one or more images of the acquired images of the patient marker and the tool, so as to identify whether the camera is located on a first side or on a second, opposing side of a sagittal plane of the human subject, or whether the camera is located on a first side or on a second, opposing, side of an axial plane of the human subject; and rendering to the head-mounted display the image of the anatomy of the human subject with the graphical representation of the tool superimposed thereon from a point of view in the identified side of the human subject.",
+  "exclude": [
+   "US11382712B2",
+   "US11801115B2",
+   "US12076196B2",
+   "US12383369B2",
+   "US20250049534A1"
+  ],
+  "examiner_refs": [
+   "US20160143699A1",
+   "US20180018791A1",
+   "US20200352655A1"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Head-mounted display worn by surgeon/operator with attached camera acquiring images of patient marker and surgical tool",
+     "Patient marker attached to subject defining a plane, with optically reflective elements arranged non-symmetrically on opposing sides of the plane",
+     "Memory storing graphical representation of tool and image of patient anatomy (e.g., CT/3D scan)",
+     "Processor analyzing images to determine which side of sagittal or axial plane the camera/operator is located on",
+     "Rendering anatomy image with superimposed tool representation from point of view of the identified side (mirroring/flipping view)"
+    ],
+    "queries": [
+     {
+      "query": "(\"head-mounted display\" OR \"head mounted display\" OR HMD OR \"augmented reality headset\") AND (camera) AND (\"patient marker\" OR \"registration marker\" OR fiducial) AND (\"sagittal plane\" OR \"axial plane\" OR \"midline\") AND (side OR mirror OR flip)",
+      "targets": "Elements 1, 4"
+     },
+     {
+      "query": "(marker OR fiducial OR \"reference array\") AND (reflective OR retroreflective OR \"reflective elements\" OR \"reflective spheres\") AND (asymmetric OR \"non-symmetrical\" OR \"non-symmetric\" OR asymmetrical) AND (plane) AND (\"opposing sides\" OR \"either side\" OR \"both sides\")",
+      "targets": "Element 2"
+     },
+     {
+      "query": "(\"image guided surgery\" OR \"surgical navigation\") AND (\"which side\" OR \"side of the patient\" OR \"position of the surgeon\" OR \"operator position\") AND (mirror OR mirrored OR flip OR \"reverse orientation\" OR \"left-right\") AND (render OR display)",
+      "targets": "Elements 4, 5"
+     },
+     {
+      "query": "(\"head-mounted display\" OR \"head mounted display\" OR \"augmented reality\") AND (\"graphical representation\" OR \"virtual model\" OR \"virtual tool\") AND (tool OR instrument) AND (superimpos* OR overlay*) AND (\"point of view\" OR viewpoint OR perspective)",
+      "targets": "Elements 1, 3, 5"
+     },
+     {
+      "query": "(camera OR \"tracking camera\") AND (\"patient marker\" OR fiducial) AND (\"determine orientation\" OR \"identify side\" OR \"viewing direction\" OR \"camera pose\") AND (\"sagittal\" OR \"axial\" OR \"plane of symmetry\") AND (CT OR \"computed tomography\" OR \"anatomy image\")",
+      "targets": "Element 4"
+     },
+     {
+      "query": "(\"head-mounted display\" OR HMD OR \"near-eye display\") AND (surgeon OR operator) AND (\"tool tracking\" OR \"instrument tracking\" OR \"navigated instrument\") AND (\"patient marker\" OR \"reference marker\") AND (\"reflective markers\" OR retroreflective OR \"infrared\")",
+      "targets": "Elements 1, 2"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US20220142730A1",
+     "title": "Fiducial marker",
+     "snippet": "",
+     "priority_date": "2019-07-29",
+     "assignee": "Augmedics Ltd.",
+     "found_by": [
+      0,
+      1,
+      4
+     ],
+     "why": "Augmedics fiducial marker family, same assignee and likely closely related disclosure on marker orientation and HMD-based image guided surgery.",
+     "elements_disclosed": "HMD with camera imaging patient marker and tool; marker with asymmetric reflective elements; determining side; rendering anatomy with tool overlay"
+    },
+    {
+     "pub": "US20210030511A1",
+     "title": "Fiducial marker",
+     "snippet": "",
+     "priority_date": "2019-07-29",
+     "assignee": "Augmedics Ltd.",
+     "found_by": [
+      0,
+      1,
+      4
+     ],
+     "why": "Same Augmedics family; describes marker geometry used to determine orientation for AR surgery.",
+     "elements_disclosed": "HMD camera, patient marker with non-symmetric reflective elements, overlay of tool on anatomy"
+    },
+    {
+     "pub": "US11980506B2",
+     "title": "Fiducial marker",
+     "snippet": "",
+     "priority_date": "2019-07-29",
+     "assignee": "Augmedics Ltd.",
+     "found_by": [
+      0,
+      1,
+      4
+     ],
+     "why": "Augmedics fiducial marker patent; same family as the other fiducial marker references.",
+     "elements_disclosed": "Marker with reflective elements, HMD tracking, overlay rendering"
+    },
+    {
+     "pub": "US12178666B2",
+     "title": "Fiducial marker",
+     "snippet": "",
+     "priority_date": "2019-07-29",
+     "assignee": "Augmedics Ltd.",
+     "found_by": [
+      0,
+      1,
+      4
+     ],
+     "why": "Augmedics fiducial marker patent; same family as the other fiducial marker references.",
+     "elements_disclosed": "Marker with reflective elements, HMD tracking, overlay rendering"
+    },
+    {
+     "pub": "US11974887B2",
+     "title": "Registration marker for an augmented reality system",
+     "snippet": "",
+     "priority_date": "2018-05-02",
+     "assignee": "Augmedics Ltd.",
+     "found_by": [
+      0
+     ],
+     "why": "Augmedics AR registration marker for surgery; covers HMD camera, marker tracking and anatomy display.",
+     "elements_disclosed": "HMD AR system with registration marker, camera imaging marker, overlay of CT anatomy"
+    },
+    {
+     "pub": "US10546423B2",
+     "title": "Surgeon head-mounted display apparatuses",
+     "snippet": "",
+     "priority_date": "2015-02-03",
+     "assignee": "Globus Medical, Inc.",
+     "found_by": [
+      0,
+      2,
+      3,
+      5
+     ],
+     "why": "Globus surgeon HMD; discloses the HMD, stored tool/anatomy, and superimposed rendering elements.",
+     "elements_disclosed": "Surgeon HMD, tracking of tool and patient reference, overlay of tool graphic on stored anatomy images"
+    },
+    {
+     "pub": "US20190192230A1",
+     "title": "Method for patient registration, calibration, and real-time augmented reality image display during surgery",
+     "snippet": "",
+     "priority_date": "2017-12-12",
+     "assignee": "Holo Surgical Inc.",
+     "found_by": [
+      0,
+      2
+     ],
+     "why": "AR surgical display with registration of patient anatomy and tracked tools.",
+     "elements_disclosed": "Patient registration, HMD AR display of anatomy and tools during surgery"
+    },
+    {
+     "pub": "US20190333480A1",
+     "title": "Improved Accuracy of Displayed Virtual Data with Optical Head Mount Displays for Mixed Reality",
+     "snippet": "",
+     "priority_date": "2017-01-05",
+     "assignee": "Philipp K. Lang",
+     "found_by": [
+      0,
+      3
+     ],
+     "why": "Lang OHMD surgical navigation; covers HMD, markers, and virtual tool overlay.",
+     "elements_disclosed": "Optical HMD with markers, virtual anatomy and instrument display"
+    },
+    {
+     "pub": "US20200388075A1",
+     "title": "Augmented reality display for surgical procedures",
+     "snippet": "",
+     "priority_date": "2018-02-03",
+     "assignee": "The Johns Hopkins University",
+     "found_by": [
+      0,
+      3
+     ],
+     "why": "Surgical AR HMD that tracks markers with a camera and overlays anatomy.",
+     "elements_disclosed": "AR HMD for surgery, camera tracking markers, anatomy overlay"
+    },
+    {
+     "pub": "US20060147100A1",
+     "title": "Apparatus and methods of determining marker orientation in fiducial registration",
+     "snippet": "",
+     "priority_date": "2003-02-04",
+     "assignee": "Vanderbilt University",
+     "found_by": [
+      0,
+      4
+     ],
+     "why": "Determines marker orientation from asymmetric fiducial geometry, supporting the non-symmetric marker element.",
+     "elements_disclosed": "Determining marker orientation from asymmetric fiducial geometry"
+    }
+   ],
+   "pool_size": 220,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 6 queries (claude)",
+    "Query 1: (\"head-mounted display\" OR \"head mounted display\" OR HMD OR \"augmented reality headset\") AND (camera) AND (\"patient marker\" OR \"registration marker\" OR fiducial) AND (\"sagittal plane\" OR \"axial plane\" OR \"midline\") AND (side OR mirror OR flip) -> 50 results",
+    "Query 2: (marker OR fiducial OR \"reference array\") AND (reflective OR retroreflective OR \"reflective elements\" OR \"reflective spheres\") AND (asymmetric OR \"non-symmetrical\" OR \"non-symmetric\" OR asymmetrical) AND (plane) AND (\"opposing sides\" OR \"either side\" OR \"both sides\") -> 50 results",
+    "Query 3: (\"image guided surgery\" OR \"surgical navigation\") AND (\"which side\" OR \"side of the patient\" OR \"position of the surgeon\" OR \"operator position\") AND (mirror OR mirrored OR flip OR \"reverse orientation\" OR \"left-right\") AND (render OR display) -> 50 results",
+    "Query 4: (\"head-mounted display\" OR \"head mounted display\" OR \"augmented reality\") AND (\"graphical representation\" OR \"virtual model\" OR \"virtual tool\") AND (tool OR instrument) AND (superimpos* OR overlay*) AND (\"point of view\" OR viewpoint OR perspective) -> 50 results",
+    "Query 5: (camera OR \"tracking camera\") AND (\"patient marker\" OR fiducial) AND (\"determine orientation\" OR \"identify side\" OR \"viewing direction\" OR \"camera pose\") AND (\"sagittal\" OR \"axial\" OR \"plane of symmetry\") AND (CT OR \"computed tomography\" OR \"anatomy image\") -> 50 results",
+    "Query 6: (\"head-mounted display\" OR HMD OR \"near-eye display\") AND (surgeon OR operator) AND (\"tool tracking\" OR \"instrument tracking\" OR \"navigated instrument\") AND (\"patient marker\" OR \"reference marker\") AND (\"reflective markers\" OR retroreflective OR \"infrared\") -> 50 results",
+    "Ranked 220 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ },
+ {
+  "pub": "US12029844B2",
+  "title": "Combination spirometer-inhaler",
+  "tech_class": "A61B",
+  "priority_date": "2020-06-25",
+  "input": "Title: Combination spirometer-inhaler\n\nAbstract: Various spirometer-inhaler systems and devices are disclosed. The spirometer-inhaler system may estimate physiological parameters of a user based on the user's inhaled and/or exhaled breaths received by the spirometer-inhaler device. The spirometer-inhaler device may comprise one or more flow paths. A first flow path may direct medication from a medicine canister to an opening of the device. A second flow path may direct a user's exhaled breath from the opening of the device to one or more flow measurement devices.\n\nFirst claim: 1. A system for delivering a medication to a user and measuring one or more physiological parameters of the user, the system comprising: a spirometer-inhaler device comprising: a first portion configured to removably receive a medicine canister; a second portion extending from the first portion, the second portion comprising a mouthpiece, wherein the mouthpiece comprises an opening and a plurality of propellors; a first flow path configured to direct a medication from the medicine canister to the opening of the mouthpiece, wherein the first flow path comprises a first propellor of the plurality of propellors adjacent the opening; and a second flow path configured to direct exhaled air from the opening of the mouthpiece to one or more flow rate measurement devices, wherein the second flow path comprises a second propellor of the plurality of propellors adjacent the opening; the medication canister configured to deliver the medication to the first portion of the spirometer-inhaler device; and one or more measurement devices configured to estimate one or more physiological parameters of the user, the one or more measurement devices comprising the one or more flow rate measurement devices.",
+  "exclude": [
+   "US12029844B2",
+   "US20240390608A1"
+  ],
+  "examiner_refs": [
+   "US20110180067A1",
+   "US20150273165A1",
+   "US20190046079A1",
+   "US20210146079A1",
+   "US4148308A",
+   "US6358058B1",
+   "US895606A"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Combined inhaler and spirometer device: housing with first portion removably receiving a medicine canister (pressurized metered dose) and second portion with mouthpiece",
+     "First flow path directing medication from the canister to the mouthpiece opening",
+     "Second, separate flow path directing exhaled air from the mouthpiece opening to one or more flow rate measurement devices",
+     "Plurality of propellers (rotors/turbines/impellers) in the mouthpiece adjacent the opening, one in each flow path",
+     "Measurement devices estimating physiological parameters of the user (e.g., FEV1, peak expiratory flow, lung function) from inhaled/exhaled breath"
+    ],
+    "queries": [
+     {
+      "query": "(inhaler OR \"metered dose\" OR MDI) AND (spirometer OR spirometry OR \"peak flow\" OR \"lung function\") AND (canister OR cartridge) AND mouthpiece",
+      "targets": "Combined inhaler-spirometer device with canister and mouthpiece"
+     },
+     {
+      "query": "(inhaler OR \"medicament dispenser\") AND (\"first flow path\" OR \"inhalation passage\" OR \"drug channel\") AND (\"second flow path\" OR \"exhalation passage\" OR \"expiratory channel\") AND (\"flow sensor\" OR \"flow meter\" OR spirometer)",
+      "targets": "Separate first medication flow path and second exhaled air flow path to flow measurement"
+     },
+     {
+      "query": "(inhaler OR mouthpiece) AND (propeller OR propellor OR turbine OR impeller OR rotor OR vane) AND (exhal* OR expirat*) AND (\"flow rate\" OR \"flow measurement\" OR tachometer)",
+      "targets": "Propeller/turbine in mouthpiece for measuring exhaled flow"
+     },
+     {
+      "query": "(inhaler OR \"aerosol canister\") AND (plurality ADJ2 (propellers OR turbines OR rotors OR impellers)) AND (mouthpiece OR opening)",
+      "targets": "Plurality of propellers, one per flow path, adjacent mouthpiece opening"
+     },
+     {
+      "query": "(inhaler OR \"inhalation device\") AND (spirometer OR \"flow sensor\") AND (FEV1 OR \"forced expiratory volume\" OR \"peak expiratory flow\" OR \"vital capacity\" OR \"physiological parameter\") AND (estimat* OR calculat* OR determin*)",
+      "targets": "Estimating physiological lung parameters from breath measured by inhaler"
+     },
+     {
+      "query": "(\"removably receive\" OR removable OR detachable) AND (\"medicine canister\" OR \"medication canister\" OR \"drug canister\") AND (spirometer OR \"flow measurement\") AND (\"one-way valve\" OR \"check valve\" OR \"flow path\")",
+      "targets": "Removable canister portion with integrated spirometry flow paths"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US5724986A",
+     "title": "Casing and spirometer for metered dose inhaler",
+     "snippet": "",
+     "priority_date": "1995-11-06",
+     "assignee": "Jones Medical Instrument Co.",
+     "found_by": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "why": "Closest art: a combined MDI casing and spirometer, matching the core combination of canister holder, mouthpiece and flow measurement for physiological parameters.",
+     "elements_disclosed": "Casing for a metered dose inhaler receiving the canister, integrated spirometer measuring exhaled flow, mouthpiece, lung-function parameters"
+    },
+    {
+     "pub": "US4984158A",
+     "title": "Metered dose inhaler biofeedback training and evaluation system",
+     "snippet": "",
+     "priority_date": "1988-10-14",
+     "assignee": "Hillsman Dean",
+     "found_by": [
+      0,
+      1,
+      4
+     ],
+     "why": "Couples an MDI canister and mouthpiece with flow-sensing apparatus that evaluates patient breathing parameters.",
+     "elements_disclosed": "MDI with flow measurement of inspiratory breath, biofeedback and evaluation of the user's breathing"
+    },
+    {
+     "pub": "US5333106A",
+     "title": "Apparatus and visual display method for training in the power use of aerosol pharmaceutical inhalers",
+     "snippet": "",
+     "priority_date": "1992-10-09",
+     "assignee": "Circadian, Inc.",
+     "found_by": [
+      1,
+      3,
+      4
+     ],
+     "why": "Integrates MDI use with airflow measurement through the mouthpiece.",
+     "elements_disclosed": "Aerosol inhaler with flow sensing and visual display of inhalation flow"
+    },
+    {
+     "pub": "US6358058B1",
+     "title": "Aerosol dispensing inhaler training device",
+     "snippet": "",
+     "priority_date": "1998-01-30",
+     "assignee": "1263152 Ontario Inc.",
+     "found_by": [
+      1,
+      3,
+      4
+     ],
+     "why": "Combines an inhaler with breath-flow sensing.",
+     "elements_disclosed": "Aerosol dispensing inhaler training device with flow measurement"
+    },
+    {
+     "pub": "US4554916A",
+     "title": "Rotary proportioning inhalator",
+     "snippet": "",
+     "priority_date": "1983-07-27",
+     "assignee": "James Watt",
+     "found_by": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "why": "May disclose a rotor or propeller in the inhaler airflow, relevant to the propeller limitation.",
+     "elements_disclosed": "Rotary element in an inhalation flow path"
+    },
+    {
+     "pub": "US5335656A",
+     "title": "Method and apparatus for inhalation of treating gas and sampling of exhaled gas for quantitative analysis",
+     "snippet": "",
+     "priority_date": "1988-04-15",
+     "assignee": "Salter Laboratories",
+     "found_by": [
+      1,
+      2,
+      4
+     ],
+     "why": "Shows separate inhalation and exhalation flow paths with measurement of exhaled breath.",
+     "elements_disclosed": "Delivers treating gas by inhalation and samples exhaled gas through separate paths for analysis"
+    },
+    {
+     "pub": "US20060243275A1",
+     "title": "Breath Actuated Inhaler",
+     "snippet": "",
+     "priority_date": "2005-04-28",
+     "assignee": "Kos Life Sciences, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "why": "Shows the canister housing, mouthpiece and medication flow path.",
+     "elements_disclosed": "Breath-actuated inhaler with canister and mouthpiece flow path"
+    },
+    {
+     "pub": "US5005571A",
+     "title": "Mouth nose mask for use with an inhalation therapy and/or breathing monitoring apparatus",
+     "snippet": "",
+     "priority_date": "1988-11-25",
+     "assignee": "Dietz Henry G",
+     "found_by": [
+      1,
+      4
+     ],
+     "why": "Combines delivery of inhalation therapy with breath monitoring.",
+     "elements_disclosed": "Mask for inhalation therapy combined with breathing monitoring"
+    },
+    {
+     "pub": "US20080066739A1",
+     "title": "Methods and systems of delivering medication via inhalation",
+     "snippet": "",
+     "priority_date": "2006-09-20",
+     "assignee": "Lemahieu Edward",
+     "found_by": [
+      1,
+      4
+     ],
+     "why": "Secondary reference for an inhalation medication delivery system.",
+     "elements_disclosed": "Delivering medication via inhalation, possibly with monitoring"
+    },
+    {
+     "pub": "US5911219A",
+     "title": "Therapeutic gas flow meter and monitor",
+     "snippet": "",
+     "priority_date": "1997-04-18",
+     "assignee": "Aylsworth; Alonzo C.",
+     "found_by": [
+      0,
+      1
+     ],
+     "why": "Flow rate measurement device in a breathing-gas path.",
+     "elements_disclosed": "Therapeutic gas flow meter and monitor"
+    }
+   ],
+   "pool_size": 213,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 6 queries (claude)",
+    "Query 1: (inhaler OR \"metered dose\" OR MDI) AND (spirometer OR spirometry OR \"peak flow\" OR \"lung function\") AND (canister OR cartridge) AND mouthpiece -> 50 results",
+    "Query 2: (inhaler OR \"medicament dispenser\") AND (\"first flow path\" OR \"inhalation passage\" OR \"drug channel\") AND (\"second flow path\" OR \"exhalation passage\" OR \"expiratory channel\") AND (\"flow sensor\" OR \"flow meter\" OR spirometer) -> 50 results",
+    "Query 3: (inhaler OR mouthpiece) AND (propeller OR propellor OR turbine OR impeller OR rotor OR vane) AND (exhal* OR expirat*) AND (\"flow rate\" OR \"flow measurement\" OR tachometer) -> 50 results",
+    "Query 4: (inhaler OR \"aerosol canister\") AND (plurality ADJ2 (propellers OR turbines OR rotors OR impellers)) AND (mouthpiece OR opening) -> 50 results",
+    "Query 5: (inhaler OR \"inhalation device\") AND (spirometer OR \"flow sensor\") AND (FEV1 OR \"forced expiratory volume\" OR \"peak expiratory flow\" OR \"vital capacity\" OR \"physiological parameter\") AND (estimat* OR calculat* OR determin*) -> 50 results",
+    "Query 6: (\"removably receive\" OR removable OR detachable) AND (\"medicine canister\" OR \"medication canister\" OR \"drug canister\") AND (spirometer OR \"flow measurement\") AND (\"one-way valve\" OR \"check valve\" OR \"flow path\") -> 50 results",
+    "Ranked 213 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ },
+ {
+  "pub": "US12417595B2",
+  "title": "Augmented-reality surgical system using depth sensing",
+  "tech_class": "A61K",
+  "priority_date": "2021-08-18",
+  "input": "Title: Augmented-reality surgical system using depth sensing\n\nAbstract: Disclosed herein are systems, devices, and methods for image-guided surgery. Some systems include a head-mounted unit, having a see-through augmented-reality display and a depth sensor, which is configured to generate depth data with respect to a region of interest (ROI) of a body of a patient that is viewed through the display by a user wearing the head-mounted unit. A processor, which is configured to receive a three-dimensional (3D) tomographic image of the body of the patient, computes a depth map of the ROI based on the depth data generated by the depth sensor, to compute a transformation over the ROI so as to register the tomographic image with the depth map, and to apply the transformation in presenting a part of the tomographic image on the display in registration with the ROI viewed through the display.\n\nFirst claim: 1. A head-mounted system for image-guided surgery, comprising: a head-mounted unit, comprising a see-through augmented-reality display and a depth sensor, which is configured to generate depth data with respect to a body of a patient that is viewed through the display by a user wearing the head-mounted unit, the depth data including data for both a region of interest (ROI) within the body of the patient and an array of radiopaque fiducial markers fixed externally to the body of the patient; and a processor, which is configured to: receive a three-dimensional (3D) tomographic image of the body of the patient; compute a depth map based on the depth data generated by the depth sensor, the depth map including both the ROI within the body of the patient and the array of radiopaque fiducial markers fixed externally to the body of the patient; compute a transformation over the ROI so as to register the tomographic image with the depth map; and apply the transformation in presenting a part of the tomographic image on the display in registration with the ROI viewed through the display, wherein the ROI within the body of the patient that is included in the depth map includes a spine of the patient, which is exposed in a surgical procedure, wherein the processor is configured to compute the transformation by registering the spine in the depth map with the spine appearing in the tomographic image, wherein the tomographic image comprises a CT scan of the patient which was performed with the array of radiopaque fiducial markers fixed externally to the body of the patient, wherein the processor is configured to identify respective 3D coordinates of the fiducial markers in the depth map and to register the CT scan with the ROI viewed through the display by matching the fiducial markers in the CT to the respective 3D coordinates, and wherein the processor is configured to compute an updated depth map in a course of a surgery to enable detection of a change in the ROI within the body of the patient based on the updated depth map.",
+  "exclude": [
+   "US12417595B2",
+   "US12475662B2",
+   "US20240382283A1",
+   "US20250349094A1"
+  ],
+  "examiner_refs": [
+   "US20100076305A1",
+   "US20130245461A1",
+   "US20140336461A1",
+   "US20160324580A1",
+   "US20170366773A1",
+   "US20180185113A1",
+   "US20200085511A1",
+   "US20230295302A1",
+   "US9892564B1"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Head-mounted unit with see-through augmented-reality display and integrated depth sensor generating depth data of patient body viewed by wearer",
+     "Processor computing depth map of ROI and externally fixed radiopaque fiducial marker array from depth sensor data",
+     "Registering 3D tomographic (CT) image to depth map by computing transformation, including registering exposed spine surface in depth map with spine in CT",
+     "Identifying 3D coordinates of radiopaque fiducial markers in depth map and matching to markers in CT acquired with markers attached",
+     "Presenting part of tomographic image on see-through display in registration with ROI viewed through display",
+     "Computing updated depth map during surgery to detect change in ROI"
+    ],
+    "queries": [
+     {
+      "query": "(\"head-mounted\" OR \"head mounted display\" OR HMD OR headset OR \"smart glasses\") AND (\"see-through\" OR \"optical see-through\" OR \"augmented reality\") AND (\"depth sensor\" OR \"depth camera\" OR \"time-of-flight\" OR \"structured light\" OR \"depth map\") AND (surgery OR surgical OR \"image-guided\")",
+      "targets": "Head-mounted unit with see-through augmented-reality display and integrated depth sensor generating depth data of patient body viewed by wearer"
+     },
+     {
+      "query": "(\"depth map\" OR \"depth data\" OR \"point cloud\" OR \"surface scan\") AND (register OR registration OR transformation OR \"surface matching\" OR ICP) AND (CT OR \"computed tomography\" OR tomographic OR \"3D image\") AND (spine OR vertebra OR vertebrae OR spinal)",
+      "targets": "Registering 3D tomographic (CT) image to depth map by computing transformation, including registering exposed spine surface in depth map with spine in CT"
+     },
+     {
+      "query": "(\"radiopaque\" OR \"radio-opaque\" OR \"CT-visible\" OR radiodense) AND (fiducial OR marker OR markers) AND (\"depth map\" OR \"depth sensor\" OR \"depth camera\" OR \"3D coordinates\") AND (register OR registration OR matching)",
+      "targets": "Identifying 3D coordinates of radiopaque fiducial markers in depth map and matching to markers in CT acquired with markers attached; processor computing depth map including fiducial marker array"
+     },
+     {
+      "query": "(\"augmented reality\" OR \"see-through display\" OR \"head-mounted\") AND (overlay OR superimpose OR \"in registration\" OR aligned) AND (CT OR tomographic OR \"preoperative image\") AND (\"depth sensor\" OR \"depth camera\" OR \"depth map\")",
+      "targets": "Presenting part of tomographic image on see-through display in registration with ROI viewed through display"
+     },
+     {
+      "query": "(\"updated depth map\" OR \"depth map\" OR \"surface scan\" OR \"point cloud\") AND (intraoperative OR \"during surgery\" OR \"in the course of\" OR \"real-time\") AND (\"detect change\" OR movement OR displacement OR deformation OR \"re-registration\") AND (spine OR vertebra OR \"region of interest\")",
+      "targets": "Computing updated depth map during surgery to detect change in ROI"
+     },
+     {
+      "query": "(\"head-mounted\" OR HMD OR headset) AND (\"depth sensor\" OR \"depth camera\" OR \"depth map\") AND (fiducial OR marker) AND (spine OR vertebra OR \"spinal surgery\") AND (CT OR tomographic)",
+      "targets": "Combination of head-mounted depth sensing, fiducial marker CT registration, and spine registration"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US20190192230A1",
+     "title": "Method for patient registration, calibration, and real-time augmented reality image display during surgery",
+     "snippet": "",
+     "priority_date": "2017-12-12",
+     "assignee": "Holo Surgical Inc.",
+     "found_by": [
+      0,
+      3,
+      4
+     ],
+     "why": "Holo Surgical patient registration and real-time AR display during surgery; closely matches the depth-based registration of CT to the exposed spine.",
+     "elements_disclosed": "AR head-mounted display with depth/3D scanning of patient, registration of CT to intraoperative surface data including spine, overlay on see-through display, real-time updates"
+    },
+    {
+     "pub": "US20200275988A1",
+     "title": "Image to world registration for medical augmented reality applications using a world spatial map",
+     "snippet": "",
+     "priority_date": "2017-10-02",
+     "assignee": "The Johns Hopkins University",
+     "found_by": [
+      1,
+      3
+     ],
+     "why": "Image-to-world registration using the HMD's depth-based spatial map; covers the core head-mounted depth sensing and registration elements.",
+     "elements_disclosed": "AR HMD with depth sensing/spatial map; registration of medical image to world spatial map; overlay on see-through display"
+    },
+    {
+     "pub": "US20190333480A1",
+     "title": "Improved Accuracy of Displayed Virtual Data with Optical Head Mount Displays for Mixed Reality",
+     "snippet": "",
+     "priority_date": "2017-01-05",
+     "assignee": "Philipp K. Lang",
+     "found_by": [
+      0,
+      3
+     ],
+     "why": "Lang's OHMD system covers the spine AR overlay, registration and intraoperative updates.",
+     "elements_disclosed": "Optical see-through HMD for surgery, registration of virtual imaging data to patient (spine) via surface/depth scanning and markers, updated during surgery"
+    },
+    {
+     "pub": "US11974887B2",
+     "title": "Registration marker for an augmented reality system",
+     "snippet": "",
+     "priority_date": "2018-05-02",
+     "assignee": "Augmedics Ltd.",
+     "found_by": [
+      2,
+      3
+     ],
+     "why": "Augmedics registration marker for AR; teaches matching radiopaque markers in CT to marker coordinates seen by the headset.",
+     "elements_disclosed": "Augmented reality HMD, registration marker visible in CT and to the camera, registration of CT to patient for display"
+    },
+    {
+     "pub": "US11153555B1",
+     "title": "Extended reality headset camera system for computer assisted navigation in surgery",
+     "snippet": "",
+     "priority_date": "2020-05-08",
+     "assignee": "Globus Medical Inc.",
+     "found_by": [
+      0,
+      5
+     ],
+     "why": "Headset camera system with depth sensing for navigated surgery.",
+     "elements_disclosed": "XR headset with camera system (including depth) for surgical navigation, registration of image data to patient, overlay display"
+    },
+    {
+     "pub": "US10166079B2",
+     "title": "Depth-encoded fiducial marker for intraoperative surgical registration",
+     "snippet": "",
+     "priority_date": "2017-03-08",
+     "assignee": "Synaptive Medical (Barbados) Inc.",
+     "found_by": [
+      1,
+      2,
+      4,
+      5
+     ],
+     "why": "Teaches identifying fiducial markers in depth data for registration to tomographic images.",
+     "elements_disclosed": "Depth-encoded fiducial markers detected by depth sensing, intraoperative registration with preoperative image"
+    },
+    {
+     "pub": "US20210169605A1",
+     "title": "Augmented reality headset for navigated robotic surgery",
+     "snippet": "",
+     "priority_date": "2019-12-10",
+     "assignee": "Globus Medical, Inc.",
+     "found_by": [
+      0,
+      5
+     ],
+     "why": "Globus AR headset for navigated surgery; covers the head-mounted see-through overlay of CT.",
+     "elements_disclosed": "AR see-through headset for spine surgery navigation, registration of CT with patient reference, overlay display"
+    },
+    {
+     "pub": "US12053247B1",
+     "title": "System for multi-directional tracking of head mounted displays for real-time augmented reality guidance of surgical procedures",
+     "snippet": "",
+     "priority_date": "2020-12-04",
+     "assignee": "Onpoint Medical, Inc.",
+     "found_by": [
+      0,
+      3
+     ],
+     "why": "Real-time AR surgical guidance with an HMD; supports the head-mounted overlay and registration elements.",
+     "elements_disclosed": "Head-mounted display for real-time AR surgical guidance, tracking and registration of imaging data, surface/depth tracking"
+    },
+    {
+     "pub": "US10810799B2",
+     "title": "Methods and devices for intraoperative viewing of patient 3D surface images",
+     "snippet": "",
+     "priority_date": "2015-09-28",
+     "assignee": "Montefiore Medical Center",
+     "found_by": [
+      1,
+      4
+     ],
+     "why": "Intraoperative 3D surface scanning registered to CT; relevant to depth map registration and updated depth maps.",
+     "elements_disclosed": "Intraoperative 3D surface imaging of patient, registration with CT, updated intraoperative viewing"
+    },
+    {
+     "pub": "US20220142730A1",
+     "title": "Fiducial marker",
+     "snippet": "",
+     "priority_date": "2019-07-29",
+     "assignee": "Augmedics Ltd.",
+     "found_by": [
+      2,
+      5
+     ],
+     "why": "Augmedics fiducial marker; supports the radiopaque fiducial array identified by both CT and the headset.",
+     "elements_disclosed": "Fiducial marker with radiopaque elements for CT and optical elements for AR HMD registration"
+    }
+   ],
+   "pool_size": 211,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 6 queries (claude)",
+    "Query 1: (\"head-mounted\" OR \"head mounted display\" OR HMD OR headset OR \"smart glasses\") AND (\"see-through\" OR \"optical see-through\" OR \"augmented reality\") AND (\"depth sensor\" OR \"depth camera\" OR \"time-of-flight\" OR \"structured light\" OR \"depth map\") AND (surgery OR surgical OR \"image-guided\") -> 50 results",
+    "Query 2: (\"depth map\" OR \"depth data\" OR \"point cloud\" OR \"surface scan\") AND (register OR registration OR transformation OR \"surface matching\" OR ICP) AND (CT OR \"computed tomography\" OR tomographic OR \"3D image\") AND (spine OR vertebra OR vertebrae OR spinal) -> 50 results",
+    "Query 3: (\"radiopaque\" OR \"radio-opaque\" OR \"CT-visible\" OR radiodense) AND (fiducial OR marker OR markers) AND (\"depth map\" OR \"depth sensor\" OR \"depth camera\" OR \"3D coordinates\") AND (register OR registration OR matching) -> 50 results",
+    "Query 4: (\"augmented reality\" OR \"see-through display\" OR \"head-mounted\") AND (overlay OR superimpose OR \"in registration\" OR aligned) AND (CT OR tomographic OR \"preoperative image\") AND (\"depth sensor\" OR \"depth camera\" OR \"depth map\") -> 50 results",
+    "Query 5: (\"updated depth map\" OR \"depth map\" OR \"surface scan\" OR \"point cloud\") AND (intraoperative OR \"during surgery\" OR \"in the course of\" OR \"real-time\") AND (\"detect change\" OR movement OR displacement OR deformation OR \"re-registration\") AND (spine OR vertebra OR \"region of interest\") -> 50 results",
+    "Query 6: (\"head-mounted\" OR HMD OR headset) AND (\"depth sensor\" OR \"depth camera\" OR \"depth map\") AND (fiducial OR marker) AND (spine OR vertebra OR \"spinal surgery\") AND (CT OR tomographic) -> 50 results",
+    "Ranked 211 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ },
+ {
+  "pub": "US10977113B2",
+  "title": "System and method for fault identification, logging, and remediation",
+  "tech_class": "G06F",
+  "priority_date": "2019-01-29",
+  "input": "Title: System and method for fault identification, logging, and remediation\n\nAbstract: A client recovery orchestrator for recovering clients after faults includes a persistent storage and a recovery manager. The persistent storage stores a fault correction script. The recovery manager obtains a fault profile associated with a client of the clients, matches the fault profile to a corrective action based on an associative model that associates dimensions of the fault profile and the corrective action, obtains the fault correction script based on the corrective action, orchestrates execution of the fault correction script to obtain an updated client, and updates the associative model based on the updated client.\n\nFirst claim: 1. A client recovery orchestrator for recovering clients after faults, comprising: a persistent storage for storing a fault correction script; and a recovery manager programmed to: obtain logs associated with components of a client of the clients, generating a fault profile for a fault of the faults using the logs, wherein the fault profile is based on component dependencies of the client, wherein the component dependencies specify: a hardware component associated with a second hardware component that generated the fault, and a software component associated with the second hardware component that generated the fault, match the fault profile to a corrective action based on an associative model that associates dimensions of the fault profile and the corrective action, obtain the fault correction script based on the corrective action, orchestrate execution of the fault correction script to obtain an updated client, and update the associative model based on the updated client.",
+  "exclude": [
+   "US10977113B2"
+  ],
+  "examiner_refs": [
+   "US20070266138A1",
+   "US20090106589A1",
+   "US20110231704A1",
+   "US20130166967A1",
+   "US20130185592A1",
+   "US20140006871A1",
+   "US20150089309A1",
+   "US20180239694A1",
+   "US20190354457A1",
+   "US5463768A",
+   "US5528516A",
+   "US5666481A",
+   "US5740354A",
+   "US6076083A",
+   "US6336065B1",
+   "US6622264B1",
+   "US6651183B1",
+   "US9313091B1",
+   "US9501345B1"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Recovery orchestrator with persistent storage storing a fault correction script (remediation script) for recovering client devices after faults",
+     "Obtaining logs associated with components of a client and generating a fault profile (fault signature) from the logs",
+     "Fault profile based on component dependencies specifying a hardware component and a software component associated with the faulting hardware component",
+     "Matching the fault profile to a corrective action using an associative model associating dimensions of the fault profile with corrective actions",
+     "Retrieving the fault correction script for the corrective action and orchestrating its execution on the client to obtain an updated client",
+     "Updating the associative model based on the state of the updated client (feedback learning of remediation effectiveness)"
+    ],
+    "queries": [
+     {
+      "query": "(\"fault profile\" OR \"fault signature\" OR \"error signature\" OR \"failure signature\") AND (\"corrective action\" OR remediation OR \"recovery action\") AND (script OR \"remediation script\" OR \"correction script\")",
+      "targets": "Elements 1, 4, 5"
+     },
+     {
+      "query": "(log OR logs OR \"event log\" OR \"system log\") AND (\"fault profile\" OR \"fault signature\" OR \"failure profile\") AND (\"component dependencies\" OR \"dependency graph\" OR \"dependency map\" OR \"dependency tree\")",
+      "targets": "Elements 2, 3"
+     },
+     {
+      "query": "(\"hardware component\" OR \"hardware device\") AND (\"software component\" OR driver OR firmware) AND (dependenc* OR associated) AND (fault OR failure OR error) AND (\"root cause\" OR diagnos* OR identif*)",
+      "targets": "Element 3"
+     },
+     {
+      "query": "(\"associative model\" OR \"association model\" OR \"machine learning model\" OR \"knowledge base\" OR \"lookup table\") AND (fault OR failure OR error) AND (\"corrective action\" OR remediation OR fix) AND (match* OR map* OR associat*)",
+      "targets": "Element 4"
+     },
+     {
+      "query": "(remediation OR \"corrective action\" OR \"recovery action\") AND (\"update the model\" OR retrain* OR feedback OR \"reinforcement learning\") AND (outcome OR success OR \"updated client\" OR \"post-remediation state\")",
+      "targets": "Element 6"
+     },
+     {
+      "query": "(orchestrat* OR \"recovery manager\" OR \"remediation engine\") AND (\"client device\" OR client OR endpoint OR node) AND (\"execute script\" OR \"execution of the script\" OR \"run script\") AND (fault OR failure) AND (recover* OR remediat*)",
+      "targets": "Elements 1, 5"
+     },
+     {
+      "query": "(\"self-healing\" OR \"automated remediation\" OR \"automatic recovery\") AND (log OR telemetry) AND (\"machine learning\" OR \"associative model\" OR classifier) AND (script OR playbook OR runbook)",
+      "targets": "Elements 2, 4, 5, 6"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US9313091B1",
+     "title": "Analytics platform for automated diagnosis, remediation, and proactive supportability",
+     "snippet": "",
+     "priority_date": "2013-09-26",
+     "assignee": "Emc Corporation",
+     "found_by": [
+      5,
+      6
+     ],
+     "why": "Its title, an analytics platform for automated diagnosis and remediation, matches the overall claim most closely. It likely teaches logs, fault profiles, corrective actions and scripts.",
+     "elements_disclosed": "Log-based automated diagnosis of faults, fault signatures, matching to remediation actions and executing them, plus proactive supportability"
+    },
+    {
+     "pub": "US20180239694A1",
+     "title": "State-based remedial action generation",
+     "snippet": "",
+     "priority_date": "2017-02-21",
+     "assignee": "Microsoft Technology Licensing, Llc",
+     "found_by": [
+      0,
+      3,
+      4,
+      5
+     ],
+     "why": "Generating remedial actions from system state corresponds to matching a fault profile to a corrective action and updating the model.",
+     "elements_disclosed": "State-based mapping of fault states to remedial actions, executing remediation, learning from outcomes"
+    },
+    {
+     "pub": "US7516362B2",
+     "title": "Method and apparatus for automating the root cause analysis of system failures",
+     "snippet": "",
+     "priority_date": "2004-03-19",
+     "assignee": "Hewlett-Packard Development Company, L.P.",
+     "found_by": [
+      2
+     ],
+     "why": "Addresses fault profiles built on hardware and software component dependencies, and associating faults with known causes or remedies.",
+     "elements_disclosed": "Root cause analysis of system failures using component dependencies, failure signatures and a knowledge base"
+    },
+    {
+     "pub": "US9348573B2",
+     "title": "Installation and fault handling in a distributed system utilizing supervisor and dependency manager nodes",
+     "snippet": "",
+     "priority_date": "2013-12-02",
+     "assignee": "Qbase, LLC",
+     "found_by": [
+      1,
+      5
+     ],
+     "why": "Orchestrated fault handling informed by component dependencies.",
+     "elements_disclosed": "Supervisor node handling faults in a distributed system using a dependency manager, with installation and corrective actions"
+    },
+    {
+     "pub": "US8239828B2",
+     "title": "Method of recovering from software failures using replanning",
+     "snippet": "",
+     "priority_date": "2008-01-08",
+     "assignee": "International Business Machines Corporation",
+     "found_by": [
+      2,
+      5
+     ],
+     "why": "Orchestrated recovery and execution of corrective actions.",
+     "elements_disclosed": "Recovering from software failures by replanning and executing recovery actions"
+    },
+    {
+     "pub": "US6076083A",
+     "title": "Diagnostic system utilizing a Bayesian network model having link weights updated experimentally",
+     "snippet": "",
+     "priority_date": "1995-08-20",
+     "assignee": "Baker; Michelle",
+     "found_by": [
+      4
+     ],
+     "why": "Teaches an associative model updated on feedback, i.e. the claim's learning element.",
+     "elements_disclosed": "Diagnostic Bayesian network whose link weights are updated from experimental results"
+    },
+    {
+     "pub": "US5740354A",
+     "title": "Method and system for associating related errors in a computer system",
+     "snippet": "",
+     "priority_date": "1995-11-27",
+     "assignee": "Microsoft Corporation",
+     "found_by": [
+      2,
+      3
+     ],
+     "why": "Correlating errors across components to build a fault profile.",
+     "elements_disclosed": "Associating related errors in a computer system"
+    },
+    {
+     "pub": "US20110231704A1",
+     "title": "Methods, apparatus and articles of manufacture to perform root cause analysis for network events",
+     "snippet": "",
+     "priority_date": "2010-03-19",
+     "assignee": "Zihui Ge",
+     "found_by": [
+      2
+     ],
+     "why": "Builds fault profiles from logged events and dependencies.",
+     "elements_disclosed": "Root cause analysis for network events using dependency and correlation models"
+    },
+    {
+     "pub": "US20190354457A1",
+     "title": "Anomaly detection based on events composed through unsupervised clustering of log messages",
+     "snippet": "",
+     "priority_date": "2018-05-21",
+     "assignee": "Oracle International Corporation",
+     "found_by": [
+      1
+     ],
+     "why": "Covers obtaining logs and generating fault profiles from them.",
+     "elements_disclosed": "Clustering log messages into events for anomaly detection"
+    },
+    {
+     "pub": "US6622264B1",
+     "title": "Process and system for analyzing fault log data from a machine so as to identify faults predictive of machine failures",
+     "snippet": "",
+     "priority_date": "1999-10-28",
+     "assignee": "General Electric Company",
+     "found_by": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6
+     ],
+     "why": "Generates fault profiles from fault logs.",
+     "elements_disclosed": "Analyzing fault log data to identify faults predictive of machine failures"
+    }
+   ],
+   "pool_size": 314,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 7 queries (claude)",
+    "Query 1: (\"fault profile\" OR \"fault signature\" OR \"error signature\" OR \"failure signature\") AND (\"corrective action\" OR remediation OR \"recovery action\") AND (script OR \"remediation script\" OR \"correction script\") -> 50 results",
+    "Query 2: (log OR logs OR \"event log\" OR \"system log\") AND (\"fault profile\" OR \"fault signature\" OR \"failure profile\") AND (\"component dependencies\" OR \"dependency graph\" OR \"dependency map\" OR \"dependency tree\") -> 50 results",
+    "Query 3: (\"hardware component\" OR \"hardware device\") AND (\"software component\" OR driver OR firmware) AND (dependenc* OR associated) AND (fault OR failure OR error) AND (\"root cause\" OR diagnos* OR identif*) -> 50 results",
+    "Query 4: (\"associative model\" OR \"association model\" OR \"machine learning model\" OR \"knowledge base\" OR \"lookup table\") AND (fault OR failure OR error) AND (\"corrective action\" OR remediation OR fix) AND (match* OR map* OR associat*) -> 50 results",
+    "Query 5: (remediation OR \"corrective action\" OR \"recovery action\") AND (\"update the model\" OR retrain* OR feedback OR \"reinforcement learning\") AND (outcome OR success OR \"updated client\" OR \"post-remediation state\") -> 50 results",
+    "Query 6: (orchestrat* OR \"recovery manager\" OR \"remediation engine\") AND (\"client device\" OR client OR endpoint OR node) AND (\"execute script\" OR \"execution of the script\" OR \"run script\") AND (fault OR failure) AND (recover* OR remediat*) -> 50 results",
+    "Query 7: (\"self-healing\" OR \"automated remediation\" OR \"automatic recovery\") AND (log OR telemetry) AND (\"machine learning\" OR \"associative model\" OR classifier) AND (script OR playbook OR runbook) -> 50 results",
+    "Ranked 314 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ },
+ {
+  "pub": "US11593662B2",
+  "title": "Unsupervised cluster generation",
+  "tech_class": "G06F",
+  "priority_date": "2019-12-12",
+  "input": "Title: Unsupervised cluster generation\n\nAbstract: A method that may include (a) feeding multiple tagged media units to a neural network to provide, from one or more intermediate layers of the neural network, multiple feature vectors of segments of the media units; wherein the neural network was trained to detect current objects within media units; wherein the new category differs from each one of the current categories; wherein at least one media unit comprises at least one segment that is tagged as including the new object; (b) calculating similarities between the multiple feature vectors; (c) clustering the multiple feature vectors to feature vector clusters, based on the similarities; and (d) finding, out of the feature vector clusters, a new feature vector cluster that identifies media unit segments that comprise the new object.\n\nFirst claim: 1. A method for detecting a new object, the method comprises: (a) feeding multiple tagged media units to a neural network to provide, from multiple intermediate layers of the neural network, multiple feature vectors of segments of the tagged media units; wherein the neural network was trained to detect current objects within media units; wherein a media unit of the tagged media units is a unit of sensed information that is sensed by a sensor; wherein the new object differs from each one of the current objects; wherein at least one media unit comprises at least one segment that is tagged as including the new object; (b) calculating similarities between the multiple feature vectors; (c) clustering the multiple feature vectors to feature vector clusters, based on the similarities; and (d) finding, out of the feature vector clusters, a new feature vector cluster that identifies media unit segments that comprise the new object.",
+  "exclude": [
+   "US11593662B2"
+  ],
+  "examiner_refs": [
+   "US20160379091A1",
+   "US20180174001A1",
+   "US20200027002A1"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Feeding tagged media units (sensed information from a sensor, e.g., images) to a neural network pre-trained to detect a set of current/known object classes",
+     "Extracting feature vectors of media unit segments from multiple intermediate (hidden) layers of the neural network",
+     "At least one segment is tagged/labeled as containing a new object class that differs from each of the current trained classes",
+     "Calculating similarities between the feature vectors and clustering them into feature vector clusters based on the similarities",
+     "Identifying, among the clusters, a new cluster that corresponds to media unit segments containing the new object (novel class discovery)"
+    ],
+    "queries": [
+     {
+      "query": "(\"neural network\" OR CNN OR \"deep learning model\") AND (\"intermediate layer\" OR \"hidden layer\" OR \"middle layer\") AND (\"feature vector\" OR embedding OR \"feature map\") AND (cluster OR clustering)",
+      "targets": "Elements 2 and 4"
+     },
+     {
+      "query": "(\"new object\" OR \"novel class\" OR \"unknown object\" OR \"new category\" OR \"unseen class\") AND (\"feature vector\" OR embedding) AND (cluster OR clustering) AND (\"pre-trained\" OR \"previously trained\" OR \"trained to detect\")",
+      "targets": "Elements 1, 3 and 5"
+     },
+     {
+      "query": "(\"novel class discovery\" OR \"new class discovery\" OR \"open set\" OR \"open world\") AND (clustering OR \"cluster analysis\") AND (\"intermediate layer\" OR \"hidden layer\" OR \"activation\")",
+      "targets": "Elements 2 and 5"
+     },
+     {
+      "query": "(tagged OR labeled OR annotated) AND (segment OR patch OR region OR \"bounding box\") AND (\"new object\" OR \"novel object\" OR \"unknown class\") AND (cluster OR clustering) AND (similarity OR distance)",
+      "targets": "Elements 3, 4 and 5"
+     },
+     {
+      "query": "(\"similarity\" OR \"cosine distance\" OR \"Euclidean distance\") AND (\"feature vectors\" OR embeddings) AND (cluster OR clustering) AND (\"identify cluster\" OR \"select cluster\" OR \"new cluster\") AND (object OR class)",
+      "targets": "Elements 4 and 5"
+     },
+     {
+      "query": "(sensor OR camera OR lidar OR \"sensed information\") AND (\"neural network\") AND (\"multiple layers\" OR \"plurality of layers\" OR \"intermediate layers\") AND (\"feature vector\" OR signature) AND (unsupervised OR clustering)",
+      "targets": "Elements 1 and 2"
+     },
+     {
+      "query": "(\"unsupervised\" OR \"self-supervised\") AND (\"object detection\" OR \"object recognition\") AND (\"new class\" OR \"new object\" OR \"additional class\") AND (\"feature clustering\" OR \"cluster the features\" OR \"clustering feature vectors\")",
+      "targets": "Elements 3 and 4"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US20200027002A1",
+     "title": "Category learning neural networks",
+     "snippet": "",
+     "priority_date": "2018-07-20",
+     "assignee": "Google Llc",
+     "found_by": [
+      0,
+      5
+     ],
+     "why": "Closest art: neural-network-based category learning likely covering extracting intermediate representations and identifying novel classes via clustering.",
+     "elements_disclosed": "Neural network producing embeddings/feature vectors for category learning; clustering to discover new categories"
+    },
+    {
+     "pub": "US20140169681A1",
+     "title": "Method, apparatus and system for generating a feature vector",
+     "snippet": "",
+     "priority_date": "2012-12-13",
+     "assignee": "Canon Kabushiki Kaisha",
+     "found_by": [
+      5,
+      6
+     ],
+     "why": "Feature vector generation for images; supports the feature extraction step of the claim.",
+     "elements_disclosed": "Generating feature vectors from image data (media units from sensor)"
+    },
+    {
+     "pub": "US7801893B2",
+     "title": "Similarity detection and clustering of images",
+     "snippet": "",
+     "priority_date": "2005-09-30",
+     "assignee": "Iac Search & Media, Inc.",
+     "found_by": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+     ],
+     "why": "Teaches computing similarities and clustering of image data (step b, c).",
+     "elements_disclosed": "Similarity calculation between images and clustering of images based on similarity"
+    },
+    {
+     "pub": "US20070078846A1",
+     "title": "Similarity detection and clustering of images",
+     "snippet": "",
+     "priority_date": "2005-09-30",
+     "assignee": "Antonino Gulli",
+     "found_by": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+     ],
+     "why": "Same family as US7801893B2; image similarity clustering.",
+     "elements_disclosed": "Similarity detection and clustering of images"
+    },
+    {
+     "pub": "US5640468A",
+     "title": "Method for identifying objects and features in an image",
+     "snippet": "",
+     "priority_date": "1994-04-28",
+     "assignee": "Hsu; Shin-Yi",
+     "found_by": [
+      4,
+      6
+     ],
+     "why": "Object identification in images; relevant to the detection of objects in sensed media units.",
+     "elements_disclosed": "Identifying objects and features in sensed images"
+    },
+    {
+     "pub": "US5461698A",
+     "title": "Method for modelling similarity function using neural network",
+     "snippet": "",
+     "priority_date": "1991-05-10",
+     "assignee": "Siemens Corporate Research, Inc.",
+     "found_by": [
+      0,
+      5
+     ],
+     "why": "Teaches computing similarities using neural-network features.",
+     "elements_disclosed": "Neural network modelling a similarity function between feature inputs"
+    },
+    {
+     "pub": "US6304675B1",
+     "title": "Visual cluster analysis and pattern recognition methods",
+     "snippet": "",
+     "priority_date": "1993-12-28",
+     "assignee": "Sandia Corporation",
+     "found_by": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+     ],
+     "why": "Clustering of data for pattern recognition, which could be used to identify new pattern clusters.",
+     "elements_disclosed": "Cluster analysis and pattern recognition"
+    },
+    {
+     "pub": "US20060095521A1",
+     "title": "Method, apparatus, and system for clustering and classification",
+     "snippet": "",
+     "priority_date": "2004-11-04",
+     "assignee": "Seth Patinkin",
+     "found_by": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "Combines clustering with classification, which is relevant to finding a new class cluster.",
+     "elements_disclosed": "Clustering and classification of objects"
+    },
+    {
+     "pub": "US8285718B1",
+     "title": "Clustering multimedia search",
+     "snippet": "",
+     "priority_date": "2007-12-21",
+     "assignee": "CastTV Inc.",
+     "found_by": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+     ],
+     "why": "Clusters media units based on similarity.",
+     "elements_disclosed": "Clustering multimedia items"
+    },
+    {
+     "pub": "US20190354457A1",
+     "title": "Anomaly detection based on events composed through unsupervised clustering of log messages",
+     "snippet": "",
+     "priority_date": "2018-05-21",
+     "assignee": "Oracle International Corporation",
+     "found_by": [
+      1,
+      5,
+      6
+     ],
+     "why": "Unsupervised clustering to discover novel event types; analogous to finding a new cluster.",
+     "elements_disclosed": "Unsupervised clustering to detect new/anomalous patterns"
+    }
+   ],
+   "pool_size": 141,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 7 queries (claude)",
+    "Query 1: (\"neural network\" OR CNN OR \"deep learning model\") AND (\"intermediate layer\" OR \"hidden layer\" OR \"middle layer\") AND (\"feature vector\" OR embedding OR \"feature map\") AND (cluster OR clustering) -> 50 results",
+    "Query 2: (\"new object\" OR \"novel class\" OR \"unknown object\" OR \"new category\" OR \"unseen class\") AND (\"feature vector\" OR embedding) AND (cluster OR clustering) AND (\"pre-trained\" OR \"previously trained\" OR \"trained to detect\") -> 50 results",
+    "Query 3: (\"novel class discovery\" OR \"new class discovery\" OR \"open set\" OR \"open world\") AND (clustering OR \"cluster analysis\") AND (\"intermediate layer\" OR \"hidden layer\" OR \"activation\") -> 50 results",
+    "Query 4: (tagged OR labeled OR annotated) AND (segment OR patch OR region OR \"bounding box\") AND (\"new object\" OR \"novel object\" OR \"unknown class\") AND (cluster OR clustering) AND (similarity OR distance) -> 50 results",
+    "Query 5: (\"similarity\" OR \"cosine distance\" OR \"Euclidean distance\") AND (\"feature vectors\" OR embeddings) AND (cluster OR clustering) AND (\"identify cluster\" OR \"select cluster\" OR \"new cluster\") AND (object OR class) -> 50 results",
+    "Query 6: (sensor OR camera OR lidar OR \"sensed information\") AND (\"neural network\") AND (\"multiple layers\" OR \"plurality of layers\" OR \"intermediate layers\") AND (\"feature vector\" OR signature) AND (unsupervised OR clustering) -> 50 results",
+    "Query 7: (\"unsupervised\" OR \"self-supervised\") AND (\"object detection\" OR \"object recognition\") AND (\"new class\" OR \"new object\" OR \"additional class\") AND (\"feature clustering\" OR \"cluster the features\" OR \"clustering feature vectors\") -> 50 results",
+    "Ranked 141 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ },
+ {
+  "pub": "US11827215B2",
+  "title": "Method for training a driving related object detector",
+  "tech_class": "G06F",
+  "priority_date": "2020-03-31",
+  "input": "Title: Method for training a driving related object detector\n\nAbstract: A method for driving-related object detection, the method may include receiving an input image by an input of an object detector; and detecting, by an object detector, objects that appear in the input image. The detecting includes searching for (i) a first object having a first size that is within a first size range and belongs to a four wheel vehicle class, (ii) a second object having a second size that is within a second size range and belongs to a subclass out of multiple four wheel vehicle subclasses, (iii) a pedestrian, and (iv) a two wheel vehicle; wherein a maximum of the first size range does not substantially exceed a minimum of the second size range.\n\nFirst claim: 1. A method for driving-related object detection, the method comprises: receiving an input image by an input of an object detector; and detecting, by the object detector, objects that appear in the input image; wherein the detecting comprises searching for (i) a first object that appears in the image at a first size that is within a first size range and belongs to a four wheel vehicle class, (ii) a second object that appears in the image at a second size that is within a second size range and belongs to a subclass out of multiple four wheel vehicle subclasses, (iii) a pedestrian, and (iv) a two wheel vehicle; wherein a maximum of the first size range is smaller than a minimum of the second size range; wherein the searching for the first object comprises preventing from classifying a four wheel vehicle to any of the multiple four wheel vehicle subclasses when the four wheel vehicle appears in the image at a size that is within the first size range.",
+  "exclude": [
+   "US11827215B2"
+  ],
+  "examiner_refs": [
+   "US10949982B1",
+   "US20070168941A1",
+   "US20120230548A1",
+   "US20160368440A1",
+   "US20190011922A1",
+   "US20190145765A1",
+   "US20200258254A1",
+   "US20200364474A1",
+   "US20200410252A1",
+   "US20210042592A1",
+   "US20210229680A1",
+   "US9862318B2"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Receiving an input image at an object detector for driving-related (vehicle/ADAS) object detection",
+     "Detecting small (distant) objects in a first image size range and classifying them only at a generic four-wheel vehicle class level",
+     "Detecting larger objects in a second, non-overlapping image size range and classifying them into one of multiple four-wheel vehicle subclasses (car, truck, bus, van)",
+     "Preventing subclass classification of a four-wheel vehicle when its apparent size falls within the first (smaller) size range",
+     "Also detecting pedestrians and two-wheel vehicles (bicycle, motorcycle) in the same image"
+    ],
+    "queries": [
+     {
+      "query": "(\"object detector\" OR \"object detection\" OR \"neural network\") AND (vehicle OR car) AND (subclass OR \"sub-class\" OR \"fine-grained\" OR \"vehicle type\") AND (\"object size\" OR \"size range\" OR \"pixel size\" OR \"bounding box size\" OR \"apparent size\")",
+      "targets": "Elements 2, 3"
+     },
+     {
+      "query": "(\"size threshold\" OR \"size range\" OR \"bounding box\" OR \"pixel height\") AND (\"coarse class\" OR \"generic class\" OR \"parent class\" OR \"superclass\") AND (\"fine class\" OR subclass OR \"sub-category\") AND (\"distant object\" OR \"small object\" OR \"far away\")",
+      "targets": "Elements 2, 4"
+     },
+     {
+      "query": "(\"four wheel\" OR \"four-wheeled\" OR car OR truck OR bus OR van) AND (pedestrian) AND (\"two wheel\" OR \"two-wheeled\" OR bicycle OR motorcycle OR cyclist) AND (\"object detector\" OR \"object detection\" OR classifier) AND (\"autonomous vehicle\" OR ADAS OR \"driver assistance\" OR \"driving\")",
+      "targets": "Elements 1, 5"
+     },
+     {
+      "query": "(refrain OR prevent OR suppress OR withhold OR inhibit) AND (classify OR classification OR label) AND (subclass OR \"vehicle type\" OR \"vehicle category\") AND (\"small size\" OR \"below threshold\" OR \"insufficient resolution\" OR \"too small\")",
+      "targets": "Element 4"
+     },
+     {
+      "query": "(\"hierarchical classification\" OR \"class hierarchy\" OR \"hierarchical label\") AND (vehicle) AND (\"object size\" OR \"scale\" OR \"distance\" OR \"resolution\") AND (\"camera image\" OR \"input image\")",
+      "targets": "Elements 2, 3, 4"
+     },
+     {
+      "query": "(\"first size range\" OR \"second size range\" OR \"non-overlapping\" OR \"scale range\") AND (\"object detector\" OR \"detection head\" OR \"anchor\") AND (vehicle OR pedestrian OR cyclist) AND (\"input image\" OR \"camera\")",
+      "targets": "Elements 1, 2, 3"
+     },
+     {
+      "query": "(train OR training) AND (\"object detector\" OR \"neural network\") AND (vehicle) AND (subclass OR \"vehicle type\") AND (\"size\" OR \"pixel\" OR \"bounding box\") AND (annotation OR label OR \"ground truth\")",
+      "targets": "Elements 2, 3, 4"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US20200005631A1",
+     "title": "Vehicle Classification System",
+     "snippet": "",
+     "priority_date": "2018-06-29",
+     "assignee": "Ford Global Technologies, Llc",
+     "found_by": [
+      3,
+      4
+     ],
+     "why": "Vehicle classification system for ADAS imagery directly addresses four-wheel vehicle subclass classification; may tie class granularity to detection confidence or size.",
+     "elements_disclosed": "Driving-related input image; classifying detected vehicles into vehicle classes/subclasses (car, truck, etc.)"
+    },
+    {
+     "pub": "US20200410252A1",
+     "title": "Method for determining anchor boxes for training neural network object detection models for autonomous driving",
+     "snippet": "",
+     "priority_date": "2019-06-28",
+     "assignee": "Baidu Usa Llc",
+     "found_by": [
+      0,
+      1,
+      2,
+      5,
+      6
+     ],
+     "why": "Size-range-dependent detection of driving objects (vehicles, pedestrians, cyclists) maps onto the size-range and multi-class elements.",
+     "elements_disclosed": "Autonomous-driving object detector; anchor box sizes per object size range; detecting vehicles, pedestrians and cyclists"
+    },
+    {
+     "pub": "US20160210525A1",
+     "title": "Object detection using location data and scale space representations of image data",
+     "snippet": "",
+     "priority_date": "2015-01-16",
+     "assignee": "Qualcomm Incorporated",
+     "found_by": [
+      4,
+      5
+     ],
+     "why": "Distance and size dependent detection of objects in vehicle imagery supports treating small, distant objects differently.",
+     "elements_disclosed": "Vehicle camera image; object detection across scale-space representations by distance and size"
+    },
+    {
+     "pub": "US20180101177A1",
+     "title": "Navigating a vehicle based on a detected barrier",
+     "snippet": "",
+     "priority_date": "2016-10-11",
+     "assignee": "Mobileye Vision Technologies Ltd.",
+     "found_by": [
+      0,
+      2
+     ],
+     "why": "Mobileye ADAS detection of multiple road object types in the same image.",
+     "elements_disclosed": "Vehicle camera input image; detecting vehicles, pedestrians and other road objects"
+    },
+    {
+     "pub": "US10789527B1",
+     "title": "Method for object detection using shallow neural networks",
+     "snippet": "",
+     "priority_date": "2019-03-31",
+     "assignee": "Cortica Ltd.",
+     "found_by": [
+      0,
+      6
+     ],
+     "why": "Same assignee family; general driving object detector.",
+     "elements_disclosed": "Object detector receiving an input image; driving-related detection"
+    },
+    {
+     "pub": "US20200364474A1",
+     "title": "Low power high accuracy object detector having large filters",
+     "snippet": "",
+     "priority_date": "2019-03-31",
+     "assignee": "Cortica Ltd.",
+     "found_by": [
+      0,
+      2
+     ],
+     "why": "Same assignee; shows the general object detector framework.",
+     "elements_disclosed": "Object detector receiving an input image; detecting objects"
+    },
+    {
+     "pub": "US20210229680A1",
+     "title": "Vehicle neural network training",
+     "snippet": "",
+     "priority_date": "2020-01-24",
+     "assignee": "Ford Global Technologies, Llc",
+     "found_by": [
+      0,
+      6
+     ],
+     "why": "Automotive neural network detection context.",
+     "elements_disclosed": "Training a vehicle neural network to detect objects in images"
+    },
+    {
+     "pub": "US20070168941A1",
+     "title": "Subclass partitioning in a pattern recognition classifier system",
+     "snippet": "",
+     "priority_date": "2005-12-19",
+     "assignee": "Trw Automotive U.S. Llc",
+     "found_by": [
+      0,
+      1,
+      3
+     ],
+     "why": "Discloses hierarchical class and subclass classification, relevant to classifying only at the generic class level.",
+     "elements_disclosed": "Subclass partitioning within a classifier"
+    },
+    {
+     "pub": "US20190279046A1",
+     "title": "Neural network for object detection in images",
+     "snippet": "",
+     "priority_date": "2016-11-01",
+     "assignee": "Snap Inc.",
+     "found_by": [
+      0,
+      5,
+      6
+     ],
+     "why": "Multi-scale detection network; general background for size-range detection.",
+     "elements_disclosed": "Neural network detecting objects at multiple scales in an image"
+    },
+    {
+     "pub": "US9862318B2",
+     "title": "Method to determine distance of an object from an automated vehicle with a monocular device",
+     "snippet": "",
+     "priority_date": "2014-12-22",
+     "assignee": "Delphi Technologies, Inc.",
+     "found_by": [
+      4
+     ],
+     "why": "Ties apparent image size to distance for vehicle objects.",
+     "elements_disclosed": "Automated-vehicle monocular camera; relating object size in the image to distance"
+    }
+   ],
+   "pool_size": 294,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 7 queries (claude)",
+    "Query 1: (\"object detector\" OR \"object detection\" OR \"neural network\") AND (vehicle OR car) AND (subclass OR \"sub-class\" OR \"fine-grained\" OR \"vehicle type\") AND (\"object size\" OR \"size range\" OR \"pixel size\" OR \"bounding box size\" OR \"apparent size\") -> 50 results",
+    "Query 2: (\"size threshold\" OR \"size range\" OR \"bounding box\" OR \"pixel height\") AND (\"coarse class\" OR \"generic class\" OR \"parent class\" OR \"superclass\") AND (\"fine class\" OR subclass OR \"sub-category\") AND (\"distant object\" OR \"small object\" OR \"far away\") -> 50 results",
+    "Query 3: (\"four wheel\" OR \"four-wheeled\" OR car OR truck OR bus OR van) AND (pedestrian) AND (\"two wheel\" OR \"two-wheeled\" OR bicycle OR motorcycle OR cyclist) AND (\"object detector\" OR \"object detection\" OR classifier) AND (\"autonomous vehicle\" OR ADAS OR \"driver assistance\" OR \"driving\") -> 50 results",
+    "Query 4: (refrain OR prevent OR suppress OR withhold OR inhibit) AND (classify OR classification OR label) AND (subclass OR \"vehicle type\" OR \"vehicle category\") AND (\"small size\" OR \"below threshold\" OR \"insufficient resolution\" OR \"too small\") -> 50 results",
+    "Query 5: (\"hierarchical classification\" OR \"class hierarchy\" OR \"hierarchical label\") AND (vehicle) AND (\"object size\" OR \"scale\" OR \"distance\" OR \"resolution\") AND (\"camera image\" OR \"input image\") -> 50 results",
+    "Query 6: (\"first size range\" OR \"second size range\" OR \"non-overlapping\" OR \"scale range\") AND (\"object detector\" OR \"detection head\" OR \"anchor\") AND (vehicle OR pedestrian OR cyclist) AND (\"input image\" OR \"camera\") -> 50 results",
+    "Query 7: (train OR training) AND (\"object detector\" OR \"neural network\") AND (vehicle) AND (subclass OR \"vehicle type\") AND (\"size\" OR \"pixel\" OR \"bounding box\") AND (annotation OR label OR \"ground truth\") -> 50 results",
+    "Ranked 294 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ },
+ {
+  "pub": "US11633405B2",
+  "title": "Steroid hormone pharmaceutical formulations",
+  "tech_class": "A61K",
+  "priority_date": "2020-02-07",
+  "input": "Title: Steroid hormone pharmaceutical formulations\n\nAbstract: This disclosure provides pharmaceutical compositions for delivering estradiol to a subject in need thereof, as well as methods of administering the compositions, and methods of using them.\n\nFirst claim: 1. A vaginal insert comprising a therapeutically effective amount a composition comprising from about 1 microgram to about 25 micrograms of estradiol; and a solubilizing agent, wherein the solubilizing agent comprises at least one C2-C5 fatty acid or a glycol ester, monoglyceride, diglyceride, or triglyceride thereof, wherein the viscosity of the composition is about 5 cP to about 3000 cP at room temperature, wherein the insert further comprises a capsule encapsulating the therapeutically effective amount of estradiol and the solubilizing agent.",
+  "exclude": [
+   "US11633405B2",
+   "US20230277555A1"
+  ],
+  "examiner_refs": [
+   "US10537581B2",
+   "US20140213565A1",
+   "US20190022107A1",
+   "US20190358243A1"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Vaginal insert dosage form for intravaginal delivery of estradiol",
+     "Low dose estradiol: about 1 to about 25 micrograms per insert",
+     "Solubilizing agent comprising C2-C5 short-chain fatty acid (e.g., butyric, caproic/valeric) or glycol ester, mono-, di-, or triglyceride thereof (e.g., triacetin, tributyrin, propylene glycol ester)",
+     "Composition viscosity about 5 cP to about 3000 cP at room temperature (liquid/semi-solid fill)",
+     "Capsule (soft gelatin/softgel) encapsulating the estradiol and solubilizing agent"
+    ],
+    "queries": [
+     {
+      "query": "(estradiol OR oestradiol OR \"17beta-estradiol\") AND (vaginal OR intravaginal OR pessary OR \"vaginal insert\" OR suppository) AND (\"soft gelatin capsule\" OR softgel OR \"soft capsule\" OR capsule)",
+      "targets": "Elements 1, 5"
+     },
+     {
+      "query": "(estradiol OR oestradiol) AND (vaginal OR intravaginal OR pessary) AND (microgram OR mcg OR \"ug\" OR \"low dose\" OR \"10 micrograms\" OR \"4 micrograms\" OR \"25 micrograms\")",
+      "targets": "Elements 1, 2"
+     },
+     {
+      "query": "(estradiol OR oestradiol OR estrogen) AND (triacetin OR tributyrin OR \"short chain triglyceride\" OR \"butyric acid\" OR \"caproic acid\" OR \"valeric acid\" OR \"propionic acid\" OR \"short chain fatty acid\") AND (solubiliz* OR solvent OR carrier OR vehicle)",
+      "targets": "Element 3"
+     },
+     {
+      "query": "(estradiol OR oestradiol) AND (\"propylene glycol\" NEAR3 (ester OR monocaprylate OR dicaprylate) OR monoglyceride OR diglyceride OR \"medium chain triglyceride\" OR glyceride) AND (vaginal OR intravaginal OR capsule)",
+      "targets": "Elements 1, 3, 5"
+     },
+     {
+      "query": "(estradiol OR oestradiol OR \"steroid hormone\") AND (viscosity OR viscous OR centipoise OR cP OR mPa*s) AND (capsule OR softgel OR \"fill material\" OR \"liquid fill\")",
+      "targets": "Elements 4, 5"
+     },
+     {
+      "query": "(estradiol OR oestradiol) AND (vaginal OR intravaginal) AND (\"vulvovaginal atrophy\" OR \"atrophic vaginitis\" OR dyspareunia OR \"menopausal\") AND (capsule OR insert) AND (glyceride OR \"fatty acid\" OR oil)",
+      "targets": "Elements 1, 3, 5"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US9180091B2",
+     "title": "Soluble estradiol capsule for vaginal insertion",
+     "snippet": "",
+     "priority_date": "2012-12-21",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      4,
+      5
+     ],
+     "why": "Same assignee's soluble estradiol vaginal capsule; likely discloses nearly all elements, including the capsule and solubilizer.",
+     "elements_disclosed": "Vaginal insert; soft capsule encapsulating solubilized estradiol; low dose estradiol; solubilizing agent; liquid fill viscosity"
+    },
+    {
+     "pub": "US9289382B2",
+     "title": "Vaginal inserted estradiol pharmaceutical compositions and methods",
+     "snippet": "",
+     "priority_date": "2012-06-18",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      5
+     ],
+     "why": "Earliest-priority (2012-06) member of the TherapeuticsMD vaginal estradiol family; strong anticipation candidate.",
+     "elements_disclosed": "Vaginal inserted estradiol composition; 1-25 mcg doses; solubilizing agent; capsule; viscosity"
+    },
+    {
+     "pub": "US20140213565A1",
+     "title": "Soluble estradiol capsule for vaginal insertion",
+     "snippet": "",
+     "priority_date": "2012-12-21",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      4,
+      5
+     ],
+     "why": "Publication of the soluble estradiol capsule application; overlaps substantially with the claim.",
+     "elements_disclosed": "Vaginal insert capsule with solubilized estradiol; low dose"
+    },
+    {
+     "pub": "US10537581B2",
+     "title": "Vaginal inserted estradiol pharmaceutical compositions and methods",
+     "snippet": "",
+     "priority_date": "2012-12-21",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      5
+     ],
+     "why": "Family member covering vaginal inserted estradiol compositions with a capsule and solubilizer.",
+     "elements_disclosed": "Vaginal insert; low dose estradiol; solubilizing agent; softgel capsule; viscosity range"
+    },
+    {
+     "pub": "US20150133421A1",
+     "title": "Vaginal inserted estradiol pharmaceutical compositions and methods",
+     "snippet": "",
+     "priority_date": "2012-12-21",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      5
+     ],
+     "why": "Earlier publication in the same family; likely discloses the composition and viscosity.",
+     "elements_disclosed": "Vaginal estradiol insert; capsule; solubilizing agent; dose range"
+    },
+    {
+     "pub": "US10258630B2",
+     "title": "Vaginal inserted estradiol pharmaceutical compositions and methods",
+     "snippet": "",
+     "priority_date": "2014-10-22",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      5
+     ],
+     "why": "2014 family member covering the same subject matter.",
+     "elements_disclosed": "Vaginal inserted estradiol; capsule; solubilizer; low dose"
+    },
+    {
+     "pub": "US10471072B2",
+     "title": "Vaginal inserted estradiol pharmaceutical compositions and methods",
+     "snippet": "",
+     "priority_date": "2012-12-21",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      5
+     ],
+     "why": "Family member with the same disclosure.",
+     "elements_disclosed": "Vaginal insert estradiol capsule; solubilizing agent; dose"
+    },
+    {
+     "pub": "US10806697B2",
+     "title": "Vaginal inserted estradiol pharmaceutical compositions and methods",
+     "snippet": "",
+     "priority_date": "2012-12-21",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      5
+     ],
+     "why": "Family member with the same disclosure.",
+     "elements_disclosed": "Vaginal insert estradiol capsule; solubilizer; dose"
+    },
+    {
+     "pub": "US9931349B2",
+     "title": "Steroid hormone pharmaceutical composition",
+     "snippet": "",
+     "priority_date": "2016-04-01",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      4
+     ],
+     "why": "Same assignee's steroid hormone composition; overlapping solubilizer and capsule disclosure.",
+     "elements_disclosed": "Estradiol pharmaceutical composition in capsule; solubilizing agent; possibly vaginal use"
+    },
+    {
+     "pub": "US10286077B2",
+     "title": "Steroid hormone compositions in medium chain oils",
+     "snippet": "",
+     "priority_date": "2016-04-01",
+     "assignee": "Therapeuticsmd, Inc.",
+     "found_by": [
+      3,
+      4
+     ],
+     "why": "Steroid hormone compositions in oils; useful in combination for the solubilizer and capsule elements.",
+     "elements_disclosed": "Estradiol solubilized in oils, encapsulated; viscosity"
+    }
+   ],
+   "pool_size": 186,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 6 queries (claude)",
+    "Query 1: (estradiol OR oestradiol OR \"17beta-estradiol\") AND (vaginal OR intravaginal OR pessary OR \"vaginal insert\" OR suppository) AND (\"soft gelatin capsule\" OR softgel OR \"soft capsule\" OR capsule) -> 50 results",
+    "Query 2: (estradiol OR oestradiol) AND (vaginal OR intravaginal OR pessary) AND (microgram OR mcg OR \"ug\" OR \"low dose\" OR \"10 micrograms\" OR \"4 micrograms\" OR \"25 micrograms\") -> 50 results",
+    "Query 3: (estradiol OR oestradiol OR estrogen) AND (triacetin OR tributyrin OR \"short chain triglyceride\" OR \"butyric acid\" OR \"caproic acid\" OR \"valeric acid\" OR \"propionic acid\" OR \"short chain fatty acid\") AND (solubiliz* OR solvent OR carrier OR vehicle) -> 50 results",
+    "Query 4: (estradiol OR oestradiol) AND (\"propylene glycol\" NEAR3 (ester OR monocaprylate OR dicaprylate) OR monoglyceride OR diglyceride OR \"medium chain triglyceride\" OR glyceride) AND (vaginal OR intravaginal OR capsule) -> 50 results",
+    "Query 5: (estradiol OR oestradiol OR \"steroid hormone\") AND (viscosity OR viscous OR centipoise OR cP OR mPa*s) AND (capsule OR softgel OR \"fill material\" OR \"liquid fill\") -> 50 results",
+    "Query 6: (estradiol OR oestradiol) AND (vaginal OR intravaginal) AND (\"vulvovaginal atrophy\" OR \"atrophic vaginitis\" OR dyspareunia OR \"menopausal\") AND (capsule OR insert) AND (glyceride OR \"fatty acid\" OR oil) -> 50 results",
+    "Ranked 186 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ },
+ {
+  "pub": "US11179891B2",
+  "title": "Method and apparatus for additive manufacturing with shared components",
+  "tech_class": "B33Y",
+  "priority_date": "2019-03-15",
+  "input": "Title: Method and apparatus for additive manufacturing with shared components\n\nAbstract: An additive manufacturing machine includes: a resin support which has at least a portion which is transparent, wherein the resin support defines a build surface; a material depositor operable to deposit a resin which is radiant-energy-curable onto the build surface; at least two build stations, each build station including: a stage positioned adjacent the build zone and configured to hold a stacked arrangement of one or more cured layers of the resin; one or more actuators operable to manipulate a relative position of the stage and the build surface; and at least one radiant energy apparatus positioned opposite to the stage, and operable to generate and project radiant energy in a predetermined pattern.\n\nFirst claim: 1. A tape casting additive manufacturing machine, comprising: a resin support comprising a tape or a foil supported by a support plate, the resin support comprising at least a portion which is transparent, wherein the resin support defines a build surface; a material depositor operable to deposit a resin which is radiant-energy-curable onto the build surface; at least two build stations, each build station including: a stage positioned above the build surface and configured to hold a stacked arrangement of one or more cured layers of the resin; one or more actuators operable to move the stage; and at least one radiant energy apparatus positioned below the stage, and operable to generate and project radiant energy in a predetermined pattern.",
+  "exclude": [
+   "US11179891B2",
+   "US11707888B2"
+  ],
+  "examiner_refs": [
+   "US20170028472A1",
+   "US20190315064A1",
+   "US20190344500A1",
+   "US20200290276A1"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Resin support comprising transparent tape or foil supported by a support plate, defining a build surface (tape casting)",
+     "Material depositor depositing radiant-energy-curable resin onto the build surface",
+     "At least two build stations sharing the same resin support",
+     "Each station has a stage above the build surface holding stacked cured layers, moved by actuators",
+     "Each station has a radiant energy apparatus below the stage projecting a predetermined pattern through the transparent support"
+    ],
+    "queries": [
+     {
+      "query": "(\"tape casting\" OR \"resin tape\" OR \"transparent foil\" OR \"transparent film\") AND (\"build station\" OR \"multiple stages\" OR \"plurality of build platforms\") AND (photopolymer OR \"radiant-energy-curable\" OR \"photocurable resin\")",
+      "targets": "Elements 1, 3"
+     },
+     {
+      "query": "(foil OR tape OR film OR belt) AND (\"support plate\" OR \"glass plate\" OR window) AND transparent AND (\"build surface\" OR \"resin support\") AND (\"stereolithography\" OR \"additive manufacturing\" OR \"layer-by-layer\")",
+      "targets": "Element 1"
+     },
+     {
+      "query": "(\"material depositor\" OR doctor blade OR \"coating device\" OR dispenser OR applicator) AND (resin OR slurry OR photopolymer) AND (tape OR foil OR belt OR film) AND (\"additive manufacturing\" OR \"three-dimensional printing\")",
+      "targets": "Elements 1, 2"
+     },
+     {
+      "query": "(\"two build stations\" OR \"plurality of build stations\" OR \"multiple build stations\" OR \"second build platform\" OR \"second stage\") AND (shared OR common OR same) AND (\"resin support\" OR vat OR tape OR foil OR \"build surface\")",
+      "targets": "Element 3"
+     },
+     {
+      "query": "(stage OR \"build platform\" OR \"carrier plate\") AND (actuator OR \"linear actuator\" OR \"z-axis\") AND (projector OR \"DLP\" OR \"radiant energy\" OR \"light source\") AND (below OR underneath OR \"bottom-up\") AND (\"each station\" OR \"plurality of projectors\" OR \"multiple projectors\")",
+      "targets": "Elements 4, 5"
+     },
+     {
+      "query": "(\"bottom-up\" OR \"inverted\" OR \"constrained surface\") AND (\"moving belt\" OR \"moving tape\" OR \"conveyor film\" OR \"web\") AND (\"plurality of projectors\" OR \"multiple light engines\" OR \"plurality of radiation sources\") AND (photocur* OR polymeriz*)",
+      "targets": "Elements 1, 3, 5"
+     },
+     {
+      "query": "(\"predetermined pattern\" OR \"patterned image\" OR mask OR \"spatial light modulator\") AND (\"cured layer\" OR \"stacked layers\") AND (\"plurality of stages\" OR \"parallel build\" OR \"simultaneous build\") AND (transparent AND (foil OR tape OR film))",
+      "targets": "Elements 3, 4, 5"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US8623264B2",
+     "title": "Device and method for processing light-polymerizable material for building up an object in layers",
+     "snippet": "",
+     "priority_date": "2008-10-20",
+     "assignee": "Ivoclar Vivadent Ag",
+     "found_by": [
+      4,
+      5,
+      6
+     ],
+     "why": "Ivoclar tape-based bottom-up stereolithography. It discloses the core tape casting architecture, but not multiple build stations.",
+     "elements_disclosed": "Transparent tape/foil resin support, material depositor applying light-polymerizable material onto the support, stage above build surface moved by actuators, radiation source below projecting a pattern"
+    },
+    {
+     "pub": "US8741203B2",
+     "title": "Device and method for processing light-polymerizable material for building up an object in layers",
+     "snippet": "",
+     "priority_date": "2008-10-20",
+     "assignee": "Ivoclar Vivadent Ag",
+     "found_by": [
+      4,
+      5,
+      6
+     ],
+     "why": "Family member of the above. It provides the same base teaching for the single-station elements.",
+     "elements_disclosed": "Same Ivoclar tape/film-based layer building: transparent support, material application onto the film, build platform above, exposure from below"
+    },
+    {
+     "pub": "US10272664B2",
+     "title": "Fabrication of 3D objects via multiple build platforms",
+     "snippet": "",
+     "priority_date": "2015-01-14",
+     "assignee": "Xactiv, Inc.",
+     "found_by": [
+      0,
+      3,
+      4
+     ],
+     "why": "Most directly teaches the multiple build stations element and could be combined with the tape casting references.",
+     "elements_disclosed": "Multiple build platforms for fabricating 3D objects, likely sharing photocuring components"
+    },
+    {
+     "pub": "US20160107340A1",
+     "title": "Additive Manufacturing Device With Sliding Plate and Peeling Film",
+     "snippet": "",
+     "priority_date": "2014-04-02",
+     "assignee": "B9Creations, LLC",
+     "found_by": [
+      1
+     ],
+     "why": "Teaches a transparent film supported by a plate, which matches the tape-on-support-plate limitation.",
+     "elements_disclosed": "Bottom-up device with a sliding plate and a peeling film (transparent film supported by a plate), stage above, projector below"
+    },
+    {
+     "pub": "US10239157B2",
+     "title": "Additive machine utilizing rotational build surface",
+     "snippet": "",
+     "priority_date": "2016-04-06",
+     "assignee": "General Electric Company",
+     "found_by": [
+      1,
+      3
+     ],
+     "why": "Same assignee field. A rotating build surface could serve multiple stations sharing one resin support.",
+     "elements_disclosed": "GE additive machine with a rotational build surface, resin deposition, stage, and radiant energy apparatus"
+    },
+    {
+     "pub": "US20160046075A1",
+     "title": "Three-dimensional printing with supported build plates",
+     "snippet": "",
+     "priority_date": "2014-08-12",
+     "assignee": "Carbon3D, Inc.",
+     "found_by": [
+      1,
+      3,
+      4
+     ],
+     "why": "Carbon3D bottom-up system. It discloses the stage, actuator and radiant energy elements.",
+     "elements_disclosed": "Bottom-up photopolymerization with a transparent build surface, build plates, and patterned light from below"
+    },
+    {
+     "pub": "US20160193786A1",
+     "title": "Three-dimensional printing with build plates having a rough or patterned surface and related methods",
+     "snippet": "",
+     "priority_date": "2015-01-06",
+     "assignee": "Carbon3D, Inc.",
+     "found_by": [
+      1,
+      6
+     ],
+     "why": "Teaches the general bottom-up curing configuration.",
+     "elements_disclosed": "Bottom-up 3D printing with a transparent window, build plate carrier, and patterned light source"
+    },
+    {
+     "pub": "US20160033756A1",
+     "title": "Enhanced resolution dlp projector apparatus and method of using same",
+     "snippet": "",
+     "priority_date": "2013-03-14",
+     "assignee": "Stratasys Ltd.",
+     "found_by": [
+      4
+     ],
+     "why": "Relevant to the radiant energy apparatus element.",
+     "elements_disclosed": "DLP projector projecting a predetermined pattern for curing resin"
+    },
+    {
+     "pub": "US20180200963A1",
+     "title": "Systems and methods for additive manufacturing rotating build platforms",
+     "snippet": "",
+     "priority_date": "2017-01-18",
+     "assignee": "General Electric Company",
+     "found_by": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "why": "Pertinent to the multiple stations and shared component configuration.",
+     "elements_disclosed": "Rotating build platforms for additive manufacturing, possibly multiple platforms"
+    },
+    {
+     "pub": "US5192469A",
+     "title": "Simultaneous multiple layer curing in stereolithography",
+     "snippet": "",
+     "priority_date": "1990-10-30",
+     "assignee": "3D Systems, Inc.",
+     "found_by": [
+      6
+     ],
+     "why": "Background stereolithography teaching on curing in a predetermined pattern.",
+     "elements_disclosed": "Stereolithography curing of photopolymer layers using patterned radiation"
+    }
+   ],
+   "pool_size": 269,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 7 queries (claude)",
+    "Query 1: (\"tape casting\" OR \"resin tape\" OR \"transparent foil\" OR \"transparent film\") AND (\"build station\" OR \"multiple stages\" OR \"plurality of build platforms\") AND (photopolymer OR \"radiant-energy-curable\" OR \"photocurable resin\") -> 50 results",
+    "Query 2: (foil OR tape OR film OR belt) AND (\"support plate\" OR \"glass plate\" OR window) AND transparent AND (\"build surface\" OR \"resin support\") AND (\"stereolithography\" OR \"additive manufacturing\" OR \"layer-by-layer\") -> 50 results",
+    "Query 3: (\"material depositor\" OR doctor blade OR \"coating device\" OR dispenser OR applicator) AND (resin OR slurry OR photopolymer) AND (tape OR foil OR belt OR film) AND (\"additive manufacturing\" OR \"three-dimensional printing\") -> 50 results",
+    "Query 4: (\"two build stations\" OR \"plurality of build stations\" OR \"multiple build stations\" OR \"second build platform\" OR \"second stage\") AND (shared OR common OR same) AND (\"resin support\" OR vat OR tape OR foil OR \"build surface\") -> 50 results",
+    "Query 5: (stage OR \"build platform\" OR \"carrier plate\") AND (actuator OR \"linear actuator\" OR \"z-axis\") AND (projector OR \"DLP\" OR \"radiant energy\" OR \"light source\") AND (below OR underneath OR \"bottom-up\") AND (\"each station\" OR \"plurality of projectors\" OR \"multiple projectors\") -> 50 results",
+    "Query 6: (\"bottom-up\" OR \"inverted\" OR \"constrained surface\") AND (\"moving belt\" OR \"moving tape\" OR \"conveyor film\" OR \"web\") AND (\"plurality of projectors\" OR \"multiple light engines\" OR \"plurality of radiation sources\") AND (photocur* OR polymeriz*) -> 50 results",
+    "Query 7: (\"predetermined pattern\" OR \"patterned image\" OR mask OR \"spatial light modulator\") AND (\"cured layer\" OR \"stacked layers\") AND (\"plurality of stages\" OR \"parallel build\" OR \"simultaneous build\") AND (transparent AND (foil OR tape OR film)) -> 50 results",
+    "Ranked 269 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ },
+ {
+  "pub": "US11400649B2",
+  "title": "Air knife assembly for additive manufacturing",
+  "tech_class": "B33Y",
+  "priority_date": "2019-09-26",
+  "input": "Title: Air knife assembly for additive manufacturing\n\nAbstract: An additive manufacturing apparatus includes an environmentally sealed first chamber, a second chamber separated from the first chamber by a first valve, a platform positionable in the first chamber, a dispenser configured to deliver a plurality of successive layers of feed material onto the platform in the first chamber, at least one energy source to selectively fuse feed material in a layer on the platform in the first chamber, and an air knife assembly to direct a laminar flow of air across a layer of feed material on the platform in the first chamber. The air knife assembly includes an inlet module and an exhaust module that are movable through the first valve between the first chamber and the second chamber.\n\nFirst claim: 1. An additive manufacturing apparatus comprising: an environmentally sealed first chamber; a second chamber separated from the first chamber by a first valve that is movable between a closed state in which the second chamber is sealed from the first chamber and an open state in which the first chamber is accessible from the second chamber; a platform positionable in the first chamber; a dispenser configured to deliver a plurality of successive layers of feed material onto the platform in the first chamber; at least one energy source to selectively fuse the feed material in a layer on the platform in the first chamber; an air knife assembly to direct a laminar flow of air across the layer of the feed material on the platform in the first chamber, the air knife assembly including an inlet module and an exhaust module that are extendable and retractable through the first valve between the first chamber and the second chamber; and a controller configured to cause the first valve to open, cause an actuator to extend the inlet module and exhaust module through the first valve from the second chamber to the first chamber, cause the actuator to retract the inlet module and exhaust module through the first valve from the first chamber to the second chamber, and cause the first valve to close.",
+  "exclude": [
+   "US11400649B2",
+   "US20220362995A1"
+  ],
+  "examiner_refs": [
+   "US10232439B2",
+   "US10875093B2",
+   "US20160121398A1",
+   "US20170014906A1",
+   "US20170216916A1",
+   "US20180126460A1",
+   "US20180222116A1",
+   "US20180236603A1",
+   "US20200061655A1",
+   "US20200094320A1",
+   "US20210016507A1",
+   "US8895893B2"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Environmentally sealed first (build) chamber and second chamber separated by a valve movable between closed sealed state and open state",
+     "Platform in first chamber with dispenser delivering successive layers of feed material (powder bed)",
+     "Energy source (laser/electron beam) selectively fusing feed material layer",
+     "Air knife assembly directing laminar gas flow across the layer, having an inlet module and exhaust module",
+     "Inlet and exhaust modules extendable/retractable via actuator through the valve between the second chamber and first chamber",
+     "Controller sequencing valve opening, actuator extension, retraction, and valve closing"
+    ],
+    "queries": [
+     {
+      "query": "(\"additive manufacturing\" OR \"powder bed fusion\" OR \"selective laser melting\" OR \"three-dimensional printing\") AND (\"air knife\" OR \"gas knife\" OR \"laminar flow\" OR \"cross flow\") AND (inlet OR nozzle OR manifold) AND (exhaust OR outlet OR suction)",
+      "targets": "Air knife assembly with inlet and exhaust modules over powder layer"
+     },
+     {
+      "query": "(\"additive manufacturing\" OR \"powder bed\" OR \"selective laser sintering\") AND (\"gas inlet\" OR \"inlet nozzle\" OR \"gas flow device\" OR \"air knife\") AND (retractable OR extendable OR removable OR movable OR insertable) AND (valve OR \"gate valve\" OR \"load lock\" OR airlock)",
+      "targets": "Inlet/exhaust modules extendable and retractable through valve"
+     },
+     {
+      "query": "(\"build chamber\" OR \"process chamber\" OR \"first chamber\") AND (\"second chamber\" OR \"load lock\" OR antechamber OR \"transfer chamber\") AND (\"gate valve\" OR \"slit valve\" OR valve) AND (powder OR \"feed material\") AND (laser OR \"energy beam\" OR \"electron beam\")",
+      "targets": "Sealed first chamber and second chamber separated by valve in AM apparatus"
+     },
+     {
+      "query": "(\"additive manufacturing\" OR \"layer-by-layer\" OR \"3D printing\") AND (actuator OR \"linear actuator\" OR \"drive mechanism\") AND (\"gas flow\" OR \"air knife\" OR \"shielding gas\" OR \"inert gas\") AND (extend OR retract OR insert OR withdraw) AND (controller OR \"control unit\")",
+      "targets": "Controller and actuator extending/retracting gas flow modules"
+     },
+     {
+      "query": "(\"air knife\" OR \"gas curtain\" OR \"laminar gas flow\") AND (spatter OR fume OR \"process gas\" OR condensate OR plume) AND (\"powder layer\" OR \"build platform\" OR \"powder bed\") AND (laser OR \"energy source\")",
+      "targets": "Laminar flow across fused layer to remove fumes during energy fusing"
+     },
+     {
+      "query": "(\"additive manufacturing\" OR \"powder bed fusion\") AND (dispenser OR recoater OR \"powder spreader\") AND (\"environmentally sealed\" OR \"hermetically sealed\" OR \"inert atmosphere\") AND (\"isolation valve\" OR \"gate valve\" OR \"sealed door\") AND (maintenance OR servicing OR replace OR cleaning)",
+      "targets": "Isolating modules in second chamber for servicing without breaking build chamber atmosphere"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US11154935B2",
+     "title": "Air knife for additive manufacturing",
+     "snippet": "",
+     "priority_date": "2018-06-01",
+     "assignee": "Applied Materials, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "why": "Same assignee and subject; discloses the air knife assembly in an AM apparatus. It likely lacks the second chamber with a valve and the retractable modules, but it is the closest base reference.",
+     "elements_disclosed": "Powder bed AM with platform, dispenser, energy source, air knife with inlet and exhaust modules directing laminar gas flow across layer"
+    },
+    {
+     "pub": "US20190366434A1",
+     "title": "Air knife for additive manufacturing",
+     "snippet": "",
+     "priority_date": "2018-06-01",
+     "assignee": "Applied Materials, Inc.",
+     "found_by": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "why": "Publication of the same family; same teachings as the primary reference.",
+     "elements_disclosed": "Air knife inlet/exhaust for laminar flow over powder layer in AM chamber, platform, dispenser, energy source"
+    },
+    {
+     "pub": "US11072114B2",
+     "title": "Variable print chamber walls for powder bed fusion additive manufacturing",
+     "snippet": "",
+     "priority_date": "2015-10-30",
+     "assignee": "Seurat Technologies, Inc.",
+     "found_by": [
+      0,
+      1,
+      2,
+      4,
+      5
+     ],
+     "why": "Seurat discloses sealed print chambers and movable components between chambers; useful for the multi-chamber and valve elements.",
+     "elements_disclosed": "Powder bed fusion with sealed chambers, movable walls/components, gas handling, energy source"
+    },
+    {
+     "pub": "US20180126649A1",
+     "title": "Gas flow in three-dimensional printing",
+     "snippet": "",
+     "priority_date": "2016-11-07",
+     "assignee": "Velo3D, Inc.",
+     "found_by": [
+      0,
+      3
+     ],
+     "why": "Velo3D gas flow systems for laminar flow over the bed with controller.",
+     "elements_disclosed": "Gas flow across powder bed in enclosed chamber, energy beam, layer dispenser, controller"
+    },
+    {
+     "pub": "US20180126462A1",
+     "title": "Gas flow in three-dimensional printing",
+     "snippet": "",
+     "priority_date": "2016-11-07",
+     "assignee": "Velo3D, Inc.",
+     "found_by": [
+      0,
+      3
+     ],
+     "why": "Same family; gas flow inlet/exhaust arrangements.",
+     "elements_disclosed": "Gas flow inlet/outlet across build plane in sealed processing chamber, controller"
+    },
+    {
+     "pub": "US20180126460A1",
+     "title": "Gas flow in three-dimensional printing",
+     "snippet": "",
+     "priority_date": "2016-11-07",
+     "assignee": "Velo3D, Inc.",
+     "found_by": [
+      0,
+      3
+     ],
+     "why": "Same family, covering the gas flow modules.",
+     "elements_disclosed": "Gas flow in 3D printing chamber, inlet and exhaust, controller"
+    },
+    {
+     "pub": "US12005637B2",
+     "title": "Gas flow systems for an additive manufacturing machine",
+     "snippet": "",
+     "priority_date": "2017-11-10",
+     "assignee": "General Electric Company",
+     "found_by": [
+      0,
+      1,
+      3
+     ],
+     "why": "Gas inlet and exhaust modules over the build area, possibly movable.",
+     "elements_disclosed": "Gas flow systems with inlet and outlet for AM machine powder bed"
+    },
+    {
+     "pub": "US10232439B2",
+     "title": "Gas flow monitoring in additive manufacturing",
+     "snippet": "",
+     "priority_date": "2015-11-20",
+     "assignee": "General Electric Company",
+     "found_by": [
+      0,
+      1,
+      3
+     ],
+     "why": "Shows gas flow inlet/outlet across the build layer.",
+     "elements_disclosed": "Gas flow across powder bed in AM build chamber, monitoring via controller"
+    },
+    {
+     "pub": "US8895893B2",
+     "title": "Process chamber and method for processing a material by a directed beam of electromagnetic radiation, in particular for a laser sintering device",
+     "snippet": "",
+     "priority_date": "2006-03-28",
+     "assignee": "Eos Gmbh Electro Optical Systems",
+     "found_by": [
+      2
+     ],
+     "why": "Process chamber gas flow arrangement in powder bed laser sintering.",
+     "elements_disclosed": "Laser sintering process chamber with gas inlet/outlet over build field"
+    },
+    {
+     "pub": "US20180236603A1",
+     "title": "Additive manufacturing system and method of forming an object in a powder bed",
+     "snippet": "",
+     "priority_date": "2017-02-21",
+     "assignee": "General Electric Company",
+     "found_by": [
+      0,
+      1,
+      5
+     ],
+     "why": "General powder bed fusion apparatus as background.",
+     "elements_disclosed": "Powder bed AM system, energy source, possibly gas flow/movable components"
+    }
+   ],
+   "pool_size": 225,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 6 queries (claude)",
+    "Query 1: (\"additive manufacturing\" OR \"powder bed fusion\" OR \"selective laser melting\" OR \"three-dimensional printing\") AND (\"air knife\" OR \"gas knife\" OR \"laminar flow\" OR \"cross flow\") AND (inlet OR nozzle OR manifold) AND (exhaust OR outlet OR suction) -> 50 results",
+    "Query 2: (\"additive manufacturing\" OR \"powder bed\" OR \"selective laser sintering\") AND (\"gas inlet\" OR \"inlet nozzle\" OR \"gas flow device\" OR \"air knife\") AND (retractable OR extendable OR removable OR movable OR insertable) AND (valve OR \"gate valve\" OR \"load lock\" OR airlock) -> 50 results",
+    "Query 3: (\"build chamber\" OR \"process chamber\" OR \"first chamber\") AND (\"second chamber\" OR \"load lock\" OR antechamber OR \"transfer chamber\") AND (\"gate valve\" OR \"slit valve\" OR valve) AND (powder OR \"feed material\") AND (laser OR \"energy beam\" OR \"electron beam\") -> 50 results",
+    "Query 4: (\"additive manufacturing\" OR \"layer-by-layer\" OR \"3D printing\") AND (actuator OR \"linear actuator\" OR \"drive mechanism\") AND (\"gas flow\" OR \"air knife\" OR \"shielding gas\" OR \"inert gas\") AND (extend OR retract OR insert OR withdraw) AND (controller OR \"control unit\") -> 50 results",
+    "Query 5: (\"air knife\" OR \"gas curtain\" OR \"laminar gas flow\") AND (spatter OR fume OR \"process gas\" OR condensate OR plume) AND (\"powder layer\" OR \"build platform\" OR \"powder bed\") AND (laser OR \"energy source\") -> 50 results",
+    "Query 6: (\"additive manufacturing\" OR \"powder bed fusion\") AND (dispenser OR recoater OR \"powder spreader\") AND (\"environmentally sealed\" OR \"hermetically sealed\" OR \"inert atmosphere\") AND (\"isolation valve\" OR \"gate valve\" OR \"sealed door\") AND (maintenance OR servicing OR replace OR cleaning) -> 50 results",
+    "Ranked 225 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ },
+ {
+  "pub": "US10846059B2",
+  "title": "Automated generation of software bindings",
+  "tech_class": "G06F",
+  "priority_date": "2019-02-05",
+  "input": "Title: Automated generation of software bindings\n\nAbstract: Method and apparatus for automatically generating, verifying and using software bindings. A function collector extracts functions from a library written in a first computer language in the form of exposed application program interfaces (APIs), and writes identifying information for the functions to a knowledge base. A document collector concurrently extracts human readable text, such as in the form of embedded comments and user manual documentation, and links this text in the knowledge base to the extracted functions. A set of generators operate to generate software language bindings and a user interface to enable a user to activate and review the human readable text using a different, second computer language. A test script generator can automatically validate operation of the software language bindings using verified test data sets.\n\nFirst claim: 1. An apparatus comprising a non-transitory computer-readable memory which stores programming code executable by a programmable processor, the programming code comprising: a function collector arranged as executable programming code by the programmable processor configured to parse each of a plurality of source files of a native library written in a first computer language to extract functions in the form of exposed application program interfaces (APIs) and to write identifying information associated with each of the extracted functions to a knowledge base stored as a data structure in a processor memory associated with the programmable processor; a documentation collector arranged as executable programming code by the programmable processor configured to locate sections of non-executable human readable text in the plurality of source files associated with the extracted functions and to reproduce the human readable text in the knowledge base in a manner that is linked to the identifying information for each of the extracted functions; a software binding generator arranged as executable programming code by the programmable processor configured to access the knowledge base to generate a set of software language bindings in a different, second computer language stored to the processor memory, each software language binding comprising an executable script that, when executed, activates a corresponding extracted function from the source file; a documentation generator arranged as executable programming code by the programmable processor configured to arrange the associated human readable text from the knowledge base in a user accessible form for reference by the user during execution of the software language bindings; and a test generator arranged as executable programming code by the programmable processor configured to generate a test script which automatically validates the software bindings based on a set of verified test data sets that list verified outputs from the source files based on known inputs to the various exposed functions of the source files.",
+  "exclude": [
+   "US10846059B2",
+   "US20210072961A1"
+  ],
+  "examiner_refs": [
+   "US10152308B2",
+   "US10318316B2",
+   "US10466975B2",
+   "US10585683B2",
+   "US20060080648A1",
+   "US20110125798A1",
+   "US20150242194A1",
+   "US20190004790A1",
+   "US8949794B2",
+   "US9531753B2"
+  ],
+  "saved_run": {
+   "plan": {
+    "elements": [
+     "Function collector parsing native library source files in a first language to extract exposed API functions and store identifying information in a knowledge base",
+     "Documentation collector locating non-executable human readable text (comments, manuals) in source files and linking it in the knowledge base to the extracted functions",
+     "Binding generator accessing the knowledge base to automatically generate language bindings in a second language, each binding an executable script that invokes the native function",
+     "Documentation generator presenting the linked human readable text to the user in accessible form during execution of the bindings",
+     "Test generator producing test scripts that automatically validate the bindings against verified test data sets of known inputs and expected outputs"
+    ],
+    "queries": [
+     {
+      "query": "(\"language binding\" OR \"software binding\" OR wrapper OR \"foreign function interface\") AND (automatic* OR generat*) AND (pars* OR extract*) AND (\"application programming interface\" OR API OR \"exposed function\")",
+      "targets": "Function collector; binding generator"
+     },
+     {
+      "query": "(\"knowledge base\" OR database OR \"intermediate representation\" OR repository) AND (\"function signature\" OR \"function declaration\" OR \"header file\") AND (\"binding\" OR wrapper) AND (\"second language\" OR \"target language\" OR \"scripting language\" OR Python)",
+      "targets": "Knowledge base storing extracted function info used to generate bindings in second language"
+     },
+     {
+      "query": "(comment OR docstring OR \"human readable text\" OR documentation) AND (extract* OR collect* OR pars*) AND (\"source code\" OR \"source file\" OR library) AND (link* OR associat*) AND (binding OR wrapper)",
+      "targets": "Documentation collector linking comments to extracted functions"
+     },
+     {
+      "query": "(\"help text\" OR documentation OR docstring OR \"user manual\") AND (wrapper OR binding OR \"generated interface\") AND (\"target language\" OR \"scripting language\" OR \"second language\") AND (display* OR \"user interface\" OR access*)",
+      "targets": "Documentation generator presenting text to user during binding use"
+     },
+     {
+      "query": "(\"test script\" OR \"test case\" OR \"unit test\") AND (generat* OR automatic*) AND (binding OR wrapper OR \"foreign function\") AND (\"expected output\" OR \"known input\" OR \"reference data\" OR \"verified\")",
+      "targets": "Test generator validating bindings with verified test data sets"
+     },
+     {
+      "query": "(\"native library\" OR \"C library\" OR \"shared library\") AND (\"script\" OR \"interpreted language\") AND (\"automatically generat*\" OR \"code generator\") AND (\"call the native function\" OR invok* OR activat*)",
+      "targets": "Executable script binding activating native function"
+     },
+     {
+      "query": "(binding OR wrapper) AND generat* AND (comment OR documentation) AND (\"test\" NEAR3 (generat* OR validat*)) AND (API OR \"interface\")",
+      "targets": "Combination of documentation extraction, binding generation and test validation"
+     }
+    ],
+    "mode": "claude"
+   },
+   "results": [
+    {
+     "pub": "US9778922B2",
+     "title": "Automated code-generation for cross-language development, testing, and integration",
+     "snippet": "",
+     "priority_date": "2014-10-31",
+     "assignee": "Bae Systems Information And Electronic Systems Integration Inc.",
+     "found_by": [
+      5
+     ],
+     "why": "Title points to automated generation of code across languages along with automated testing. This is the closest match to the claimed bindings plus validation.",
+     "elements_disclosed": "Binding generator (cross-language code generation); test generator (automated testing/integration)"
+    },
+    {
+     "pub": "US8984497B2",
+     "title": "Source code converting, method program, and systems for first programming language to a code in a second programming language",
+     "snippet": "",
+     "priority_date": "2012-01-04",
+     "assignee": "International Business Machines Corporation",
+     "found_by": [
+      0,
+      1,
+      3,
+      5
+     ],
+     "why": "Source-to-source conversion between programming languages, which bears on the binding generator element.",
+     "elements_disclosed": "Generating code in a second language from source in a first language"
+    },
+    {
+     "pub": "US6698014B1",
+     "title": "System for automatically converting source code from one programming language to another",
+     "snippet": "",
+     "priority_date": "1999-10-14",
+     "assignee": "Convert Systems Inc.",
+     "found_by": [
+      0,
+      5
+     ],
+     "why": "Automatic conversion of source code from one language to another. Parsing the source is analogous to the function collector.",
+     "elements_disclosed": "Parsing source code; generating second-language code"
+    },
+    {
+     "pub": "US10061573B2",
+     "title": "User interfaces of application porting software platform",
+     "snippet": "",
+     "priority_date": "2013-01-29",
+     "assignee": "Mobilize.Net Corporation",
+     "found_by": [
+      0
+     ],
+     "why": "The title indicates an application porting platform with user interfaces, relevant to generating code in a different language.",
+     "elements_disclosed": "Cross-language porting; user interface"
+    },
+    {
+     "pub": "US11107158B1",
+     "title": "Automatic generation of code for attributes",
+     "snippet": "",
+     "priority_date": "2014-02-14",
+     "assignee": "Experian Information Solutions, Inc.",
+     "found_by": [
+      5
+     ],
+     "why": "Automatic generation of code for attributes. Relevant only to automated generation in general.",
+     "elements_disclosed": "Automatic code generation"
+    },
+    {
+     "pub": "US10585683B2",
+     "title": "Defining application programming interfaces (APIs) using object schemas",
+     "snippet": "",
+     "priority_date": "2016-05-27",
+     "assignee": "Intuit Inc.",
+     "found_by": [
+      0,
+      6
+     ],
+     "why": "Defining APIs with object schemas is analogous to storing API identifying information in a structured knowledge base.",
+     "elements_disclosed": "API definitions stored in structured schema"
+    },
+    {
+     "pub": "US6300950B1",
+     "title": "Presentation of help information via a computer system user interface in response to user interaction",
+     "snippet": "",
+     "priority_date": "1997-09-03",
+     "assignee": "International Business Machines Corporation",
+     "found_by": [
+      3
+     ],
+     "why": "Help information shown through the user interface is relevant to the documentation generator element.",
+     "elements_disclosed": "Presenting help documentation to the user"
+    },
+    {
+     "pub": "US20020111945A1",
+     "title": "System for interfacing an application program with diverse databases",
+     "snippet": "",
+     "priority_date": "2000-12-15",
+     "assignee": "Young William J.",
+     "found_by": [
+      0
+     ],
+     "why": "An interface that bridges an application program and different databases loosely resembles a binding layer.",
+     "elements_disclosed": "Interface layer between an application and diverse systems"
+    },
+    {
+     "pub": "US8255546B2",
+     "title": "Peer name resolution protocol simple application program interface",
+     "snippet": "",
+     "priority_date": "2005-09-30",
+     "assignee": "Microsoft Corporation",
+     "found_by": [
+      0
+     ],
+     "why": "Concerns a simple API, giving only tangential relevance to the exposed-API element.",
+     "elements_disclosed": "Exposed API"
+    },
+    {
+     "pub": "US6052693A",
+     "title": "System for assembling large databases through information extracted from text sources",
+     "snippet": "",
+     "priority_date": "1996-07-02",
+     "assignee": "Harlequin Group Plc",
+     "found_by": [
+      2
+     ],
+     "why": "Building a database from information extracted out of text sources is analogous to the documentation collector feeding the knowledge base.",
+     "elements_disclosed": "Extracting information from text into a database"
+    }
+   ],
+   "pool_size": 308,
+   "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+   "rank_mode": "claude rerank",
+   "log": [
+    "Planned 7 queries (claude)",
+    "Query 1: (\"language binding\" OR \"software binding\" OR wrapper OR \"foreign function interface\") AND (automatic* OR generat*) AND (pars* OR extract*) AND (\"application programming interface\" OR API OR \"exposed function\") -> 50 results",
+    "Query 2: (\"knowledge base\" OR database OR \"intermediate representation\" OR repository) AND (\"function signature\" OR \"function declaration\" OR \"header file\") AND (\"binding\" OR wrapper) AND (\"second language\" OR \"target language\" OR \"scripting language\" OR Python) -> 50 results",
+    "Query 3: (comment OR docstring OR \"human readable text\" OR documentation) AND (extract* OR collect* OR pars*) AND (\"source code\" OR \"source file\" OR library) AND (link* OR associat*) AND (binding OR wrapper) -> 50 results",
+    "Query 4: (\"help text\" OR documentation OR docstring OR \"user manual\") AND (wrapper OR binding OR \"generated interface\") AND (\"target language\" OR \"scripting language\" OR \"second language\") AND (display* OR \"user interface\" OR access*) -> 50 results",
+    "Query 5: (\"test script\" OR \"test case\" OR \"unit test\") AND (generat* OR automatic*) AND (binding OR wrapper OR \"foreign function\") AND (\"expected output\" OR \"known input\" OR \"reference data\" OR \"verified\") -> 50 results",
+    "Query 6: (\"native library\" OR \"C library\" OR \"shared library\") AND (\"script\" OR \"interpreted language\") AND (\"automatically generat*\" OR \"code generator\") AND (\"call the native function\" OR invok* OR activat*) -> 50 results",
+    "Query 7: (binding OR wrapper) AND generat* AND (comment OR documentation) AND (\"test\" NEAR3 (generat* OR validat*)) AND (API OR \"interface\") -> 50 results",
+    "Ranked 308 candidates (claude rerank)"
+   ]
+  },
+  "run_at": "2026-10-25"
+ }
+]

@@ -1,0 +1,882 @@
+{
+ "pub": "US6815122B2",
+ "title": "Alkali transition metal phosphates and related electrode active materials",
+ "generated_at": "2026-10-25T16:30:35+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future: this expired lithium phosphate cathode patent scores 81/100 (high confidence), but the real opportunity likely sits in new materials or processing, not in copying its claims.",
+  "what_it_is": "This patent covers battery cathode materials made of lithium (or sodium or potassium), a transition metal like iron, and phosphate, mixed with small amounts of other metals, much like the LFP chemistry used in many EVs and home batteries. It reached the end of its full term in July 2022 after the owner kept it alive the whole way.",
+  "why_it_died": {
+   "text": "It did not die early. It ran out its full term, and the owner paid every maintenance fee as a large entity, which suggests it was valued to the end. That is why the 'died for money, not merit' part of the score is only middling (7.5/15): time ran out, not interest.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "The market for this chemistry family appears large and growing. LFP is one of the two main EV battery chemistries, and new LFP cathode plants are planned in Europe and the U.S.",
+    "evidence": [
+     "E19",
+     "E20",
+     "E21",
+     "E22"
+    ]
+   },
+   {
+    "point": "The patent was influential. It has been cited by 125 later filings, and examiners used it against 78 later applications, which suggests its ideas are central to the field.",
+    "evidence": [
+     "E10",
+     "E15"
+    ]
+   },
+   {
+    "point": "Its claims were broad at grant, with 35 claims and a family filed in 8 jurisdictions. That breadth helps explain the top marks for breadth and examiner relevance.",
+    "evidence": [
+     "E16",
+     "E17",
+     "E18"
+    ]
+   },
+   {
+    "point": "Some companies are still building on it. Eight citing filings date from 2019 on, led by Ionobell, so the technical area appears active.",
+    "evidence": [
+     "E13",
+     "E14"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Momentum around this exact patent appears to be fading. No unrelated owner has filed a citing application since it expired. Only 12 cited it in its final five years or later.",
+    "evidence": [
+     "E11",
+     "E12"
+    ]
+   },
+   {
+    "point": "The space appears crowded. The original owner and 42 other owners hold later related patents that may still be in force, so the open ground could be narrower than the expiry suggests.",
+    "evidence": [
+     "E5",
+     "E6"
+    ]
+   },
+   {
+    "point": "Big players are already scaling LFP production. A startup selling a me-too cathode powder would likely compete on price against very large plants.",
+    "evidence": [
+     "E19",
+     "E20",
+     "E21"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Later patents by the original owner, such as US9269955B2 on manganese phosphates, may still be in force and could cover nearby variations.",
+    "severity": "high",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "42 later patents by other owners in this area may still be in force. Each is worth checking before you pick a specific material or process.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Lithium cells need UN 38.3 testing for shipping and usually UL or IEC safety certification for sale. That adds time and cost.",
+    "severity": "medium",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "point": "A new chemical substance may need an EPA premanufacture notice under TSCA before commercial manufacture, especially for novel dopant mixes.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "The patent describes the material, not the full manufacturing know-how. Expect to rebuild the process details yourself.",
+    "severity": "low",
+    "evidence": [
+     "E9"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Battery cell makers or pack builders would buy a differentiated doped-phosphate cathode material from a startup instead of buying standard LFP from large incumbent suppliers.",
+   "why_riskiest": "The chemistry family is clearly in demand, but big plants are coming online and this patent's own citation activity is fading. Without a buyer who values something beyond cheap commodity LFP, there is no business.",
+   "how_to_test": "Over two weeks, run 10-15 short calls with cathode buyers at small cell makers, energy storage integrators and battery startups. Ask what they pay for LFP today, which performance gaps they would pay a premium to close (rate, low-temperature behavior, energy density), and whether they would test a sample. Also ask one or two contract powder makers for a rough quote. Count how many say they would test a sample at a stated price. Cost: mostly your time, under $500.",
+   "evidence": [
+    "E19",
+    "E20",
+    "E21",
+    "E11",
+    "E12"
+   ]
+  },
+  "attorney_questions": [
+   "Which of the owner's later patents, such as US9269955B2, and the 42 examiner-cited patents by other owners may still be in force and close to the specific material we plan to make?",
+   "Since the patent family was filed in 8 jurisdictions, are any foreign counterparts or related family members still active in the markets where we would sell?",
+   "If we change the dopants or the processing method, what should we document now to support filing our own patents later?"
+  ],
+  "score": 81,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2004-11-09",
+   "priority_date": "2002-03-06",
+   "filing_date": "2002-03-06",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": "large",
+   "term_end": "2022-07-22",
+   "term_end_estimated": false,
+   "end_date": "2022-07-22",
+   "end_year": 2022,
+   "months_since_end": 51.1,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2024-12-05"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Expired at full term 2022-07-22"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "high",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "US9269955B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2009-09-24",
+      "publication_date": "2016-02-23",
+      "assignee": "Valence Technology Inc.",
+      "title": "Manganese phosphates and related electrode active materials",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Same owner (Valence), title directly addresses phosphate electrode active materials with manganese, a close extension of the original olivine phosphate family."
+     },
+     {
+      "pub": "WO2008097990A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-02-07",
+      "publication_date": "2008-08-14",
+      "assignee": "Valence Technology, Inc.",
+      "title": "Oxynitride-based electrode active materials for secondary electrochemical cells",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Same owner and electrode active materials, but oxynitride-based chemistry differs from the phosphate formula."
+     },
+     {
+      "pub": "US8324868B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-08-24",
+      "publication_date": "2012-12-04",
+      "assignee": "Valence Technology, Inc.",
+      "title": "Power source with temperature sensing",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Concerns power source temperature sensing, a battery system feature rather than the active material chemistry."
+     }
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "FR3074159B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2017-11-30",
+      "publication_date": "2019-11-22",
+      "assignee": "Commissariat A L'energie Atomique Et Aux Energies Alternatives",
+      "title": "SILICATE PHOSPHATE MATERIAL WITH OLIVINE CRYSTALLOGRAPHIC STRUCTURE",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Silicate-phosphate olivine material, matching the original's P1-xSixO4 olivine formula."
+     },
+     {
+      "pub": "FR3074160B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2017-11-30",
+      "publication_date": "2019-11-22",
+      "assignee": "Commissariat A L'energie Atomique Et Aux Energies Alternatives",
+      "title": "SILICATE PHOSPHATE MATERIAL WITH OLIVINE CRYSTALLOGRAPHIC STRUCTURE",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Silicate-phosphate olivine material, matching the original's P1-xSixO4 olivine formula."
+     },
+     {
+      "pub": "CN114729462A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-11-13",
+      "publication_date": "2022-07-08",
+      "assignee": "\u9b41\u5317\u514b\u7535\u529b\u516c\u53f8",
+      "title": "Method for alkalifying or re-alkalifying electrode active material",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Method for alkalifying electrode active materials could apply to alkali-deficient phosphates (0<a<1) like the original's, a processing step a product might use."
+     },
+     {
+      "pub": "FR3055892B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2016-09-12",
+      "publication_date": "2018-09-28",
+      "assignee": "Commissariat A L'energie Atomique Et Aux Energies Alternatives",
+      "title": "SILICATE MATERIAL OF OLIVINE STRUCTURE",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Olivine-structure silicate material, related to the Si-substituted end of the original formula but possibly not phosphate-based."
+     },
+     {
+      "pub": "US10673065B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2015-04-07",
+      "publication_date": "2020-06-02",
+      "assignee": "Brown University",
+      "title": "Cation energy storage device and methods",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "EPA new chemical review",
+    "detail": "A new chemical substance needs a premanufacture notice under TSCA before commercial manufacture.",
+    "where": "EPA TSCA inventory",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Battery safety and transport certification",
+    "detail": "Lithium cells need UN 38.3 testing for shipping and usually UL or IEC safety certification for sale.",
+    "where": "UL and IEC standards (UL 1642, UL 2054, IEC 62133); PHMSA rules",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E9"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "5 possible blockers, 1 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 81,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.79,
+     "points": 23.6
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.86,
+     "points": 17.1
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 1.0,
+     "points": 15.0
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 125,
+   "fwd_after_end": 0,
+   "fwd_after_end_unrelated": 0,
+   "fwd_alive_unrelated": 12,
+   "fwd_recent": 8,
+   "fwd_examiner": 78,
+   "fwd_by_year": {
+    "2001": 2,
+    "2002": 4,
+    "2003": 4,
+    "2004": 10,
+    "2005": 10,
+    "2006": 8,
+    "2007": 6,
+    "2008": 7,
+    "2009": 14,
+    "2010": 16,
+    "2011": 12,
+    "2012": 7,
+    "2013": 5,
+    "2014": 3,
+    "2015": 2,
+    "2016": 2,
+    "2017": 3,
+    "2018": 1,
+    "2019": 3,
+    "2020": 2,
+    "2021": 3,
+    "2022": 1
+   },
+   "recent_companies": [
+    [
+     "Ionobell, Inc.",
+     5
+    ],
+    [
+     "\u9b41\u5317\u514b\u7535\u529b\u516c\u53f8",
+     1
+    ],
+    [
+     "\u682a\u5f0f\u4f1a\u793e\u529b\u68ee\u8bfa\u79d1",
+     1
+    ],
+    [
+     "ionobell Inc",
+     1
+    ]
+   ],
+   "same_owner_followons": 10,
+   "bwd_total": 81,
+   "bwd_examiner": 0,
+   "family_countries": 8,
+   "live_family": 0,
+   "claims_count": 35,
+   "shortest_claim_words": 95
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Strong historical technical influence: the patent was widely built upon and frequently used by examiners as prior art, which suggests it sat close to the core of phosphate cathode development.",
+     "evidence": [
+      "E10",
+      "E15",
+      "E17"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "The owner kept the patent fully maintained to the end of its term as a large entity, which suggests it held ongoing value for them. It reached full term in 2022.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E4"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Recent citing activity is modest and concentrated. Since 2019 only 8 filings cite it, mostly from Ionobell, and no unrelated filings cite it after expiry. Direct follow-on interest in this specific patent is therefore thin, even though the revival score is high.",
+     "evidence": [
+      "E11",
+      "E12",
+      "E13",
+      "E14",
+      "E18"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The broader field of olivine/LFP-type phosphate cathodes appears commercially active. Evidence includes new LFP cathode plant announcements and LFP's large share of EV and storage chemistries.",
+     "evidence": [
+      "E19",
+      "E20",
+      "E21",
+      "E22"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Recent filers citing this patent include Ionobell, Hydro-Qu\u00e9bec (\u9b41\u5317\u514b\u7535\u529b\u516c\u53f8) and Resonac (\u682a\u5f0f\u4f1a\u793e\u529b\u68ee\u8bfa\u79d1); ICL with Shenzhen Dynanonic, and L&F with Mitra Chem, are building LFP cathode capacity.",
+   "market_read": "LFP-family phosphate cathodes appear to be a large and growing commercial segment, with new production capacity planned in Europe and the U.S. However, citations of this particular patent have tapered off, so any opportunity likely lies in differentiated materials or processing rather than in this patent's own claims, and this is not a freedom-to-operate assessment."
+  },
+  "web": [
+   {
+    "kind": "company",
+    "finding": "ICL signed a joint venture with Shenzhen Dynanonic to build an LFP cathode material production facility in Europe (Spain).",
+    "url": "https://battery-news.de/en/2025/01/23/icl-plans-lfp-cathode-material-production-in-spain/",
+    "confidence": "medium",
+    "evidence": "E19"
+   },
+   {
+    "kind": "company",
+    "finding": "L&F plans a 15,000-ton LFP cathode materials plant in the U.S. with local partner Mitra Chem, targeting mid- to low-priced battery and energy storage markets.",
+    "url": "https://www.asiae.co.kr/en/article/2026011508400927034",
+    "confidence": "medium",
+    "evidence": "E20"
+   },
+   {
+    "kind": "market",
+    "finding": "The IEA Global EV Outlook 2026 says high-nickel and LFP chemistries together make up the vast majority of today's EV battery market, and that record-low LFP prices helped lower overall battery prices.",
+    "url": "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
+    "confidence": "medium",
+    "evidence": "E21"
+   },
+   {
+    "kind": "market",
+    "finding": "A trade outlet says that by 2025, 70% of cathode materials will be LFP, driven by use in EVs and stationary storage.",
+    "url": "https://www.all-about-industries.com/lfp-cells-increasingly-in-demand-a-6a0154d63d2add59e3da198edb95d69d/",
+    "confidence": "low",
+    "evidence": "E22"
+   }
+  ],
+  "evidence": [
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17",
+   "E18"
+  ],
+  "named": {
+   "total": "E10",
+   "after": "E11",
+   "recent": "E13",
+   "companies": "E14",
+   "score": "E18"
+  },
+  "summary": "Score 81/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US6872492B2",
+    "title": "Sodium ion batteries",
+    "score": 78,
+    "status": "lapsed_fees",
+    "end_year": 2017
+   },
+   {
+    "pub": "US7041239B2",
+    "title": "Electrodes comprising mixed active particles",
+    "score": 46,
+    "status": "expired_term",
+    "end_year": 2024
+   },
+   {
+    "pub": "US6645452B1",
+    "title": "Methods of making lithium metal cathode active materials",
+    "score": 62,
+    "status": "lapsed_fees",
+    "end_year": 2015
+   },
+   {
+    "pub": "US6387568B1",
+    "title": "Lithium metal fluorophosphate materials and preparation thereof",
+    "score": 41,
+    "status": "expired_term",
+    "end_year": 2020
+   },
+   {
+    "pub": "US7205067B2",
+    "title": "Method and apparatus for dissipation of heat generated by a secondary electrochemical cell",
+    "score": 43,
+    "status": "lapsed_fees",
+    "end_year": 2015
+   }
+  ],
+  "summary": "5 similar dead patents in Batteries and fuel cells"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6815122B2 reached the end of its full term on 2022-07-22.",
+   "source": "https://patents.google.com/patent/US6815122B2/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US6815122B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20241205134551.",
+   "source": "https://patents.google.com/patent/US6815122B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed large-entity status.",
+   "source": "https://patents.google.com/patent/US6815122B2/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "large"
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 3 later patent(s) citing this one that may still be in force, e.g. US9269955B2 (Manganese phosphates and related electrode active materials).",
+   "source": "https://patents.google.com/patent/US6815122B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US9269955B2",
+     "WO2008097990A1",
+     "US8324868B2"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "42 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6815122B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "FR3074159B1",
+     "FR3074160B1",
+     "CN114729462A",
+     "FR3055892B1",
+     "US10673065B2"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "EPA new chemical review: A new chemical substance needs a premanufacture notice under TSCA before commercial manufacture.",
+   "source": "EPA TSCA inventory",
+   "method": "Blocker checklist rule 'epa_chemical' matched CPC H01M4/58, H01M4/136, C01B25/45",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "Battery safety and transport certification: Lithium cells need UN 38.3 testing for shipping and usually UL or IEC safety certification for sale.",
+   "source": "UL and IEC standards (UL 1642, UL 2054, IEC 62133); PHMSA rules",
+   "method": "Blocker checklist rule 'battery_safety' matched CPC H01M4/58, H01M4/136, C01B25/45",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "Cited by 125 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6815122B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 125
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "0 later filings by unrelated owners cite it with priority dates after it expired (2022-07-22).",
+   "source": "https://patents.google.com/patent/US6815122B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "12 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US6815122B2/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "8 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6815122B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 8
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: Ionobell, Inc. (5), \u9b41\u5317\u514b\u7535\u529b\u516c\u53f8 (1), \u682a\u5f0f\u4f1a\u793e\u529b\u68ee\u8bfa\u79d1 (1), ionobell Inc (1).",
+   "source": "https://patents.google.com/patent/US6815122B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "Ionobell, Inc.",
+      5
+     ],
+     [
+      "\u9b41\u5317\u514b\u7535\u529b\u516c\u53f8",
+      1
+     ],
+     [
+      "\u682a\u5f0f\u4f1a\u793e\u529b\u68ee\u8bfa\u79d1",
+      1
+     ],
+     [
+      "ionobell Inc",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Examiners cited it against 78 later applications.",
+   "source": "https://patents.google.com/patent/US6815122B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 95 words across 35 claims.",
+   "source": "https://patents.google.com/patent/US6815122B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "The family was filed in 8 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6815122B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Revival score 81/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Company: ICL signed a joint venture with Shenzhen Dynanonic to build an LFP cathode material production facility in Europe (Spain).",
+   "source": "https://battery-news.de/en/2025/01/23/icl-plans-lfp-cathode-material-production-in-spain/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Company: L&F plans a 15,000-ton LFP cathode materials plant in the U.S. with local partner Mitra Chem, targeting mid- to low-priced battery and energy storage markets.",
+   "source": "https://www.asiae.co.kr/en/article/2026011508400927034",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E21",
+   "agent": "market",
+   "claim": "Market: The IEA Global EV Outlook 2026 says high-nickel and LFP chemistries together make up the vast majority of today's EV battery market, and that record-low LFP prices helped lower overall battery prices.",
+   "source": "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E22",
+   "agent": "market",
+   "claim": "Market: A trade outlet says that by 2025, 70% of cathode materials will be LFP, driven by use in EVs and stationary storage.",
+   "source": "https://www.all-about-industries.com/lfp-cells-increasingly-in-demand-a-6a0154d63d2add59e3da198edb95d69d/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Batteries and fuel cells",
+   "seconds": 0.02
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2022-07-22",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "5 possible blockers, 1 high severity",
+   "seconds": 7.13
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 81/100, high confidence: Dead patent with a future",
+   "seconds": 36.5
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 17.84
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1893,
+    "output_tokens": 656,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02069,
+    "seconds": 7.1
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 23263,
+    "output_tokens": 1557,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.16419,
+    "seconds": 28.7
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1197,
+    "output_tokens": 620,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01731,
+    "seconds": 7.8
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2341,
+    "output_tokens": 1602,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04169,
+    "seconds": 17.8
+   }
+  ],
+  "total_cost_usd": 0.2439,
+  "seconds": 61.5
+ }
+}

@@ -1,0 +1,870 @@
+{
+ "pub": "US7135437B2",
+ "title": "Stable liquid pesticide compositions",
+ "generated_at": "2026-10-25T16:32:35+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future (62/100, high confidence): a Monsanto glyphosate microemulsion that ran its full term and sits in a living but crowded formulation market.",
+  "what_it_is": "This patent covers a concentrated glyphosate weedkiller made as a microemulsion, a clear, stable mix of water, oil-like solvent and surfactants, that stays stable from hot to freezing storage. The trick was a specific surfactant system plus small amine 'stabilizer' molecules that keep the mix from clouding or crystallizing.",
+  "why_it_died": {
+   "text": "It did not die early. Monsanto paid every maintenance fee as a large entity and let it run to the end of its full term in November 2022. That suggests the owner valued it to the end, not that it failed. This is why the 'died for money, not merit' signal is only middling: it simply aged out.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "Stable microemulsion pesticide concentrates are a real, sold product category, with listed microemulsion products and third-party forecasts of growth.",
+    "evidence": [
+     "E18",
+     "E19",
+     "E20",
+     "E21"
+    ]
+   },
+   {
+    "point": "The idea was influential. It was cited by 78 later filings and used by examiners against 48 later applications, which shows it sits at the center of this formulation space.",
+    "evidence": [
+     "E9",
+     "E14",
+     "E17"
+    ]
+   },
+   {
+    "point": "Monsanto kept paying for it until the end and filed it in 12 jurisdictions, which suggests the formulation had commercial value to a major player.",
+    "evidence": [
+     "E2",
+     "E16"
+    ]
+   },
+   {
+    "point": "There is still some recent outside activity building on it, including filings from 2019 on by Russian and Chinese players.",
+    "evidence": [
+     "E12",
+     "E13"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Momentum from outsiders appears to be fading. No unrelated owners have cited it with priority dates after it expired, and only 5 cited it in its last five years.",
+    "evidence": [
+     "E10",
+     "E11"
+    ]
+   },
+   {
+    "point": "The claims were narrow and detailed. The shortest independent claim is 170 words, so what entered the public domain is a specific recipe, not a broad space.",
+    "evidence": [
+     "E15"
+    ]
+   },
+   {
+    "point": "The field is crowded. Monsanto and others hold later related patents, so the opportunity looks like formulation know-how rather than a fresh niche.",
+    "evidence": [
+     "E5",
+     "E6",
+     "E13"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Any glyphosate product needs EPA registration under FIFRA. That means data costs, time, and possibly paying the original registrant for use of its data.",
+    "severity": "high",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "Monsanto filed 9 later patents citing this one that may still be in force, such as a 2022-granted glyphosate surfactant formulation patent. These could cover improved versions you would want to make.",
+    "severity": "medium",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "32 later patents by other owners were cited against this one and may still be in force, so nearby formulations may be claimed by others.",
+    "severity": "medium",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "The patent describes the composition, not the manufacturing know-how. Expect to rebuild mixing, sourcing and stability-testing processes yourself.",
+    "severity": "low",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Distributors or applicators would buy a new-brand, freeze/heat-stable glyphosate microemulsion over existing generic glyphosate products, at a margin that covers EPA registration costs.",
+   "why_riskiest": "Glyphosate is a commodity with established sellers. Registration is a big fixed cost. Unless storage stability solves a real, paid-for problem, the business does not work, no matter what the patent allows.",
+   "how_to_test": "In two weeks, interview 10-15 ag retailers, co-op buyers and custom applicators (phone or LinkedIn, under $200 in gift cards). Ask how often concentrates fail in hot or freezing storage, what that costs them, and what premium they would pay for a stable version. Also get one quote from a contract formulator or toll manufacturer on small-batch microemulsion production and on the cost of an EPA me-too registration.",
+   "evidence": [
+    "E7",
+    "E18",
+    "E19",
+    "E20"
+   ]
+  },
+  "attorney_questions": [
+   "Do any of Monsanto's 9 later citing patents, such as US11452289B2, or the 32 other cited patents, appear to cover the surfactant and stabilizer combinations I would use?",
+   "What would an EPA registration path look like for a glyphosate microemulsion, and what data compensation might we owe the original registrant?",
+   "Were there foreign family members in the 12 jurisdictions that may still be in force, which matter if we sell or manufacture outside the US?"
+  ],
+  "score": 62,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2006-11-14",
+   "priority_date": "2000-05-19",
+   "filing_date": "2001-11-19",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": "large",
+   "term_end": "2022-11-20",
+   "term_end_estimated": false,
+   "end_date": "2022-11-20",
+   "end_year": 2022,
+   "months_since_end": 47.1,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2024-12-26"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Expired at full term 2022-11-20"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "high",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "US11452289B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2016-05-11",
+      "publication_date": "2022-09-27",
+      "assignee": "Monsanto Technology Llc",
+      "title": "Glyphosate formulations containing amidoalkylamine surfactants",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Glyphosate formulations with amine-type surfactants from same owner; closely tracks the original's glyphosate plus alkoxylated amine surfactant system."
+     },
+     {
+      "pub": "US10709134B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2010-03-12",
+      "publication_date": "2020-07-14",
+      "assignee": "Monsanto Technology Llc",
+      "title": "Plant health compositions comprising a water-soluble pesticide and a water-insoluble agrochemical",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Water-soluble pesticide plus water-insoluble agrochemical matches the original's aqueous plus water-immiscible phase microemulsion concept."
+     },
+     {
+      "pub": "US20100113274A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2008-09-29",
+      "publication_date": "2010-05-06",
+      "assignee": "Monsanto Technology Llc",
+      "title": "Glyphosate formulations containing amidoalkylamine surfactants",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Glyphosate formulations with amidoalkylamine surfactants from same owner; closely related surfactant system improvement. This is a published application, so its granted scope is unknown."
+     },
+     {
+      "pub": "US11116208B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2016-07-12",
+      "publication_date": "2021-09-14",
+      "assignee": "Monsanto Technology Llc",
+      "title": "Pesticidal compositions",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Same owner, generic pesticidal compositions title; may cover related glyphosate formulation improvements but scope unclear from title."
+     },
+     {
+      "pub": "US10285404B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2013-02-27",
+      "publication_date": "2019-05-14",
+      "assignee": "Monsanto Technology Llc",
+      "title": "Glyphosate composition for dicamba tank mixtures with improved volatility",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Glyphosate composition, but focused on dicamba tank-mix volatility, a narrower use case than the stable microemulsion."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "high",
+    "title": "EPA pesticide registration and data exclusivity",
+    "detail": "Pesticides and biocides need EPA registration under FIFRA. The original registrant's data has 10 years of exclusive use and 15 years of compensation rights.",
+    "where": "EPA Pesticide Product and Label System (PPLS)",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "RU2771039C1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2021-08-05",
+      "publication_date": "2022-04-25",
+      "assignee": "\u041e\u041e\u041e \"\u0410\u0433\u0440\u043e \u042d\u043a\u0441\u043f\u0435\u0440\u0442 \u0413\u0440\u0443\u043f\"",
+      "title": "Liquid herbicidal composition",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Liquid herbicidal composition; could involve glyphosate concentrates, but the title is generic."
+     },
+     {
+      "pub": "RU2752946C1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-04-24",
+      "publication_date": "2021-08-11",
+      "assignee": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d \"\u041d\u0430\u0443\u0447\u043d\u043e-\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0433\u0435\u0440\u0431\u0438\u0446\u0438\u0434\u043e\u0432 \u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440\u043e\u0432 \u0440\u043e\u0441\u0442\u0430 \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u0439 \u0441 \u043e\u043f\u044b\u0442\u043d\u043e-\u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u043c \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u043c \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d\"",
+      "title": "Herbicidal water-soluble concentrate that forms micelles of working fluid in nanometer range",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Water-soluble herbicide concentrate forming nanometer micelles; conceptually close to the microemulsion approach."
+     },
+     {
+      "pub": "WO2019224639A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2018-05-25",
+      "publication_date": "2019-11-28",
+      "assignee": "Upl Ltd",
+      "title": "Aqueous herbicidal intermixtures",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Aqueous herbicidal intermixtures may include glyphosate combinations; relevance depends on the actives. This is a published application, so its granted scope is unknown."
+     },
+     {
+      "pub": "RU2655841C1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2017-05-17",
+      "publication_date": "2018-05-29",
+      "assignee": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d \"\u041d\u0430\u0443\u0447\u043d\u043e-\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0433\u0435\u0440\u0431\u0438\u0446\u0438\u0434\u043e\u0432 \u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440\u043e\u0432 \u0440\u043e\u0441\u0442\u0430 \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u0439 \u0441 \u043e\u043f\u044b\u0442\u043d\u043e-\u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u043c \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u043c \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d\"",
+      "title": "Herbicidal micelle-forming concentrate",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Herbicidal micelle-forming concentrate; similar colloidal concentrate concept, but the actives are unknown."
+     },
+     {
+      "pub": "GB201621396D0",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2016-12-15",
+      "publication_date": "2017-02-01",
+      "assignee": "Syngenta Participations Ag",
+      "title": "Adjuvants",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "regulatory_burden": "high",
+  "llm_rated": true,
+  "summary": "4 possible blockers, 2 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 62,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.55,
+     "points": 16.5
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.54,
+     "points": 10.8
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.75,
+     "points": 11.3
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.6,
+     "points": 6.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 78,
+   "fwd_after_end": 0,
+   "fwd_after_end_unrelated": 0,
+   "fwd_alive_unrelated": 5,
+   "fwd_recent": 3,
+   "fwd_examiner": 48,
+   "fwd_by_year": {
+    "2002": 2,
+    "2003": 4,
+    "2004": 6,
+    "2005": 3,
+    "2006": 9,
+    "2007": 7,
+    "2008": 6,
+    "2009": 3,
+    "2010": 7,
+    "2011": 5,
+    "2012": 2,
+    "2013": 3,
+    "2014": 2,
+    "2015": 4,
+    "2016": 6,
+    "2017": 4,
+    "2018": 2,
+    "2020": 1,
+    "2021": 2
+   },
+   "recent_companies": [
+    [
+     "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d \"\u041d\u0430\u0443\u0447\u043d\u043e-\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0433\u0435\u0440\u0431\u0438\u0446\u0438\u0434\u043e\u0432 \u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440\u043e\u0432 \u0440\u043e\u0441\u0442\u0430 \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u0439 \u0441 \u043e\u043f\u044b\u0442\u043d\u043e-\u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u043c \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u043c \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d\"",
+     1
+    ],
+    [
+     "\u82cf\u5dde\u4e30\u500d\u751f\u7269\u79d1\u6280\u6709\u9650\u516c\u53f8",
+     1
+    ],
+    [
+     "\u041e\u041e\u041e \"\u0410\u0433\u0440\u043e \u042d\u043a\u0441\u043f\u0435\u0440\u0442 \u0413\u0440\u0443\u043f\"",
+     1
+    ]
+   ],
+   "same_owner_followons": 15,
+   "bwd_total": 51,
+   "bwd_examiner": 0,
+   "family_countries": 12,
+   "live_family": 0,
+   "claims_count": 40,
+   "shortest_claim_words": 170
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "The patent drew substantial technical attention over its life. It has a large citation base, and examiners repeatedly used it as prior art. This shows the stable aqueous concentrate approach was a busy area of development.",
+     "evidence": [
+      "E9",
+      "E14",
+      "E16"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Recent citing activity is thin. Only a handful of unrelated filers built on it late in its term, and none have done so since it expired. Direct follow-on interest in this specific disclosure appears to be fading.",
+     "evidence": [
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Microemulsion pesticide products exist commercially, such as Gowan Company's Domark 230 ME. Third-party reports also project growth for microemulsion and water-based formulations. Together these suggest the broader formulation category is still commercially relevant. The evidence does not tie any product to this patent.",
+     "evidence": [
+      "E18",
+      "E19",
+      "E20",
+      "E21"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The owner kept the patent fully maintained to term at large-entity status, which suggests it held internal value. Its claims are long and numerous (shortest independent claim 170 words, 40 claims), so the specific protected scope may have been narrow.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E4",
+      "E15",
+      "E17"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Recent citing filers include a Bashkortostan herbicide research institute, Suzhou Fengbei Biotech (\u82cf\u5dde\u4e30\u500d\u751f\u7269\u79d1\u6280\u6709\u9650\u516c\u53f8) and OOO Agro Expert Group, while Gowan Company appears on the product side with microemulsion fungicides.",
+   "market_read": "Stable microemulsion and aqueous concentrate formulations are an established commercial category, with listed products and analyst forecasts of growth, though those figures are third-party estimates. Patent follow-on activity specific to this disclosure is modest and drawn mostly from Russian and Chinese players, so the opportunity appears to lie in formulation know-how within a crowded field rather than in a newly opened niche."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "AgWeb's product guide lists Gowan Company's Domark 230 ME, a tetraconazole fungicide sold as a microemulsion, plus the microemulsion-concentrate fungicides Brixen and Andiamo 230.",
+    "url": "https://www.agweb.com/news/crops/crop-production/product-guide-fungicides-labeled-tar-spot-control-corn",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "product",
+    "finding": "A US EPA-registered label exists for Aim 12% Microemulsion (ME) Herbicide (EPA reg. 279-3303), but it is dated 2005 and doesn't show the product is on sale today.",
+    "url": "https://www3.epa.gov/pesticides/chem_search/ppls/000279-03303-20051118.pdf",
+    "confidence": "medium",
+    "evidence": "E19"
+   },
+   {
+    "kind": "market",
+    "finding": "Growth Market Reports estimates the global microemulsion pesticide formulations market at USD 1.26 billion in 2024, reaching USD 2.54 billion by 2033 (7.9% annual growth).",
+    "url": "https://growthmarketreports.com/report/microemulsion-pesticide-formulations-market",
+    "confidence": "medium",
+    "evidence": "E20"
+   },
+   {
+    "kind": "market",
+    "finding": "TechSci Research projects the global pesticide formulations market will grow from USD 1.19 billion in 2025 to USD 1.91 billion by 2031, partly because concentrated water-based formulations improve shelf-life stability.",
+    "url": "https://www.techsciresearch.com/report/pesticide-formulations-market/8219.html",
+    "confidence": "low",
+    "evidence": "E21"
+   }
+  ],
+  "evidence": [
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17"
+  ],
+  "named": {
+   "total": "E9",
+   "after": "E10",
+   "recent": "E12",
+   "companies": "E13",
+   "score": "E17"
+  },
+  "summary": "Score 62/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7008904B2",
+    "title": "Herbicidal compositions containing glyphosate and bipyridilium",
+    "score": 49,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US6541424B2",
+    "title": "Manufacture and use of a herbicide formulation",
+    "score": 44,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US6767863B2",
+    "title": "High-strength low-viscosity agricultural formulations",
+    "score": 37,
+    "status": "expired_term",
+    "end_year": 2022
+   },
+   {
+    "pub": "US6475954B2",
+    "title": "Solid glyphosphate-formulation and manufacturing process",
+    "score": 52,
+    "status": "lapsed_fees",
+    "end_year": 2014
+   },
+   {
+    "pub": "US6884798B2",
+    "title": "Fungicidal agent combinations",
+    "score": 45,
+    "status": "lapsed_fees",
+    "end_year": 2009
+   }
+  ],
+  "summary": "5 similar dead patents in Crop protection and biocides"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US7135437B2 reached the end of its full term on 2022-11-20.",
+   "source": "https://patents.google.com/patent/US7135437B2/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US7135437B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20241226171404.",
+   "source": "https://patents.google.com/patent/US7135437B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed large-entity status.",
+   "source": "https://patents.google.com/patent/US7135437B2/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "large"
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 9 later patent(s) citing this one that may still be in force, e.g. US11452289B2 (Glyphosate formulations containing amidoalkylamine surfactants).",
+   "source": "https://patents.google.com/patent/US7135437B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US11452289B2",
+     "US10709134B2",
+     "US20100113274A1",
+     "US11116208B2",
+     "US10285404B2"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "32 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US7135437B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "RU2771039C1",
+     "RU2752946C1",
+     "WO2019224639A1",
+     "RU2655841C1",
+     "GB201621396D0"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "EPA pesticide registration and data exclusivity: Pesticides and biocides need EPA registration under FIFRA. The original registrant's data has 10 years of exclusive use and 15 years of compensation rights.",
+   "source": "EPA Pesticide Product and Label System (PPLS)",
+   "method": "Blocker checklist rule 'epa_pesticide' matched CPC A01N25/04, A01N25/02, A01N25/30",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "Cited by 78 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US7135437B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 78
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "0 later filings by unrelated owners cite it with priority dates after it expired (2022-11-20).",
+   "source": "https://patents.google.com/patent/US7135437B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "5 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US7135437B2/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "3 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US7135437B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 3
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: \u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d \"\u041d\u0430\u0443\u0447\u043d\u043e-\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0433\u0435\u0440\u0431\u0438\u0446\u0438\u0434\u043e\u0432 \u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440\u043e\u0432 \u0440\u043e\u0441\u0442\u0430 \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u0439 \u0441 \u043e\u043f\u044b\u0442\u043d\u043e-\u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u043c \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u043c \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d\" (1), \u82cf\u5dde\u4e30\u500d\u751f\u7269\u79d1\u6280\u6709\u9650\u516c\u53f8 (1), \u041e\u041e\u041e \"\u0410\u0433\u0440\u043e \u042d\u043a\u0441\u043f\u0435\u0440\u0442 \u0413\u0440\u0443\u043f\" (1).",
+   "source": "https://patents.google.com/patent/US7135437B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d \"\u041d\u0430\u0443\u0447\u043d\u043e-\u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0433\u0435\u0440\u0431\u0438\u0446\u0438\u0434\u043e\u0432 \u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0442\u043e\u0440\u043e\u0432 \u0440\u043e\u0441\u0442\u0430 \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u0439 \u0441 \u043e\u043f\u044b\u0442\u043d\u043e-\u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u044b\u043c \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u043e\u043c \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u0438 \u043d\u0430\u0443\u043a \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u0411\u0430\u0448\u043a\u043e\u0440\u0442\u043e\u0441\u0442\u0430\u043d\"",
+      1
+     ],
+     [
+      "\u82cf\u5dde\u4e30\u500d\u751f\u7269\u79d1\u6280\u6709\u9650\u516c\u53f8",
+      1
+     ],
+     [
+      "\u041e\u041e\u041e \"\u0410\u0433\u0440\u043e \u042d\u043a\u0441\u043f\u0435\u0440\u0442 \u0413\u0440\u0443\u043f\"",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Examiners cited it against 48 later applications.",
+   "source": "https://patents.google.com/patent/US7135437B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 170 words across 40 claims.",
+   "source": "https://patents.google.com/patent/US7135437B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "The family was filed in 12 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US7135437B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Revival score 62/100 (high confidence); strongest signals: Field still alive and Breadth at grant.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Product: AgWeb's product guide lists Gowan Company's Domark 230 ME, a tetraconazole fungicide sold as a microemulsion, plus the microemulsion-concentrate fungicides Brixen and Andiamo 230.",
+   "source": "https://www.agweb.com/news/crops/crop-production/product-guide-fungicides-labeled-tar-spot-control-corn",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Product: A US EPA-registered label exists for Aim 12% Microemulsion (ME) Herbicide (EPA reg. 279-3303), but it is dated 2005 and doesn't show the product is on sale today.",
+   "source": "https://www3.epa.gov/pesticides/chem_search/ppls/000279-03303-20051118.pdf",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Market: Growth Market Reports estimates the global microemulsion pesticide formulations market at USD 1.26 billion in 2024, reaching USD 2.54 billion by 2033 (7.9% annual growth).",
+   "source": "https://growthmarketreports.com/report/microemulsion-pesticide-formulations-market",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E21",
+   "agent": "market",
+   "claim": "Market: TechSci Research projects the global pesticide formulations market will grow from USD 1.19 billion in 2025 to USD 1.91 billion by 2031, partly because concentrated water-based formulations improve shelf-life stability.",
+   "source": "https://www.techsciresearch.com/report/pesticide-formulations-market/8219.html",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Crop protection and biocides",
+   "seconds": 0.01
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2022-11-20",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "4 possible blockers, 2 high severity",
+   "seconds": 10.89
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 62/100, high confidence: Dead patent with a future",
+   "seconds": 39.7
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 17.0
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1936,
+    "output_tokens": 1098,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.0297,
+    "seconds": 10.9
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 39318,
+    "output_tokens": 1805,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.23337,
+    "seconds": 30.2
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 932,
+    "output_tokens": 686,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01757,
+    "seconds": 9.5
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2264,
+    "output_tokens": 1558,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.0405,
+    "seconds": 17.0
+   }
+  ],
+  "total_cost_usd": 0.3211,
+  "seconds": 67.6
+ }
+}

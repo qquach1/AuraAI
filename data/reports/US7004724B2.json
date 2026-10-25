@@ -1,0 +1,840 @@
+{
+ "pub": "US7004724B2",
+ "title": "Method and apparatus for wind turbine rotor load control based on shaft radial displacement",
+ "generated_at": "2026-10-25T16:32:50+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future: GE's shaft-displacement load control for wind turbines ran its full term and scores 76/100, but GE's own later patents and turbine certification may crowd the path.",
+  "what_it_is": "Sensors placed next to a wind turbine's main shaft measure how far the shaft bends off-center when wind hits the rotor unevenly. A controller uses that reading to change blade pitch or take similar action, cutting uneven loads and wear on turbine parts.",
+  "why_it_died": {
+   "text": "It did not die early. It appears to have expired simply because it reached the end of its full legal term. GE paid every maintenance fee, which suggests it valued the patent to the end. That is why the 'died for money, not merit' score is only middling (7.5/15): this was a patent its owner kept, not one it abandoned.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "The first claim is short and broad. It covers proximity sensors facing a shaft plus a control circuit that reduces load. That earned full marks for breadth, so the expired disclosure may cover a wide idea.",
+    "evidence": [
+     "E15",
+     "E17"
+    ]
+   },
+   {
+    "point": "The idea was heavily used as reference material. 115 later filings cite it, and examiners cited it against 67 applications. That suggests it is foundational in this niche.",
+    "evidence": [
+     "E9",
+     "E14"
+    ]
+   },
+   {
+    "point": "Work in the area continues. 8 citing filings date from 2019 on, from Chinese wind firms and GE's renewables arm. A recent patent also uses shaft-flange displacement for yaw control.",
+    "evidence": [
+     "E12",
+     "E13",
+     "E18"
+    ]
+   },
+   {
+    "point": "GE filed it in 8 jurisdictions and paid fees to term end. That signals the owner saw real value in the approach.",
+    "evidence": [
+     "E2",
+     "E16"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "No unrelated owners have built on it since it expired, and only 6 cited it in its last five years. Interest appears to be technical, not a sign of new commercial entrants.",
+    "evidence": [
+     "E10",
+     "E11"
+    ]
+   },
+   {
+    "point": "Competing sensing methods solve the same problem. Blade-root strain gauges and optical sensors are one example. A new entrant would need a clear reason why shaft sensing is better.",
+    "evidence": [
+     "E19"
+    ]
+   },
+   {
+    "point": "Most citing activity comes from large incumbents like GE and Chinese turbine makers. That suggests buyers are few, powerful, and may build in-house.",
+    "evidence": [
+     "E13",
+     "E5"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "GE filed 30 later patents citing this one that may still be in force, such as a main shaft assembly patent. Improvements a product would need may sit inside GE's newer patents.",
+    "severity": "high",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "45 later patents by other owners were cited against this one and may still be in force. This is a crowded area worth mapping before building.",
+    "severity": "medium",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Turbine equipment needs IEC or UL certification and a utility interconnection agreement. That is slow and costly for anything sold as part of a generating system.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "The patent shows the idea, not the know-how. Sensor placement, calibration, and control tuning will likely need to be rebuilt from scratch.",
+    "severity": "low",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Wind farm operators or independent service providers would pay for a retrofit shaft-displacement sensing kit that cuts rotor fatigue, instead of relying on the OEM or blade-root strain sensors.",
+   "why_riskiest": "The field is dominated by incumbents who may build this themselves. Competing sensors already exist, and no unrelated companies have filed on this since expiry. Without a buyer outside the big OEMs, there is no business.",
+   "how_to_test": "In two weeks, run 10-15 calls with asset managers at independent wind farm owners and independent service providers. Ask what they spend on fatigue-related repairs, which load sensing they use now, and whether they would pilot a retrofit kit at a stated price. In parallel, get a quote from a sensor maker for an industrial proximity sensor set plus DAQ to estimate kit cost. Target: at least 3 operators asking for a pilot. Cost is mostly time, well under $500.",
+   "evidence": [
+    "E10",
+    "E13",
+    "E19",
+    "E18"
+   ]
+  },
+  "attorney_questions": [
+   "Do any of GE's 30 later citing patents, such as US11441541B2, or the 45 examiner-cited patents by others appear to cover a retrofit shaft-displacement load-control product, and which should we review first?",
+   "Does the recent patent US11754039, on shaft-flange displacement for yaw control, appear to narrow what we could build around this expired patent?",
+   "What should we check about the 8 foreign family members and current related filings before selling into Europe or China?"
+  ],
+  "score": 76,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2006-02-28",
+   "priority_date": "2003-02-03",
+   "filing_date": "2003-07-15",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": "large",
+   "term_end": "2023-08-10",
+   "term_end_estimated": false,
+   "end_date": "2023-08-10",
+   "end_year": 2023,
+   "months_since_end": 38.5,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2024-12-22"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Expired at full term 2023-08-10"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "high",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "US11441541B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-08-24",
+      "publication_date": "2022-09-13",
+      "assignee": "General Electric Renovables Espana, S.L.",
+      "title": "Main shaft assembly of a wind turbine",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Main shaft assembly by GE; likely concerns shaft hardware where displacement sensors would be mounted, closely tied to the original's sensing arrangement."
+     },
+     {
+      "pub": "US11649804B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2021-06-07",
+      "publication_date": "2023-05-16",
+      "assignee": "General Electric Renovables Espana, S.L.",
+      "title": "Systems and methods for controlling a wind turbine",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Same owner lineage (GE), generic wind turbine control title; may involve load-based control relevant to shaft-displacement products, but scope unclear from title."
+     },
+     {
+      "pub": "US11231012B1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2020-09-22",
+      "publication_date": "2022-01-25",
+      "assignee": "General Electric Renovables Espana, S.L.",
+      "title": "Systems and methods for controlling a wind turbine",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "GE wind turbine control; title generic, possible load mitigation refinement but unspecified."
+     },
+     {
+      "pub": "US20170175709A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2015-12-17",
+      "publication_date": "2017-06-22",
+      "assignee": "General Electric Company",
+      "title": "System and method for controlling wind turbines",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Generic GE turbine control title; could include load-control improvements, uncertain."
+     },
+     {
+      "pub": "US10100812B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2014-06-30",
+      "publication_date": "2018-10-16",
+      "assignee": "General Electric Company",
+      "title": "Methods and systems to operate a wind turbine system",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Generic GE operating methods; possible load estimation aspects, uncertain from title."
+     }
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "CN113494418A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-04-08",
+      "publication_date": "2021-10-12",
+      "assignee": "\u901a\u7528\u7535\u6c14\u53ef\u518d\u751f\u80fd\u6e90\u897f\u73ed\u7259\u6709\u9650\u516c\u53f8",
+      "title": "System and method for mitigating loads acting on rotor blades of a wind turbine",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Mitigating rotor blade loads in a wind turbine by GE directly matches the original's goal of asymmetric load reduction."
+     },
+     {
+      "pub": "CN112284455A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-10-29",
+      "publication_date": "2021-01-29",
+      "assignee": "\u9655\u897f\u4e2d\u79d1\u542f\u822a\u79d1\u6280\u6709\u9650\u516c\u53f8",
+      "title": "High-precision blade root load and frequency measurement method",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Blade root load measurement is an alternative/complementary load sensing approach; relevant to rotor load determination but different sensor location."
+     },
+     {
+      "pub": "US20230250806A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-10-11",
+      "publication_date": "2023-08-10",
+      "assignee": "The Aes Corporation",
+      "title": "System and method for determining an operating condition of a wind turbine",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Determining operating condition may use shaft or load sensing; possible monitoring overlap."
+     },
+     {
+      "pub": "WO2020216424A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-04-26",
+      "publication_date": "2020-10-29",
+      "assignee": "Vestas Wind Systems A/S",
+      "title": "Controller and method for a wind turbine",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Vestas controller and method; generic title, could involve load-based pitch control."
+     },
+     {
+      "pub": "US20180187646A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2016-12-30",
+      "publication_date": "2018-07-05",
+      "assignee": "Acciona Windpower, S.A.",
+      "title": "Method of reducing loads acting on a wind turbine yaw system",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Reducing yaw system loads relates to load mitigation from asymmetric rotor loads, though targeting yaw rather than pitch."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Grid interconnection and equipment certification",
+    "detail": "Generation equipment needs IEC or UL certification and a utility interconnection agreement.",
+    "where": "IEC 61400 (wind), UL 1741 (inverters), the local utility's interconnection rules",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "4 possible blockers, 1 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 76,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.6,
+     "points": 17.9
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.86,
+     "points": 17.1
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 1.0,
+     "points": 15.0
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 115,
+   "fwd_after_end": 0,
+   "fwd_after_end_unrelated": 0,
+   "fwd_alive_unrelated": 6,
+   "fwd_recent": 8,
+   "fwd_examiner": 67,
+   "fwd_by_year": {
+    "2001": 1,
+    "2003": 2,
+    "2004": 4,
+    "2005": 4,
+    "2006": 5,
+    "2007": 13,
+    "2008": 13,
+    "2009": 14,
+    "2010": 15,
+    "2011": 10,
+    "2012": 4,
+    "2013": 8,
+    "2014": 4,
+    "2015": 3,
+    "2016": 2,
+    "2017": 3,
+    "2019": 2,
+    "2020": 7,
+    "2021": 1
+   },
+   "recent_companies": [
+    [
+     "\u5c71\u4e1c\u4e2d\u8f66\u98ce\u7535\u6709\u9650\u516c\u53f8",
+     1
+    ],
+    [
+     "\u901a\u7528\u7535\u6c14\u53ef\u518d\u751f\u80fd\u6e90\u897f\u73ed\u7259\u6709\u9650\u516c\u53f8",
+     1
+    ],
+    [
+     "AIRBUS HELICOPTERS DEUTSCHLAND GmbH",
+     1
+    ],
+    [
+     "\u9655\u897f\u4e2d\u79d1\u542f\u822a\u79d1\u6280\u6709\u9650\u516c\u53f8",
+     1
+    ]
+   ],
+   "same_owner_followons": 33,
+   "bwd_total": 9,
+   "bwd_examiner": 2,
+   "family_countries": 8,
+   "live_family": 0,
+   "claims_count": 21,
+   "shortest_claim_words": 46
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Strong historical technical influence: the patent is heavily cited, including frequently by examiners, suggesting it sits near the core of rotor asymmetric-load control prior art.",
+     "evidence": [
+      "E9",
+      "E14",
+      "E16"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "The owner valued it through full term. It was a large entity that paid every maintenance fee until expiry in 2023.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E4"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Interest continues at a modest level. A handful of citing filings date from 2019 on, from wind OEMs and one aerospace firm. However, no unrelated-owner filings with post-expiry priority dates have cited it yet.",
+     "evidence": [
+      "E10",
+      "E11",
+      "E12",
+      "E13"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The underlying problem is still being worked on through both shaft-displacement sensing and alternative blade-root load sensing approaches. This means the field is active but contested by alternative methods.",
+     "evidence": [
+      "E18",
+      "E19",
+      "E17"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Recent citing filers include \u5c71\u4e1c\u4e2d\u8f66\u98ce\u7535\u6709\u9650\u516c\u53f8, \u901a\u7528\u7535\u6c14\u53ef\u518d\u751f\u80fd\u6e90\u897f\u73ed\u7259\u6709\u9650\u516c\u53f8 (a GE Renewable Energy Spain entity), AIRBUS HELICOPTERS DEUTSCHLAND GmbH and \u9655\u897f\u4e2d\u79d1\u542f\u822a\u79d1\u6280\u6709\u9650\u516c\u53f8, each with one filing, while owners of the related shaft-displacement and pitch-control patents are unconfirmed.",
+   "market_read": "Load control based on rotor asymmetry remains a live technical area in wind energy, with steady but small recent citation activity concentrated among established turbine players and Chinese wind firms. Citation data shows technical interest rather than revenue, and competing sensing approaches such as blade-root strain sensors mean any new entrant would need a clear differentiation story."
+  },
+  "web": [
+   {
+    "kind": "company",
+    "finding": "Patent US11754039 describes proximity sensors that measure main shaft flange displacement relative to the main bearing and feed that data into yaw control, which shows continued work on control based on shaft displacement (owner not confirmed).",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11754039",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "company",
+    "finding": "Patent US12612894 describes turning individual pitch control on or off based on detected wind events, using blade-root load sensors such as strain gauges or optical Bragg sensors, an alternative way to address the same asymmetric-load problem (owner not confirmed).",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12612894",
+    "confidence": "medium",
+    "evidence": "E19"
+   }
+  ],
+  "evidence": [
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17"
+  ],
+  "named": {
+   "total": "E9",
+   "after": "E10",
+   "recent": "E12",
+   "companies": "E13",
+   "score": "E17"
+  },
+  "summary": "Score 76/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7160083B2",
+    "title": "Method and apparatus for wind turbine rotor load control",
+    "score": 68,
+    "status": "expired_term",
+    "end_year": 2023
+   },
+   {
+    "pub": "US7322794B2",
+    "title": "Method and apparatus for condition-based monitoring of wind turbine components",
+    "score": 56,
+    "status": "expired_term",
+    "end_year": 2023
+   },
+   {
+    "pub": "US6541877B2",
+    "title": "Wind power generation system",
+    "score": 74,
+    "status": "lapsed_fees",
+    "end_year": 2011
+   },
+   {
+    "pub": "US6608397B2",
+    "title": "Wind driven electrical power generating apparatus",
+    "score": 67,
+    "status": "lapsed_fees",
+    "end_year": 2007
+   },
+   {
+    "pub": "US6670721B2",
+    "title": "System, method, rotating machine and computer program product for enhancing electric power produced by renewable facilities",
+    "score": 78,
+    "status": "lapsed_fees",
+    "end_year": 2011
+   }
+  ],
+  "summary": "5 similar dead patents in Wind energy"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US7004724B2 reached the end of its full term on 2023-08-10.",
+   "source": "https://patents.google.com/patent/US7004724B2/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US7004724B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20241222011031.",
+   "source": "https://patents.google.com/patent/US7004724B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed large-entity status.",
+   "source": "https://patents.google.com/patent/US7004724B2/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "large"
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 30 later patent(s) citing this one that may still be in force, e.g. US11441541B2 (Main shaft assembly of a wind turbine).",
+   "source": "https://patents.google.com/patent/US7004724B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US11441541B2",
+     "US11649804B2",
+     "US11231012B1",
+     "US20170175709A1",
+     "US10100812B2"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "45 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US7004724B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "CN113494418A",
+     "CN112284455A",
+     "US20230250806A1",
+     "WO2020216424A1",
+     "US20180187646A1"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "Grid interconnection and equipment certification: Generation equipment needs IEC or UL certification and a utility interconnection agreement.",
+   "source": "IEC 61400 (wind), UL 1741 (inverters), the local utility's interconnection rules",
+   "method": "Blocker checklist rule 'energy_grid' matched CPC F03D7/0204, F03D17/00, F05B2270/331",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "Cited by 115 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US7004724B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 115
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "0 later filings by unrelated owners cite it with priority dates after it expired (2023-08-10).",
+   "source": "https://patents.google.com/patent/US7004724B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "6 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US7004724B2/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "8 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US7004724B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 8
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: \u5c71\u4e1c\u4e2d\u8f66\u98ce\u7535\u6709\u9650\u516c\u53f8 (1), \u901a\u7528\u7535\u6c14\u53ef\u518d\u751f\u80fd\u6e90\u897f\u73ed\u7259\u6709\u9650\u516c\u53f8 (1), AIRBUS HELICOPTERS DEUTSCHLAND GmbH (1), \u9655\u897f\u4e2d\u79d1\u542f\u822a\u79d1\u6280\u6709\u9650\u516c\u53f8 (1).",
+   "source": "https://patents.google.com/patent/US7004724B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "\u5c71\u4e1c\u4e2d\u8f66\u98ce\u7535\u6709\u9650\u516c\u53f8",
+      1
+     ],
+     [
+      "\u901a\u7528\u7535\u6c14\u53ef\u518d\u751f\u80fd\u6e90\u897f\u73ed\u7259\u6709\u9650\u516c\u53f8",
+      1
+     ],
+     [
+      "AIRBUS HELICOPTERS DEUTSCHLAND GmbH",
+      1
+     ],
+     [
+      "\u9655\u897f\u4e2d\u79d1\u542f\u822a\u79d1\u6280\u6709\u9650\u516c\u53f8",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Examiners cited it against 67 later applications.",
+   "source": "https://patents.google.com/patent/US7004724B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 46 words across 21 claims.",
+   "source": "https://patents.google.com/patent/US7004724B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "The family was filed in 8 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US7004724B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Revival score 76/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Company: Patent US11754039 describes proximity sensors that measure main shaft flange displacement relative to the main bearing and feed that data into yaw control, which shows continued work on control based on shaft displacement (owner not confirmed).",
+   "source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11754039",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Company: Patent US12612894 describes turning individual pitch control on or off based on detected wind events, using blade-root load sensors such as strain gauges or optical Bragg sensors, an alternative way to address the same asymmetric-load problem (owner not confirmed).",
+   "source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12612894",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Wind energy",
+   "seconds": 0.02
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2023-08-10",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "4 possible blockers, 1 high severity",
+   "seconds": 10.05
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 76/100, high confidence: Dead patent with a future",
+   "seconds": 37.72
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 17.58
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1708,
+    "output_tokens": 985,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02653,
+    "seconds": 10.0
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 31886,
+    "output_tokens": 1679,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.20112,
+    "seconds": 30.9
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 924,
+    "output_tokens": 619,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.0162,
+    "seconds": 6.8
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1892,
+    "output_tokens": 1612,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04009,
+    "seconds": 17.6
+   }
+  ],
+  "total_cost_usd": 0.2839,
+  "seconds": 65.4
+ }
+}
