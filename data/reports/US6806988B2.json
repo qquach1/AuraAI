@@ -1,0 +1,766 @@
+{
+ "pub": "US6806988B2",
+ "title": "Optical apparatus",
+ "generated_at": "2026-10-25T16:30:25+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Worth a closer look (55/100, high confidence): a lapsed Canon patent on driving liquid lenses by tuning the on/off timing of the voltage, in a real but small and mature niche.",
+  "what_it_is": "This patent describes a lens made of two liquids that don't mix, sealed in a small container with electrodes, where applying voltage reshapes the boundary between the liquids and changes the focus. The key idea in the first claim is controlling focus by adjusting the duty ratio (the share of time the alternating voltage is on) rather than just the voltage level.",
+  "why_it_died": {
+   "text": "Canon paid the 4th- and 8th-year fees, then did not pay the 11.5-year fee, so the patent lapsed in October 2016 with about 5 years of term left. No reinstatement appears on record. The record does not say why Canon stopped paying. The score gives only modest weight to the idea that it died for money rather than merit (5.2 of 15).",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E8"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "Examiners kept treating this as important prior art. It was cited against 97 later applications and by 117 later filings overall, which is why it scores full marks on examiner relevance.",
+    "evidence": [
+     "E10",
+     "E13",
+     "E16"
+    ]
+   },
+   {
+    "point": "The underlying technology is in real products today. Corning sells Varioptic electrowetting lenses for industrial uses, marketed on low power, unlimited cycles and shock resistance.",
+    "evidence": [
+     "E17",
+     "E18"
+    ]
+   },
+   {
+    "point": "Other companies kept building on it after it lapsed. Ten later filings by unrelated owners cite it with priority dates after 2016.",
+    "evidence": [
+     "E11"
+    ]
+   },
+   {
+    "point": "It was filed in only one jurisdiction, and the lapse appears to have left years of term unused, which is part of why it scores well on 'clear path'.",
+    "evidence": [
+     "E3",
+     "E15"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Momentum has stalled. No citing filings have priority dates from 2019 on, so recent momentum scored 0 of 20.",
+    "evidence": [
+     "E12",
+     "E16"
+    ]
+   },
+   {
+    "point": "The market is small. Analysts put global liquid lens sales at roughly US$34-40M a year, growing about 5% a year. That is a tough base for a venture-scale business.",
+    "evidence": [
+     "E20"
+    ]
+   },
+   {
+    "point": "An established supplier already sells these lenses. A newcomer would compete with Corning Varioptic on a mature product.",
+    "evidence": [
+     "E17",
+     "E18"
+    ]
+   },
+   {
+    "point": "Drive methods are still being patented by others. One example is a granted 2020s US patent on driving selected electrode sectors. Newer rights may sit right next to this idea.",
+    "evidence": [
+     "E19"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "There are 32 later patents by other owners that examiners cited against this one, and they may still be in force. They could cover improvements you would naturally want to use. This is worth checking with counsel.",
+    "severity": "high",
+    "evidence": [
+     "E5",
+     "E19"
+    ]
+   },
+   {
+    "point": "The patent describes the concept, not how to make it. Expect to work out liquid choice, sealing and electrode processes yourself.",
+    "severity": "medium",
+    "evidence": [
+     "E9"
+    ]
+   },
+   {
+    "point": "Some optics may fall under export controls (EAR Category 6). Products that include lasers must meet FDA CDRH laser standards.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "If the lens goes into a wireless device, that product must meet many standards covered by other live patents and needs FCC authorization.",
+    "severity": "low",
+    "evidence": [
+     "E6"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Industrial or camera-module buyers would switch from an established supplier like Corning Varioptic to a new liquid lens or driver offering, because duty-ratio control gives them a meaningful benefit such as lower cost, simpler electronics or better precision.",
+   "why_riskiest": "The market is small and mature, with an incumbent already selling working products. If buyers see no reason to switch, the patent's technical idea does not become a business, however sound it is.",
+   "how_to_test": "Buy one Varioptic evaluation lens and driver, or get a quote, and do a teardown to see how it is driven today (about $300-500). In parallel, run 10-15 customer interviews with machine-vision integrators and camera-module engineers. Ask what they pay, what frustrates them about current liquid lenses and drivers, and whether a cheaper or simpler driver would change their buying decision. Count how many would request a sample.",
+   "evidence": [
+    "E17",
+    "E18",
+    "E20"
+   ]
+  },
+  "attorney_questions": [
+   "Do any of the 32 later patents cited against this one, or newer drive-method patents such as US 11822095, appear to still be in force and to cover duty-ratio or similar AC drive control for electrowetting lenses?",
+   "Given the 2016 lapse for a missed 11.5-year fee and no reinstatement on record, is there any remaining risk tied to this patent or related Canon family members we should check?",
+   "Would our intended product (lens, driver, or camera module) raise export-control (EAR Category 6), FDA laser, or FCC issues we need to plan for?"
+  ],
+  "score": 55,
+  "confidence": "high",
+  "verdict": "Worth a closer look",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Fee Related",
+   "status": "lapsed_fees",
+   "grant_date": "2004-10-19",
+   "priority_date": "2000-03-03",
+   "filing_date": "2001-03-01",
+   "lapse_date": "2016-10-19",
+   "lapse_source": "legal event FP on 2016-12-06",
+   "fee_window": 12,
+   "fees_paid": [
+    4,
+    8
+   ],
+   "entity_size": null,
+   "term_end": "2021-04-18",
+   "term_end_estimated": false,
+   "end_date": "2016-10-19",
+   "end_year": 2016,
+   "months_since_end": 120.2,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2021-06-13"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Lapsed 2016-10-19 at the 11.5-year (third) fee window"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "TW201932877A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2017-11-14",
+      "publication_date": "2019-08-16",
+      "assignee": "\u7f8e\u5546\u5eb7\u5be7\u516c\u53f8",
+      "title": "Liquid lenses and methods for operating liquid lenses",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Methods for operating liquid lenses likely address drive voltage control, close to duty-ratio AC driving of the original."
+     },
+     {
+      "pub": "US20200096678A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2017-04-05",
+      "publication_date": "2020-03-26",
+      "assignee": "Corning Incorporated",
+      "title": "Liquid lens control systems and methods",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Liquid lens control systems and methods directly concern controlling electrowetting lens voltage, likely including PWM/duty control."
+     },
+     {
+      "pub": "WO2019183147A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2018-03-20",
+      "publication_date": "2019-09-26",
+      "assignee": "Corning Incorporated",
+      "title": "Self-heating liquid lens and self-heating methods for the same",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Self-heating liquid lens likely uses electrode drive signals (possibly AC/duty-based) to heat; related to drive control of electrowetting lens."
+     },
+     {
+      "pub": "US20200319380A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2017-11-15",
+      "publication_date": "2020-10-08",
+      "assignee": "Corning Incorporated",
+      "title": "Liquid lens systems",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Generic liquid lens systems from Corning; may include drive circuitry improvements relevant to AC voltage control."
+     },
+     {
+      "pub": "US20200166676A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2017-08-14",
+      "publication_date": "2020-05-28",
+      "assignee": "Optos Plc",
+      "title": "Optical Element Control",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Optical element control suggests drive/control of variable lens; may relate to voltage control but owner is ophthalmic imaging focused."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Industry standards and standard-essential patents",
+    "detail": "Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+    "where": "ETSI IPR database; FCC equipment authorization",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "low",
+    "title": "Export controls and laser safety",
+    "detail": "Some optics and lasers are export controlled (EAR Category 6). Laser products sold in the US must meet FDA CDRH laser performance standards.",
+    "where": "Commerce Control List; FDA 21 CFR 1040.10",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "revival",
+    "severity": "low",
+    "title": "Revival risk",
+    "detail": "Lapsed 120 months ago with no reinstatement on record; revival this late requires a petition showing the delay was unintentional.",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E9"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "5 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 55,
+   "confidence": "high",
+   "verdict": "Worth a closer look",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.74,
+     "points": 22.1
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.0,
+     "points": 0.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.35,
+     "points": 5.2
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.66,
+     "points": 9.8
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 117,
+   "fwd_after_end": 10,
+   "fwd_after_end_unrelated": 10,
+   "fwd_alive_unrelated": 10,
+   "fwd_recent": 0,
+   "fwd_examiner": 97,
+   "fwd_by_year": {
+    "1997": 1,
+    "2000": 1,
+    "2001": 1,
+    "2002": 3,
+    "2003": 8,
+    "2004": 38,
+    "2005": 15,
+    "2006": 9,
+    "2007": 9,
+    "2008": 6,
+    "2009": 5,
+    "2010": 5,
+    "2011": 1,
+    "2015": 3,
+    "2016": 5,
+    "2017": 6,
+    "2018": 1
+   },
+   "recent_companies": [],
+   "same_owner_followons": 0,
+   "bwd_total": 6,
+   "bwd_examiner": 1,
+   "family_countries": 1,
+   "live_family": 0,
+   "claims_count": 6,
+   "shortest_claim_words": 134
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "The patent drew strong technical and examiner attention historically, which points to a foundational position in electrowetting variable-focus optics.",
+     "evidence": [
+      "E10",
+      "E13",
+      "E16"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Citation momentum has faded. Some unrelated owners cited it after it lapsed, but no citing filings have priority dates from 2019 onward, so the patent itself is no longer a live reference point for new filings.",
+     "evidence": [
+      "E11",
+      "E12"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The underlying technology is commercially active. Electrowetting liquid lenses are sold today, and newer patents continue to refine electrode drive methods, which is the same problem area as this patent's AC duty-ratio control.",
+     "evidence": [
+      "E17",
+      "E18",
+      "E19"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The addressable market looks niche. Analyst estimates put it in the tens of millions of dollars with modest single-digit growth, so a pure liquid-lens play may face limited headroom.",
+     "evidence": [
+      "E20"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Corning, through its Varioptic line, is the named active commercial player selling electrowetting liquid lenses, and a separately granted patent (US 11822095) shows ongoing development of electrowetting drive methods by an owner not named in the evidence.",
+   "market_read": "Electrowetting liquid lenses are a real but small market, served by at least one established supplier and seeing continued incremental innovation in drive electronics. A founder should treat this patent mainly as technical background in a mature niche, and should check the newer patent landscape around drive methods with qualified counsel before building on it."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "Corning sells Varioptic adjustable and autofocus lenses for industrial uses; they rely on electrowetting, where voltage changes the interface between two liquids.",
+    "url": "https://www.corning.com/worldwide/en/products/advanced-optics/product-materials/corning-varioptic-lenses.html",
+    "confidence": "medium",
+    "evidence": "E17"
+   },
+   {
+    "kind": "company",
+    "finding": "Corning Varioptic is listed in industry directories as a maker of electrowetting liquid lenses and objectives, citing low power, unlimited cycles and shock resistance.",
+    "url": "https://www.laserfocusworld.com/directory/finished-optics-coatings-components/lenses/company/14046621/corning-varioptic-lenses",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "company",
+    "finding": "Granted US patent 11822095 covers a camera module whose electrowetting liquid lens is driven by voltage applied to selected electrode sectors, a sign of continued development of drive methods.",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11822095",
+    "confidence": "medium",
+    "evidence": "E19"
+   },
+   {
+    "kind": "market",
+    "finding": "Analyst reports put the global liquid lens market at roughly US$34-40M in 2025-2026, growing about 5% a year.",
+    "url": "https://www.marketreportsworld.com/market-reports/liquid-lenses-market-14714694",
+    "confidence": "low",
+    "evidence": "E20"
+   }
+  ],
+  "evidence": [
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16"
+  ],
+  "named": {
+   "total": "E10",
+   "after": "E11",
+   "recent": "E12",
+   "companies": null,
+   "score": "E16"
+  },
+  "summary": "Score 55/100, high confidence: Worth a closer look"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US6936196B2",
+    "title": "Solidifiable tunable liquid microlens",
+    "score": 49,
+    "status": "expired_term",
+    "end_year": 2022
+   },
+   {
+    "pub": "US6545816B1",
+    "title": "Photo-tunable liquid microlens",
+    "score": 48,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US6538823B2",
+    "title": "Tunable liquid microlens",
+    "score": 49,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US6545815B2",
+    "title": "Tunable liquid microlens with lubrication assisted electrowetting",
+    "score": 42,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US7508566B2",
+    "title": "Switchable optical element",
+    "score": 39,
+    "status": "expired_term",
+    "end_year": 2025
+   }
+  ],
+  "summary": "5 similar dead patents in Optics and photonics"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6806988B2 lapsed on 2016-10-19 because the 11.5-year (third) maintenance fee was not paid.",
+   "source": "https://patents.google.com/patent/US6806988B2/en#legalEvents",
+   "method": "Read from legal event FP on 2016-12-06",
+   "confidence": "high",
+   "data": {
+    "status": "lapsed_fees",
+    "lapse_date": "2016-10-19",
+    "window": 12
+   }
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid the 4th-year, 8th-year fee(s) before stopping.",
+   "source": "https://patents.google.com/patent/US6806988B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The owner gave up roughly 5 years of remaining term (term would have ended 2021-04-18).",
+   "source": "https://patents.google.com/patent/US6806988B2/en",
+   "method": "Term end from the expiration event, else filing date plus 20 years",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20210613115840.",
+   "source": "https://patents.google.com/patent/US6806988B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "32 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6806988B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "TW201932877A",
+     "US20200096678A1",
+     "WO2019183147A1",
+     "US20200319380A1",
+     "US20200166676A1"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "Industry standards and standard-essential patents: Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+   "source": "ETSI IPR database; FCC equipment authorization",
+   "method": "Blocker checklist rule 'telecom_standards' matched CPC G02B3/14, G02B26/005, G03B13/32",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "Export controls and laser safety: Some optics and lasers are export controlled (EAR Category 6). Laser products sold in the US must meet FDA CDRH laser performance standards.",
+   "source": "Commerce Control List; FDA 21 CFR 1040.10",
+   "method": "Blocker checklist rule 'optics_export' matched CPC G02B3/14, G02B26/005, G03B13/32",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "No reinstatement event is on record since the lapse.",
+   "source": "https://patents.google.com/patent/US6806988B2/en#legalEvents",
+   "method": "Searched legal events for reinstatement codes",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "Cited by 117 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6806988B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 117
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "10 later filings by unrelated owners cite it with priority dates after it lapsed (2016-10-19).",
+   "source": "https://patents.google.com/patent/US6806988B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 10
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "0 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6806988B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Examiners cited it against 97 later applications.",
+   "source": "https://patents.google.com/patent/US6806988B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 134 words across 6 claims.",
+   "source": "https://patents.google.com/patent/US6806988B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "The family was filed in 1 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6806988B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Revival score 55/100 (high confidence); strongest signals: Field still alive and Examiner relevance.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Product: Corning sells Varioptic adjustable and autofocus lenses for industrial uses; they rely on electrowetting, where voltage changes the interface between two liquids.",
+   "source": "https://www.corning.com/worldwide/en/products/advanced-optics/product-materials/corning-varioptic-lenses.html",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Company: Corning Varioptic is listed in industry directories as a maker of electrowetting liquid lenses and objectives, citing low power, unlimited cycles and shock resistance.",
+   "source": "https://www.laserfocusworld.com/directory/finished-optics-coatings-components/lenses/company/14046621/corning-varioptic-lenses",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Company: Granted US patent 11822095 covers a camera module whose electrowetting liquid lens is driven by voltage applied to selected electrode sectors, a sign of continued development of drive methods.",
+   "source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11822095",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Market: Analyst reports put the global liquid lens market at roughly US$34-40M in 2025-2026, growing about 5% a year.",
+   "source": "https://www.marketreportsworld.com/market-reports/liquid-lenses-market-14714694",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Optics and photonics",
+   "seconds": 0.05
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Lapsed 2016-10-19 at the 11.5-year (third) fee window",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "5 possible blockers, 0 high severity",
+   "seconds": 6.19
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 55/100, high confidence: Worth a closer look",
+   "seconds": 35.42
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 19.34
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1303,
+    "output_tokens": 522,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01565,
+    "seconds": 6.2
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 22203,
+    "output_tokens": 1881,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.16643,
+    "seconds": 27.6
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 821,
+    "output_tokens": 554,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01449,
+    "seconds": 7.8
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1943,
+    "output_tokens": 1682,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.0417,
+    "seconds": 19.3
+   }
+  ],
+  "total_cost_usd": 0.2383,
+  "seconds": 61.0
+ }
+}

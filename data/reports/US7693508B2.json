@@ -1,0 +1,806 @@
+{
+ "pub": "US7693508B2",
+ "title": "Method and apparatus for broadcast signaling in a wireless communication system",
+ "generated_at": "2026-10-25T16:31:28+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Worth a closer look: a broad, much-cited Qualcomm broadcast-signaling patent that appears to have expired at full term in 2022, in a field that is still active but crowded with newer standards and live patents.",
+  "what_it_is": "This patent covers sending the 'how to decode this' setup information mixed in with the actual content on a wireless broadcast channel, rather than on a separate channel. That lets a receiver, like a phone or TV, pick up and switch between broadcast streams quickly because the decoding instructions travel with the stream itself.",
+  "why_it_died": {
+   "text": "It appears to have simply run out its full patent term in April 2022, not been abandoned for unpaid fees. The owner was a large company paying fees as a large entity, so this looks like natural expiry rather than a sign the idea failed. That is why it gets only partial credit on 'died for money, not merit'. Note the status record is an archived 2021 snapshot, so the expiry is inferred from the expected end date and worth confirming.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "The core claim is broad and short, and examiners kept citing it against other applications. That suggests the idea was seen as foundational when granted. These are the two strongest parts of the 52/100 score.",
+    "evidence": [
+     "E14",
+     "E13",
+     "E16"
+    ]
+   },
+   {
+    "point": "Broadcast over wireless is still being deployed. NextGen TV (ATSC 3.0) has over 10 million receivers, and 5G broadcast/multicast is in commercial trials.",
+    "evidence": [
+     "E17",
+     "E18"
+    ]
+   },
+   {
+    "point": "The owner filed in 13 jurisdictions and the patent was cited 51 times, which suggests the owner valued it and the industry built on it.",
+    "evidence": [
+     "E15",
+     "E8"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Interest in this specific approach has faded. Only 1 citing filing since 2019, and no unrelated owners have built on it since it expired.",
+    "evidence": [
+     "E9",
+     "E10",
+     "E11",
+     "E12"
+    ]
+   },
+   {
+    "point": "This is a mature, well-trodden area. Any edge would likely come from newer, standard-specific implementations, not the core idea in this patent.",
+    "evidence": [
+     "E8",
+     "E11",
+     "E17",
+     "E18"
+    ]
+   },
+   {
+    "point": "The 'field still alive' and 'recent momentum' scores are low (6.4/30 and 5.4/20), which pulls the overall score down to the middle.",
+    "evidence": [
+     "E9",
+     "E11",
+     "E16"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Any real product would have to follow standards like 3GPP or ATSC that are covered by many live standard-essential patents, usually licensed for a fee. Radios also need FCC approval.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Qualcomm filed 5 later patents that build on this one and may still be in force, such as one on multicast sessions in wireless networks. These may cover close variations.",
+    "severity": "high",
+    "evidence": [
+     "E4"
+    ]
+   },
+   {
+    "point": "14 later patents by other companies were cited against this one and may still be live. They may overlap with what you would build.",
+    "severity": "medium",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "The expiry date is inferred from an archived 2021 record, not a current status check. Worth confirming before relying on it.",
+    "severity": "medium",
+    "evidence": [
+     "E1",
+     "E2"
+    ]
+   },
+   {
+    "point": "The patent describes the idea, not the engineering detail. Expect to rebuild the implementation yourself.",
+    "severity": "low",
+    "evidence": [
+     "E7"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "That a broadcaster, device maker, or network operator working on ATSC 3.0 or 5G broadcast has an unsolved pain around slow channel switching or receiver setup that a startup could solve, rather than this already being handled inside the standards.",
+   "why_riskiest": "The core idea is old and widely built upon. Citations have dried up, and the market agent says differentiation now lives in newer standard-specific work. If the standards already solve this problem, there is no product to sell.",
+   "how_to_test": "Over two weeks, book 8-10 short calls with engineers at NextGen TV broadcasters, receiver makers, or 5G broadcast trial teams (via LinkedIn and ATSC member lists). Ask how long channel changes and service discovery take today, what they have tried, and whether they would pay to improve it. Cost: under $200 for a LinkedIn Premium month and small thank-you gift cards. Go/no-go: at least 3 people name a specific, costly problem not already fixed by the standard.",
+   "evidence": [
+    "E9",
+    "E11",
+    "E17",
+    "E18",
+    "E6"
+   ]
+  },
+  "attorney_questions": [
+   "Can you confirm from current USPTO records that US7693508B2 expired at full term on 2022-04-17, and that no term extension or other status change applies?",
+   "Do Qualcomm's 5 later citing patents (e.g. US8630219B2) or the 14 other-owner patents cited by examiners appear to cover the kind of broadcast product we are considering?",
+   "If we build on ATSC 3.0 or 5G broadcast standards, which standard-essential patent pools or licenses would we likely need, and roughly what do they cost a small company?"
+  ],
+  "score": 52,
+  "confidence": "high",
+  "verdict": "Worth a closer look",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Active",
+   "status": "expired_term",
+   "grant_date": "2010-04-06",
+   "priority_date": "2001-03-28",
+   "filing_date": "2001-08-20",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8
+   ],
+   "entity_size": "large",
+   "term_end": "2022-04-17",
+   "term_end_estimated": false,
+   "end_date": "2022-04-17",
+   "end_year": 2022,
+   "months_since_end": 54.3,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": "The record (archived 2021-05) still showed Active, but its expected expiration (2022-04-17) has passed.",
+   "record_date": "2021-05-20"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3"
+  ],
+  "summary": "Past its expected expiration 2022-04-17 (inferred)"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "high",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E4"
+    ],
+    "items": [
+     {
+      "pub": "US8630219B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2007-09-24",
+      "publication_date": "2014-01-14",
+      "assignee": "Qualcomm Incorporated",
+      "title": "Supporting a multicast session within a wireless communications network",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Same owner, multicast/broadcast session support in wireless networks closely tracks the original's broadcast session signaling."
+     },
+     {
+      "pub": "US8625501B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2007-09-24",
+      "publication_date": "2014-01-07",
+      "assignee": "Qualcomm Incorporated",
+      "title": "Regulating broadcast overhead messages within a wireless communications network",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Same owner, title directly addresses regulating broadcast overhead messages, the core subject of the original."
+     },
+     {
+      "pub": "US9301266B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2011-08-19",
+      "publication_date": "2016-03-29",
+      "assignee": "Qualcomm Incorporated",
+      "title": "Beacons for wireless communication",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Beacons for wireless communication; tangential to broadcast session overhead interleaving."
+     },
+     {
+      "pub": "US20110188448A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2009-08-10",
+      "publication_date": "2011-08-04",
+      "assignee": "Qualcomm Incorporated",
+      "title": "Identifying a domain for delivery of message service information",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Message service domain identification, not broadcast content signaling."
+     },
+     {
+      "pub": "US20110191430A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2009-08-10",
+      "publication_date": "2011-08-04",
+      "assignee": "Qualcomm Incorporated",
+      "title": "Domain selection for mobile-originated message service",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Domain selection for mobile-originated messaging, unrelated to broadcast overhead."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Industry standards and standard-essential patents",
+    "detail": "Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+    "where": "ETSI IPR database; FCC equipment authorization",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "WO2016105090A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-12-22",
+      "publication_date": "2016-06-30",
+      "assignee": "\uc5d8\uc9c0\uc804\uc790 \uc8fc\uc2dd\ud68c\uc0ac",
+      "title": "Broadcast signal transmission device, broadcast signal reception device, broadcast signal transmission method, and broadcast signal reception method",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Broadcast signal transmission/reception with signaling likely; different system context (broadcast TV) but related overhead/signaling concepts."
+     },
+     {
+      "pub": "WO2016056800A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-10-06",
+      "publication_date": "2016-04-14",
+      "assignee": "\uc5d8\uc9c0\uc804\uc790 \uc8fc\uc2dd\ud68c\uc0ac",
+      "title": "Broadcasting signal transmitting method, broadcasting signal transmitting device, broadcasting signal receiving method, and broadcasting signal receiving device",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Broadcast signal transmit/receive methods may involve in-band signaling information for decoding content."
+     },
+     {
+      "pub": "WO2016028118A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-08-22",
+      "publication_date": "2016-02-25",
+      "assignee": "\uc5d8\uc9c0\uc804\uc790 \uc8fc\uc2dd\ud68c\uc0ac",
+      "title": "Broadcast transmitting device, and method for operating broadcast transmitting device. broadcast receiving device and method for operating broadcast receiving device",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Broadcast transmitting/receiving devices; possibly related signaling but different broadcast standard context."
+     },
+     {
+      "pub": "KR101104497B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2009-01-19",
+      "publication_date": "2012-01-12",
+      "assignee": "\uae40\uadfc\ubaa9",
+      "title": "dryer for automatic flat bed screen printing machine",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     },
+     {
+      "pub": "US20110007737A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-11-06",
+      "publication_date": "2011-01-13",
+      "assignee": "Alain Bultinck",
+      "title": "Delivery of media streaming services in a mobile communication system",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E7"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "4 possible blockers, 1 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 52,
+   "confidence": "high",
+   "verdict": "Worth a closer look",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.21,
+     "points": 6.4
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.27,
+     "points": 5.4
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 1.0,
+     "points": 15.0
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 51,
+   "fwd_after_end": 0,
+   "fwd_after_end_unrelated": 0,
+   "fwd_alive_unrelated": 1,
+   "fwd_recent": 1,
+   "fwd_examiner": 37,
+   "fwd_by_year": {
+    "2000": 2,
+    "2001": 10,
+    "2002": 1,
+    "2003": 10,
+    "2004": 3,
+    "2006": 4,
+    "2007": 7,
+    "2008": 1,
+    "2009": 6,
+    "2010": 1,
+    "2011": 1,
+    "2012": 1,
+    "2014": 3,
+    "2020": 1
+   },
+   "recent_companies": [
+    [
+     "\u0424\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0432\u044b\u0441\u0448\u0435\u0433\u043e \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \"\u041c\u0418\u0420\u042d\u0410 - \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\"",
+     1
+    ]
+   ],
+   "same_owner_followons": 15,
+   "bwd_total": 153,
+   "bwd_examiner": 9,
+   "family_countries": 13,
+   "live_family": 0,
+   "claims_count": 19,
+   "shortest_claim_words": 62
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Historically strong technical relevance: the patent was widely cited and frequently used by examiners, indicating it sat near the core of broadcast-signaling prior art.",
+     "evidence": [
+      "E8",
+      "E13",
+      "E16"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Recent follow-on patenting activity is very thin, with almost no new citing filings from unrelated owners in recent years and none after expiry.",
+     "evidence": [
+      "E9",
+      "E10",
+      "E11",
+      "E12"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "The originating owner treated this as a significant asset, filing it broadly across jurisdictions and maintaining it at large-entity status.",
+     "evidence": [
+      "E3",
+      "E15"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The broader broadcast-delivery field appears commercially alive through ATSC 3.0 receiver adoption and 5G multicast-broadcast trials, though these sources do not tie back to this patent specifically.",
+     "evidence": [
+      "E17",
+      "E18"
+     ],
+     "confidence": "low"
+    }
+   ],
+   "who_is_active": "The only recent citing filer named in the evidence is a Russian university (MIREA - Russian Technological University), with one filing; no commercial companies appear as recent citers.",
+   "market_read": "Broadcast and multicast delivery over wireless networks continues to see real deployment and trial activity in ATSC 3.0 and 5G MBS, but patent citation momentum around this specific signaling approach has largely faded since 2019. A founder should treat this as a mature, well-trodden technical area where differentiation likely depends on newer standards-specific implementations rather than the core concept described here."
+  },
+  "web": [
+   {
+    "kind": "market",
+    "finding": "ATSC reported a NextGen TV (ATSC 3.0) receiver installed base above 10.3 million, with consumer sales of NextGen TV products expected to rise 45% in 2024.",
+    "url": "https://www.atsc.org/news/tv-tech-100-nextgen-tv-products-will-be-available-to-consumers-in-2024/",
+    "confidence": "medium",
+    "evidence": "E17"
+   },
+   {
+    "kind": "market",
+    "finding": "A recent arXiv paper on 5G Multicast-Broadcast Services was funded by a Japanese ministry project on wireless IP multicasting and cites 5G NR MBS trials in commercial settings, suggesting cellular broadcast is still in active development and trials.",
+    "url": "https://arxiv.org/pdf/2605.16735",
+    "confidence": "low",
+    "evidence": "E18"
+   }
+  ],
+  "evidence": [
+   "E8",
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16"
+  ],
+  "named": {
+   "total": "E8",
+   "after": "E9",
+   "recent": "E11",
+   "companies": "E12",
+   "score": "E16"
+  },
+  "summary": "Score 52/100, high confidence: Worth a closer look"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US6707801B2",
+    "title": "Method and apparatus for data transport in a wireless communication system",
+    "score": 47,
+    "status": "expired_term",
+    "end_year": 2022
+   },
+   {
+    "pub": "US7085239B2",
+    "title": "Method and apparatus for determining the forward link closed loop power control set point in a wireless packet data communication system",
+    "score": 38,
+    "status": "lapsed_fees",
+    "end_year": 2018
+   },
+   {
+    "pub": "US6788687B2",
+    "title": "Method and apparatus for scheduling packet data transmissions in a wireless communication system",
+    "score": 45,
+    "status": "lapsed_fees",
+    "end_year": 2016
+   },
+   {
+    "pub": "US6980527B1",
+    "title": "Smart antenna CDMA wireless communication system",
+    "score": 49,
+    "status": "expired_term",
+    "end_year": 2020
+   },
+   {
+    "pub": "US7565145B2",
+    "title": "Handover messaging in an unlicensed mobile access telecommunications system",
+    "score": 46,
+    "status": "expired_term",
+    "end_year": 2025
+   }
+  ],
+  "summary": "5 similar dead patents in Wireless networks"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US7693508B2 appears to have reached the end of its term by 2022-04-17. The record (archived 2021-05) still showed Active, but its expected expiration (2022-04-17) has passed.",
+   "source": "https://patents.google.com/patent/US7693508B2/en#events",
+   "method": "Expected expiration date compared with today; status not re-checked",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20210520215224.",
+   "source": "https://patents.google.com/patent/US7693508B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed large-entity status.",
+   "source": "https://patents.google.com/patent/US7693508B2/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "large"
+   }
+  },
+  {
+   "id": "E4",
+   "agent": "blocker",
+   "claim": "The owner filed 5 later patent(s) citing this one that may still be in force, e.g. US8630219B2 (Supporting a multicast session within a wireless communications network).",
+   "source": "https://patents.google.com/patent/US7693508B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US8630219B2",
+     "US8625501B2",
+     "US9301266B2",
+     "US20110188448A1",
+     "US20110191430A1"
+    ]
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "14 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US7693508B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "WO2016105090A1",
+     "WO2016056800A1",
+     "WO2016028118A1",
+     "KR101104497B1",
+     "US20110007737A1"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "Industry standards and standard-essential patents: Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+   "source": "ETSI IPR database; FCC equipment authorization",
+   "method": "Blocker checklist rule 'telecom_standards' matched CPC H04L63/164, H04W36/0007, H04W72/005",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "market",
+   "claim": "Cited by 51 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US7693508B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 51
+   }
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "0 later filings by unrelated owners cite it with priority dates after it expired (2022-04-17).",
+   "source": "https://patents.google.com/patent/US7693508B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "1 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US7693508B2/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "1 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US7693508B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 1
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: \u0424\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0432\u044b\u0441\u0448\u0435\u0433\u043e \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \"\u041c\u0418\u0420\u042d\u0410 - \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\" (1).",
+   "source": "https://patents.google.com/patent/US7693508B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "\u0424\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0431\u044e\u0434\u0436\u0435\u0442\u043d\u043e\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0443\u0447\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u0432\u044b\u0441\u0448\u0435\u0433\u043e \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \"\u041c\u0418\u0420\u042d\u0410 - \u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0438\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\"",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Examiners cited it against 37 later applications.",
+   "source": "https://patents.google.com/patent/US7693508B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 62 words across 19 claims.",
+   "source": "https://patents.google.com/patent/US7693508B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "The family was filed in 13 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US7693508B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Revival score 52/100 (high confidence); strongest signals: Breadth at grant and Examiner relevance.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Market: ATSC reported a NextGen TV (ATSC 3.0) receiver installed base above 10.3 million, with consumer sales of NextGen TV products expected to rise 45% in 2024.",
+   "source": "https://www.atsc.org/news/tv-tech-100-nextgen-tv-products-will-be-available-to-consumers-in-2024/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Market: A recent arXiv paper on 5G Multicast-Broadcast Services was funded by a Japanese ministry project on wireless IP multicasting and cites 5G NR MBS trials in commercial settings, suggesting cellular broadcast is still in active development and trials.",
+   "source": "https://arxiv.org/pdf/2605.16735",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Wireless networks",
+   "seconds": 0.01
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Past its expected expiration 2022-04-17 (inferred)",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "4 possible blockers, 1 high severity",
+   "seconds": 8.12
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 52/100, high confidence: Worth a closer look",
+   "seconds": 35.69
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 18.64
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1582,
+    "output_tokens": 726,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02085,
+    "seconds": 8.1
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 29675,
+    "output_tokens": 1581,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.19032,
+    "seconds": 28.7
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 795,
+    "output_tokens": 528,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01386,
+    "seconds": 7.0
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1868,
+    "output_tokens": 1688,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04152,
+    "seconds": 18.6
+   }
+  ],
+  "total_cost_usd": 0.2666,
+  "seconds": 62.5
+ }
+}

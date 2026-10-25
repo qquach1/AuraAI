@@ -1,0 +1,818 @@
+{
+ "pub": "US6702483B2",
+ "title": "Optical element",
+ "generated_at": "2026-10-25T16:30:31+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Worth a closer look (50/100, high confidence): a Canon liquid 'dimmer' for light that was dropped for unpaid fees in a field that still shows activity but little recent momentum.",
+  "what_it_is": "A small sealed cell holds two liquids that do not mix and bend light the same way, but one lets more light through than the other. A voltage applied through a ring-shaped electrode changes the shape of the boundary between them, which changes how much light passes, like an iris or dimmer with no moving parts.",
+  "why_it_died": {
+   "text": "Canon paid the 4th- and 8th-year fees, then did not pay the 11.5-year fee. The patent lapsed in March 2016, about 5 years early. The record does not say why. It may have been a routine portfolio cut rather than a judgment on the technology. The score gives only partial credit (5.2/15) for 'died for money, not merit', so treat the reason as unclear.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E9"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "Examiners treated this as important prior art. It was cited against 110 later applications and 122 later filings overall. That is why it scores a full 10/10 on examiner relevance.",
+    "evidence": [
+     "E14",
+     "E11",
+     "E17"
+    ]
+   },
+   {
+    "point": "The underlying problem, controlling light electrically without moving parts, still draws work. A 2023 paper shows an electrowetting lens with a built-in liquid iris, and a later USPTO patent on adjustable apertures cites electrowetting irises.",
+    "evidence": [
+     "E20",
+     "E21"
+    ]
+   },
+   {
+    "point": "There are commercial efforts in nearby uses. Electrowetting signs and displays have had company activity, though some of that information may be outdated.",
+    "evidence": [
+     "E19",
+     "E18"
+    ]
+   },
+   {
+    "point": "Unrelated companies kept citing it after it lapsed. Six later filings with post-2016 priority dates reference it.",
+    "evidence": [
+     "E12"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Momentum has stalled. No citing filings have priority dates from 2019 on, and the score gives 0/20 for recent momentum.",
+    "evidence": [
+     "E13",
+     "E17"
+    ]
+   },
+   {
+    "point": "The main claim is narrow and very specific. Its shortest independent claim is 159 words and depends on a particular contact-angle setup, so what it disclosed may be a small slice of a crowded field.",
+    "evidence": [
+     "E15"
+    ]
+   },
+   {
+    "point": "Canon filed it in only one jurisdiction and stopped paying fees early. That may suggest the owner saw limited commercial value.",
+    "evidence": [
+     "E16",
+     "E1",
+     "E3"
+    ]
+   },
+   {
+    "point": "Market evidence is thin and partly stale. One company's plans date to 2017, and the signage item comes from a low-confidence press release.",
+    "evidence": [
+     "E18",
+     "E19"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Forty later patents by other owners were cited against this one and may still be in force. A modern product could touch some of them.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Canon has at least one later related filing that may still be in force, a variable focal-length prism.",
+    "severity": "medium",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "The patent describes the idea, not how to make it reliably. Liquid choice, sealing and electrode process details would likely need to be rebuilt from scratch.",
+    "severity": "medium",
+    "evidence": [
+     "E10"
+    ]
+   },
+   {
+    "point": "If the product involves lasers or certain optics, it may face export controls and FDA laser safety rules.",
+    "severity": "low",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "point": "No reinstatement has been recorded since the lapse. That is worth confirming on the current official record, since the snapshot used here is from 2021.",
+    "severity": "low",
+    "evidence": [
+     "E9",
+     "E4"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "A specific buyer, such as camera-module, machine-vision or signage makers, has a real pain with mechanical irises or ND filters and would pay for a solid-state liquid light-control element.",
+   "why_riskiest": "The technology looks credible and well known to examiners. What is missing is evidence of demand: citations stopped after 2018, and the market signals are niche or dated. Without a paying buyer, the rest does not matter.",
+   "how_to_test": "Over two weeks, run 10-15 short calls with optical or hardware engineers at camera-module, machine-vision and digital-signage companies, found through LinkedIn and trade forums. Ask what they use today for aperture or dimming, what it costs, and what breaks. Separately, request a quote and specs for an off-the-shelf electrowetting liquid lens or iris from an existing supplier to benchmark price and performance. Count success as at least 3 engineers naming a concrete pain and a budget. Total cost is under $500, mostly for samples or call incentives.",
+   "evidence": [
+    "E13",
+    "E19",
+    "E20",
+    "E21"
+   ]
+  },
+  "attorney_questions": [
+   "Of the 40 later patents examiners cited against this one, and Canon's JP2012133026A family, which appear to still be in force in the US and are worth reviewing against our planned design?",
+   "Can you confirm on the current USPTO record that US6702483B2 has stayed lapsed with no reinstatement since 2016?",
+   "Given how narrow the first claim is, what parts of this disclosure might be useful as prior art if we later file our own improvements, and what would we need to do differently?"
+  ],
+  "score": 50,
+  "confidence": "high",
+  "verdict": "Worth a closer look",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Fee Related",
+   "status": "lapsed_fees",
+   "grant_date": "2004-03-09",
+   "priority_date": "2000-02-17",
+   "filing_date": "2001-02-15",
+   "lapse_date": "2016-03-09",
+   "lapse_source": "legal event FP on 2016-04-26",
+   "fee_window": 12,
+   "fees_paid": [
+    4,
+    8
+   ],
+   "entity_size": null,
+   "term_end": "2021-02-15",
+   "term_end_estimated": false,
+   "end_date": "2016-03-09",
+   "end_year": 2016,
+   "months_since_end": 127.5,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2021-06-13"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Lapsed 2016-03-09 at the 11.5-year (third) fee window"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "medium",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "JP2012133026A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2010-12-20",
+      "publication_date": "2012-07-12",
+      "assignee": "Canon Inc",
+      "title": "Focal length variable prism and prism optical system using the same",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Canon (original assignee family) liquid-boundary variable prism; related electrowetting liquid interface control, but aimed at prism deflection rather than transmittance control."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Industry standards and standard-essential patents",
+    "detail": "Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+    "where": "ETSI IPR database; FCC equipment authorization",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "WO2019226483A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2018-05-21",
+      "publication_date": "2019-11-28",
+      "assignee": "Corning Incorporated",
+      "title": "Negative optical power liquid lens",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Liquid lens with two-liquid boundary shaping; shares container/interface curvature concepts but targets optical power, not transmittance."
+     },
+     {
+      "pub": "WO2019028207A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2017-08-02",
+      "publication_date": "2019-02-07",
+      "assignee": "Corning Incorporated",
+      "title": "Flexible subtrate and circuit for liquid lens system",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Flexible substrate and circuit for driving liquid lens electrodes; drive/electrode packaging could be relevant to a voltage-controlled liquid device."
+     },
+     {
+      "pub": "JP2019515342A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2016-04-29",
+      "publication_date": "2019-06-06",
+      "assignee": "\u30a8\u30eb\u30b8\u30fc \u30a4\u30ce\u30c6\u30c3\u30af \u30ab\u30f3\u30d1\u30cb\u30fc \u30ea\u30df\u30c6\u30c3\u30c9",
+      "title": "Camera module including liquid lens, optical apparatus including the same, and method of manufacturing camera module including the liquid lens",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Camera module with liquid lens and manufacturing method; packaging and electrode connection of two-liquid cells may apply to products integrating the original element."
+     },
+     {
+      "pub": "WO2016158248A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2015-03-30",
+      "publication_date": "2016-10-06",
+      "assignee": "\u5bcc\u58eb\u30d5\u30a4\u30eb\u30e0\u682a\u5f0f\u4f1a\u793e",
+      "title": "Imaging device, imaging device body, and method for controlling imaging device",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Imaging device control; may involve variable transmittance/ND element control in camera, plausibly overlapping with light-quantity adjustment use."
+     },
+     {
+      "pub": "JP6163398B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2013-09-18",
+      "publication_date": "2017-07-12",
+      "assignee": "\u30bd\u30cb\u30fc\u30bb\u30df\u30b3\u30f3\u30c0\u30af\u30bf\u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u30ba\u682a\u5f0f\u4f1a\u793e",
+      "title": "Image sensor, manufacturing apparatus, and manufacturing method",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "low",
+    "title": "Export controls and laser safety",
+    "detail": "Some optics and lasers are export controlled (EAR Category 6). Laser products sold in the US must meet FDA CDRH laser performance standards.",
+    "where": "Commerce Control List; FDA 21 CFR 1040.10",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "kind": "revival",
+    "severity": "low",
+    "title": "Revival risk",
+    "detail": "Lapsed 128 months ago with no reinstatement on record; revival this late requires a petition showing the delay was unintentional.",
+    "evidence": [
+     "E9"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E10"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "6 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 50,
+   "confidence": "high",
+   "verdict": "Worth a closer look",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.6,
+     "points": 17.9
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.0,
+     "points": 0.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.35,
+     "points": 5.2
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.57,
+     "points": 8.5
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 122,
+   "fwd_after_end": 6,
+   "fwd_after_end_unrelated": 6,
+   "fwd_alive_unrelated": 6,
+   "fwd_recent": 0,
+   "fwd_examiner": 110,
+   "fwd_by_year": {
+    "1997": 2,
+    "1999": 1,
+    "2002": 5,
+    "2003": 11,
+    "2004": 37,
+    "2005": 15,
+    "2006": 8,
+    "2007": 11,
+    "2008": 6,
+    "2009": 6,
+    "2010": 6,
+    "2011": 1,
+    "2012": 1,
+    "2013": 3,
+    "2014": 2,
+    "2015": 1,
+    "2016": 2,
+    "2017": 2,
+    "2018": 2
+   },
+   "recent_companies": [],
+   "same_owner_followons": 1,
+   "bwd_total": 9,
+   "bwd_examiner": 2,
+   "family_countries": 1,
+   "live_family": 0,
+   "claims_count": 25,
+   "shortest_claim_words": 159
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "The patent drew strong technical attention historically, but citing activity has faded. Nothing citing it has a priority date from 2019 onward.",
+     "evidence": [
+      "E11",
+      "E14",
+      "E12",
+      "E13"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Electrowetting-based light control is still being researched. A 2023 paper describes a liquid lens with an integrated electrowetting iris, and a later USPTO aperture patent cites electrowetting irises.",
+     "evidence": [
+      "E20",
+      "E21",
+      "E17"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Display and signage uses of electrowetting appear to have some commercial activity. ClearInk reportedly announced a 2024 expansion in colour signs, and Etulipa was developing reflective electrowetting displays, though the Etulipa information may be outdated.",
+     "evidence": [
+      "E19",
+      "E18"
+     ],
+     "confidence": "low"
+    },
+    {
+     "signal": "The original owner stopped paying maintenance fees with about 5 years of term left, and the family covered only one jurisdiction. This suggests the owner placed limited commercial value on this specific patent.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E3",
+      "E16"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "The evidence names ClearInk (electrowetting colour signage, 2024) and Etulipa (reflective electrowetting displays, possibly outdated information) as active companies, along with academic and patent activity on electrowetting irises and apertures.",
+   "market_read": "Electrowetting transmittance and aperture control remains a live technical area, with recent research and signage activity, but citations to this particular patent have dried up since 2019. A founder should treat this as a field with modest, niche commercial momentum and validate demand directly, since citation counts reflect technical interest rather than revenue."
+  },
+  "web": [
+   {
+    "kind": "company",
+    "finding": "Etulipa (Netherlands) is described as developing large-size low-resolution reflective monochrome electrowetting displays, with a URT partnership targeting Q1 2017 (possibly outdated).",
+    "url": "https://www.e-ink-info.com/e-paper-technologies/electrowetting",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "market",
+    "finding": "A market-research press release says ClearInk announced an expansion in October 2024 in the electrowetting colour sign market.",
+    "url": "https://www.htfmarketintelligence.com/press-release/global-electrowetting-color-sign-market",
+    "confidence": "low",
+    "evidence": "E19"
+   },
+   {
+    "kind": "market",
+    "finding": "A 2023 paper reports an electrowetting liquid lens with a built-in adaptive liquid iris, both driven by electrowetting and sharing one conductive liquid.",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0030399223009167",
+    "confidence": "medium",
+    "evidence": "E20"
+   },
+   {
+    "kind": "company",
+    "finding": "A later USPTO patent on adjusting an aperture in an optical system cites electrowetting-based adjustable irises, showing continued work on the problem.",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9677929",
+    "confidence": "medium",
+    "evidence": "E21"
+   }
+  ],
+  "evidence": [
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17"
+  ],
+  "named": {
+   "total": "E11",
+   "after": "E12",
+   "recent": "E13",
+   "companies": null,
+   "score": "E17"
+  },
+  "summary": "Score 50/100, high confidence: Worth a closer look"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7508566B2",
+    "title": "Switchable optical element",
+    "score": 39,
+    "status": "expired_term",
+    "end_year": 2025
+   },
+   {
+    "pub": "US6806988B2",
+    "title": "Optical apparatus",
+    "score": 55,
+    "status": "lapsed_fees",
+    "end_year": 2016
+   },
+   {
+    "pub": "US6538823B2",
+    "title": "Tunable liquid microlens",
+    "score": 49,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US6545815B2",
+    "title": "Tunable liquid microlens with lubrication assisted electrowetting",
+    "score": 42,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US6545816B1",
+    "title": "Photo-tunable liquid microlens",
+    "score": 48,
+    "status": "expired_term",
+    "end_year": 2021
+   }
+  ],
+  "summary": "5 similar dead patents in Optics and photonics"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6702483B2 lapsed on 2016-03-09 because the 11.5-year (third) maintenance fee was not paid.",
+   "source": "https://patents.google.com/patent/US6702483B2/en#legalEvents",
+   "method": "Read from legal event FP on 2016-04-26",
+   "confidence": "high",
+   "data": {
+    "status": "lapsed_fees",
+    "lapse_date": "2016-03-09",
+    "window": 12
+   }
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid the 4th-year, 8th-year fee(s) before stopping.",
+   "source": "https://patents.google.com/patent/US6702483B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The owner gave up roughly 5 years of remaining term (term would have ended 2021-02-15).",
+   "source": "https://patents.google.com/patent/US6702483B2/en",
+   "method": "Term end from the expiration event, else filing date plus 20 years",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20210613121747.",
+   "source": "https://patents.google.com/patent/US6702483B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 1 later patent(s) citing this one that may still be in force, e.g. JP2012133026A (Focal length variable prism and prism optical system using the same).",
+   "source": "https://patents.google.com/patent/US6702483B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "JP2012133026A"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "40 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6702483B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "WO2019226483A1",
+     "WO2019028207A1",
+     "JP2019515342A",
+     "WO2016158248A1",
+     "JP6163398B2"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "Industry standards and standard-essential patents: Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+   "source": "ETSI IPR database; FCC equipment authorization",
+   "method": "Blocker checklist rule 'telecom_standards' matched CPC G02B3/14, G02B26/005, G02B26/02",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "Export controls and laser safety: Some optics and lasers are export controlled (EAR Category 6). Laser products sold in the US must meet FDA CDRH laser performance standards.",
+   "source": "Commerce Control List; FDA 21 CFR 1040.10",
+   "method": "Blocker checklist rule 'optics_export' matched CPC G02B3/14, G02B26/005, G02B26/02",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "blocker",
+   "claim": "No reinstatement event is on record since the lapse.",
+   "source": "https://patents.google.com/patent/US6702483B2/en#legalEvents",
+   "method": "Searched legal events for reinstatement codes",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E10",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "Cited by 122 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6702483B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 122
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "6 later filings by unrelated owners cite it with priority dates after it lapsed (2016-03-09).",
+   "source": "https://patents.google.com/patent/US6702483B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 6
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "0 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6702483B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Examiners cited it against 110 later applications.",
+   "source": "https://patents.google.com/patent/US6702483B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 159 words across 25 claims.",
+   "source": "https://patents.google.com/patent/US6702483B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "The family was filed in 1 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6702483B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Revival score 50/100 (high confidence); strongest signals: Field still alive and Examiner relevance.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Company: Etulipa (Netherlands) is described as developing large-size low-resolution reflective monochrome electrowetting displays, with a URT partnership targeting Q1 2017 (possibly outdated).",
+   "source": "https://www.e-ink-info.com/e-paper-technologies/electrowetting",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Market: A market-research press release says ClearInk announced an expansion in October 2024 in the electrowetting colour sign market.",
+   "source": "https://www.htfmarketintelligence.com/press-release/global-electrowetting-color-sign-market",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Market: A 2023 paper reports an electrowetting liquid lens with a built-in adaptive liquid iris, both driven by electrowetting and sharing one conductive liquid.",
+   "source": "https://www.sciencedirect.com/science/article/abs/pii/S0030399223009167",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E21",
+   "agent": "market",
+   "claim": "Company: A later USPTO patent on adjusting an aperture in an optical system cites electrowetting-based adjustable irises, showing continued work on the problem.",
+   "source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/9677929",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Optics and photonics",
+   "seconds": 0.01
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Lapsed 2016-03-09 at the 11.5-year (third) fee window",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "6 possible blockers, 0 high severity",
+   "seconds": 7.58
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 50/100, high confidence: Worth a closer look",
+   "seconds": 30.37
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 24.78
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1474,
+    "output_tokens": 627,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01844,
+    "seconds": 7.6
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 21299,
+    "output_tokens": 1466,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.14452,
+    "seconds": 23.5
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 883,
+    "output_tokens": 584,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01533,
+    "seconds": 6.9
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2095,
+    "output_tokens": 2220,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.05306,
+    "seconds": 24.8
+   }
+  ],
+  "total_cost_usd": 0.2314,
+  "seconds": 62.7
+ }
+}

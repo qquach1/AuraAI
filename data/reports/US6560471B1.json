@@ -1,0 +1,862 @@
+{
+ "pub": "US6560471B1",
+ "title": "Analyte monitoring device and methods of use",
+ "generated_at": "2026-10-25T16:29:29+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future: this expired Abbott glucose-sensor patent scores 90/100 (high confidence) because the field is busy and growing, but it sits inside one of the most crowded, regulated and patent-dense markets in medical devices.",
+  "what_it_is": "It describes a small sensor worn on the skin, with a tip under the skin that measures a substance in body fluid, such as glucose, and a transmitter that sends the reading wirelessly to a display unit. It also covers linking that sensor to a drug-delivery device, such as an insulin pump, so the drug dose can respond to the readings.",
+  "why_it_died": {
+   "text": "It did not die early. It ran its full term and ended on 2021-04-09. The owner paid every maintenance fee, which suggests Abbott valued it to the end. That is why the 'died for money, not merit' signal scores only half marks (7.5/15): there was no abandonment signal, only natural expiry.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "The field is clearly alive. Abbott sells a product in this space today, the FreeStyle Libre 3 Plus, through US pharmacies. This drives the full 30/30 'field still alive' score.",
+    "evidence": [
+     "E18",
+     "E17"
+    ]
+   },
+   {
+    "point": "Momentum is recent and comes from outside Abbott. 35 citing filings date from 2019 on. 13 filings by unrelated owners were filed after the patent expired. Insulet alone has 17 filings building on it since 2019.",
+    "evidence": [
+     "E12",
+     "E10",
+     "E13",
+     "E17"
+    ]
+   },
+   {
+    "point": "It was a foundational patent. 849 later filings cite it, and examiners used it against 208 later applications. That suggests the basic idea is well understood and widely referenced.",
+    "evidence": [
+     "E9",
+     "E14"
+    ]
+   },
+   {
+    "point": "The claims were broad at grant. The shortest independent claim is 84 words across 64 claims, and the family was filed in 7 jurisdictions. This earned the full breadth score.",
+    "evidence": [
+     "E15",
+     "E16"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "This is a crowded, established market, not an open gap. The original owner still sells products here, and big players like Insulet keep filing patents on top of the idea.",
+    "evidence": [
+     "E18",
+     "E13",
+     "E11"
+    ]
+   },
+   {
+    "point": "Abbott appears to have surrounded this patent with newer ones. It filed 164 later patents citing this one that may still be in force, including work on ketone sensors.",
+    "evidence": [
+     "E4"
+    ]
+   },
+   {
+    "point": "Lots of citations show technical relevance, not proof of revenue for a newcomer. A high score may reflect how busy the field is, not how easy it is to enter.",
+    "evidence": [
+     "E9",
+     "E17"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Newer patents may cover the parts that make a modern product work. That includes 164 later Abbott filings and 108 patents by other owners. Expiry of this one patent may not mean the space is clear. This is worth checking with an attorney.",
+    "severity": "high",
+    "evidence": [
+     "E4",
+     "E5"
+    ]
+   },
+   {
+    "point": "FDA clearance is likely needed before you can sell. An implanted or skin-worn sensor may need 510(k), De Novo or PMA, and higher-risk classes need clinical data. That can mean years and serious money.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Wireless links bring standards and licensing issues. Radios need FCC authorization, and standards like 802.11 are covered by many live standard-essential patents.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "The patent shows the idea, not how to manufacture it. Making reliable implantable electrodes at scale is know-how you would have to rebuild yourself.",
+    "severity": "low",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "There is a specific group of users or buyers whose needs current sensors like the FreeStyle Libre do not meet, and who would switch to or pay for a new entrant's sensor.",
+   "why_riskiest": "The incumbent still sells a product built on this idea, and other big companies keep filing on top of it. Without a clear underserved niche, a startup would face the incumbents plus long regulatory costs with no reason for customers to switch.",
+   "how_to_test": "In two weeks, interview 15-20 current CGM users, diabetes educators or clinic buyers. Recruit through online diabetes communities, at a cost under $300 in gift cards. Ask what they dislike about their current sensor, what they pay, and what would make them switch. Also run a $150 landing page aimed at one niche, such as ketone monitoring, veterinary use or uninsured users, and measure sign-up rate. Kill or pivot if fewer than about a third of interviewees name the same unmet need.",
+   "evidence": [
+    "E18",
+    "E13",
+    "E4"
+   ]
+  },
+  "attorney_questions": [
+   "Which of Abbott's 164 later citing filings, and the 108 examiner-cited patents from other owners, appear most likely to cover a modern skin-worn sensor with wireless transmission, and what would a freedom-to-operate search cost?",
+   "Does the expiry of US6560471B1 on 2021-04-09 affect anything in the 7 other jurisdictions where the family was filed, or should we check each one separately?",
+   "If we target a narrower use, such as non-glucose analytes or non-medical uses, how might that change both the patent risk and the FDA pathway?"
+  ],
+  "score": 90,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2003-05-06",
+   "priority_date": "2001-01-02",
+   "filing_date": "2001-01-02",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": null,
+   "term_end": "2021-04-09",
+   "term_end_estimated": false,
+   "end_date": "2021-04-09",
+   "end_year": 2021,
+   "months_since_end": 66.5,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2024-12-08"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3"
+  ],
+  "summary": "Expired at full term 2021-04-09"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "medium",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E4"
+    ],
+    "items": [
+     {
+      "pub": "WO2022164940A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2021-01-26",
+      "publication_date": "2022-08-04",
+      "assignee": "Abbott Diabetes Care Inc.",
+      "title": "Systems, devices, and methods related to ketone sensors",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Ketone sensor systems from the same lineage owner; relevant only if the product extends to ketone sensing."
+     },
+     {
+      "pub": "US12126995B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2020-08-31",
+      "publication_date": "2024-10-22",
+      "assignee": "Abbott Diabetes Care Inc.",
+      "title": "Secured communications in medical monitoring systems",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Secure communications for medical monitors; may matter for a product with wireless transmitter-to-display links, but this is an add-on feature."
+     },
+     {
+      "pub": "AU2021289264A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-06-10",
+      "publication_date": "2023-01-19",
+      "assignee": "Abbott Diabetes Care Inc.",
+      "title": "Analyte sensors featuring one or more detection-facilitating enhancements",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Sensor detection enhancements from the same owner; could touch core sensor design improvements, but the title is generic."
+     },
+     {
+      "pub": "EP3917394B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-01-28",
+      "publication_date": "2024-08-14",
+      "assignee": "Abbott Diabetes Care Inc.",
+      "title": "Analyte sensors employing multiple enzymes",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Multi-enzyme analyte sensors; relevant if the product uses a multi-enzyme chemistry, which is not required by the original."
+     },
+     {
+      "pub": "US11596330B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2017-03-21",
+      "publication_date": "2023-03-07",
+      "assignee": "Abbott Diabetes Care Inc.",
+      "title": "Methods, devices and system for providing diabetic condition diagnosis and therapy",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "FDA medical device clearance",
+    "detail": "Most devices need 510(k) clearance, De Novo classification or PMA approval before sale. Class III devices need clinical data.",
+    "where": "FDA 510(k), De Novo and PMA databases; product classification database",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Industry standards and standard-essential patents",
+    "detail": "Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+    "where": "ETSI IPR database; FCC equipment authorization",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "WO2023172658A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2022-03-11",
+      "publication_date": "2023-09-14",
+      "assignee": "Integrated Medical Sensors, Inc.",
+      "title": "Wired implantable multianalyte monolithic integrated sensor circuit",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Implantable integrated sensor circuit; overlaps the implantable sensor plus electronics concept, but is directed to a monolithic multianalyte design."
+     },
+     {
+      "pub": "US20230290497A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2022-03-10",
+      "publication_date": "2023-09-14",
+      "assignee": "Ix Innovation Llc",
+      "title": "Implantable sensor device",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Generic implantable sensor device title; scope unclear from the title alone, so possible overlap."
+     },
+     {
+      "pub": "CN118647314A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2022-02-04",
+      "publication_date": "2024-09-13",
+      "assignee": "\u96c5\u57f9\u7cd6\u5c3f\u75c5\u62a4\u7406\u516c\u53f8",
+      "title": "Systems, devices, and methods for analyte sensors",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Broad analyte sensor systems from the same owner family; may cover improvements to on-body sensor products."
+     },
+     {
+      "pub": "EP4346586A4",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2021-05-31",
+      "publication_date": "2024-10-30",
+      "assignee": "Medtrum Tech Inc",
+      "title": "Battery shell integrated analyte detection device",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Battery-shell integrated on-body detection device; a structural housing improvement that a skin-mounted control unit might use."
+     },
+     {
+      "pub": "CN112294305B",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-08-02",
+      "publication_date": "2024-07-02",
+      "assignee": "\u534e\u5e7f\u751f\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "title": "Physiological signal sensing device",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Physiological signal sensing device from a CGM maker; may cover on-body sensor and transmitter assembly improvements."
+     }
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "5 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 90,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 1.0,
+     "points": 30.0
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 1.0,
+     "points": 20.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 1.0,
+     "points": 15.0
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 849,
+   "fwd_after_end": 13,
+   "fwd_after_end_unrelated": 13,
+   "fwd_alive_unrelated": 95,
+   "fwd_recent": 35,
+   "fwd_examiner": 208,
+   "fwd_by_year": {
+    "1997": 7,
+    "1998": 12,
+    "1999": 2,
+    "2000": 1,
+    "2001": 16,
+    "2002": 48,
+    "2003": 65,
+    "2004": 41,
+    "2005": 66,
+    "2006": 47,
+    "2007": 74,
+    "2008": 56,
+    "2009": 57,
+    "2010": 44,
+    "2011": 38,
+    "2012": 46,
+    "2013": 37,
+    "2014": 40,
+    "2015": 38,
+    "2016": 25,
+    "2017": 24,
+    "2018": 18,
+    "2019": 15,
+    "2020": 14,
+    "2021": 12,
+    "2022": 5,
+    "2023": 1
+   },
+   "recent_companies": [
+    [
+     "Insulet Corporation",
+     17
+    ],
+    [
+     "Informed Data Systems Inc.",
+     1
+    ],
+    [
+     "Heraeus Medical Gmbh",
+     1
+    ],
+    [
+     "Heraeus Medical GmbH",
+     1
+    ],
+    [
+     "Alimetry Limited",
+     1
+    ],
+    [
+     "\u570b\u7acb\u96f2\u6797\u79d1\u6280\u5927\u5b78",
+     1
+    ],
+    [
+     "Medtrum Tech Inc",
+     1
+    ],
+    [
+     "\u30d0\u30a4\u30aa\u30ea\u30f3\u30af \u30a4\u30f3\u30b3\u30fc\u30dd\u30ec\u30a4\u30c6\u30c3\u30c9",
+     1
+    ]
+   ],
+   "same_owner_followons": 228,
+   "bwd_total": 7,
+   "bwd_examiner": 7,
+   "family_countries": 7,
+   "live_family": 0,
+   "claims_count": 64,
+   "shortest_claim_words": 84
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "The field is still technically active long after filing. The patent is heavily cited, and examiners keep using it as prior art against new applications.",
+     "evidence": [
+      "E9",
+      "E14",
+      "E17"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Interest continued near and after the end of term. Unrelated owners kept building on this work, including filings with priority dates after the 2021 expiry.",
+     "evidence": [
+      "E1",
+      "E10",
+      "E11",
+      "E12"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Recent citing activity is concentrated in one company. Insulet accounts for most post-2019 citing filings, which suggests interest in pairing sensors with drug delivery, as the abstract describes.",
+     "evidence": [
+      "E13"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Products in this category are on the market today. Abbott's FreeStyle Libre 3 Plus is sold through retail pharmacy and DME channels, although the evidence does not tie that product to this specific patent.",
+     "evidence": [
+      "E18",
+      "E2"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Insulet Corporation has the most recent citing filings (17 since 2019), with single filings from Informed Data Systems, Heraeus Medical, Alimetry and National Yunlin University of Science and Technology. Abbott sells a continuous glucose sensor product in this category.",
+   "market_read": "On-body electrochemical analyte monitoring with wireless display remains an active, commercialized field with continuing patent activity, especially around linking sensors to drug delivery. Citation counts show technical relevance rather than revenue, so a founder should treat this as evidence of a crowded, established space and consult a patent attorney before relying on any freedom-to-operate assumptions."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "Abbott's FreeStyle Libre 3 Plus continuous glucose sensor is sold today through US retail pharmacies and participating durable medical equipment suppliers.",
+    "url": "https://www.freestyle.abbott/en-us/support/faq/sensor/where-to-buy-the-freestyle-libre-3-plus-sensor.html",
+    "confidence": "medium",
+    "evidence": "E18"
+   }
+  ],
+  "evidence": [
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17"
+  ],
+  "named": {
+   "total": "E9",
+   "after": "E10",
+   "recent": "E12",
+   "companies": "E13",
+   "score": "E17"
+  },
+  "summary": "Score 90/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7519408B2",
+    "title": "Integrated receiver for continuous analyte sensor",
+    "score": 71,
+    "status": "expired_term",
+    "end_year": 2026
+   },
+   {
+    "pub": "US7783333B2",
+    "title": "Transcutaneous medical device with variable stiffness",
+    "score": 55,
+    "status": "expired_term",
+    "end_year": 2025
+   },
+   {
+    "pub": "US7366556B2",
+    "title": "Dual electrode system for a continuous analyte sensor",
+    "score": 68,
+    "status": "expired_term",
+    "end_year": 2026
+   },
+   {
+    "pub": "US7591801B2",
+    "title": "Integrated delivery device for continuous glucose sensor",
+    "score": 83,
+    "status": "expired_term",
+    "end_year": 2025
+   },
+   {
+    "pub": "US7438683B2",
+    "title": "Application identification sensor",
+    "score": 48,
+    "status": "expired_term",
+    "end_year": 2026
+   }
+  ],
+  "summary": "5 similar dead patents in Medical diagnosis and surgery"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6560471B1 reached the end of its full term on 2021-04-09.",
+   "source": "https://patents.google.com/patent/US6560471B1/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US6560471B1/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20241208125813.",
+   "source": "https://patents.google.com/patent/US6560471B1/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "blocker",
+   "claim": "The owner filed 164 later patent(s) citing this one that may still be in force, e.g. WO2022164940A1 (Systems, devices, and methods related to ketone sensors).",
+   "source": "https://patents.google.com/patent/US6560471B1/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "WO2022164940A1",
+     "US12126995B2",
+     "AU2021289264A1",
+     "EP3917394B1",
+     "US11596330B2"
+    ]
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "108 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6560471B1/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "WO2023172658A1",
+     "US20230290497A1",
+     "CN118647314A",
+     "EP4346586A4",
+     "CN112294305B"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "FDA medical device clearance: Most devices need 510(k) clearance, De Novo classification or PMA approval before sale. Class III devices need clinical data.",
+   "source": "FDA 510(k), De Novo and PMA databases; product classification database",
+   "method": "Blocker checklist rule 'fda_device' matched CPC A61B5/1495, A61B5/0002, A61B5/0022",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "Industry standards and standard-essential patents: Wireless products must implement standards (3GPP, IEEE 802.11) that are covered by many other live standard-essential patents licensed on FRAND terms. Radios also need FCC equipment authorization.",
+   "source": "ETSI IPR database; FCC equipment authorization",
+   "method": "Blocker checklist rule 'telecom_standards' matched CPC A61B5/1495, A61B5/0002, A61B5/0022",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "Cited by 849 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6560471B1/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 849
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "13 later filings by unrelated owners cite it with priority dates after it expired (2021-04-09).",
+   "source": "https://patents.google.com/patent/US6560471B1/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 13
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "95 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US6560471B1/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "35 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6560471B1/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 35
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: Insulet Corporation (17), Informed Data Systems Inc. (1), Heraeus Medical Gmbh (1), Heraeus Medical GmbH (1), Alimetry Limited (1), \u570b\u7acb\u96f2\u6797\u79d1\u6280\u5927\u5b78 (1).",
+   "source": "https://patents.google.com/patent/US6560471B1/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "Insulet Corporation",
+      17
+     ],
+     [
+      "Informed Data Systems Inc.",
+      1
+     ],
+     [
+      "Heraeus Medical Gmbh",
+      1
+     ],
+     [
+      "Heraeus Medical GmbH",
+      1
+     ],
+     [
+      "Alimetry Limited",
+      1
+     ],
+     [
+      "\u570b\u7acb\u96f2\u6797\u79d1\u6280\u5927\u5b78",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Examiners cited it against 208 later applications.",
+   "source": "https://patents.google.com/patent/US6560471B1/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 84 words across 64 claims.",
+   "source": "https://patents.google.com/patent/US6560471B1/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "The family was filed in 7 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6560471B1/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Revival score 90/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Product: Abbott's FreeStyle Libre 3 Plus continuous glucose sensor is sold today through US retail pharmacies and participating durable medical equipment suppliers.",
+   "source": "https://www.freestyle.abbott/en-us/support/faq/sensor/where-to-buy-the-freestyle-libre-3-plus-sensor.html",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Medical diagnosis and surgery",
+   "seconds": 0.05
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2021-04-09",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "5 possible blockers, 0 high severity",
+   "seconds": 9.86
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 90/100, high confidence: Dead patent with a future",
+   "seconds": 29.04
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 19.3
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1822,
+    "output_tokens": 947,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02623,
+    "seconds": 9.6
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 29094,
+    "output_tokens": 979,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.17596,
+    "seconds": 22.1
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 878,
+    "output_tokens": 567,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01497,
+    "seconds": 6.9
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2025,
+    "output_tokens": 1767,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04372,
+    "seconds": 19.3
+   }
+  ],
+  "total_cost_usd": 0.2609,
+  "seconds": 58.2
+ }
+}

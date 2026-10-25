@@ -1,0 +1,702 @@
+{
+ "pub": "US6787567B2",
+ "title": "Fungicidal active ingredients combinations",
+ "generated_at": "2026-10-25T16:32:27+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Worth a closer look (56/100, high confidence): a Bayer fungicide mix of a rice-blast active with copper that was dropped early for unpaid fees, but the field is mature and regulatory costs loom large.",
+  "what_it_is": "This patent covers mixing a class of fungicides called methoximinoacetamides (metominostrobin is a known member) with copper oxychloride or copper hydroxide, within a wide range of mixing ratios. The idea is that the two together control crop fungal diseases, and the most visible use for this chemistry today appears to be rice blast.",
+  "why_it_died": {
+   "text": "Bayer never paid even the first maintenance fee, so the patent lapsed in 2008, about 13 years before it would have expired. The record does not say why. A big owner skipping the first fee often reflects a portfolio or business choice rather than a technical failure, but that is a guess, not a finding. No reinstatement is on record.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E7",
+    "E4"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "The patent appears to have been abandoned early for fees, not after being proven weak, and no reinstatement is on record.",
+    "evidence": [
+     "E1",
+     "E2",
+     "E3",
+     "E7"
+    ]
+   },
+   {
+    "point": "The underlying active, metominostrobin, still seems to be in use. A review lists it among the most common rice blast chemicals, and a Japanese supplier has sold rice products containing it.",
+    "evidence": [
+     "E16",
+     "E17",
+     "E18"
+    ]
+   },
+   {
+    "point": "Others kept building on it. It was cited by 15 later filings, 13 times by examiners, including 4 unrelated filings made after it lapsed.",
+    "evidence": [
+     "E9",
+     "E10",
+     "E12"
+    ]
+   },
+   {
+    "point": "The claims were broad at grant, and the family was filed in 18 jurisdictions, which suggests the owner once saw real value in it.",
+    "evidence": [
+     "E13",
+     "E14",
+     "E15"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Momentum has stopped. No citing filings have priority dates from 2019 on, which points to a mature, quiet field.",
+    "evidence": [
+     "E11",
+     "E15"
+    ]
+   },
+   {
+    "point": "Market size is unproven. The only growth forecast is an old trade article with no figures, and current sales of the Hokko products were not verified.",
+    "evidence": [
+     "E19",
+     "E17"
+    ]
+   },
+   {
+    "point": "Metominostrobin competes with well-established rice blast tools like tricyclazole, azoxystrobin and pyraclostrobin, so a new mix must beat strong incumbents.",
+    "evidence": [
+     "E18"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Any pesticide product needs EPA registration under FIFRA. The original registrant's data may carry exclusive-use or compensation rights, and generating your own data can be costly and slow.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Two later patents by other owners were cited against this one and may still be in force. They could cover nearby mixes or uses and are worth checking.",
+    "severity": "medium",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "The patent shares the recipe, not the factory know-how. Making a stable copper plus metominostrobin formulation may require rebuilding process details yourself.",
+    "severity": "low",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "point": "Demand appears concentrated in rice blast, mainly in Asian markets, so a US-focused launch may have a small or uncertain buyer base.",
+    "severity": "medium",
+    "evidence": [
+     "E16",
+     "E17",
+     "E18"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Rice growers or their distributors would buy a metominostrobin plus copper product at a price that covers the cost of registration and sourcing.",
+   "why_riskiest": "Registration costs are high and the market has no verified size or momentum. If buyers will not pay a premium over existing blast products, nothing else matters.",
+   "how_to_test": "In two weeks, run 10 to 15 calls with rice crop advisors, ag retailers and distributors (US rice states and one Asian importer). Ask what they use for blast, what they pay per acre, and whether a copper mix would change anything. In parallel, get two quotes from generic agchem suppliers for metominostrobin technical grade to estimate cost of goods. Total cost should stay under $500.",
+   "evidence": [
+    "E16",
+    "E17",
+    "E18",
+    "E19",
+    "E6"
+   ]
+  },
+  "attorney_questions": [
+   "Do the two later patents cited against US6787567B2, or any other in-force patents, appear to cover metominostrobin plus copper mixes or their use on rice?",
+   "What EPA data exclusivity or compensation obligations may apply to metominostrobin, and could we rely on existing data or would we need our own?",
+   "Is there any risk the 2008 lapse could still be reversed, and do foreign family members remain in force in the markets we might target?"
+  ],
+  "score": 56,
+  "confidence": "high",
+  "verdict": "Worth a closer look",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Fee Related",
+   "status": "lapsed_fees",
+   "grant_date": "2004-09-07",
+   "priority_date": "2000-04-20",
+   "filing_date": "2001-04-09",
+   "lapse_date": "2008-09-07",
+   "lapse_source": "legal event FP on 2008-10-28",
+   "fee_window": 4,
+   "fees_paid": [],
+   "entity_size": null,
+   "term_end": "2021-04-09",
+   "term_end_estimated": false,
+   "end_date": "2008-09-07",
+   "end_year": 2008,
+   "months_since_end": 217.5,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2024-07-26"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Lapsed 2008-09-07 at the 3.5-year (first) fee window"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "regulatory",
+    "severity": "high",
+    "title": "EPA pesticide registration and data exclusivity",
+    "detail": "Pesticides and biocides need EPA registration under FIFRA. The original registrant's data has 10 years of exclusive use and 15 years of compensation rights.",
+    "where": "EPA Pesticide Product and Label System (PPLS)",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "CN104322521B",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2012-11-15",
+      "publication_date": "2016-03-16",
+      "assignee": "\u6c5f\u82cf\u626c\u519c\u5316\u5de5\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "title": "A kind of combination sterilization composition containing fluazinam",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Title points to a fungicidal combination built around fluazinam. The original's claimed combination is a methoximinoacetamide with copper oxychloride or copper hydroxide. Without evidence that it includes the original's compound class or copper partners, it looks like a different mixture, not an improvement a product on the original would need."
+     },
+     {
+      "pub": "CN101658177B",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2009-07-22",
+      "publication_date": "2013-06-12",
+      "assignee": "\u6df1\u5733\u8bfa\u666e\u4fe1\u519c\u5316\u80a1\u4efd\u6709\u9650\u516c\u53f8",
+      "title": "Complex bactericidal composition containing cyazofamid",
+      "known_status": null,
+      "overlap": "low",
+      "reason": "Title points to a cyazofamid-based bactericidal/fungicidal mixture. That differs from the original's methoximinoacetamide plus copper combination. It is in the same general field but is unlikely to cover a refinement such a product would need, based on the title alone."
+     }
+    ]
+   },
+   {
+    "kind": "revival",
+    "severity": "low",
+    "title": "Revival risk",
+    "detail": "Lapsed 218 months ago with no reinstatement on record; revival this late requires a petition showing the delay was unintentional.",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "regulatory_burden": "high",
+  "llm_rated": true,
+  "summary": "4 possible blockers, 1 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 56,
+   "confidence": "high",
+   "verdict": "Worth a closer look",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.49,
+     "points": 14.8
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.0,
+     "points": 0.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.65,
+     "points": 9.7
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 1.0,
+     "points": 15.0
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.6,
+     "points": 6.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 15,
+   "fwd_after_end": 4,
+   "fwd_after_end_unrelated": 4,
+   "fwd_alive_unrelated": 4,
+   "fwd_recent": 0,
+   "fwd_examiner": 13,
+   "fwd_by_year": {
+    "2001": 2,
+    "2002": 4,
+    "2004": 2,
+    "2005": 1,
+    "2006": 2,
+    "2009": 1,
+    "2012": 1,
+    "2015": 2
+   },
+   "recent_companies": [],
+   "same_owner_followons": 0,
+   "bwd_total": 69,
+   "bwd_examiner": 0,
+   "family_countries": 18,
+   "live_family": 0,
+   "claims_count": 9,
+   "shortest_claim_words": 88
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Citation interest was moderate and has since faded: no citing filings date from 2019 onward, so recent patenting activity built on this specific combination looks quiet.",
+     "evidence": [
+      "E9",
+      "E10",
+      "E11"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "Examiners used it as prior art against 13 later applications, which suggests it sits in a crowded area of fungicide-mixture filings.",
+     "evidence": [
+      "E12"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The core active class still appears commercially: metominostrobin is sold as an analytical standard and was offered in rice combination products, and a review lists it among the most frequently used chemicals for rice blast control.",
+     "evidence": [
+      "E16",
+      "E17",
+      "E18"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The original owner filed in 18 jurisdictions but let the US patent lapse at the first maintenance fee. That points to an early drop in US commercial priority rather than a dead field.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E3",
+      "E14",
+      "E15"
+     ],
+     "confidence": "low"
+    }
+   ],
+   "who_is_active": "Hokko Chemical (metominostrobin/dinotefuran rice products, per a 2019 catalogue) and Sigma-Aldrich (analytical standard) are the only companies named in the evidence. Four unrelated later filers cited the patent, but they are not identified.",
+   "market_read": "Metominostrobin remains relevant in rice blast control, mainly in Asian rice markets, but the evidence gives no verified current sales or market size, and the growth forecast cited had no supporting figures. The field looks alive but mature, so any opportunity is likely in niche formulation or regional rice uses, which a founder would need to validate directly."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "Sigma-Aldrich sells an (E)-Metominostrobin PESTANAL analytical standard (CAS 133408-50-1), a methoximinoacetamide it describes as a systemic fungicide mainly used against rice blast.",
+    "url": "https://www.sigmaaldrich.com/US/en/product/sial/34230",
+    "confidence": "medium",
+    "evidence": "E16"
+   },
+   {
+    "kind": "product",
+    "finding": "Hokko Chemical's catalogue lists rice products, including Dr.Oryze-Padeet, that combine metominostrobin with dinotefuran against blast and stinkbugs (2019 document, current sale not verified).",
+    "url": "https://www.hokkochem.co.jp/wp-content/uploads/2019.pdf",
+    "confidence": "medium",
+    "evidence": "E17"
+   },
+   {
+    "kind": "market",
+    "finding": "A peer-reviewed review lists metominostrobin among the most frequently used chemicals for rice blast control, alongside tricyclazole, azoxystrobin and pyraclostrobin.",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10975861/",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "market",
+    "finding": "An older AgroPages trade article with a forecast to 2027 predicted growth in the global metominostrobin market but gave no supporting figures.",
+    "url": "https://news.agropages.com/News/NewsDetail---27724.htm",
+    "confidence": "low",
+    "evidence": "E19"
+   }
+  ],
+  "evidence": [
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15"
+  ],
+  "named": {
+   "total": "E9",
+   "after": "E10",
+   "recent": "E11",
+   "companies": null,
+   "score": "E15"
+  },
+  "summary": "Score 56/100, high confidence: Worth a closer look"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US6884798B2",
+    "title": "Fungicidal agent combinations",
+    "score": 45,
+    "status": "lapsed_fees",
+    "end_year": 2009
+   },
+   {
+    "pub": "US7135437B2",
+    "title": "Stable liquid pesticide compositions",
+    "score": 62,
+    "status": "expired_term",
+    "end_year": 2022
+   },
+   {
+    "pub": "US6300323B1",
+    "title": "(Poly)ethereal ammonium salts of herbicides bearing acidic moieties and their use as herbicides",
+    "score": 27,
+    "status": "expired_term",
+    "end_year": 2020
+   },
+   {
+    "pub": "US6475954B2",
+    "title": "Solid glyphosphate-formulation and manufacturing process",
+    "score": 52,
+    "status": "lapsed_fees",
+    "end_year": 2014
+   },
+   {
+    "pub": "US7008904B2",
+    "title": "Herbicidal compositions containing glyphosate and bipyridilium",
+    "score": 49,
+    "status": "expired_term",
+    "end_year": 2021
+   }
+  ],
+  "summary": "5 similar dead patents in Crop protection and biocides"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6787567B2 lapsed on 2008-09-07 because the 3.5-year (first) maintenance fee was not paid.",
+   "source": "https://patents.google.com/patent/US6787567B2/en#legalEvents",
+   "method": "Read from legal event FP on 2008-10-28",
+   "confidence": "high",
+   "data": {
+    "status": "lapsed_fees",
+    "lapse_date": "2008-09-07",
+    "window": 4
+   }
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "No maintenance fee was ever paid after grant.",
+   "source": "https://patents.google.com/patent/US6787567B2/en#legalEvents",
+   "method": "No payment events on record",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The owner gave up roughly 13 years of remaining term (term would have ended 2021-04-09).",
+   "source": "https://patents.google.com/patent/US6787567B2/en",
+   "method": "Term end from the expiration event, else filing date plus 20 years",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20240726220800.",
+   "source": "https://patents.google.com/patent/US6787567B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "2 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6787567B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "CN104322521B",
+     "CN101658177B"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "EPA pesticide registration and data exclusivity: Pesticides and biocides need EPA registration under FIFRA. The original registrant's data has 10 years of exclusive use and 15 years of compensation rights.",
+   "source": "EPA Pesticide Product and Label System (PPLS)",
+   "method": "Blocker checklist rule 'epa_pesticide' matched CPC A01N37/50, A01N2300/00",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "No reinstatement event is on record since the lapse.",
+   "source": "https://patents.google.com/patent/US6787567B2/en#legalEvents",
+   "method": "Searched legal events for reinstatement codes",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "Cited by 15 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6787567B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 15
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "4 later filings by unrelated owners cite it with priority dates after it lapsed (2008-09-07).",
+   "source": "https://patents.google.com/patent/US6787567B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 4
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "0 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6787567B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "Examiners cited it against 13 later applications.",
+   "source": "https://patents.google.com/patent/US6787567B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 88 words across 9 claims.",
+   "source": "https://patents.google.com/patent/US6787567B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "The family was filed in 18 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6787567B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Revival score 56/100 (high confidence); strongest signals: Breadth at grant and Field still alive.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Product: Sigma-Aldrich sells an (E)-Metominostrobin PESTANAL analytical standard (CAS 133408-50-1), a methoximinoacetamide it describes as a systemic fungicide mainly used against rice blast.",
+   "source": "https://www.sigmaaldrich.com/US/en/product/sial/34230",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Product: Hokko Chemical's catalogue lists rice products, including Dr.Oryze-Padeet, that combine metominostrobin with dinotefuran against blast and stinkbugs (2019 document, current sale not verified).",
+   "source": "https://www.hokkochem.co.jp/wp-content/uploads/2019.pdf",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Market: A peer-reviewed review lists metominostrobin among the most frequently used chemicals for rice blast control, alongside tricyclazole, azoxystrobin and pyraclostrobin.",
+   "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10975861/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Market: An older AgroPages trade article with a forecast to 2027 predicted growth in the global metominostrobin market but gave no supporting figures.",
+   "source": "https://news.agropages.com/News/NewsDetail---27724.htm",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Crop protection and biocides",
+   "seconds": 0.02
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Lapsed 2008-09-07 at the 3.5-year (first) fee window",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "4 possible blockers, 1 high severity",
+   "seconds": 5.21
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 56/100, high confidence: Worth a closer look",
+   "seconds": 35.75
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 18.61
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1160,
+    "output_tokens": 245,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.00954,
+    "seconds": 5.2
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 30211,
+    "output_tokens": 1827,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.18738,
+    "seconds": 28.7
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 939,
+    "output_tokens": 562,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01512,
+    "seconds": 7.0
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2082,
+    "output_tokens": 1544,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.03949,
+    "seconds": 18.6
+   }
+  ],
+  "total_cost_usd": 0.2515,
+  "seconds": 59.6
+ }
+}

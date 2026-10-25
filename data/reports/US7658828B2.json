@@ -1,0 +1,797 @@
+{
+ "pub": "US7658828B2",
+ "title": "Regeneration of adsorption media within electrical purification apparatuses",
+ "generated_at": "2026-10-25T16:33:47+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future (67/100, high confidence): a lapsed Siemens method for cleaning out EDI adsorption media in stages, in a growing market led by big incumbents.",
+  "what_it_is": "An electrodeionization (EDI) unit purifies water by pulling ions into a media-filled concentrating compartment using electricity. This patent describes watching the outflow for a rising contaminant, then flushing the media with one regenerant solution and then a second one, so different trapped species are released in sequence.",
+  "why_it_died": {
+   "text": "Siemens did not pay the first maintenance fee, which was due at 3.5 years, so the patent lapsed in February 2014. That gave up roughly 14 years of remaining term. The record does not say why. One plausible reading is a portfolio cost decision rather than a technical failure. But that is a guess, not a fact.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3",
+    "E8"
+   ],
+   "confidence": "medium"
+  },
+  "case_for": [
+   {
+    "point": "The field appears healthy. EDI is estimated at roughly $1.8\u20132.0B and growing about 7\u20138% a year. These figures are unverified, and one source has an odd publication date.",
+    "evidence": [
+     "E20",
+     "E21",
+     "E17"
+    ]
+   },
+   {
+    "point": "Examiners and other inventors found it relevant. It was cited by 38 later filings and cited against 21 applications, and 9 unrelated filings cited it after it lapsed.",
+    "evidence": [
+     "E10",
+     "E11",
+     "E14"
+    ]
+   },
+   {
+    "point": "It was a serious filing. It was filed in 8 jurisdictions with 26 claims, which suggests the owner once valued it.",
+    "evidence": [
+     "E15",
+     "E16"
+    ]
+   },
+   {
+    "point": "Big buyers already pay for EDI in pharma, microelectronics, power generation and green hydrogen. Staged or selective regeneration could matter where scaling and fouling are costly.",
+    "evidence": [
+     "E18",
+     "E19"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Recent momentum is weak. Only 1 citing filing dates from 2019 or later, from a single university. The specific method may no longer be where development is happening.",
+    "evidence": [
+     "E12",
+     "E13"
+    ]
+   },
+   {
+    "point": "Incumbents sell 'chemical-free, self-regenerating' EDI that uses water splitting. A method that adds chemical regenerants may look like a step backward to some buyers.",
+    "evidence": [
+     "E18",
+     "E19"
+    ]
+   },
+   {
+    "point": "The claims are long. The shortest independent claim is 148 words, so what was actually protected appears fairly narrow and specific.",
+    "evidence": [
+     "E15"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Eighteen later patents by other owners, cited against this one, may still be in force. They could cover nearby or improved versions of the idea. This is worth an attorney review.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Siemens' own later patent US8585882B2 cites this one and may still be in force.",
+    "severity": "medium",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "Drinking-water products usually need NSF/ANSI 61 certification. Regenerant waste discharge may need EPA or state permits, which adds time and cost.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "The patent shares the idea, not the know-how. Regenerant choice, sensing thresholds and module build would need to be rebuilt by you.",
+    "severity": "low",
+    "evidence": [
+     "E9"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Industrial EDI operators have costly scaling or fouling problems that today's self-regenerating modules do not solve, and they would accept a staged chemical regeneration step to fix them.",
+   "why_riskiest": "Incumbents market their EDI as chemical-free and self-regenerating. Recent filing activity on this approach is thin. If operators don't feel the pain, there is no business.",
+   "how_to_test": "In two weeks, interview 10\u201315 EDI plant operators or water engineers in pharma, microelectronics, power or hydrogen. Find them on LinkedIn and in water-treatment forums, and offer $25\u201350 gift cards. Ask how often they clean or replace EDI modules, what downtime costs, and whether they would add a regenerant step. Success looks like 5 or more naming a recurring scaling or fouling cost above roughly $10k a year.",
+   "evidence": [
+    "E18",
+    "E19",
+    "E12"
+   ]
+  },
+  "attorney_questions": [
+   "Do any of the 18 examiner-cited patents from other owners, or Siemens' US8585882B2, appear to still be in force and to cover staged regeneration of EDI concentrate-compartment media?",
+   "With no reinstatement on record since the 2014 lapse, is there any remaining risk from family members in the other 7 jurisdictions where we might sell?",
+   "Which claims in the in-force patents nearby should we design around if our product uses effluent sensing to trigger sequential regenerants?"
+  ],
+  "score": 67,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Fee Related",
+   "status": "lapsed_fees",
+   "grant_date": "2010-02-09",
+   "priority_date": "2005-04-13",
+   "filing_date": "2005-04-13",
+   "lapse_date": "2014-02-09",
+   "lapse_source": "legal event FP on 2014-04-01",
+   "fee_window": 4,
+   "fees_paid": [],
+   "entity_size": null,
+   "term_end": "2028-04-29",
+   "term_end_estimated": false,
+   "end_date": "2014-02-09",
+   "end_year": 2014,
+   "months_since_end": 152.5,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2025-01-18"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Lapsed 2014-02-09 at the 3.5-year (first) fee window"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "high",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "US8585882B2",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2007-11-30",
+      "publication_date": "2013-11-19",
+      "assignee": "Siemens Water Technologies Llc",
+      "title": "Systems and methods for water treatment",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Same assignee lineage (Siemens), close priority date, and a general electrical water treatment title. Likely builds on the EDI media regeneration approach."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Drinking water and discharge standards",
+    "detail": "Products in contact with drinking water usually need NSF/ANSI 61 certification; discharge systems need EPA or state permits.",
+    "where": "NSF certified product listings; EPA NPDES",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "US11572287B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-03-07",
+      "publication_date": "2023-02-07",
+      "assignee": "Kyungdong Navien Co., Ltd.",
+      "title": "Water-softening system",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "A water-softening system. Softening by electrical or ion-exchange media regeneration addresses scaling species, which is relevant to the original."
+     },
+     {
+      "pub": "JP6402754B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2016-08-23",
+      "publication_date": "2018-10-10",
+      "assignee": "\u6817\u7530\u5de5\u696d\u682a\u5f0f\u4f1a\u793e",
+      "title": "Regenerative ion exchange apparatus and operation method thereof",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Covers operating a regenerative ion exchange apparatus. That relates to media regeneration control, though it may not be electrically driven."
+     },
+     {
+      "pub": "US20180072593A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2015-04-14",
+      "publication_date": "2018-03-15",
+      "assignee": "Koninklijke Philips N.V.",
+      "title": "Electrosorption purification system with recirculation",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "An electrosorption purification system with recirculation. This is an electrical purification device and may involve a regeneration cycle."
+     },
+     {
+      "pub": "GB2504097B",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2012-07-17",
+      "publication_date": "2015-03-04",
+      "assignee": "Arvia Technology Ltd",
+      "title": "Apparatus and method for aqueous organic waste treatment",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     },
+     {
+      "pub": "US9339765B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2011-09-16",
+      "publication_date": "2016-05-17",
+      "assignee": "General Electric Company",
+      "title": "Electrodialysis method and apparatus for passivating scaling species",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "revival",
+    "severity": "low",
+    "title": "Revival risk",
+    "detail": "Lapsed 152 months ago with no reinstatement on record; revival this late requires a petition showing the delay was unintentional.",
+    "evidence": [
+     "E8"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E9"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "5 possible blockers, 1 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 67,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.71,
+     "points": 21.2
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.27,
+     "points": 5.4
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.65,
+     "points": 9.7
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.83,
+     "points": 12.5
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 38,
+   "fwd_after_end": 9,
+   "fwd_after_end_unrelated": 9,
+   "fwd_alive_unrelated": 9,
+   "fwd_recent": 1,
+   "fwd_examiner": 21,
+   "fwd_by_year": {
+    "2006": 8,
+    "2007": 2,
+    "2008": 3,
+    "2009": 3,
+    "2010": 2,
+    "2011": 7,
+    "2012": 3,
+    "2013": 1,
+    "2015": 1,
+    "2016": 2,
+    "2017": 2,
+    "2019": 3,
+    "2022": 1
+   },
+   "recent_companies": [
+    [
+     "\u6c5f\u82cf\u5927\u5b66",
+     1
+    ]
+   ],
+   "same_owner_followons": 5,
+   "bwd_total": 257,
+   "bwd_examiner": 0,
+   "family_countries": 8,
+   "live_family": 0,
+   "claims_count": 26,
+   "shortest_claim_words": 148
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Strong historical technical interest: the patent was widely cited, often by examiners, which suggests it sits close to a lot of later prior art in electrical purification.",
+     "evidence": [
+      "E10",
+      "E14"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Citation momentum has faded. Unrelated owners kept building on it after it lapsed, but only one citing filing dates from 2019 or later, from \u6c5f\u82cf\u5927\u5b66, an academic filer rather than a company.",
+     "evidence": [
+      "E11",
+      "E12",
+      "E13"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The underlying field, electrodeionization with self-regenerating media, is commercially active. Established vendors sell continuously regenerating CEDI/EDI modules, though these products are not linked to this patent's specific methods.",
+     "evidence": [
+      "E18",
+      "E19",
+      "E17"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The owner chose to let it lapse early, giving up about 14 years of term. That choice, together with long independent claims and a broad 8-jurisdiction family, suggests the owner judged it to have limited standalone commercial value. Founders should check whether related family members or later patents still cover similar ground.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E3",
+      "E15",
+      "E16"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Evoqua (Ionpure line) and DuPont Water Solutions sell self-regenerating EDI products. The only recent filing that builds on this patent comes from \u6c5f\u82cf\u5927\u5b66 (Jiangsu University).",
+   "market_read": "Third-party estimates put the electrodeionization market at roughly USD 1.8\u20132.0B, growing at about 7\u20138% a year, though one source has an odd publication date and these figures are not verified. The demand is real but led by incumbents, and the fading citation activity suggests this patent's specific regeneration methods are no longer a focus of recent technical development."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "Evoqua's Ionpure line (LX, LX-HI, LX-Z modules and VNX Ultra) is sold as chemical-free, self-regenerating CEDI for pharmaceuticals, microelectronics, power generation and green hydrogen.",
+    "url": "https://www.evoqua.com/en/brands/ionpure/",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "company",
+    "finding": "DuPont Water Solutions sells patented spiral-wound EDI modules that continuously regenerate their ion-exchange resin bed with H+ and OH- ions from water splitting.",
+    "url": "https://www.dupont.com/water/technologies/electrodeionization-edi.html",
+    "confidence": "medium",
+    "evidence": "E19"
+   },
+   {
+    "kind": "market",
+    "finding": "Research and Markets projects the electrodeionization market at USD 1.95B in 2026 growing to USD 3.07B by 2032 (7.7% CAGR); the page's September 2026 publication date is odd.",
+    "url": "https://www.researchandmarkets.com/report/electrodeionization-system",
+    "confidence": "medium",
+    "evidence": "E20"
+   },
+   {
+    "kind": "market",
+    "finding": "Market Research Future estimates the electrodeionization market at about USD 1,829M in 2024, growing to about USD 2,988M by 2035.",
+    "url": "https://www.marketresearchfuture.com/reports/electrodeionization-market-9932",
+    "confidence": "medium",
+    "evidence": "E21"
+   }
+  ],
+  "evidence": [
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17"
+  ],
+  "named": {
+   "total": "E10",
+   "after": "E11",
+   "recent": "E12",
+   "companies": "E13",
+   "score": "E17"
+  },
+  "summary": "Score 67/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US6709560B2",
+    "title": "Charge barrier flow-through capacitor",
+    "score": 87,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US6649037B2",
+    "title": "Electrodeionization apparatus and method",
+    "score": 59,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US7291272B2",
+    "title": "Inorganic contaminant removal from water",
+    "score": 37,
+    "status": "expired_term",
+    "end_year": 2026
+   },
+   {
+    "pub": "US7846340B2",
+    "title": "Water treatment system and method",
+    "score": 66,
+    "status": "expired_term",
+    "end_year": 2025
+   },
+   {
+    "pub": "US6955762B2",
+    "title": "Method of cleaning membranes",
+    "score": 40,
+    "status": "expired_term",
+    "end_year": 2023
+   }
+  ],
+  "summary": "5 similar dead patents in Water treatment"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US7658828B2 lapsed on 2014-02-09 because the 3.5-year (first) maintenance fee was not paid.",
+   "source": "https://patents.google.com/patent/US7658828B2/en#legalEvents",
+   "method": "Read from legal event FP on 2014-04-01",
+   "confidence": "high",
+   "data": {
+    "status": "lapsed_fees",
+    "lapse_date": "2014-02-09",
+    "window": 4
+   }
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "No maintenance fee was ever paid after grant.",
+   "source": "https://patents.google.com/patent/US7658828B2/en#legalEvents",
+   "method": "No payment events on record",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The owner gave up roughly 14 years of remaining term (term would have ended 2028-04-29).",
+   "source": "https://patents.google.com/patent/US7658828B2/en",
+   "method": "Term end from the expiration event, else filing date plus 20 years",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20250118155132.",
+   "source": "https://patents.google.com/patent/US7658828B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 1 later patent(s) citing this one that may still be in force, e.g. US8585882B2 (Systems and methods for water treatment).",
+   "source": "https://patents.google.com/patent/US7658828B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US8585882B2"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "18 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US7658828B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US11572287B2",
+     "JP6402754B2",
+     "US20180072593A1",
+     "GB2504097B",
+     "US9339765B2"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "Drinking water and discharge standards: Products in contact with drinking water usually need NSF/ANSI 61 certification; discharge systems need EPA or state permits.",
+   "source": "NSF certified product listings; EPA NPDES",
+   "method": "Blocker checklist rule 'water_quality' matched CPC B01D61/48, B01D61/52, B01J47/08",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "No reinstatement event is on record since the lapse.",
+   "source": "https://patents.google.com/patent/US7658828B2/en#legalEvents",
+   "method": "Searched legal events for reinstatement codes",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "Cited by 38 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US7658828B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 38
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "9 later filings by unrelated owners cite it with priority dates after it lapsed (2014-02-09).",
+   "source": "https://patents.google.com/patent/US7658828B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 9
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "1 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US7658828B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 1
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: \u6c5f\u82cf\u5927\u5b66 (1).",
+   "source": "https://patents.google.com/patent/US7658828B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "\u6c5f\u82cf\u5927\u5b66",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Examiners cited it against 21 later applications.",
+   "source": "https://patents.google.com/patent/US7658828B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 148 words across 26 claims.",
+   "source": "https://patents.google.com/patent/US7658828B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "The family was filed in 8 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US7658828B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Revival score 67/100 (high confidence); strongest signals: Field still alive and Breadth at grant.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Product: Evoqua's Ionpure line (LX, LX-HI, LX-Z modules and VNX Ultra) is sold as chemical-free, self-regenerating CEDI for pharmaceuticals, microelectronics, power generation and green hydrogen.",
+   "source": "https://www.evoqua.com/en/brands/ionpure/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Company: DuPont Water Solutions sells patented spiral-wound EDI modules that continuously regenerate their ion-exchange resin bed with H+ and OH- ions from water splitting.",
+   "source": "https://www.dupont.com/water/technologies/electrodeionization-edi.html",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Market: Research and Markets projects the electrodeionization market at USD 1.95B in 2026 growing to USD 3.07B by 2032 (7.7% CAGR); the page's September 2026 publication date is odd.",
+   "source": "https://www.researchandmarkets.com/report/electrodeionization-system",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E21",
+   "agent": "market",
+   "claim": "Market: Market Research Future estimates the electrodeionization market at about USD 1,829M in 2024, growing to about USD 2,988M by 2035.",
+   "source": "https://www.marketresearchfuture.com/reports/electrodeionization-market-9932",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Water treatment",
+   "seconds": 0.02
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Lapsed 2014-02-09 at the 3.5-year (first) fee window",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "5 possible blockers, 1 high severity",
+   "seconds": 6.18
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 67/100, high confidence: Dead patent with a future",
+   "seconds": 33.53
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 17.08
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1584,
+    "output_tokens": 578,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.0179,
+    "seconds": 6.2
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 22438,
+    "output_tokens": 1608,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.16191,
+    "seconds": 25.6
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1047,
+    "output_tokens": 612,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01655,
+    "seconds": 7.9
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 2169,
+    "output_tokens": 1578,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.04052,
+    "seconds": 17.1
+   }
+  ],
+  "total_cost_usd": 0.2369,
+  "seconds": 56.8
+ }
+}

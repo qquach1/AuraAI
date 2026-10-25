@@ -1,0 +1,765 @@
+{
+ "pub": "US6961723B2",
+ "title": "System and method for determining relevancy of query responses in a distributed network search mechanism",
+ "generated_at": "2026-10-25T16:31:45+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Dead patent with a future (66/100, high confidence): an expired federated-search ranking method in a field that is still very much alive, but crowded with later patents and modern ML ranking.",
+  "what_it_is": "This patent describes a way to send one search query to many separate systems, collect their answers in a shared format, and merge them into a single list ranked by relevance. Think of one search box that asks many databases at once and sorts all their answers together.",
+  "why_it_died": {
+   "text": "It did not die early. It ran its full term and expired on 2022-10-14. The owner paid every maintenance fee, which suggests it was valued to the end rather than abandoned for lack of merit. That is why 'Died for money, not merit' scores only partially (7.5/15): it simply aged out.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "The core problem is still a real product feature. Enterprise tools today sell 'one query across many systems, merged results.'",
+    "evidence": [
+     "E16",
+     "E19"
+    ]
+   },
+   {
+    "point": "The patent was heavily relied on by others: cited by 227 later filings and used by examiners against 139 applications. That is why it scores full marks on examiner relevance.",
+    "evidence": [
+     "E7",
+     "E12",
+     "E15"
+    ]
+   },
+   {
+    "point": "Its claims were broad at grant. The first claim covers the general idea of merging ranked responses from many providers using a common protocol. This drives the high breadth score (13.9/15).",
+    "evidence": [
+     "E13",
+     "E15"
+    ]
+   },
+   {
+    "point": "The owner kept paying fees until the end and filed in 3 jurisdictions, signals that the idea had commercial value.",
+    "evidence": [
+     "E2",
+     "E14"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "Momentum has faded. Only 2 citing filings date from 2019 on, and none from unrelated owners after expiry. Recent momentum scores just 8.6/20.",
+    "evidence": [
+     "E8",
+     "E10",
+     "E11"
+    ]
+   },
+   {
+    "point": "The space is mature and contested. Other patents cover merging results from multiple engines and choosing which engines to query.",
+    "evidence": [
+     "E17",
+     "E18"
+    ]
+   },
+   {
+    "point": "Newer work ranks federated results with machine learning, so the 2001 architecture alone may not be a differentiator.",
+    "evidence": [
+     "E19"
+    ]
+   },
+   {
+    "point": "Companies already ship this capability, so a founder would compete with established enterprise search vendors.",
+    "evidence": [
+     "E16"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "40 later patents by other owners were cited against this one and may still be in force. They may cover parts of what you would build.",
+    "severity": "high",
+    "evidence": [
+     "E4"
+    ]
+   },
+   {
+    "point": "Software search is a dense patent field. Large incumbents file often. Related patents on multi-engine merging and federation exist.",
+    "severity": "high",
+    "evidence": [
+     "E5",
+     "E17",
+     "E18"
+    ]
+   },
+   {
+    "point": "If you search across customer data, privacy rules like GDPR, HIPAA or CCPA may apply.",
+    "severity": "medium",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "The patent gives the idea, not a working system. Expect to build ranking, connectors and protocol details yourself.",
+    "severity": "low",
+    "evidence": [
+     "E6"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Mid-size companies will pay a new vendor for federated search across their internal systems, even though enterprise platforms already offer it.",
+   "why_riskiest": "The base architecture is old and already sold by vendors like Accuris, and recent work focuses on ML ranking. If buyers feel existing tools solve this, there is no business regardless of the patent.",
+   "how_to_test": "In two weeks, run 10-15 interviews with IT or knowledge-management leads at 100-2,000 person companies. Ask how they search across systems today, what it costs, and what is broken. Pair this with a $200-300 landing page with a 'request pilot' button aimed at one niche (e.g. engineering docs). Success bar: at least 3 people describe a painful, unsolved gap and 2 ask for a pilot.",
+   "evidence": [
+    "E16",
+    "E19",
+    "E5"
+   ]
+  },
+  "attorney_questions": [
+   "Which of the 40 later patents cited against US6961723B2, and patents like US7984039 and US7930286, appear to still be in force and worth reviewing for our planned product?",
+   "Does the full expiry of US6961723B2 and its related family members in 3 jurisdictions affect what we should check before building in the US and abroad?",
+   "If we add machine-learning ranking on top of federated search, what recent filings (such as US11989192) should we review, and is our own approach worth considering for protection?"
+  ],
+  "score": 66,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2005-11-01",
+   "priority_date": "2001-05-04",
+   "filing_date": "2002-03-26",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": null,
+   "term_end": "2022-10-14",
+   "term_end_estimated": false,
+   "end_date": "2022-10-14",
+   "end_year": 2022,
+   "months_since_end": 48.4,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2024-12-03"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3"
+  ],
+  "summary": "Expired at full term 2022-10-14"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E4"
+    ],
+    "items": [
+     {
+      "pub": "EP4018337A4",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-08-19",
+      "publication_date": "2023-08-23",
+      "assignee": "Yext, Inc.",
+      "title": "Multiple provider search response verification and integration",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Title describes verifying and integrating search responses from multiple providers, which closely matches aggregating provider results in a distributed search."
+     },
+     {
+      "pub": "US9727648B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-12-19",
+      "publication_date": "2017-08-08",
+      "assignee": "Quixey, Inc.",
+      "title": "Time-box constrained searching in a distributed search system",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Covers time-constrained searching in a distributed search system, a plausible improvement to collecting responses from provider nodes."
+     },
+     {
+      "pub": "EP4004842A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-07-31",
+      "publication_date": "2022-06-01",
+      "assignee": "Hitachi Energy Switzerland AG",
+      "title": "Autonomous semantic data discovery for distributed networked systems",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Covers data discovery across distributed networked systems. This is related to routing queries among nodes, but it targets semantic discovery rather than ranking of results."
+     },
+     {
+      "pub": "US9990423B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-09-30",
+      "publication_date": "2018-06-05",
+      "assignee": "Splunk Inc.",
+      "title": "Hybrid cluster-based data intake and query",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     },
+     {
+      "pub": "US9672263B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-06-23",
+      "publication_date": "2017-06-06",
+      "assignee": "The United States Of America As Represented By The Secretary Of The Navy",
+      "title": "Reliability engineering data integration",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "low",
+    "title": "Dense live patents and open standards",
+    "detail": "Software fields have many overlapping live patents; check recent filings by large incumbents. Data products may also face privacy rules (HIPAA, GDPR, CCPA).",
+    "where": "Recent forward citations from large assignees",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E6"
+    ]
+   }
+  ],
+  "regulatory_burden": "low",
+  "llm_rated": true,
+  "summary": "3 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 66,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 0.55,
+     "points": 16.5
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.43,
+     "points": 8.6
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.92,
+     "points": 13.9
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 227,
+   "fwd_after_end": 0,
+   "fwd_after_end_unrelated": 0,
+   "fwd_alive_unrelated": 5,
+   "fwd_recent": 2,
+   "fwd_examiner": 139,
+   "fwd_by_year": {
+    "2001": 6,
+    "2002": 7,
+    "2003": 24,
+    "2004": 40,
+    "2005": 21,
+    "2006": 27,
+    "2007": 16,
+    "2008": 13,
+    "2009": 10,
+    "2010": 3,
+    "2011": 9,
+    "2012": 1,
+    "2013": 31,
+    "2014": 8,
+    "2015": 1,
+    "2016": 1,
+    "2017": 4,
+    "2019": 3,
+    "2020": 1,
+    "2021": 1
+   },
+   "recent_companies": [
+    [
+     "Autobrains Technologies Ltd",
+     1
+    ],
+    [
+     "Autobrains Technologies LTD.",
+     1
+    ]
+   ],
+   "same_owner_followons": 0,
+   "bwd_total": 66,
+   "bwd_examiner": 4,
+   "family_countries": 3,
+   "live_family": 0,
+   "claims_count": 40,
+   "shortest_claim_words": 77
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Historically strong technical influence: the patent was widely cited, including heavily by examiners, indicating it sat near the core of distributed/federated search prior art.",
+     "evidence": [
+      "E7",
+      "E12"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Recent citation momentum is weak: very few citing filings since 2019 and none from unrelated owners after expiry, suggesting the specific approach is now less of a reference point for new filings.",
+     "evidence": [
+      "E8",
+      "E9",
+      "E10"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The underlying problem of federating queries across multiple sources and ranking merged results remains commercially and technically active, including ML-based ranking approaches.",
+     "evidence": [
+      "E16",
+      "E19",
+      "E17",
+      "E18"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The owner valued the patent through full term and it was filed in multiple jurisdictions, and the revival score rates the field as still alive.",
+     "evidence": [
+      "E2",
+      "E14",
+      "E15",
+      "E1"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Autobrains Technologies is the only company in the evidence filing on top of this patent since 2019, while Accuris markets federated search in its Goldfire enterprise platform.",
+   "market_read": "Federated search with result merging and ranking is still a live product capability and research area, though recent work appears to have moved toward machine-learning ranking rather than building directly on this patent. A founder should treat this as a mature, contested space where differentiation will likely come from modern ranking and enterprise integration rather than the base architecture, and should confirm any plans with qualified counsel."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "Accuris describes a federated search capability in its Goldfire enterprise search platform that runs one query across multiple internal systems at once and aggregates the results.",
+    "url": "https://accuristech.com/blog/goldfire-federated-enterprise-search/",
+    "confidence": "medium",
+    "evidence": "E16"
+   },
+   {
+    "kind": "company",
+    "finding": "USPTO patent US7984039 claims merging results from multiple search engines by ranking each engine's results with a per-query merit score.",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7984039",
+    "confidence": "medium",
+    "evidence": "E17"
+   },
+   {
+    "kind": "company",
+    "finding": "USPTO patent US7930286 describes a federator that chooses which search engines to send a query to and gathers their ranked results.",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7930286",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "market",
+    "finding": "USPTO patent US11989192, a recent federated search system, ranks matched groups from different data sources using machine learning models, a sign that work on this problem continues.",
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11989192",
+    "confidence": "low",
+    "evidence": "E19"
+   }
+  ],
+  "evidence": [
+   "E7",
+   "E8",
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15"
+  ],
+  "named": {
+   "total": "E7",
+   "after": "E8",
+   "recent": "E10",
+   "companies": "E11",
+   "score": "E15"
+  },
+  "summary": "Score 66/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US6950821B2",
+    "title": "System and method for resolving distributed network search queries to information providers",
+    "score": 64,
+    "status": "expired_term",
+    "end_year": 2022
+   },
+   {
+    "pub": "US7792833B2",
+    "title": "Ranking search results using language types",
+    "score": 34,
+    "status": "lapsed_fees",
+    "end_year": 2018
+   },
+   {
+    "pub": "US7761448B2",
+    "title": "System and method for ranking search results using click distance",
+    "score": 42,
+    "status": "lapsed_fees",
+    "end_year": 2018
+   },
+   {
+    "pub": "US7716198B2",
+    "title": "Ranking search results using feature extraction",
+    "score": 59,
+    "status": "lapsed_fees",
+    "end_year": 2014
+   },
+   {
+    "pub": "US7565630B1",
+    "title": "Customization of search results for search queries received from third party sites",
+    "score": 17,
+    "status": "lapsed_fees",
+    "end_year": 2021
+   }
+  ],
+  "summary": "5 similar dead patents in Computing and software"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6961723B2 reached the end of its full term on 2022-10-14.",
+   "source": "https://patents.google.com/patent/US6961723B2/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US6961723B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20241203223456.",
+   "source": "https://patents.google.com/patent/US6961723B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "blocker",
+   "claim": "40 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6961723B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "EP4018337A4",
+     "US9727648B2",
+     "EP4004842A1",
+     "US9990423B2",
+     "US9672263B1"
+    ]
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "Dense live patents and open standards: Software fields have many overlapping live patents; check recent filings by large incumbents. Data products may also face privacy rules (HIPAA, GDPR, CCPA).",
+   "source": "Recent forward citations from large assignees",
+   "method": "Blocker checklist rule 'software' matched CPC G06F16/9538, G06F16/9535, Y10S707/99933",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "market",
+   "claim": "Cited by 227 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6961723B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 227
+   }
+  },
+  {
+   "id": "E8",
+   "agent": "market",
+   "claim": "0 later filings by unrelated owners cite it with priority dates after it expired (2022-10-14).",
+   "source": "https://patents.google.com/patent/US6961723B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 0
+   }
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "5 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US6961723B2/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "2 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6961723B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 2
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: Autobrains Technologies Ltd (1), Autobrains Technologies LTD. (1).",
+   "source": "https://patents.google.com/patent/US6961723B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "Autobrains Technologies Ltd",
+      1
+     ],
+     [
+      "Autobrains Technologies LTD.",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "Examiners cited it against 139 later applications.",
+   "source": "https://patents.google.com/patent/US6961723B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 77 words across 40 claims.",
+   "source": "https://patents.google.com/patent/US6961723B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "The family was filed in 3 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6961723B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Revival score 66/100 (high confidence); strongest signals: Field still alive and Breadth at grant.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Product: Accuris describes a federated search capability in its Goldfire enterprise search platform that runs one query across multiple internal systems at once and aggregates the results.",
+   "source": "https://accuristech.com/blog/goldfire-federated-enterprise-search/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Company: USPTO patent US7984039 claims merging results from multiple search engines by ranking each engine's results with a per-query merit score.",
+   "source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7984039",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Company: USPTO patent US7930286 describes a federator that chooses which search engines to send a query to and gathers their ranked results.",
+   "source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7930286",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Market: USPTO patent US11989192, a recent federated search system, ranks matched groups from different data sources using machine learning models, a sign that work on this problem continues.",
+   "source": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11989192",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in Computing and software",
+   "seconds": 0.03
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2022-10-14",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "3 possible blockers, 0 high severity",
+   "seconds": 5.6
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 66/100, high confidence: Dead patent with a future",
+   "seconds": 39.34
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 17.09
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1303,
+    "output_tokens": 478,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.01477,
+    "seconds": 5.5
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 30216,
+    "output_tokens": 1635,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.19356,
+    "seconds": 30.4
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 887,
+    "output_tokens": 520,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01407,
+    "seconds": 9.0
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1846,
+    "output_tokens": 1471,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.03709,
+    "seconds": 17.1
+   }
+  ],
+  "total_cost_usd": 0.2595,
+  "seconds": 62.1
+ }
+}

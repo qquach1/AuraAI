@@ -1,0 +1,853 @@
+{
+ "pub": "US6850334B1",
+ "title": "System and method for three dimensional model printing",
+ "generated_at": "2026-10-25T16:33:22+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Verdict: 'Dead patent with a future' (91/100, high confidence): this core PolyJet-style printing patent ran its full term in a field that still looks very active, but newer patents around it may still be in force.",
+  "what_it_is": "A way to 3D print objects by jetting tiny drops of liquid plastic (photopolymer), smoothing each layer with a roller that can sense when it touches the material, then hardening the layer with light and repeating. It is the kind of process behind Stratasys' PolyJet printers, which jet two or more materials layer by layer.",
+  "why_it_died": {
+   "text": "It did not die early. It reached the end of its full 20-year term on 2020-01-18 after the owner, a large company, paid every maintenance fee. That points to a patent the owner valued to the end, not one dropped for lack of money or merit. This is why 'Died for money, not merit' scored only 7.5/15: it simply expired on schedule.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4",
+    "E3"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "The field looks alive. Later filings kept citing this patent, including filings by unrelated owners after it expired. That gives it full marks for 'Field still alive' and 'Recent momentum'.",
+    "evidence": [
+     "E9",
+     "E10",
+     "E11",
+     "E12",
+     "E17"
+    ]
+   },
+   {
+    "point": "Big players appear to still build in this space. General Electric has filed 13 times on top of it since 2019, and Stratasys still sells PolyJet printers that researchers use today.",
+    "evidence": [
+     "E13",
+     "E18",
+     "E19"
+    ]
+   },
+   {
+    "point": "Current machines appear to still use a roller-leveling step, so the core idea seems to remain relevant rather than obsolete.",
+    "evidence": [
+     "E20"
+    ]
+   },
+   {
+    "point": "The claims were fairly broad at grant and examiners often cited it, which suggests it covered a basic step others build on.",
+    "evidence": [
+     "E15",
+     "E14"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "You would compete directly with Stratasys, which owns this line, sells the product and has kept patenting on top of it.",
+    "evidence": [
+     "E5",
+     "E18"
+    ]
+   },
+   {
+    "point": "Market size rests on one analyst forecast. Citation counts show technical interest, not proof that buyers will pay for a new entrant.",
+    "evidence": [
+     "E21",
+     "E9"
+    ]
+   },
+   {
+    "point": "The patent shows the idea, not the know-how. Reliable jetting, leveling and curing will likely need a lot of your own engineering.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Stratasys filed 85 later patents citing this one that may still be in force. Improvements you would need could be covered.",
+    "severity": "high",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "22 later patents by other owners were cited against this one and may still be in force.",
+    "severity": "medium",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "The printing method may be open while specific photopolymer materials, formulas or process settings may still be patented. A printer is useless without materials.",
+    "severity": "high",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "Manufacturing know-how is not in the patent. Expect to rebuild process details yourself.",
+    "severity": "medium",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "There is a group of buyers, such as labs, design studios or dental and medical model makers, who want multi-material photopolymer jetting at a clearly lower cost than Stratasys and will switch to a new supplier to get it, using materials you can source.",
+   "why_riskiest": "The tech appears mature and the incumbent already sells it, with many later patents around it. A business only works if a lower price or a specific niche pulls buyers away from an established brand, and if usable materials are available.",
+   "how_to_test": "In two weeks: interview 10-15 current or would-be PolyJet users (university labs, prototyping shops, dental labs) about what they pay, what frustrates them and what price would make them switch. Run a $200 landing page offering 'multi-material jetted prints at X% lower cost' and count sign-ups. Ask two or three photopolymer resin suppliers for quotes and whether their jettable resins have usage limits.",
+   "evidence": [
+    "E18",
+    "E19",
+    "E21",
+    "E7"
+   ]
+  },
+  "attorney_questions": [
+   "Which of Stratasys' 85 later citing patents, and the 22 cited third-party patents, appear to still be in force and may cover roller leveling, multi-material jetting or curing steps we would use?",
+   "Are there active patents on the photopolymer materials or support materials we would need, and can we buy compatible materials without licensing problems?",
+   "In the 3 jurisdictions where this family was filed, has every family member expired, and are there any related continuations still active?"
+  ],
+  "score": 91,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2005-02-01",
+   "priority_date": "2000-01-18",
+   "filing_date": "2000-01-18",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": "large",
+   "term_end": "2020-01-18",
+   "term_end_estimated": false,
+   "end_date": "2020-01-18",
+   "end_year": 2020,
+   "months_since_end": 81.2,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2025-11-14"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Expired at full term 2020-01-18"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "medium",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "WO2025141568A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2023-12-29",
+      "publication_date": "2025-07-03",
+      "assignee": "Stratasys Ltd.",
+      "title": "Method and system for additive manufacturing hangable object",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Same owner and same inkjet photopolymer platform; the title suggests a process for a specific object type rather than the core dispense-level-cure loop."
+     },
+     {
+      "pub": "WO2025008826A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2023-07-05",
+      "publication_date": "2025-01-09",
+      "assignee": "Stratasys Ltd.",
+      "title": "Method and system for correcting color artifacts in additive manufacturing",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Color artifact correction in the multi-material inkjet process could apply to products running the original method; it looks like a refinement rather than core."
+     },
+     {
+      "pub": "WO2024142037A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2022-12-30",
+      "publication_date": "2024-07-04",
+      "assignee": "Stratasys Ltd.",
+      "title": "Waste removal for three-dimensional printing",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Waste removal likely relates to leveling-roller waste in the same platform, which a practical system would need."
+     },
+     {
+      "pub": "WO2024142068A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2022-12-30",
+      "publication_date": "2024-07-04",
+      "assignee": "Stratasys Ltd.",
+      "title": "Adhesive and/or coating formulations usable in three-dimensional printing on fabric",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     },
+     {
+      "pub": "WO2024142069A1",
+      "examiner": false,
+      "family_to_family": false,
+      "priority_date": "2022-12-30",
+      "publication_date": "2024-07-04",
+      "assignee": "Stratasys Ltd.",
+      "title": "Formulations for three-dimensional printing on fabric",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "medium",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "US9981422B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2016-05-13",
+      "publication_date": "2018-05-29",
+      "assignee": "Xerox Corporation",
+      "title": "Cam based leveling assembly for three-dimensional object printing",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Directly addresses the leveling assembly for inkjet 3D object printing, which is a core element of the original claim."
+     },
+     {
+      "pub": "EP3530459B1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2018-02-16",
+      "publication_date": "2023-12-20",
+      "assignee": "Mimaki Engineering Co., Ltd.",
+      "title": "Three-dimensional shaping method",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Inkjet shaping method from a UV inkjet company; it may cover layer process improvements."
+     },
+     {
+      "pub": "US20160098824A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-10-03",
+      "publication_date": "2016-04-07",
+      "assignee": "Tyco Electronics Corporation",
+      "title": "Three dimensional printing inspection apparatus and method",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Print inspection could relate to layer height sensing, though the connection is uncertain from the title."
+     },
+     {
+      "pub": "CN104057612A",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-06-17",
+      "publication_date": "2014-09-24",
+      "assignee": "\u97e9\u6210\u8d85",
+      "title": "Automatic leveling device for 3D printer, 3D printer and leveling method",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     },
+     {
+      "pub": "WO2015167965A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2014-04-30",
+      "publication_date": "2015-11-05",
+      "assignee": "Cummins Inc.",
+      "title": "Creation of injection molds via additive manufacturing",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "low",
+    "title": "Material and machine patents",
+    "detail": "Printer hardware may be free while specific materials, powders or process parameters stay patented.",
+    "where": "Forward citations from materials companies",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "regulatory_burden": "low",
+  "llm_rated": true,
+  "summary": "4 possible blockers, 0 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 91,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 1.0,
+     "points": 30.0
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 1.0,
+     "points": 20.0
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.92,
+     "points": 13.9
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 173,
+   "fwd_after_end": 40,
+   "fwd_after_end_unrelated": 13,
+   "fwd_alive_unrelated": 40,
+   "fwd_recent": 41,
+   "fwd_examiner": 29,
+   "fwd_by_year": {
+    "2000": 1,
+    "2002": 6,
+    "2003": 4,
+    "2004": 1,
+    "2007": 2,
+    "2008": 8,
+    "2009": 3,
+    "2010": 5,
+    "2011": 4,
+    "2012": 4,
+    "2013": 2,
+    "2014": 14,
+    "2015": 17,
+    "2016": 11,
+    "2017": 23,
+    "2018": 18,
+    "2019": 10,
+    "2020": 7,
+    "2021": 19,
+    "2022": 8,
+    "2023": 6
+   },
+   "recent_companies": [
+    [
+     "General Electric Company",
+     13
+    ]
+   ],
+   "same_owner_followons": 87,
+   "bwd_total": 27,
+   "bwd_examiner": 4,
+   "family_countries": 3,
+   "live_family": 0,
+   "claims_count": 22,
+   "shortest_claim_words": 68
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "Sustained technical interest: the patent remains heavily cited, including well after it reached end of term, which suggests the dispense-level-cure layering approach is still a reference point for new work.",
+     "evidence": [
+      "E9",
+      "E10",
+      "E11",
+      "E12",
+      "E14"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "General Electric Company is the most visible recent filer building on this patent, which points to industrial or manufacturing interest rather than only hobbyist activity.",
+     "evidence": [
+      "E13"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The described process appears to be commercially embodied today. Stratasys markets PolyJet printers, which are used in research and include a roller-leveling step similar to the claimed leveling step. The evidence does not establish that these products practice the claims.",
+     "evidence": [
+      "E18",
+      "E19",
+      "E20"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The owner valued the patent through its full term. It paid every maintenance fee, claimed large-entity status, and filed the family in 3 jurisdictions.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E4",
+      "E16"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "General Electric Company is the leading recent filer citing this patent (13 filings since 2019), and Stratasys actively markets PolyJet material-jetting printers in the field.",
+   "market_read": "Citation momentum after expiry, an established commercial product line in material jetting, and a high revival score all suggest the field is alive rather than abandoned. One third-party forecast puts material jetting at about USD 2.03B in 2025 growing to USD 4.90B by 2030, but that is a single analyst estimate and citations indicate technical interest, not revenue."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "Stratasys currently markets PolyJet printers, which it describes as a technology for full-color 3D printing and additive manufacturing.",
+    "url": "https://www.stratasys.com/en/guide-to-3d-printing/technologies-and-materials/polyjet-technology/",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "product",
+    "finding": "A ScienceDirect paper used a Stratasys J720 PolyJet printer to fabricate all of its test specimens.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1751616124002303",
+    "confidence": "medium",
+    "evidence": "E19"
+   },
+   {
+    "kind": "product",
+    "finding": "Stratasys reseller GoEngineer publishes a tutorial on removing the PolyJet roller bath, which points to a roller-leveling step in current machines.",
+    "url": "https://www.goengineer.com/videos/stratasys-tutorial-polyjet-roller-bath-removal",
+    "confidence": "medium",
+    "evidence": "E20"
+   },
+   {
+    "kind": "market",
+    "finding": "Mordor Intelligence expects the material jetting 3D printing market to reach USD 2.03 billion in 2025 and USD 4.90 billion by 2030 (19.29% CAGR).",
+    "url": "https://www.mordorintelligence.com/industry-reports/material-jetting-process-3d-printing-market",
+    "confidence": "medium",
+    "evidence": "E21"
+   }
+  ],
+  "evidence": [
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17"
+  ],
+  "named": {
+   "total": "E9",
+   "after": "E10",
+   "recent": "E12",
+   "companies": "E13",
+   "score": "E17"
+  },
+  "summary": "Score 91/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7725209B2",
+    "title": "Three-dimensional object printing",
+    "score": 44,
+    "status": "expired_term",
+    "end_year": 2026
+   },
+   {
+    "pub": "US7300619B2",
+    "title": "Compositions and methods for use in three dimensional model printing",
+    "score": 91,
+    "status": "expired_term",
+    "end_year": 2021
+   },
+   {
+    "pub": "US7550518B2",
+    "title": "Methods and compositions for three-dimensional printing of solid objects",
+    "score": 87,
+    "status": "expired_term",
+    "end_year": 2023
+   },
+   {
+    "pub": "US7569273B2",
+    "title": "Thermoplastic powder material system for appearance models from 3D printing systems",
+    "score": 87,
+    "status": "expired_term",
+    "end_year": 2024
+   },
+   {
+    "pub": "US7819662B2",
+    "title": "Multi-component dental appliances and a method for constructing the same",
+    "score": 42,
+    "status": "expired_term",
+    "end_year": 2026
+   }
+  ],
+  "summary": "5 similar dead patents in 3D printing"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6850334B1 reached the end of its full term on 2020-01-18.",
+   "source": "https://patents.google.com/patent/US6850334B1/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US6850334B1/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20251114003102.",
+   "source": "https://patents.google.com/patent/US6850334B1/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed large-entity status.",
+   "source": "https://patents.google.com/patent/US6850334B1/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "large"
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 85 later patent(s) citing this one that may still be in force, e.g. WO2025141568A1 (Method and system for additive manufacturing hangable object).",
+   "source": "https://patents.google.com/patent/US6850334B1/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "WO2025141568A1",
+     "WO2025008826A1",
+     "WO2024142037A1",
+     "WO2024142068A1",
+     "WO2024142069A1"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "22 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6850334B1/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "US9981422B2",
+     "EP3530459B1",
+     "US20160098824A1",
+     "CN104057612A",
+     "WO2015167965A1"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "Material and machine patents: Printer hardware may be free while specific materials, powders or process parameters stay patented.",
+   "source": "Forward citations from materials companies",
+   "method": "Blocker checklist rule 'additive' matched CPC B29C64/112, B33Y10/00, B29C64/188",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "Cited by 173 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6850334B1/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 173
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "13 later filings by unrelated owners cite it with priority dates after it expired (2020-01-18).",
+   "source": "https://patents.google.com/patent/US6850334B1/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 13
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "40 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US6850334B1/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "41 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6850334B1/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 41
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: General Electric Company (13).",
+   "source": "https://patents.google.com/patent/US6850334B1/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "General Electric Company",
+      13
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Examiners cited it against 29 later applications.",
+   "source": "https://patents.google.com/patent/US6850334B1/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 68 words across 22 claims.",
+   "source": "https://patents.google.com/patent/US6850334B1/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "The family was filed in 3 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6850334B1/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Revival score 91/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Product: Stratasys currently markets PolyJet printers, which it describes as a technology for full-color 3D printing and additive manufacturing.",
+   "source": "https://www.stratasys.com/en/guide-to-3d-printing/technologies-and-materials/polyjet-technology/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Product: A ScienceDirect paper used a Stratasys J720 PolyJet printer to fabricate all of its test specimens.",
+   "source": "https://www.sciencedirect.com/science/article/pii/S1751616124002303",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Product: Stratasys reseller GoEngineer publishes a tutorial on removing the PolyJet roller bath, which points to a roller-leveling step in current machines.",
+   "source": "https://www.goengineer.com/videos/stratasys-tutorial-polyjet-roller-bath-removal",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E21",
+   "agent": "market",
+   "claim": "Market: Mordor Intelligence expects the material jetting 3D printing market to reach USD 2.03 billion in 2025 and USD 4.90 billion by 2030 (19.29% CAGR).",
+   "source": "https://www.mordorintelligence.com/industry-reports/material-jetting-process-3d-printing-market",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "5 similar dead patents in 3D printing",
+   "seconds": 0.01
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2020-01-18",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "4 possible blockers, 0 high severity",
+   "seconds": 8.54
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 91/100, high confidence: Dead patent with a future",
+   "seconds": 28.34
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 17.37
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1742,
+    "output_tokens": 833,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.02363,
+    "seconds": 8.5
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 21422,
+    "output_tokens": 1450,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.14469,
+    "seconds": 21.9
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 848,
+    "output_tokens": 552,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01455,
+    "seconds": 6.4
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1948,
+    "output_tokens": 1511,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.0383,
+    "seconds": 17.4
+   }
+  ],
+  "total_cost_usd": 0.2212,
+  "seconds": 54.3
+ }
+}

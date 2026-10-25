@@ -1,0 +1,844 @@
+{
+ "pub": "US6709560B2",
+ "title": "Charge barrier flow-through capacitor",
+ "generated_at": "2026-10-25T16:33:43+00:00",
+ "as_of": "2026-10-25",
+ "model": "claude-opus-5-5",
+ "report": {
+  "headline": "Verdict: 'Dead patent with a future' (87/100, high confidence). The core idea sits in a busy, active field, but the space around it appears crowded with newer patents.",
+  "what_it_is": "This patent covers a water-cleaning device that pulls salts and other ions out of water by charging porous electrodes. Its key addition is an extra 'charge barrier' layer next to each electrode, which keeps stray ions on one side so the device cleans water more efficiently.",
+  "why_it_died": {
+   "text": "It did not die early. It ran its full term and ended on 2021-04-18. The owner, a large company, paid every maintenance fee until the end, which suggests they valued it. That is why the 'died for money, not merit' score is only middling (7.5/15): it simply aged out, rather than being dropped as a bargain someone overlooked.",
+   "evidence": [
+    "E1",
+    "E2",
+    "E4"
+   ],
+   "confidence": "high"
+  },
+  "case_for": [
+   {
+    "point": "The field still appears active. Many later filings cite it, including recent ones from 2019 onward and several from unrelated owners after it expired.",
+    "evidence": [
+     "E9",
+     "E10",
+     "E11",
+     "E12",
+     "E17"
+    ]
+   },
+   {
+    "point": "Known companies have been building on this area recently, including Robert Bosch and several startups. That suggests ongoing technical and commercial interest.",
+    "evidence": [
+     "E13"
+    ]
+   },
+   {
+    "point": "Capacitive deionization products already exist. Navien sells one as a salt-free softener alternative, and suppliers list uses like softening, heavy metal removal and nitrate removal. So there may be buyers to sell to.",
+    "evidence": [
+     "E18",
+     "E20"
+    ]
+   },
+   {
+    "point": "Examiners cited it against 105 later applications. Its first claim was fairly broad, which suggests it describes a foundational idea in the field.",
+    "evidence": [
+     "E14",
+     "E15"
+    ]
+   }
+  ],
+  "case_against": [
+   {
+    "point": "The original owner may still be a competitor. Voltea filed later related patents that may still be in force, including a membrane-capacitive deionization system.",
+    "evidence": [
+     "E5",
+     "E19"
+    ]
+   },
+   {
+    "point": "The space appears crowded. About 70 later patents by other owners were cited against this one and may still be in force. Newer improvements may be covered even though this patent ended.",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Market size is unproven. The signals show interest and one product on the market, not revenue or demand.",
+    "evidence": [
+     "E18",
+     "E20"
+    ]
+   },
+   {
+    "point": "The patent explains the idea, not how to make it well at scale. Expect to build the manufacturing know-how yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "blockers": [
+   {
+    "point": "Later patents by the original owner that cite this one may still be in force. Worth checking before designing.",
+    "severity": "high",
+    "evidence": [
+     "E5"
+    ]
+   },
+   {
+    "point": "About 70 later patents by other owners may still be in force in this area. A modern product could touch some of them.",
+    "severity": "high",
+    "evidence": [
+     "E6"
+    ]
+   },
+   {
+    "point": "Drinking water products usually need NSF/ANSI 61 certification. Discharge systems need EPA or state permits. That adds cost and time.",
+    "severity": "medium",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "point": "Manufacturing know-how is not in the patent. Electrode and barrier materials will need to be developed in-house.",
+    "severity": "low",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "A specific buyer group (for example homeowners or small commercial sites wanting salt-free softening) will pay for a new capacitive deionization product over established options like Navien's WEC Series or salt softeners.",
+   "why_riskiest": "The technology already has commercial players, so the business depends on finding buyers who are unhappy with what exists and will switch. The evidence shows interest, not demand or pricing.",
+   "how_to_test": "Within two weeks: interview 15 water treatment dealers or installers about why customers do or don't pick salt-free softeners like Navien's, and what price and performance would make them switch. In parallel, run a $200 landing page offering a salt-free softener and measure sign-ups or quote requests.",
+   "evidence": [
+    "E18",
+    "E20",
+    "E13"
+   ]
+  },
+  "attorney_questions": [
+   "Do Voltea's later patents citing this one, such as EP3995458A1, have US counterparts still in force that could matter for a charge-barrier capacitor design?",
+   "Which of the roughly 70 later patents cited against this one appear most relevant to a modern charge-barrier deionization product, and are they still in force?",
+   "What would a focused freedom-to-operate search cost for a specific product design in this area, and what should we prepare first?"
+  ],
+  "score": 87,
+  "confidence": "high",
+  "verdict": "Dead patent with a future",
+  "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+  "mode": "claude",
+  "verifier_log": [],
+  "summary": "Report written (claude); verifier removed 0 unsupported points"
+ },
+ "status": {
+  "facts": {
+   "google_status": "Expired - Lifetime",
+   "status": "expired_term",
+   "grant_date": "2004-03-23",
+   "priority_date": "2001-04-18",
+   "filing_date": "2001-10-26",
+   "lapse_date": null,
+   "lapse_source": null,
+   "fee_window": null,
+   "fees_paid": [
+    4,
+    8,
+    12
+   ],
+   "entity_size": "large",
+   "term_end": "2021-04-18",
+   "term_end_estimated": false,
+   "end_date": "2021-04-18",
+   "end_year": 2021,
+   "months_since_end": 66.2,
+   "revival_risk": false,
+   "reinstated": false,
+   "status_inferred": null,
+   "record_date": "2026-08-24"
+  },
+  "evidence": [
+   "E1",
+   "E2",
+   "E3",
+   "E4"
+  ],
+  "summary": "Expired at full term 2021-04-18"
+ },
+ "blockers": {
+  "blockers": [
+   {
+    "kind": "follow_on",
+    "severity": "high",
+    "title": "Owner's follow-on patents",
+    "detail": "The original owner kept filing in this area. These later patents may claim the improvements a product needs; their status is unverified unless shown.",
+    "evidence": [
+     "E5"
+    ],
+    "items": [
+     {
+      "pub": "EP3995458A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-11-04",
+      "publication_date": "2022-05-11",
+      "assignee": "Voltea",
+      "title": "Membrane-capacitive deionization system",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Membrane-capacitive deionization uses ion-exchange membranes adjacent electrodes, closely matching the charge barrier flow-through capacitor concept; Voltea is a direct successor in this field."
+     },
+     {
+      "pub": "US20100328841A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2007-11-13",
+      "publication_date": "2010-12-30",
+      "assignee": "Voltea Limited",
+      "title": "Water purification device",
+      "known_status": null,
+      "overlap": "high",
+      "reason": "Voltea water purification device from 2007 likely covers flow-through capacitor with charge barrier/membrane refinements of the same architecture."
+     }
+    ]
+   },
+   {
+    "kind": "regulatory",
+    "severity": "medium",
+    "title": "Drinking water and discharge standards",
+    "detail": "Products in contact with drinking water usually need NSF/ANSI 61 certification; discharge systems need EPA or state permits.",
+    "where": "NSF certified product listings; EPA NPDES",
+    "evidence": [
+     "E7"
+    ]
+   },
+   {
+    "kind": "nearby_live",
+    "severity": "low",
+    "title": "Live patents examiners linked to this one",
+    "detail": "Examiners judged these later patents close enough to cite this one. Check whether their claims cover your product.",
+    "evidence": [
+     "E6"
+    ],
+    "items": [
+     {
+      "pub": "WO2026049084A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2024-08-28",
+      "publication_date": "2026-03-05",
+      "assignee": "\uc5d8\uc9c0\uc804\uc790 \uc8fc\uc2dd\ud68c\uc0ac",
+      "title": "Capacitive deionization apparatus",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Capacitive deionization apparatus is the same device class; title does not indicate whether charge barrier improvements are claimed."
+     },
+     {
+      "pub": "US12195366B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2021-08-12",
+      "publication_date": "2025-01-14",
+      "assignee": "Robert Bosch Gmbh",
+      "title": "Water deionization cells",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Water deionization cells may be capacitive with membranes, but the title is generic and could cover other cell designs."
+     },
+     {
+      "pub": "US20220017388A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-07-20",
+      "publication_date": "2022-01-20",
+      "assignee": "University Of Kentucky Research Foundation",
+      "title": "Apparatus and method for enhanced capacitive deionization of contaminated water",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Enhanced capacitive deionization apparatus could involve electrode or barrier improvements relevant to a flow-through capacitor product."
+     },
+     {
+      "pub": "US20210221711A1",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2020-01-21",
+      "publication_date": "2021-07-22",
+      "assignee": "Siontech Co.,Ltd.",
+      "title": "Deionization Electrode, Apparatus and Method for Deionization Electrode, Electrode Module and Deionization Module",
+      "known_status": null,
+      "overlap": "medium",
+      "reason": "Deionization electrodes and modules may include coated/membrane electrodes relevant to charge barrier capacitors."
+     },
+     {
+      "pub": "US12151958B2",
+      "examiner": true,
+      "family_to_family": false,
+      "priority_date": "2019-08-08",
+      "publication_date": "2024-11-26",
+      "assignee": "Robert Bosch Gmbh",
+      "title": "Desalination device electrode activation",
+      "known_status": null,
+      "overlap": null,
+      "reason": null
+     }
+    ]
+   },
+   {
+    "kind": "trade_secret",
+    "severity": "low",
+    "title": "Trade secrets and know-how",
+    "detail": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+    "evidence": [
+     "E8"
+    ]
+   }
+  ],
+  "regulatory_burden": "medium",
+  "llm_rated": true,
+  "summary": "4 possible blockers, 1 high severity"
+ },
+ "market": {
+  "score": {
+   "score": 87,
+   "confidence": "high",
+   "verdict": "Dead patent with a future",
+   "components": {
+    "field_alive": {
+     "label": "Field still alive",
+     "weight": 30,
+     "value": 1.0,
+     "points": 30.0
+    },
+    "momentum": {
+     "label": "Recent momentum",
+     "weight": 20,
+     "value": 0.97,
+     "points": 19.4
+    },
+    "non_merit_death": {
+     "label": "Died for money, not merit",
+     "weight": 15,
+     "value": 0.5,
+     "points": 7.5
+    },
+    "breadth": {
+     "label": "Breadth at grant",
+     "weight": 15,
+     "value": 0.77,
+     "points": 11.6
+    },
+    "examiner_relevance": {
+     "label": "Examiner relevance",
+     "weight": 10,
+     "value": 1.0,
+     "points": 10.0
+    },
+    "clear_path": {
+     "label": "Clear path",
+     "weight": 10,
+     "value": 0.8,
+     "points": 8.0
+    }
+   }
+  },
+  "metrics": {
+   "fwd_total": 156,
+   "fwd_after_end": 5,
+   "fwd_after_end_unrelated": 5,
+   "fwd_alive_unrelated": 26,
+   "fwd_recent": 11,
+   "fwd_examiner": 105,
+   "fwd_by_year": {
+    "1999": 4,
+    "2001": 4,
+    "2002": 1,
+    "2003": 11,
+    "2004": 5,
+    "2005": 3,
+    "2006": 10,
+    "2007": 8,
+    "2008": 10,
+    "2009": 15,
+    "2010": 14,
+    "2011": 13,
+    "2012": 5,
+    "2013": 9,
+    "2014": 12,
+    "2015": 4,
+    "2016": 2,
+    "2017": 6,
+    "2018": 8,
+    "2019": 1,
+    "2020": 6,
+    "2021": 3,
+    "2022": 1,
+    "2024": 1
+   },
+   "recent_companies": [
+    [
+     "Robert Bosch Gmbh",
+     2
+    ],
+    [
+     "Siontech Co.,Ltd.",
+     1
+    ],
+    [
+     "VWS (UK) Limited",
+     1
+    ],
+    [
+     "Summit Nanotech Corporation",
+     1
+    ],
+    [
+     "Pani Clean, Inc.",
+     1
+    ],
+    [
+     "University Of Kentucky Research Foundation",
+     1
+    ],
+    [
+     "Sweetch Energy",
+     1
+    ],
+    [
+     "Ecosolve",
+     1
+    ]
+   ],
+   "same_owner_followons": 2,
+   "bwd_total": 38,
+   "bwd_examiner": 2,
+   "family_countries": 1,
+   "live_family": 0,
+   "claims_count": 75,
+   "shortest_claim_words": 40
+  },
+  "read": {
+   "signals": [
+    {
+     "signal": "The capacitive deionization field this patent sits in still draws new technical filings, including after the patent's term ended.",
+     "evidence": [
+      "E10",
+      "E11",
+      "E12",
+      "E17"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The patent is a foundational reference in the field. Examiners have cited it heavily and its total forward citations are high, which points to broad technical relevance rather than proven revenue.",
+     "evidence": [
+      "E9",
+      "E14"
+     ],
+     "confidence": "high"
+    },
+    {
+     "signal": "Capacitive deionization products and applications are being marketed today, especially water softening as an alternative to salt-based softeners.",
+     "evidence": [
+      "E18",
+      "E20",
+      "E19"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "signal": "The original owner paid every maintenance fee and claimed large-entity status, which suggests it valued the patent through its full term.",
+     "evidence": [
+      "E1",
+      "E2",
+      "E4"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "who_is_active": "Since 2019, filings building on this patent have come from Robert Bosch GmbH, Siontech, VWS (UK), Summit Nanotech, Pani Clean and the University of Kentucky Research Foundation. Navien markets a capacitive deionization softener, and Voltea is associated with the technology, though its current product line was not checked.",
+   "market_read": "Capacitive deionization appears to be an active niche, with recent filings from industrial and startup players and at least one commercial softening product on the market. These signals show sustained technical and commercial interest, but they do not establish market size or revenue, so a founder should validate demand and the specific competitive and patent landscape directly before committing."
+  },
+  "web": [
+   {
+    "kind": "product",
+    "finding": "Navien sells the WEC Series, a capacitive deionization water filtration system with an electric adsorption/regeneration process, marketed as an alternative to salt-based softeners.",
+    "url": "https://www.navieninc.com/series/wec",
+    "confidence": "medium",
+    "evidence": "E18"
+   },
+   {
+    "kind": "company",
+    "finding": "Voltea has a Wikipedia page that cites a Wageningen University source on capacitive deionization for energy-efficient drinking water production; its current product line was not checked.",
+    "url": "https://en.wikipedia.org/wiki/Voltea",
+    "confidence": "low",
+    "evidence": "E19"
+   },
+   {
+    "kind": "market",
+    "finding": "Water-treatment supplier Lenntech lists capacitive deionization applications including water softening, heavy metal removal, and phosphate/nitrate removal.",
+    "url": "https://www.lenntech.com/processes/capacitive-deionization-cdi-.htm",
+    "confidence": "medium",
+    "evidence": "E20"
+   }
+  ],
+  "evidence": [
+   "E9",
+   "E10",
+   "E11",
+   "E12",
+   "E13",
+   "E14",
+   "E15",
+   "E16",
+   "E17"
+  ],
+  "named": {
+   "total": "E9",
+   "after": "E10",
+   "recent": "E12",
+   "companies": "E13",
+   "score": "E17"
+  },
+  "summary": "Score 87/100, high confidence: Dead patent with a future"
+ },
+ "nearby": {
+  "items": [
+   {
+    "pub": "US7563351B2",
+    "title": "Water treatment system and method",
+    "score": 34,
+    "status": "expired_term",
+    "end_year": 2026
+   },
+   {
+    "pub": "US7591950B2",
+    "title": "Submerged cross-flow filtration",
+    "score": 34,
+    "status": "expired_term",
+    "end_year": 2025
+   },
+   {
+    "pub": "US7846340B2",
+    "title": "Water treatment system and method",
+    "score": 66,
+    "status": "expired_term",
+    "end_year": 2025
+   },
+   {
+    "pub": "US7083733B2",
+    "title": "Water treatment system and method",
+    "score": 34,
+    "status": "expired_term",
+    "end_year": 2024
+   }
+  ],
+  "summary": "4 similar dead patents in Water treatment"
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "status",
+   "claim": "US6709560B2 reached the end of its full term on 2021-04-18.",
+   "source": "https://patents.google.com/patent/US6709560B2/en#events",
+   "method": "Expiration event",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "status",
+   "claim": "The owner paid every maintenance fee, so it was valued until the end.",
+   "source": "https://patents.google.com/patent/US6709560B2/en#legalEvents",
+   "method": "Maintenance-fee payment events",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "status",
+   "claim": "The public record behind these facts was retrieved from web.archive.org snapshot 20260824191140.",
+   "source": "https://patents.google.com/patent/US6709560B2/en",
+   "method": "Google Patents page (bibliographic data, USPTO legal events, citations)",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "status",
+   "claim": "At its last fee payment the owner claimed large-entity status.",
+   "source": "https://patents.google.com/patent/US6709560B2/en#legalEvents",
+   "method": "Entity code on the payment event (M1/M2/M3)",
+   "confidence": "high",
+   "data": {
+    "entity": "large"
+   }
+  },
+  {
+   "id": "E5",
+   "agent": "blocker",
+   "claim": "The owner filed 2 later patent(s) citing this one that may still be in force, e.g. EP3995458A1 (Membrane-capacitive deionization system).",
+   "source": "https://patents.google.com/patent/US6709560B2/en#citedBy",
+   "method": "Forward citations from the same owner, priority within the last 20 years; overlap rated by Claude from titles",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "EP3995458A1",
+     "US20100328841A1"
+    ]
+   }
+  },
+  {
+   "id": "E6",
+   "agent": "blocker",
+   "claim": "70 later patent(s) by other owners were cited against this one by examiners and may still be in force.",
+   "source": "https://patents.google.com/patent/US6709560B2/en#citedBy",
+   "method": "Examiner-cited forward citations, priority within the last 20 years",
+   "confidence": "medium",
+   "data": {
+    "pubs": [
+     "WO2026049084A1",
+     "US12195366B2",
+     "US20220017388A1",
+     "US20210221711A1",
+     "US12151958B2"
+    ]
+   }
+  },
+  {
+   "id": "E7",
+   "agent": "blocker",
+   "claim": "Drinking water and discharge standards: Products in contact with drinking water usually need NSF/ANSI 61 certification; discharge systems need EPA or state permits.",
+   "source": "NSF certified product listings; EPA NPDES",
+   "method": "Blocker checklist rule 'water_quality' matched CPC C02F1/4695, C02F1/008, C02F1/4691",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "blocker",
+   "claim": "The patent discloses the invention, not necessarily the manufacturing know-how. Expect to rebuild process details yourself.",
+   "source": "Talk to the inventors or the original owner",
+   "method": "Blocker checklist",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "market",
+   "claim": "Cited by 156 later patents and applications in total.",
+   "source": "https://patents.google.com/patent/US6709560B2/en#citedBy",
+   "method": "Count of forward citations",
+   "confidence": "high",
+   "data": {
+    "n": 156
+   }
+  },
+  {
+   "id": "E10",
+   "agent": "market",
+   "claim": "5 later filings by unrelated owners cite it with priority dates after it expired (2021-04-18).",
+   "source": "https://patents.google.com/patent/US6709560B2/en#citedBy",
+   "method": "Forward citations with priority after the end date, excluding the original owner",
+   "confidence": "high",
+   "data": {
+    "n": 5
+   }
+  },
+  {
+   "id": "E11",
+   "agent": "market",
+   "claim": "26 filings by unrelated owners cited it in its last five years of term or after it expired.",
+   "source": "https://patents.google.com/patent/US6709560B2/en#citedBy",
+   "method": "Forward citations with priority after (term end minus 5 years), excluding the original owner",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E12",
+   "agent": "market",
+   "claim": "11 citing filings have priority dates from 2019 on.",
+   "source": "https://patents.google.com/patent/US6709560B2/en#citedBy",
+   "method": "Forward citations with priority in the last 7 years (recent filings publish with an 18-month lag)",
+   "confidence": "high",
+   "data": {
+    "n": 11
+   }
+  },
+  {
+   "id": "E13",
+   "agent": "market",
+   "claim": "Companies filing on top of it since 2019: Robert Bosch Gmbh (2), Siontech Co.,Ltd. (1), VWS (UK) Limited (1), Summit Nanotech Corporation (1), Pani Clean, Inc. (1), University Of Kentucky Research Foundation (1).",
+   "source": "https://patents.google.com/patent/US6709560B2/en#citedBy",
+   "method": "Assignees of citing filings with priority from 2019 on",
+   "confidence": "medium",
+   "data": {
+    "companies": [
+     [
+      "Robert Bosch Gmbh",
+      2
+     ],
+     [
+      "Siontech Co.,Ltd.",
+      1
+     ],
+     [
+      "VWS (UK) Limited",
+      1
+     ],
+     [
+      "Summit Nanotech Corporation",
+      1
+     ],
+     [
+      "Pani Clean, Inc.",
+      1
+     ],
+     [
+      "University Of Kentucky Research Foundation",
+      1
+     ]
+    ]
+   }
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Examiners cited it against 105 later applications.",
+   "source": "https://patents.google.com/patent/US6709560B2/en#citedBy",
+   "method": "Forward citations marked as examiner-cited",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Its shortest independent claim is 40 words across 75 claims.",
+   "source": "https://patents.google.com/patent/US6709560B2/en#claims",
+   "method": "Word count of independent claims",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "The family was filed in 1 jurisdiction(s).",
+   "source": "https://patents.google.com/patent/US6709560B2/en#family",
+   "method": "Countries in the patent family",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Revival score 87/100 (high confidence); strongest signals: Field still alive and Recent momentum.",
+   "source": "Computed by Graveyard Shift",
+   "method": "Weighted sum of six named signals; see the score breakdown",
+   "confidence": "high",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Product: Navien sells the WEC Series, a capacitive deionization water filtration system with an electric adsorption/regeneration process, marketed as an alternative to salt-based softeners.",
+   "source": "https://www.navieninc.com/series/wec",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E19",
+   "agent": "market",
+   "claim": "Company: Voltea has a Wikipedia page that cites a Wageningen University source on capacitive deionization for energy-efficient drinking water production; its current product line was not checked.",
+   "source": "https://en.wikipedia.org/wiki/Voltea",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E20",
+   "agent": "market",
+   "claim": "Market: Water-treatment supplier Lenntech lists capacitive deionization applications including water softening, heavy metal removal, and phosphate/nitrate removal.",
+   "source": "https://www.lenntech.com/processes/capacitive-deionization-cdi-.htm",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  }
+ ],
+ "trace": [
+  {
+   "agent": "Scout",
+   "task": "Find similar dead patents",
+   "status": "done",
+   "summary": "4 similar dead patents in Water treatment",
+   "seconds": 0.01
+  },
+  {
+   "agent": "Status",
+   "task": "Expired, lapsed for unpaid fees, or still in force?",
+   "status": "done",
+   "summary": "Expired at full term 2021-04-18",
+   "seconds": 0.0
+  },
+  {
+   "agent": "Blocker",
+   "task": "Follow-on patents, family, regulatory exclusivity, revival risk",
+   "status": "done",
+   "summary": "4 possible blockers, 1 high severity",
+   "seconds": 6.9
+  },
+  {
+   "agent": "Market",
+   "task": "Citation activity, companies in the space, revival score",
+   "status": "done",
+   "summary": "Score 87/100, high confidence: Dead patent with a future",
+   "seconds": 34.96
+  },
+  {
+   "agent": "Report",
+   "task": "Write the triage report and the assumption to test first",
+   "status": "done",
+   "summary": "Report written (claude); verifier removed 0 unsupported points",
+   "seconds": 21.25
+  }
+ ],
+ "usage": {
+  "calls": [
+   {
+    "agent": "blocker",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1330,
+    "output_tokens": 684,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.019,
+    "seconds": 6.9
+   },
+   {
+    "agent": "market_web",
+    "model": "claude-opus-5-5",
+    "input_tokens": 21865,
+    "output_tokens": 1401,
+    "cache_read_tokens": 0,
+    "cost_usd": 0.15548,
+    "seconds": 26.7
+   },
+   {
+    "agent": "market",
+    "model": "claude-opus-5-5",
+    "input_tokens": 842,
+    "output_tokens": 526,
+    "cache_read_tokens": 607,
+    "cost_usd": 0.01401,
+    "seconds": 8.2
+   },
+   {
+    "agent": "report",
+    "model": "claude-opus-5-5",
+    "input_tokens": 1763,
+    "output_tokens": 1928,
+    "cache_read_tokens": 1419,
+    "cost_usd": 0.0459,
+    "seconds": 21.2
+   }
+  ],
+  "total_cost_usd": 0.2344,
+  "seconds": 63.1
+ }
+}

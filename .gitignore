@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Graveyard Shift
+# Raw Google Patents pages: large and re-fetchable. The built database is committed instead.
+data/cache/
+.streamlit/secrets.toml

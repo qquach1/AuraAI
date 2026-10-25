@@ -1,0 +1,118 @@
+{
+ "run_at": "2026-10-25T16:44:33+00:00",
+ "backend": "Local corpus (36,004 US documents: cached pages and their citation lists)",
+ "model": "claude-opus-5-5",
+ "cost_usd": 0.5997,
+ "summary": {
+  "n_targets": 10,
+  "truth_total": 83,
+  "in_corpus_total": 83,
+  "agent_hits": 21,
+  "baseline_hits": 5,
+  "agent_recall": 0.25301204819277107,
+  "baseline_recall": 0.060240963855421686,
+  "agent_success": 7,
+  "baseline_success": 4
+ },
+ "targets": [
+  {
+   "pub": "US11801115B2",
+   "title": "Mirroring in image guided surgery",
+   "priority_date": "2019-12-22",
+   "truth_n": 3,
+   "in_corpus": 3,
+   "agent_hits": 0,
+   "baseline_hits": 0
+  },
+  {
+   "pub": "US12029844B2",
+   "title": "Combination spirometer-inhaler",
+   "priority_date": "2020-06-25",
+   "truth_n": 7,
+   "in_corpus": 7,
+   "agent_hits": 1,
+   "baseline_hits": 1
+  },
+  {
+   "pub": "US12417595B2",
+   "title": "Augmented-reality surgical system using depth sensing",
+   "priority_date": "2021-08-18",
+   "truth_n": 9,
+   "in_corpus": 9,
+   "agent_hits": 0,
+   "baseline_hits": 0
+  },
+  {
+   "pub": "US10977113B2",
+   "title": "System and method for fault identification, logging, and remediation",
+   "priority_date": "2019-01-29",
+   "truth_n": 19,
+   "in_corpus": 19,
+   "agent_hits": 7,
+   "baseline_hits": 0
+  },
+  {
+   "pub": "US11593662B2",
+   "title": "Unsupervised cluster generation",
+   "priority_date": "2019-12-12",
+   "truth_n": 3,
+   "in_corpus": 3,
+   "agent_hits": 1,
+   "baseline_hits": 0
+  },
+  {
+   "pub": "US11827215B2",
+   "title": "Method for training a driving related object detector",
+   "priority_date": "2020-03-31",
+   "truth_n": 12,
+   "in_corpus": 12,
+   "agent_hits": 5,
+   "baseline_hits": 1
+  },
+  {
+   "pub": "US11633405B2",
+   "title": "Steroid hormone pharmaceutical formulations",
+   "priority_date": "2020-02-07",
+   "truth_n": 4,
+   "in_corpus": 4,
+   "agent_hits": 2,
+   "baseline_hits": 1
+  },
+  {
+   "pub": "US11179891B2",
+   "title": "Method and apparatus for additive manufacturing with shared components",
+   "priority_date": "2019-03-15",
+   "truth_n": 4,
+   "in_corpus": 4,
+   "agent_hits": 0,
+   "baseline_hits": 0
+  },
+  {
+   "pub": "US11400649B2",
+   "title": "Air knife assembly for additive manufacturing",
+   "priority_date": "2019-09-26",
+   "truth_n": 12,
+   "in_corpus": 12,
+   "agent_hits": 4,
+   "baseline_hits": 0
+  },
+  {
+   "pub": "US10846059B2",
+   "title": "Automated generation of software bindings",
+   "priority_date": "2019-02-05",
+   "truth_n": 10,
+   "in_corpus": 10,
+   "agent_hits": 1,
+   "baseline_hits": 2
+  }
+ ],
+ "method": [
+  "Targets: 10 US patents with priority dates from 2019 on, each citing a patent in our graveyard sample, each with 3 to 30 examiner-cited US references.",
+  "Input: title, abstract and first independent claim only. The agent never sees the citation list.",
+  "Search space: documents with a priority date before the target's, excluding the target and its family.",
+  "Corpus: 36,004 US documents. 35,069 come from our sample's citation neighborhood (cached pages and the documents they cite or are cited by; target pages excluded). The other 935 are the targets' full citation tables, examiner and applicant references alike, pooled in as title-only rows like most of the corpus. This is a pooled benchmark, not a search of every US patent.",
+  "Ground truth: references marked as examiner-cited on the patent record, US documents with an earlier priority date than the target.",
+  "Comparison: one keyword search built from the description's most frequent terms, same corpus, same cutoffs.",
+  "An earlier run on the same targets, before we fixed how the search tool reads boolean queries (it had dropped phrases and ANDs), found 13 of 83 (16%). Prompts were not changed between runs."
+ ]
+}
