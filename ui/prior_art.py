@@ -39,15 +39,20 @@ def page():
     ok = st.checkbox("This text is from a public patent or an idea that is already protected.", value=bool(ex))
 
     cache_key = f"pa_{hash((text, cutoff.isoformat()))}"
-    if st.button("Find prior art", type="primary", disabled=not (ok and text.strip()), icon=":material/travel_explore:"):
+    live = common.live_allowed()
+    label = "Find prior art" + ("" if live else " (keyword search only)")
+    if st.button(label, type="primary", disabled=not (ok and text.strip()), icon=":material/travel_explore:"):
         exclude = set(ex["exclude"]) if ex else set()
         usage = llm.Usage()
         with st.status("Searching like an examiner...", expanded=True) as box:
             res = prior_art.run(text, cutoff.strftime("%Y%m%d"), exclude, backend=prior_art.default_backend(common.con()),
-                                usage=usage, on_step=box.write)
+                                usage=usage, use_llm=live, on_step=box.write)
             box.update(label=f"Ranked {res['pool_size']} candidates", state="complete", expanded=False)
+        if live:
+            common.count_live_run()
         res["cost"] = usage.total_cost
         st.session_state[cache_key] = res
+    common.mode_caption()
 
     res = st.session_state.get(cache_key)
     if not res and ex and ex.get("saved_run") and text == ex["input"]:

@@ -44,8 +44,9 @@ def page():
         lo, hi = stats["year_min"] or 2005, stats["year_max"] or config.AS_OF.year
         years = st.slider("Year it died", lo, hi, (lo, hi)) if lo < hi else (lo, hi)
         min_score = st.slider("Minimum revival score", 0, 100, 0, step=5)
-        use_llm = st.toggle("Scout expands my search with Claude", value=config.llm_available(),
-                            disabled=not config.llm_available())
+        live = common.live_allowed()
+        use_llm = st.toggle("Scout expands my search with Claude", value=live, disabled=not live,
+                            help=None if live else "Needs the team passcode on the hosted app")
 
     statuses = [s for s, label in common.STATUS_LABEL.items() if label in (reason or [])] or ["lapsed_fees", "expired_term"]
     query = st.text_input("Search the graveyard", placeholder="e.g. wearable glucose sensor, wind turbine blade de-icing, "

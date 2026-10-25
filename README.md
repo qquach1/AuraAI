@@ -16,6 +16,21 @@ powershell -ExecutionPolicy Bypass -File scripts/set_api_key.ps1   # or copy .en
 .venv/Scripts/python -m streamlit run app.py
 ```
 
+### Deploy (Streamlit Community Cloud)
+
+1. At [share.streamlit.io](https://share.streamlit.io), create an app from `qquach1/AuraAI`, branch `main`, file `app.py`.
+2. Under Advanced settings pick Python 3.12 and paste the secrets:
+   ```toml
+   ANTHROPIC_API_KEY = "sk-ant-..."
+   GS_LIVE_CODE = "a passcode for teammates"
+   ```
+3. Deploy, then share the link and, separately, the passcode.
+
+Anyone with the link can browse the marketplace and read the saved Claude reports. Live Claude
+runs (re-running agents, Scout's search expansion, live prior-art checks) need the passcode,
+and each browser session is capped at 15 (`GS_MAX_LIVE_RUNS`). Without the passcode, patents
+with no saved report get a free rule-based report.
+
 **Never commit `.env`.** This repo is public; a key pushed here is exposed at once and must be
 revoked. `.env` is in `.gitignore`; `scripts/set_api_key.ps1` writes it with the key hidden.
 

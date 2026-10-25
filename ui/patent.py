@@ -250,17 +250,24 @@ def page():
         _card(patent)
     with right:
         st.subheader("Triage report")
-        out = orchestrator.cached(pub)
-        run_label = "Re-run the agents" if out else "Run the triage agents"
-        if st.button(run_label, type="primary" if not out else "secondary", icon=":material/smart_toy:"):
-            with st.status("Running the agents...", expanded=True) as box:
-                def on_step(step):
-                    if step["status"] == "running":
-                        box.write(f"**{step['agent']}**: {step['task']}")
-                    else:
-                        box.write(f"↳ {step.get('summary') or step['status']} ({step.get('seconds', 0)}s)")
-                out = orchestrator.run(con, pub, on_step=on_step)
-                box.update(label=f"Done in {out['usage']['seconds']}s", state="complete", expanded=False)
+        live = common.live_allowed()
+        # Rule-based runs (no passcode) live in this session only, so they never replace a saved report
+        out = orchestrator.cached(pub) or st.session_state.get(f"rules_{pub}")
+        if live or not (out and out["report"]["mode"] == "claude"):
+            run_label = ("Re-run the agents" if out else "Run the triage agents") + ("" if live else " (rule-based)")
+            if st.button(run_label, type="primary" if not out else "secondary", icon=":material/smart_toy:"):
+                with st.status("Running the agents...", expanded=True) as box:
+                    def on_step(step):
+                        if step["status"] == "running":
+                            box.write(f"**{step['agent']}**: {step['task']}")
+                        else:
+                            box.write(f"↳ {step.get('summary') or step['status']} ({step.get('seconds', 0)}s)")
+                    out = orchestrator.run(con, pub, on_step=on_step, use_llm=live, save=live)
+                    box.update(label=f"Done in {out['usage']['seconds']}s", state="complete", expanded=False)
+                if live:
+                    common.count_live_run()
+                else:
+                    st.session_state[f"rules_{pub}"] = out
         common.mode_caption()
         if out:
             _report(out)

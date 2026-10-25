@@ -19,4 +19,5 @@ nav = st.navigation(list(common.PAGES.values()))
 with st.sidebar:
     st.markdown(f"### {config.PRODUCT_NAME}")
     st.caption("Research and triage only, not legal advice. Don't type unprotected ideas.")
+    common.passcode_box()
 nav.run()

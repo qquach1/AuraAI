@@ -13,6 +13,22 @@ for _d in [ROOT, *ROOT.parents]:
         load_dotenv(_d / ".env", encoding="utf-8-sig")  # tolerate the BOM Notepad/PowerShell can add
         break
 
+
+def _streamlit_secret(name: str) -> str | None:
+    """Read a key from Streamlit secrets (how Streamlit Community Cloud passes them)."""
+    try:
+        import streamlit as st
+        value = st.secrets.get(name)
+        return str(value) if value else None
+    except Exception:  # no secrets file, or not running under Streamlit
+        return None
+
+
+# Hosted deploys keep secrets in Streamlit's secrets store rather than a .env file
+for _name in ("ANTHROPIC_API_KEY", "GS_LIVE_CODE"):
+    if not os.getenv(_name) and (_v := _streamlit_secret(_name)):
+        os.environ[_name] = _v
+
 PRODUCT_NAME = "Graveyard Shift"
 TAGLINE = "Find the dead patents worth building on, and what still stands in the way."
 
@@ -27,6 +43,9 @@ MODEL = os.getenv("GS_MODEL", "claude-opus-5-5")
 OFFLINE = os.getenv("GS_OFFLINE", "") == "1"
 # Market agent web search for current products and companies (adds ~30s and a few cents per report)
 WEB_EVIDENCE = os.getenv("GS_WEB", "1") == "1"
+# Public deploys: when set, live Claude runs need this team passcode. Saved reports stay open to all.
+LIVE_CODE = os.getenv("GS_LIVE_CODE", "")
+MAX_LIVE_RUNS = int(os.getenv("GS_MAX_LIVE_RUNS", "15"))  # per browser session, as a spending backstop
 
 # All "as of" logic (term estimates, revival window, recent activity) keys off this date
 # so a demo run gives the same answers every time.
