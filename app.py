@@ -3,12 +3,13 @@
 import streamlit as st
 
 from graveyard import config
-from ui import about, common, marketplace, patent, prior_art, proof
+from ui import about, common, dashboard, marketplace, patent, prior_art, proof
 
 st.set_page_config(page_title=config.PRODUCT_NAME, page_icon=":material/deceased:", layout="wide")
 
 common.PAGES.update(
-    market=st.Page(marketplace.page, title="Marketplace", icon=":material/search:", url_path="market", default=True),
+    dashboard=st.Page(dashboard.page, title="Dashboard", icon=":material/dashboard:", url_path="dashboard", default=True),
+    market=st.Page(marketplace.page, title="Marketplace", icon=":material/search:", url_path="market"),
     patent=st.Page(patent.page, title="Patent report", icon=":material/description:", url_path="patent"),
     prior=st.Page(prior_art.page, title="Prior-art check", icon=":material/travel_explore:", url_path="prior-art"),
     proof=st.Page(proof.page, title="Proof", icon=":material/verified:", url_path="proof"),

@@ -94,15 +94,7 @@ def _report_markdown(out: dict) -> str:
     return "\n".join(lines)
 
 
-def _esc(x):
-    """Escape $ in model-written text: Streamlit markdown reads $...$ as math and hides dollar amounts."""
-    if isinstance(x, str):
-        return x.replace("$", "\\$")
-    if isinstance(x, list):
-        return [_esc(v) for v in x]
-    if isinstance(x, dict):
-        return {k: (v if k == "url" else _esc(v)) for k, v in x.items()}
-    return x
+_esc = common.esc
 
 
 def _report(out: dict):

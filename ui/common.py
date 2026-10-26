@@ -38,6 +38,17 @@ def score_color(score: int) -> str:
     return "green" if score >= 60 else ("orange" if score >= 40 else "red")
 
 
+def esc(x):
+    """Escape $ in model-written text: Streamlit markdown reads $...$ as math and hides dollar amounts."""
+    if isinstance(x, str):
+        return x.replace("$", "\\$")
+    if isinstance(x, list):
+        return [esc(v) for v in x]
+    if isinstance(x, dict):
+        return {k: (v if k == "url" else esc(v)) for k, v in x.items()}
+    return x
+
+
 def open_patent(pub: str):
     st.session_state["pub"] = pub
     st.query_params["pub"] = pub

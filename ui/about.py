@@ -45,6 +45,12 @@ AGENTS = [
     ("Prior-art", "Finds what an examiner would cite against a description", "Claude plans queries and reranks; patent search before the priority date", "Top 10 earlier patents"),
 ]
 
+DASHBOARD = [
+    ("Overview", "Headline counts, where dead patents are still being built on, top opportunities, latest deals", "Computed from our patent data; deals from the News agent"),
+    ("Simulation Lab", "A founder's idea run through Scout, Prior-art, Market (web search) and Report", "Same agents, pointed at an idea instead of a patent"),
+    ("Deals & news", "Recent M&A, licensing, litigation and regulatory events by field", "News agent: Claude web search, every item dated and linked to its source"),
+]
+
 
 def page():
     st.title("How it works")
@@ -53,6 +59,12 @@ def page():
                 "the numbers and writes, and it can only make claims that point at an evidence record.")
     st.graphviz_chart(FLOW, use_container_width=True)
     st.dataframe(pd.DataFrame(AGENTS, columns=["Agent", "Job", "Tools and data", "Output"]), hide_index=True,
+                 use_container_width=True)
+
+    st.subheader("The dashboard")
+    st.markdown("Three tabs on the home page reuse the same agents. Every number is computed from our data, and every "
+                "deal or market figure links to the page it came from.")
+    st.dataframe(pd.DataFrame(DASHBOARD, columns=["Tab", "What it shows", "Where it comes from"]), hide_index=True,
                  use_container_width=True)
 
     st.subheader("Revival score")

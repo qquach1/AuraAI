@@ -1,0 +1,373 @@
+{
+ "idea": "A wearable device for continuous glucose monitoring using non-invasive optical sensors, sold to people with type 2 diabetes who dislike finger-prick tests.",
+ "generated_at": "2026-10-26T01:15:46+00:00",
+ "mode": "claude",
+ "model": "claude-opus-5-5",
+ "graveyard": [
+  {
+   "pub": "US7591801B2",
+   "title": "Integrated delivery device for continuous glucose sensor",
+   "status": "expired_term",
+   "end_year": 2025,
+   "score": 83,
+   "evidence": "E1"
+  },
+  {
+   "pub": "US7519408B2",
+   "title": "Integrated receiver for continuous analyte sensor",
+   "status": "expired_term",
+   "end_year": 2026,
+   "score": 71,
+   "evidence": "E2"
+  },
+  {
+   "pub": "US7366556B2",
+   "title": "Dual electrode system for a continuous analyte sensor",
+   "status": "expired_term",
+   "end_year": 2026,
+   "score": 68,
+   "evidence": "E3"
+  },
+  {
+   "pub": "US6560471B1",
+   "title": "Analyte monitoring device and methods of use",
+   "status": "expired_term",
+   "end_year": 2021,
+   "score": 90,
+   "evidence": "E4"
+  },
+  {
+   "pub": "US6889153B2",
+   "title": "System and method for a self-calibrating non-invasive sensor",
+   "status": "expired_term",
+   "end_year": 2022,
+   "score": 74,
+   "evidence": "E5"
+  }
+ ],
+ "landscape": [
+  {
+   "pub": "US4633878A",
+   "title": "Device for the automatic insulin or glucose infusion in diabetic subjects, based on the continuous monitoring of the patient's glucose, obtained without blood withdrawal",
+   "priority_date": "1983-04-18",
+   "assignee": "Guiseppe Bombardieri",
+   "standing": "past 20-year term",
+   "why": "Title expressly recites continuous glucose monitoring obtained without blood withdrawal, which covers the continuous, automatic and no-sampling elements.",
+   "evidence": "E6"
+  },
+  {
+   "pub": "US20090240440A1",
+   "title": "Non-Invasive Glucose Monitoring",
+   "priority_date": "2005-10-20",
+   "assignee": "Alex Shurabura",
+   "standing": "past 20-year term",
+   "why": "A direct non-invasive glucose monitor that may describe wearable, continuous operation. It is a close match to the core subject matter.",
+   "evidence": "E7"
+  },
+  {
+   "pub": "US10779755B2",
+   "title": "Non-invasive blood sugar measurement method and device using optical reflectometry",
+   "priority_date": "2016-04-29",
+   "assignee": "Dadam Micro Inc.",
+   "standing": "may still be in force",
+   "why": "Recent optical reflectance glucose device, possibly wearable. It discloses the optical sensor and processor elements.",
+   "evidence": "E8"
+  },
+  {
+   "pub": "US7133710B2",
+   "title": "Compact apparatus for noninvasive measurement of glucose through near-infrared spectroscopy",
+   "priority_date": "2002-03-08",
+   "assignee": "Sensys Medical, Inc.",
+   "standing": "past 20-year term",
+   "why": "The compact form factor suggests a body-attached configuration. It discloses the NIR optical sensor and processor elements.",
+   "evidence": "E9"
+  },
+  {
+   "pub": "US7299080B2",
+   "title": "Compact apparatus for noninvasive measurement of glucose through near-infrared spectroscopy",
+   "priority_date": "1999-10-08",
+   "assignee": "Sensys Medical, Inc.",
+   "standing": "past 20-year term",
+   "why": "Same family as US7133710B2. Supports the optical sensor and processor elements.",
+   "evidence": "E10"
+  },
+  {
+   "pub": "US8235897B2",
+   "title": "Device for non-invasively measuring glucose",
+   "priority_date": "2010-04-27",
+   "assignee": "A.D. Integrity Applications Ltd.",
+   "standing": "may still be in force",
+   "why": "A non-invasive glucose device that may be worn on the body (e.g., a clip) and could supply the housing element.",
+   "evidence": "E11"
+  },
+  {
+   "pub": "US20150099943A1",
+   "title": "Wearable physiological sensing device with optical pathways",
+   "priority_date": "2013-10-04",
+   "assignee": "Covidien Lp",
+   "standing": "may still be in force",
+   "why": "Supplies the wearable optical sensor housing element, to be combined with glucose spectroscopy references.",
+   "evidence": "E12"
+  },
+  {
+   "pub": "US20030144582A1",
+   "title": "Portable non-invasive glucose monitor",
+   "priority_date": "2001-09-07",
+   "assignee": "Carl Cohen",
+   "standing": "past 20-year term",
+   "why": "Portable non-invasive glucose monitor that discloses the output and no-sampling elements.",
+   "evidence": "E13"
+  }
+ ],
+ "market": [
+  {
+   "kind": "size",
+   "finding": "The non-invasive blood glucose monitoring system market was valued at USD 34 million in 2024 and is projected to reach USD 316.65 million by 2034 (25% CAGR).",
+   "url": "https://www.towardshealthcare.com/insights/non-invasive-blood-glucose-monitoring-system-market",
+   "confidence": "low",
+   "evidence": "E14"
+  },
+  {
+   "kind": "growth",
+   "finding": "The continuous glucose monitoring market was valued at USD 12.4 billion in 2025 and is expected to reach USD 55.5 billion in 2035, a 16.3% CAGR from 2026 to 2035.",
+   "url": "https://www.gminsights.com/industry-analysis/continuous-glucose-monitoring-market",
+   "confidence": "medium",
+   "evidence": "E15"
+  },
+  {
+   "kind": "adoption",
+   "finding": "The FDA has never authorized a noninvasive wearable that measures blood glucose on its own, and Verily stopped its glucose-sensing contact lens in 2018 after tests showed insufficient consistency.",
+   "url": "https://www.medtechdive.com/news/fda-warns-smartwatches-noninvasive-blood-sugar/708320/",
+   "confidence": "medium",
+   "evidence": "E16"
+  },
+  {
+   "kind": "player",
+   "finding": "Whoop has filed a patent, reported in 2026, for a non-invasive method of measuring blood sugar in a wearable.",
+   "url": "https://www.notebookcheck.net/Whoop-s-patent-points-to-needle-free-blood-sugar-tracking-in-a-wearable.1344774.0.html",
+   "confidence": "medium",
+   "evidence": "E17"
+  },
+  {
+   "kind": "product",
+   "finding": "Afon Technology describes its Glucowear as the world's first non-invasive, real-time continuous glucose monitor; this is the company's own claim and the source gives no year or figures.",
+   "url": "https://www.openaccessgovernment.org/european-recognition-for-worlds-first-non-invasive-glucose-monitor-glucowear/196034/",
+   "confidence": "low",
+   "evidence": "E18"
+  }
+ ],
+ "brief": {
+  "summary": "Non-invasive glucose monitoring is a small but fast-growing niche inside a large CGM market, valued at USD 34 million in 2024 and projected to reach USD 316.65 million by 2034 (E14, E15). The main patent risk is that several optical glucose patents may still be in force, including reflectometry (E8), a non-invasive glucose device (E11) and wearable optical pathways (E12). Large players are also filing new patents (E17).",
+  "white_space": "The records do not seem to show an FDA-authorized standalone non-invasive glucose wearable (E16), and none appear to target a comfort-first product for type 2 users who mainly want fewer finger pricks. This is a rough read and needs attorney review.",
+  "pathways": [
+   {
+    "name": "Build on expired near-infrared and self-calibration art",
+    "detail": "Several older patents on compact NIR glucose measurement, portable non-invasive monitors and self-calibrating sensors appear to be past their term. They may be useful as a technical starting point. Have counsel confirm their status and check for later continuations.",
+    "evidence": [
+     "E5",
+     "E7",
+     "E9",
+     "E10",
+     "E13",
+     "E4"
+    ]
+   },
+   {
+    "name": "Design around live optical patents",
+    "detail": "Map the claims of the patents that may still be in force on reflectometry, non-invasive glucose devices and wearable optical pathways. Then choose a sensing method and housing that steer clear of their specific claim elements.",
+    "evidence": [
+     "E8",
+     "E11",
+     "E12",
+     "E17"
+    ]
+   },
+   {
+    "name": "Partner or license as an adjunct to existing CGMs",
+    "detail": "No standalone non-invasive device has FDA authorization. One option is to position the wearable as a trend or wellness companion, or to partner with a CGM incumbent for calibration and regulatory paths. Expired CGM receiver and delivery patents may also inform how the system is integrated.",
+    "evidence": [
+     "E16",
+     "E15",
+     "E1",
+     "E2",
+     "E18"
+    ]
+   }
+  ],
+  "assumption_to_test": {
+   "assumption": "Type 2 users who dislike finger pricks would pay for, and trust, a non-invasive wearable that gives approximate trend readings rather than exact clinical values.",
+   "how_to_test": "Run a $300 targeted ad campaign to type 2 diabetes communities. Point it to a landing page describing a trend-only, no-needle wearable with a price and a refundable $1 reservation. Add 10 short follow-up interviews over two weeks. Measure the reservation rate and how much accuracy users say they need."
+  },
+  "attorney_questions": [
+   "Do the claims of US10779755B2, US8235897B2 or US20150099943A1 appear to read on a wrist-worn optical glucose wearable, and are these patents actually still in force (E8, E11, E12)?",
+   "Are there live continuations or related patents tied to the expired NIR and self-calibration patents (E5, E9, E10) that could still matter?",
+   "Should we monitor or oppose Whoop's reported non-invasive glucose filing, and does it narrow our options for claiming our own method (E17)?"
+  ]
+ },
+ "evidence": [
+  {
+   "id": "E1",
+   "agent": "scout",
+   "claim": "US7591801B2 (Integrated delivery device for continuous glucose sensor) is expired (ended 2025) and scores 83/100 for revival.",
+   "source": "https://patents.google.com/patent/US7591801B2/en",
+   "method": "Full-text match in the graveyard sample",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E2",
+   "agent": "scout",
+   "claim": "US7519408B2 (Integrated receiver for continuous analyte sensor) is expired (ended 2026) and scores 71/100 for revival.",
+   "source": "https://patents.google.com/patent/US7519408B2/en",
+   "method": "Full-text match in the graveyard sample",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E3",
+   "agent": "scout",
+   "claim": "US7366556B2 (Dual electrode system for a continuous analyte sensor) is expired (ended 2026) and scores 68/100 for revival.",
+   "source": "https://patents.google.com/patent/US7366556B2/en",
+   "method": "Full-text match in the graveyard sample",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E4",
+   "agent": "scout",
+   "claim": "US6560471B1 (Analyte monitoring device and methods of use) is expired (ended 2021) and scores 90/100 for revival.",
+   "source": "https://patents.google.com/patent/US6560471B1/en",
+   "method": "Full-text match in the graveyard sample",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E5",
+   "agent": "scout",
+   "claim": "US6889153B2 (System and method for a self-calibrating non-invasive sensor) is expired (ended 2022) and scores 74/100 for revival.",
+   "source": "https://patents.google.com/patent/US6889153B2/en",
+   "method": "Full-text match in the graveyard sample",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E6",
+   "agent": "prior_art",
+   "claim": "US4633878A (Device for the automatic insulin or glucose infusion in diabetic subjects, based on the co), priority 1983-04-18: past 20-year term.",
+   "source": "https://patents.google.com/patent/US4633878A/en",
+   "method": "Prior-art search over the local corpus; Claude reranked",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E7",
+   "agent": "prior_art",
+   "claim": "US20090240440A1 (Non-Invasive Glucose Monitoring), priority 2005-10-20: past 20-year term.",
+   "source": "https://patents.google.com/patent/US20090240440A1/en",
+   "method": "Prior-art search over the local corpus; Claude reranked",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E8",
+   "agent": "prior_art",
+   "claim": "US10779755B2 (Non-invasive blood sugar measurement method and device using optical reflectometry), priority 2016-04-29: may still be in force.",
+   "source": "https://patents.google.com/patent/US10779755B2/en",
+   "method": "Prior-art search over the local corpus; Claude reranked",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E9",
+   "agent": "prior_art",
+   "claim": "US7133710B2 (Compact apparatus for noninvasive measurement of glucose through near-infrared spectroscop), priority 2002-03-08: past 20-year term.",
+   "source": "https://patents.google.com/patent/US7133710B2/en",
+   "method": "Prior-art search over the local corpus; Claude reranked",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E10",
+   "agent": "prior_art",
+   "claim": "US7299080B2 (Compact apparatus for noninvasive measurement of glucose through near-infrared spectroscop), priority 1999-10-08: past 20-year term.",
+   "source": "https://patents.google.com/patent/US7299080B2/en",
+   "method": "Prior-art search over the local corpus; Claude reranked",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E11",
+   "agent": "prior_art",
+   "claim": "US8235897B2 (Device for non-invasively measuring glucose), priority 2010-04-27: may still be in force.",
+   "source": "https://patents.google.com/patent/US8235897B2/en",
+   "method": "Prior-art search over the local corpus; Claude reranked",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E12",
+   "agent": "prior_art",
+   "claim": "US20150099943A1 (Wearable physiological sensing device with optical pathways), priority 2013-10-04: may still be in force.",
+   "source": "https://patents.google.com/patent/US20150099943A1/en",
+   "method": "Prior-art search over the local corpus; Claude reranked",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E13",
+   "agent": "prior_art",
+   "claim": "US20030144582A1 (Portable non-invasive glucose monitor), priority 2001-09-07: past 20-year term.",
+   "source": "https://patents.google.com/patent/US20030144582A1/en",
+   "method": "Prior-art search over the local corpus; Claude reranked",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E14",
+   "agent": "market",
+   "claim": "Size: The non-invasive blood glucose monitoring system market was valued at USD 34 million in 2024 and is projected to reach USD 316.65 million by 2034 (25% CAGR).",
+   "source": "https://www.towardshealthcare.com/insights/non-invasive-blood-glucose-monitoring-system-market",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  },
+  {
+   "id": "E15",
+   "agent": "market",
+   "claim": "Growth: The continuous glucose monitoring market was valued at USD 12.4 billion in 2025 and is expected to reach USD 55.5 billion in 2035, a 16.3% CAGR from 2026 to 2035.",
+   "source": "https://www.gminsights.com/industry-analysis/continuous-glucose-monitoring-market",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E16",
+   "agent": "market",
+   "claim": "Adoption: The FDA has never authorized a noninvasive wearable that measures blood glucose on its own, and Verily stopped its glucose-sensing contact lens in 2018 after tests showed insufficient consistency.",
+   "source": "https://www.medtechdive.com/news/fda-warns-smartwatches-noninvasive-blood-sugar/708320/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E17",
+   "agent": "market",
+   "claim": "Player: Whoop has filed a patent, reported in 2026, for a non-invasive method of measuring blood sugar in a wearable.",
+   "source": "https://www.notebookcheck.net/Whoop-s-patent-points-to-needle-free-blood-sugar-tracking-in-a-wearable.1344774.0.html",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "medium",
+   "data": {}
+  },
+  {
+   "id": "E18",
+   "agent": "market",
+   "claim": "Product: Afon Technology describes its Glucowear as the world's first non-invasive, real-time continuous glucose monitor; this is the company's own claim and the source gives no year or figures.",
+   "source": "https://www.openaccessgovernment.org/european-recognition-for-worlds-first-non-invasive-glucose-monitor-glucowear/196034/",
+   "method": "Claude web search (page found and summarized, not independently verified)",
+   "confidence": "low",
+   "data": {}
+  }
+ ],
+ "disclaimer": "Research and triage only, not legal advice. This report is not a patentability, validity or freedom-to-operate opinion. Patent status shown here comes from public records that can lag or be wrong. An expired patent is not the same as free to use: follow-on patents, regulatory exclusivity, trade secrets and standards can still block a product. Confirm with a registered patent attorney before acting.",
+ "cost_usd": 0.3683
+}

@@ -1,0 +1,700 @@
+{
+ "fields": {
+  "H01M": {
+   "label": "Batteries and fuel cells",
+   "items": [
+    {
+     "type": "Funding",
+     "date": "2025-12-23",
+     "date_precision": "day",
+     "headline": "Solid-state battery maker Factorial to go public through SPAC merger",
+     "summary": "A merger with a blank-check company is one way for a solid-state battery startup to raise growth capital.",
+     "companies": [
+      "Factorial",
+      "Cartesian Growth Corporation III"
+     ],
+     "url": "https://electrek.co/2025/12/23/solid-state-ev-battery-maker-going-public-after-745-mile-test/",
+     "source": "Electrek",
+     "field": "H01M",
+     "field_label": "Batteries and fuel cells"
+    },
+    {
+     "type": "Litigation",
+     "date": "2025-05-27",
+     "date_precision": "day",
+     "headline": "Tulip Innovation wins German injunctions against Sunwoda over separator patents",
+     "summary": "Shows that battery separator patents can lead to German sales injunctions, which matters for anyone selling cells into the EU.",
+     "companies": [
+      "Tulip Innovation",
+      "Sunwoda Group"
+     ],
+     "url": "https://ipwatchdog.com/press/tulip-innovation-obtains-landmark-injunctions-battery-patent-dispute-sunwoda-group/",
+     "source": "IPWatchdog.com",
+     "field": "H01M",
+     "field_label": "Batteries and fuel cells"
+    },
+    {
+     "type": "Litigation",
+     "date": "2025-05-01",
+     "date_precision": "month",
+     "headline": "LG Energy Solution wins German battery patent lawsuit against Sunwoda",
+     "summary": "Major Korean cell makers are enforcing their patents in Europe, which affects how startups plan supply chains and freedom-to-operate checks.",
+     "companies": [
+      "LG Energy Solution",
+      "Sunwoda Group"
+     ],
+     "url": "https://www.just-auto.com/news/lges-wins-battery-patent-lawsuit-in-germany-against-sunwoda/",
+     "source": "Just Auto",
+     "field": "H01M",
+     "field_label": "Batteries and fuel cells"
+    }
+   ],
+   "cost_usd": 0.296,
+   "fetched_at": "2026-10-26T01:14:21+00:00"
+  },
+  "A61B": {
+   "label": "Medical diagnosis and surgery",
+   "items": [
+    {
+     "type": "Litigation",
+     "date": "2026-08-01",
+     "date_precision": "month",
+     "headline": "Ninth Circuit sends instrument repairer's antitrust suit against Intuitive back to trial court",
+     "summary": "This antitrust case, not a patent case, could affect whether third parties can service or remanufacture da Vinci instruments.",
+     "companies": [
+      "Intuitive Surgical",
+      "Surgical Instrument Service Co."
+     ],
+     "url": "https://news.bloomberglaw.com/antitrust/surgical-robot-monopoly-suit-revived-sent-back-to-trial-court",
+     "source": "Bloomberg Law",
+     "field": "A61B",
+     "field_label": "Medical diagnosis and surgery"
+    },
+    {
+     "type": "Regulatory",
+     "date": "2026-07-01",
+     "date_precision": "month",
+     "headline": "J&J MedTech's OTTAVA robot gets FDA de novo classification",
+     "summary": "Another major company now has an FDA-authorized surgical robot, adding competition and another possible partner or acquirer for startups.",
+     "companies": [
+      "Johnson & Johnson MedTech"
+     ],
+     "url": "https://finance.yahoo.com/healthcare/articles/j-j-medtech-jumps-surgical-163910283.html",
+     "source": "Yahoo Finance",
+     "field": "A61B",
+     "field_label": "Medical diagnosis and surgery"
+    },
+    {
+     "type": "Regulatory",
+     "date": "2025-12-01",
+     "date_precision": "month",
+     "headline": "CMR Surgical wins FDA clearance for upgraded Versius Plus robot",
+     "summary": "Getting FDA clearance for an upgrade after a first clearance shows a step-by-step regulatory path new surgical-robot makers can follow.",
+     "companies": [
+      "CMR Surgical"
+     ],
+     "url": "https://www.fiercebiotech.com/medtech/cmr-surgical-grabs-fda-clearance-upgraded-versius-plus-robot",
+     "source": "Fierce Biotech",
+     "field": "A61B",
+     "field_label": "Medical diagnosis and surgery"
+    },
+    {
+     "type": "M&A",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "headline": "Solventum agrees to acquire privately held Acera Surgical",
+     "summary": "A large medtech company buying a privately held surgical bioscience company shows that acquisition is a realistic exit for startups in this field.",
+     "companies": [
+      "Solventum",
+      "Acera Surgical"
+     ],
+     "url": "https://investors.solventum.com/news-events/press-releases/detail/136/solventum-announces-agreement-to-acquire-acera-surgical",
+     "source": "Solventum press release",
+     "field": "A61B",
+     "field_label": "Medical diagnosis and surgery"
+    },
+    {
+     "type": "Litigation",
+     "date": "2025-10-02",
+     "date_precision": "day",
+     "headline": "Federal Circuit upholds cutting Rex Medical's $10M award against Intuitive to nominal damages",
+     "summary": "A patent holder can win on infringement and still recover almost nothing if its damages evidence doesn't isolate the patent's value, which affects how much a surgical-tool patent is worth to assert or license.",
+     "companies": [
+      "Rex Medical",
+      "Intuitive Surgical"
+     ],
+     "url": "https://www.cafc.uscourts.gov/opinions-orders/24-1072.OPINION.10-2-2025_2582479.pdf",
+     "source": "U.S. Court of Appeals for the Federal Circuit",
+     "field": "A61B",
+     "field_label": "Medical diagnosis and surgery"
+    }
+   ],
+   "cost_usd": 0.1917,
+   "fetched_at": "2026-10-26T01:13:26+00:00"
+  },
+  "A61K": {
+   "label": "Drugs and therapeutic preparations",
+   "items": [
+    {
+     "type": "Regulatory",
+     "date": "2025-11-03",
+     "date_precision": "day",
+     "headline": "Patent office rules challengers must argue the same claim meaning as in court",
+     "summary": "Anyone challenging a drug patent at the patent office, or defending one, must now argue the same claim meaning there as in parallel court cases.",
+     "companies": [
+      "Revvo Technologies",
+      "Cerebrum Sensor Technologies"
+     ],
+     "url": "https://www.uspto.gov/subscription-center/2025/ptab-designates-new-decision-precedential",
+     "source": "USPTO",
+     "field": "A61K",
+     "field_label": "Drugs and therapeutic preparations"
+    },
+    {
+     "type": "M&A",
+     "date": "2025-07-01",
+     "date_precision": "month",
+     "headline": "Merck closes $10B acquisition of Verona Pharma, maker of COPD drug Ohtuvayre",
+     "summary": "Shows big pharma will pay heavily for a single first-in-class drug in a common disease like COPD.",
+     "companies": [
+      "Merck",
+      "Verona Pharma"
+     ],
+     "url": "https://www.bioxconomy.com/partnering/bioxconomy-s-top-10-m-a-deals-of-2025",
+     "source": "BioXconomy",
+     "field": "A61K",
+     "field_label": "Drugs and therapeutic preparations"
+    }
+   ],
+   "cost_usd": 0.2486,
+   "fetched_at": "2026-10-26T01:14:19+00:00"
+  },
+  "G02B": {
+   "label": "Optics and photonics",
+   "items": [
+    {
+     "type": "M&A",
+     "date": "2025-12-01",
+     "date_precision": "month",
+     "headline": "FormFactor acquires Keystone Photonics, silicon photonics wafer-probing specialist",
+     "summary": "A $20.6M (net of cash) deal gives founders a price comparison for small photonics test-tool companies and shows who is buying.",
+     "companies": [
+      "FormFactor",
+      "Keystone Photonics"
+     ],
+     "url": "https://www.formfactor.com/press-release/formfactor-expands-silicon-photonics-test-capabilities-with-acquisition-of-keystone-photonics/",
+     "source": "FormFactor press release",
+     "field": "G02B",
+     "field_label": "Optics and photonics"
+    },
+    {
+     "type": "M&A",
+     "date": "2025-12-01",
+     "date_precision": "month",
+     "headline": "Quantum Computing Inc. agrees to acquire Luminar Semiconductor",
+     "summary": "Shows quantum and photonics companies buying in-house semiconductor laser and photonics capability.",
+     "companies": [
+      "Quantum Computing Inc.",
+      "Luminar Semiconductor"
+     ],
+     "url": "https://www.sec.gov/Archives/edgar/data/1758009/000121390025121746/ea0269686ex99-1_quantum.htm",
+     "source": "SEC EDGAR (Form 8-K)",
+     "field": "G02B",
+     "field_label": "Optics and photonics"
+    },
+    {
+     "type": "Partnership",
+     "date": "2025-11-18",
+     "date_precision": "day",
+     "headline": "Dispelix and AAC Technologies partner to commercialize AR waveguides globally",
+     "summary": "A waveguide maker teaming with a large device supplier means more supply competition, and possible partners or rivals, for AR optics startups.",
+     "companies": [
+      "Dispelix",
+      "AAC Technologies"
+     ],
+     "url": "https://www.globenewswire.com/news-release/2025/11/18/3190050/0/en/accelerating-the-global-commercialization-of-ar-waveguide-technology-with-aac-technologies.html",
+     "source": "GlobeNewswire",
+     "field": "G02B",
+     "field_label": "Optics and photonics"
+    },
+    {
+     "type": "Litigation",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "headline": "Federal Circuit finds lower court misread 'transparency' in '930 patent",
+     "summary": "How a court defines a single claim word in an optics patent can decide the whole case.",
+     "companies": [],
+     "url": "https://www.laserfocusworld.com/executive-forum/article/55336271/photonics-ip-update-november-2025",
+     "source": "Laser Focus World",
+     "field": "G02B",
+     "field_label": "Optics and photonics"
+    },
+    {
+     "type": "Licensing",
+     "date": "2025-07-01",
+     "date_precision": "month",
+     "headline": "STMicroelectronics and Metalenz sign new metasurface optics license",
+     "summary": "A major manufacturer now makes licensed flat-lens optics at volume, which founders can buy rather than build, and the licensor holding the patents is active.",
+     "companies": [
+      "STMicroelectronics",
+      "Metalenz"
+     ],
+     "url": "https://www.optica.org/about/newsroom/corporate_member_news/2025/stmicroelectronics_and_metalenz_sign_a_new_license_agreement_to_accelerate_metasurface_optics_adopti/",
+     "source": "Optica (corporate member news)",
+     "field": "G02B",
+     "field_label": "Optics and photonics"
+    }
+   ],
+   "cost_usd": 0.3215,
+   "fetched_at": "2026-10-26T01:14:32+00:00"
+  },
+  "H04W": {
+   "label": "Wireless networks",
+   "items": [
+    {
+     "type": "Licensing",
+     "date": "2025-07-28",
+     "date_precision": "day",
+     "headline": "Arbitrators set royalties for InterDigital's patent license with Samsung",
+     "summary": "Royalties set by arbitration give a reference point for what cellular and wireless patent licenses cost.",
+     "companies": [
+      "InterDigital",
+      "Samsung Electronics"
+     ],
+     "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549525000043/idcc-20250728.htm",
+     "source": "SEC (InterDigital Form 8-K)",
+     "field": "H04W",
+     "field_label": "Wireless networks"
+    },
+    {
+     "type": "Litigation",
+     "date": "2025-06-06",
+     "date_precision": "day",
+     "headline": "Ericsson's lawsuits in several countries lead to a licensing win",
+     "summary": "The article ties Ericsson's licensing win to lawsuits in several countries and also notes the Federal Circuit made anti-suit injunctions possible again, which shapes how disputes over standard-essential wireless patents get resolved.",
+     "companies": [
+      "Ericsson"
+     ],
+     "url": "https://www.mintz.com/insights-center/viewpoints/2231/2025-06-06-sep-licensing-wins-continue-multinational-litigation",
+     "source": "Mintz",
+     "field": "H04W",
+     "field_label": "Wireless networks"
+    },
+    {
+     "type": "Litigation",
+     "date": "2025-06-01",
+     "date_precision": "month",
+     "headline": "Federal Circuit vacates $300M Optis cellular patent verdict against Apple",
+     "summary": "Large cellular patent verdicts can be overturned on appeal, which changes how founders should weigh lawsuit risk and negotiating leverage.",
+     "companies": [
+      "Optis Cellular Technology",
+      "Apple"
+     ],
+     "url": "https://patentlyo.com/patent/2025/06/federal-circuit-multiple.html",
+     "source": "Patently-O",
+     "field": "H04W",
+     "field_label": "Wireless networks"
+    },
+    {
+     "type": "Litigation",
+     "date": "2025-04-25",
+     "date_precision": "day",
+     "headline": "Jury awards Headwater about $278M against Samsung in wireless patent trial",
+     "summary": "A large Eastern-district-style jury award against a major phone maker shows how much money wireless patents held by non-practicing companies can bring in, so founders should look at who owns patents before launching device features.",
+     "companies": [
+      "Headwater Research",
+      "Samsung"
+     ],
+     "url": "https://exlitem.com/jury-verdicts-settlements/jury-awards-278m-in-wireless-patent-infringement-verdict",
+     "source": "Exlitem",
+     "field": "H04W",
+     "field_label": "Wireless networks"
+    },
+    {
+     "type": "Licensing",
+     "date": "2025-04-01",
+     "date_precision": "month",
+     "headline": "InterDigital licenses Wi-Fi and video patents to HP for PCs",
+     "summary": "Wi-Fi patent licensing is spreading beyond phones to PCs, so founders building hardware with Wi-Fi should plan for royalty costs.",
+     "companies": [
+      "InterDigital",
+      "HP Inc."
+     ],
+     "url": "https://www.sec.gov/Archives/edgar/data/1405495/000140549525000022/idcc-20250331.htm",
+     "source": "SEC (InterDigital Form 10-Q)",
+     "field": "H04W",
+     "field_label": "Wireless networks"
+    }
+   ],
+   "cost_usd": 0.1955,
+   "fetched_at": "2026-10-26T01:14:52+00:00"
+  },
+  "G06F": {
+   "label": "Computing and software",
+   "items": [
+    {
+     "type": "Licensing",
+     "date": "2026-09-01",
+     "date_precision": "month",
+     "headline": "Qualcomm renews global patent license agreement with Apple",
+     "summary": "The renewal keeps a major hardware-platform licensing relationship stable from April 2027, which affects founders building on Apple devices.",
+     "companies": [
+      "Qualcomm",
+      "Apple"
+     ],
+     "url": "https://www.qualcomm.com/news/releases/2026/09/qualcomm-announces-renewal-of-global-patent-license-agreement-wi",
+     "source": "Qualcomm",
+     "field": "G06F",
+     "field_label": "Computing and software"
+    },
+    {
+     "type": "M&A",
+     "date": "2026-03-11",
+     "date_precision": "day",
+     "headline": "Google completes acquisition of cloud security platform Wiz",
+     "summary": "Google closed its largest-ever acquisition, which shows big buyers will pay for cloud and AI security software startups.",
+     "companies": [
+      "Google",
+      "Wiz"
+     ],
+     "url": "https://abc.xyz/investor/news/news-details/2026/Google-Completes-Acquisition-of-Wiz-2026-ta7OaU2uA0/default.aspx",
+     "source": "Alphabet Investor Relations",
+     "field": "G06F",
+     "field_label": "Computing and software"
+    },
+    {
+     "type": "Regulatory",
+     "date": "2026-03-01",
+     "date_precision": "month",
+     "headline": "USPTO Desjardins precedent makes ML training claims potentially patent eligible",
+     "summary": "AI founders now have a USPTO precedent, added to the MPEP, for arguing that claims improving how models are trained are eligible under \u00a7101.",
+     "companies": [
+      "USPTO"
+     ],
+     "url": "https://www.quinnemanuel.com/the-firm/publications/post-grant-patent-updates-march-2026/",
+     "source": "Quinn Emanuel",
+     "field": "G06F",
+     "field_label": "Computing and software"
+    },
+    {
+     "type": "Litigation",
+     "date": "2025-06-01",
+     "date_precision": "month",
+     "headline": "Federal Circuit vacates $300M Optis verdict against Apple",
+     "summary": "Large patent verdicts can be overturned on \u00a7101 and claim-construction errors, which matters when weighing litigation risk and settlement leverage.",
+     "companies": [
+      "Optis Cellular Technology",
+      "Apple"
+     ],
+     "url": "https://patentlyo.com/patent/2025/06/federal-circuit-multiple.html",
+     "source": "Patently-O",
+     "field": "G06F",
+     "field_label": "Computing and software"
+    },
+    {
+     "type": "Litigation",
+     "date": "2025-04-24",
+     "date_precision": "day",
+     "headline": "Federal Circuit invalidates generic machine-learning patents in Recentive v. Fox",
+     "summary": "Patent claims that only apply generic ML to a new field are at risk under \u00a7101, so founders should claim specific technical improvements.",
+     "companies": [
+      "Recentive Analytics",
+      "Fox Corp."
+     ],
+     "url": "https://www.hklaw.com/en/insights/publications/2025/04/federal-circuit-machine-learning-patents-fail-section-101",
+     "source": "Holland & Knight",
+     "field": "G06F",
+     "field_label": "Computing and software"
+    }
+   ],
+   "cost_usd": 0.3058,
+   "fetched_at": "2026-10-26T01:15:02+00:00"
+  },
+  "A01N": {
+   "label": "Crop protection and biocides",
+   "items": [
+    {
+     "type": "Litigation",
+     "date": "2026-10-14",
+     "date_precision": "day",
+     "headline": "Federal Circuit affirms PTAB unpatentability of UPL fungicide-combination patent",
+     "summary": "A combination patent in the dithiocarbamate/SDHI/EBI-QoI space was found unpatentable, which changes the patent picture for founders working on multi-active fungicide mixtures (other patents may still apply).",
+     "companies": [
+      "UPL Ltd.",
+      "Syngenta Crop Protection AG"
+     ],
+     "url": "https://www.cafc.uscourts.gov/opinions-orders/25-1018.OPINION.10-14-2026_2770744.pdf",
+     "source": "U.S. Court of Appeals for the Federal Circuit",
+     "field": "A01N",
+     "field_label": "Crop protection and biocides"
+    },
+    {
+     "type": "Partnership",
+     "date": "2026-07-30",
+     "date_precision": "day",
+     "headline": "Biocontrol Technologies signs US distribution deal with Wilbur-Ellis for T34",
+     "summary": "An example of a non-US biocontrol company entering the US market through an established distributor instead of building its own sales channel.",
+     "companies": [
+      "Biocontrol Technologies",
+      "Wilbur-Ellis Agribusiness"
+     ],
+     "url": "https://agwired.com/2026/07/30/biocontrol-technologies-and-wilbur-ellis-enter-distribution-agreement/",
+     "source": "AgWired",
+     "field": "A01N",
+     "field_label": "Crop protection and biocides"
+    },
+    {
+     "type": "Regulatory",
+     "date": "2026-06-25",
+     "date_precision": "day",
+     "headline": "Supreme Court rules 7-2 for Monsanto in Durnell Roundup FIFRA case",
+     "summary": "The ruling on how FIFRA relates to state failure-to-warn claims affects how much product-label liability a pesticide founder may face.",
+     "companies": [
+      "Monsanto",
+      "Bayer"
+     ],
+     "url": "https://www.bayer.com/media/en-us/monsanto-wins-landmark-roundup-case-at-us-supreme-court/",
+     "source": "Bayer press release",
+     "field": "A01N",
+     "field_label": "Crop protection and biocides"
+    },
+    {
+     "type": "Partnership",
+     "date": "2026-01-23",
+     "date_precision": "day",
+     "headline": "Biotalys and 21st.BIO partner to scale protein-based biocontrol production",
+     "summary": "Shows that precision-fermentation partners are one route for biocontrol startups to get past manufacturing-scale bottlenecks.",
+     "companies": [
+      "Biotalys",
+      "21st.BIO"
+     ],
+     "url": "https://live.euronext.com/en/products/equities/company-news/2026-01-23-biotalys-and-21stbio-enter-strategic-partnership-advance",
+     "source": "Euronext / GlobeNewswire",
+     "field": "A01N",
+     "field_label": "Crop protection and biocides"
+    }
+   ],
+   "cost_usd": 0.2688,
+   "fetched_at": "2026-10-26T01:15:12+00:00"
+  },
+  "F03D": {
+   "label": "Wind energy",
+   "items": [
+    {
+     "type": "Regulatory",
+     "date": "2025-12-22",
+     "date_precision": "day",
+     "headline": "U.S. issues new suspension orders to five offshore wind projects",
+     "summary": "Federal suspensions across several big U.S. offshore projects put near-term demand for offshore turbine technology at risk.",
+     "companies": [
+      "Revolution Wind",
+      "Vineyard Wind 1",
+      "Coastal Virginia Offshore Wind",
+      "Sunrise Wind"
+     ],
+     "url": "https://www.congress.gov/crs-product/LSB11402",
+     "source": "Congressional Research Service",
+     "field": "F03D",
+     "field_label": "Wind energy"
+    },
+    {
+     "type": "M&A",
+     "date": "2025-12-02",
+     "date_precision": "day",
+     "headline": "TPG/MAVCO complete Siemens Gamesa India and Sri Lanka wind buy, form Vayona Energy",
+     "summary": "A new privately owned turbine maker in India changes who founders sell to and partner with in that market.",
+     "companies": [
+      "TPG",
+      "MAVCO",
+      "Siemens Gamesa",
+      "Vayona Energy"
+     ],
+     "url": "https://www.tpg.com/news-and-insights/tpg-and-mavco-led-consortium-completes-acquisition-of-siemens-gamesas-wind-business-in-india-and-sri-lanka-forming-new-platform-vayona-energy",
+     "source": "TPG press release",
+     "field": "F03D",
+     "field_label": "Wind energy"
+    },
+    {
+     "type": "Regulatory",
+     "date": "2025-08-01",
+     "date_precision": "month",
+     "headline": "BOEM orders work on Revolution Wind offshore project to stop",
+     "summary": "Federal orders to stop work make U.S. offshore wind demand less certain for startups selling turbine technology.",
+     "companies": [
+      "Revolution Wind"
+     ],
+     "url": "https://en.wikipedia.org/wiki/Revolution_Wind",
+     "source": "Wikipedia",
+     "field": "F03D",
+     "field_label": "Wind energy"
+    }
+   ],
+   "cost_usd": 0.31,
+   "fetched_at": "2026-10-26T01:15:34+00:00"
+  },
+  "C02F": {
+   "label": "Water treatment",
+   "items": [
+    {
+     "type": "Partnership",
+     "date": "2026-07-24",
+     "date_precision": "day",
+     "headline": "Daikin America and Claros Technologies partner on PFAS destruction",
+     "summary": "A large chemical maker teaming up with a startup on UV-based PFAS destruction is a sign of strategic interest in the area.",
+     "companies": [
+      "Daikin America",
+      "Claros Technologies"
+     ],
+     "url": "https://daikin-america.com/blog/2026/07/24/daikin-america-and-claros-technologies-innovative-pfas-destruction-partnership/",
+     "source": "Daikin America",
+     "field": "C02F",
+     "field_label": "Water treatment"
+    },
+    {
+     "type": "Regulatory",
+     "date": "2026-05-01",
+     "date_precision": "month",
+     "headline": "EPA moves to formally rescind four PFAS drinking water limits",
+     "summary": "Utilities must still meet the PFOA and PFOS limits but no longer the PFHxS, PFNA, PFBS and GenX ones, so treatment specs may shift.",
+     "companies": [
+      "U.S. EPA"
+     ],
+     "url": "https://www.wastedive.com/news/epa-rescind-pfas-drinking-water-regulations-2026/820595/",
+     "source": "Waste Dive",
+     "field": "C02F",
+     "field_label": "Water treatment"
+    },
+    {
+     "type": "Licensing",
+     "date": "2025-11-01",
+     "date_precision": "month",
+     "headline": "Photocat licenses photocatalytic water-treatment technology to Danish company",
+     "summary": "Shows a licensing route where the licensee takes over commercial rollout of the technology.",
+     "companies": [
+      "Photocat A/S"
+     ],
+     "url": "https://news.cision.com/photocat-a-s/r/photocat-grants-license-to-its-photocatalytic-water-treatment-technology,c4274244",
+     "source": "Cision",
+     "field": "C02F",
+     "field_label": "Water treatment"
+    },
+    {
+     "type": "Partnership",
+     "date": "2025-09-01",
+     "date_precision": "month",
+     "headline": "374Water and Crystal Clean partner on PFAS waste destruction",
+     "summary": "Pairs a destruction technology with a waste-collection network, a model founders could copy to reach customers.",
+     "companies": [
+      "374Water",
+      "Crystal Clean"
+     ],
+     "url": "https://www.wastetodaymagazine.com/news/374water-announces-collaboration-agreement-with-crystal-clean-aimed-at-eradicating-pfas/",
+     "source": "Waste Today",
+     "field": "C02F",
+     "field_label": "Water treatment"
+    },
+    {
+     "type": "Regulatory",
+     "date": "2025-05-01",
+     "date_precision": "month",
+     "headline": "EPA announces plan to rescind several PFAS drinking water limits",
+     "summary": "Fewer regulated PFAS and a 2031 deadline for PFOA/PFOS change the size and timing of the market for PFAS-removal products.",
+     "companies": [
+      "U.S. EPA"
+     ],
+     "url": "https://pfas.pillsburylaw.com/epa-reconsider-drinking-water-standards-pfas/",
+     "source": "Pillsbury PFAS Observer",
+     "field": "C02F",
+     "field_label": "Water treatment"
+    }
+   ],
+   "cost_usd": 0.2526,
+   "fetched_at": "2026-10-26T01:18:01+00:00"
+  },
+  "B33Y": {
+   "label": "3D printing",
+   "items": [
+    {
+     "type": "Litigation",
+     "date": "2026-09-01",
+     "date_precision": "month",
+     "headline": "Stratasys wins $27.6M patent verdict against Bambu Lab entities",
+     "summary": "A large US damages award over desktop printer technology shows that patents on fused-filament printing can be costly to ignore, so founders building these printers should check freedom to operate early.",
+     "companies": [
+      "Stratasys",
+      "Bambu Lab",
+      "Shenzhen Tuozhu Technology",
+      "Shanghai Lunkuo Technology"
+     ],
+     "url": "https://3dprint.com/333013/stratasys-wins-27-6m-in-patent-case-against-bambu-lab/",
+     "source": "3DPrint.com",
+     "field": "B33Y",
+     "field_label": "3D printing"
+    },
+    {
+     "type": "Litigation",
+     "date": "2026-08-20",
+     "date_precision": "day",
+     "headline": "Continuous Composites returns to court over continuous-fiber 3D printing patents",
+     "summary": "Patents on continuous-fiber composite printing are being actively enforced, even against companies that had already signed a license.",
+     "companies": [
+      "Continuous Composites"
+     ],
+     "url": "https://3dprint.com/330700/3d-printing-news-briefs-8-20-2026/amp/",
+     "source": "3DPrint.com",
+     "field": "B33Y",
+     "field_label": "3D printing"
+    },
+    {
+     "type": "M&A",
+     "date": "2026-06-01",
+     "date_precision": "month",
+     "headline": "EOS acquires metal powder specialist Metalpine",
+     "summary": "Printer makers are buying up their material suppliers, so founders who depend on outside metal powders may face more tightly controlled supply chains.",
+     "companies": [
+      "EOS",
+      "Metalpine GmbH"
+     ],
+     "url": "https://www.aerospacemanufacturinganddesign.com/article/3d-additive-manufacturing-june-2026/",
+     "source": "Aerospace Manufacturing and Design",
+     "field": "B33Y",
+     "field_label": "3D printing"
+    },
+    {
+     "type": "Litigation",
+     "date": "2026-04-01",
+     "date_precision": "month",
+     "headline": "UPC Hague denies Stratasys interim injunction against Bambu Lab",
+     "summary": "The same patent dispute can end differently in the US and in Europe, which matters for founders deciding where to launch first.",
+     "companies": [
+      "Stratasys",
+      "Bambu Lab"
+     ],
+     "url": "https://michael7924.substack.com/p/upc-hague-denies-stratasys-interim",
+     "source": "Substack (via SlashGear reporting)",
+     "field": "B33Y",
+     "field_label": "3D printing"
+    },
+    {
+     "type": "M&A",
+     "date": "2025-09-29",
+     "date_precision": "day",
+     "headline": "3D Systems sells Oqton and 3DXpert software to Hubb Global Holdings",
+     "summary": "Large printer makers are selling off their manufacturing-software units, which could open partnership or competition opportunities for software startups.",
+     "companies": [
+      "3D Systems",
+      "Hubb Global Holdings",
+      "Oqton"
+     ],
+     "url": "https://3dprint.com/321081/3d-systems-refocuses-on-polymers-sells-oqton-and-3dxpert-to-hubb-global-holdings/",
+     "source": "3DPrint.com",
+     "field": "B33Y",
+     "field_label": "3D printing"
+    }
+   ],
+   "cost_usd": 0.3163,
+   "fetched_at": "2026-10-26T01:15:52+00:00"
+  }
+ },
+ "updated_at": "2026-10-26T01:18:01+00:00"
+}
