@@ -26,9 +26,10 @@ def _drop_stale_modules():
 _drop_stale_modules()
 
 from graveyard import config  # noqa: E402
-from ui import about, common, dashboard, marketplace, patent, prior_art, proof  # noqa: E402
+from ui import about, common, dashboard, marketplace, patent, prior_art, proof, style  # noqa: E402
 
 st.set_page_config(page_title=config.PRODUCT_NAME, page_icon=":material/deceased:", layout="wide")
+style.inject()
 
 common.PAGES.clear()  # rebuilt every run, so the menu order always matches this list
 common.PAGES.update(

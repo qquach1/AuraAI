@@ -5,7 +5,7 @@ import streamlit as st
 from graveyard import config, db, llm, orchestrator
 from graveyard.agents import scout
 
-from . import common
+from . import common, style
 
 
 @st.cache_data(show_spinner="Scout is expanding your search...")
@@ -16,8 +16,6 @@ def _expand(query: str) -> dict:
 def page():
     con = common.con()
     stats = db.stats(con)
-    st.title(config.PRODUCT_NAME)
-    st.markdown(f"#### {config.TAGLINE}")
     if not stats["total"]:
         st.error("The patent database is empty. Run `python scripts/build_sample.py` to pull the sample.")
         return
@@ -25,11 +23,9 @@ def page():
     lapsed = sum(r["n"] for r in stats["rows"] if r["status"] == "lapsed_fees")
     expired = sum(r["n"] for r in stats["rows"] if r["status"] == "expired_term")
     n_classes = len({r["tech_class"] for r in stats["rows"]})
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Dead patents in the sample", stats["total"])
-    c2.metric("Lapsed for unpaid fees", lapsed)
-    c3.metric("Expired at full term", expired)
-    c4.metric("Technology classes", n_classes)
+    style.hero("Marketplace · " + config.PRODUCT_NAME, "Search the patent graveyard", config.TAGLINE,
+               [f"<b>{stats['total']}</b> dead patents", f"<b>{lapsed}</b> lapsed for unpaid fees",
+                f"<b>{expired}</b> expired at full term", f"<b>{n_classes}</b> technology fields"])
 
     with st.sidebar:
         st.subheader("Filters")
@@ -70,20 +66,17 @@ def page():
         rows = sorted(rows, key=sorts[order])
     head[0].markdown(f"**{len(rows)} patents** · sorted by {order.lower()}")
 
-    cols = st.columns(3)
+    cols = st.columns(3, gap="small")
     for i, r in enumerate(rows[:60]):
         with cols[i % 3].container(border=True):
-            st.markdown(f"**{r['title'][:110]}**")
-            st.caption(f"{r['pub']} · {r['assignee'][:40] or 'Unknown owner'} · {r['tech_label'] or r['tech_class']}")
+            style.opp_header(r["score"], r["title"][:110],
+                             f"{r['pub']} · {r['assignee'][:40] or 'Unknown owner'} · {r['tech_label'] or r['tech_class']}")
             ready = orchestrator.report_path(r["pub"]).exists()
             st.markdown(f"{common.status_badge(r['status'])} {common.badge(str(r['end_year'] or '?'), 'gray')}"
                         + (f" {common.badge(':material/description: report ready', 'violet')}" if ready else ""))
-            sc = r["score"]
-            st.markdown(f"### :{common.score_color(sc)}[{sc}]<span style='font-size:0.9rem'> /100 · "
-                        f"{r['confidence']} confidence</span>", unsafe_allow_html=True)
-            st.caption(f"{r['verdict']} · {r['fwd_after_end_unrelated']} citations after it died · "
-                       f"{r['fwd_recent']} since {config.RECENT_SINCE}")
-            if st.button("Open patent card", key=f"open_{r['pub']}", use_container_width=True):
+            st.caption(f"{r['verdict']} · {r['confidence']} confidence · {r['fwd_after_end_unrelated']} citations after "
+                       f"it died · {r['fwd_recent']} since {config.RECENT_SINCE}")
+            if st.button("Open patent card", key=f"open_{r['pub']}", use_container_width=True, icon=":material/arrow_forward:"):
                 common.open_patent(r["pub"])
     if len(rows) > 60:
         st.caption(f"Showing the top 60 of {len(rows)}. Narrow the filters to see more.")

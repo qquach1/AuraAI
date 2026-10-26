@@ -6,7 +6,7 @@ import streamlit as st
 
 from graveyard import config, db, gp, orchestrator
 
-from . import common
+from . import common, style
 
 
 def _citation_chart(patent: dict):
@@ -100,14 +100,14 @@ _esc = common.esc
 def _report(out: dict):
     r = _esc(out["report"])
     common.legal_notice()
-    head = st.columns([1, 3])
-    with head[0]:
-        st.markdown(f"<div style='font-size:3.2rem;font-weight:700;line-height:1'>{r['score']}"
-                    f"<span style='font-size:1.1rem;font-weight:400'> /100</span></div>", unsafe_allow_html=True)
-        st.markdown(f"{common.badge(r['confidence'] + ' confidence', common.CONF_COLOR[r['confidence']])}")
-    with head[1]:
-        st.markdown(f"### :{common.score_color(r['score'])}[{r['verdict']}]")
-        st.markdown(r["headline"])
+    with st.container(border=True):
+        head = st.columns([1, 3], vertical_alignment="center")
+        with head[0]:
+            st.html(style.ring(out["report"]["score"], 96))
+            st.markdown(f"{common.badge(r['confidence'] + ' confidence', common.CONF_COLOR[r['confidence']])}")
+        with head[1]:
+            st.markdown(f"### :{common.score_color(r['score'])}[{r['verdict']}]")
+            st.markdown(r["headline"])
 
     comps = out["market"]["score"]["components"]
     df = pd.DataFrame([{"signal": c["label"], "points": c["points"], "max": c["weight"]} for c in comps.values()])
