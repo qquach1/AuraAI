@@ -64,7 +64,13 @@ make claims that cite one. Code computes every number; Claude reads and writes.
 - Revival score: `graveyard/scoring.py`, a weighted sum of six named signals.
 - Blocker checklist: `data/blocker_checklist.json` (Juan owns the wording).
 - Status and citation metrics: `graveyard/derive.py`.
-- Screens: `app.py` and `ui/` (Marketplace, Patent report, Prior-art check, Proof, How it works).
+- Screens: `app.py` and `ui/` (Dashboard, Marketplace, Patent report, Prior-art check, Proof, How it works).
+
+**Dashboard** (`ui/dashboard.py`), the home page, has three tabs:
+
+- *Overview*: counts, where dead patents are still being built on, top opportunities, latest deals. All computed from our data.
+- *Simulation Lab* (`graveyard/agents/simulate.py`): a founder's idea run through Scout, Prior-art, a Market web search and Report, giving market opportunity, patent landscape, strategic pathways and the assumption to test. A saved example runs offline.
+- *Deals & news* (`graveyard/agents/news.py`, `data/news.json`): recent M&A, licensing, litigation and regulatory events per field from Claude web search, each dated and linked to its source. Refresh with `scripts/refresh_news.py` (about $0.25 per field).
 
 ## Data
 
