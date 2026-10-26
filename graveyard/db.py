@@ -133,7 +133,7 @@ def _fts_query(text: str) -> str:
 
 
 def search(con: sqlite3.Connection, text: str = "", tech_classes=None, statuses=None,
-           end_years=None, min_score: int = 0, limit: int = 200) -> list[sqlite3.Row]:
+           end_years=None, min_score: int = 0, limit: int = 1000) -> list[sqlite3.Row]:
     where, args = [], []
     if tech_classes:
         where.append(f"p.tech_class IN ({','.join('?' * len(tech_classes))})")

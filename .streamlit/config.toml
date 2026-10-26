@@ -1,0 +1,25 @@
+[theme]
+base = "light"
+primaryColor = "#0D9488"
+backgroundColor = "#F4F6FB"
+secondaryBackgroundColor = "#EAF0F7"
+textColor = "#0F172A"
+linkColor = "#2563EB"
+borderColor = "#E2E8F0"
+font = "Inter, 'Segoe UI', sans-serif"
+headingFont = "Inter, 'Segoe UI', sans-serif"
+headingFontWeights = [800, 700, 700, 600, 600, 600]
+baseRadius = "0.75rem"
+buttonRadius = "0.6rem"
+paddingTop = "1.25rem"
+metricValueFontSize = "1.45rem"
+metricValueFontWeight = 700
+showSidebarBorder = false
+
+[theme.sidebar]
+backgroundColor = "#0B1533"
+secondaryBackgroundColor = "#16224A"
+textColor = "#CBD5E1"
+primaryColor = "#2DD4BF"
+borderColor = "#1E2B55"
+linkColor = "#5EEAD4"
